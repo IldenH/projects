@@ -11,6 +11,7 @@ with import <nixpkgs> {};
       ghc
       ghcid
       haskell-language-server
+      ormolu
 
       plantuml
 
