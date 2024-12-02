@@ -14,6 +14,15 @@ with import <nixpkgs> {};
 
       plantuml
 
+      black
+      pyright
+
+      (python311.withPackages (packages:
+        with packages; [
+          matplotlib
+          numpy
+        ]))
+
       nixd
       alejandra
     ];
