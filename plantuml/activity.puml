@@ -1,0 +1,78 @@
+@startuml
+start
+
+if (graphvis installed?) then (yes)
+	:yooo
+	du har det faktisk;
+else (no)
+	:bruh
+	__du__ og __det__ å bare ikke **fakkings**;
+endif
+
+:hello;
+:world;
+stop
+
+start
+
+if (color?) then (<color:red>red)
+	:color = red;
+else
+	:color = random_color;
+endif
+
+stop
+
+!pragma useVerticalIf off
+start
+
+if (condition A) then (yes)
+	:Text 1;
+(no) elseif (condition B) then (yes)
+	:Text 1;
+	stop
+(no) elseif (condition C) then (yes)
+	:Text 1;
+(no) elseif (condition D) then (yes)
+	:Text 1;
+	end
+(no) elseif (condition E) then (yes)
+else (helvete)
+	:ok dette har gått litt langt;
+	end
+endif
+stop
+
+start
+
+switch (test?)
+case (condition a)
+	:da gjør vi ting med a;
+case (condition b)
+case (condition c)
+	stop
+endswitch
+
+end
+
+start 
+if (condition?) then
+	#red:error;
+	kill
+elseif (condition2?)
+	#pink:other error;
+	detach
+endif
+#palegreen:action;
+
+kill
+
+start
+
+repeat
+:read data;
+:parse data;
+repeat while (more data?) is (yes) not (no)
+
+end
+@enduml

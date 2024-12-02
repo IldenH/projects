@@ -1,0 +1,65 @@
+@startuml
+title more_activity
+
+start
+
+repeat :read;
+:parse;
+backward:noe;
+repeat while (mer?) is (yes)
+-> no;
+
+stop
+
+start
+
+repeat
+	if (something went wrong) then (no)
+		#green:Ok;
+		break
+	endif
+		->yes;
+		:alert something;
+repeat while (something went wrong?) is (yes) not (no)
+:happiness;
+
+stop
+
+start
+if (Test Question?) then (yes)
+'space label only for alignment
+label sp_lab0
+label sp_lab1
+'real label
+label lab
+:shared;
+else (no)
+if (Second Test Question?) then (yes)
+label sp_lab2
+goto sp_lab1
+else
+:nonShared;
+endif
+endif
+:merge;
+stop
+
+start
+
+while (data available?)
+	:read data;
+	:generate diagrams;
+endwhile
+
+stop
+
+start
+
+while (check filesize) is (not empty)
+	:read file;
+	backward:lol;
+endwhile (empty)
+:close file;
+
+kill
+@enduml
