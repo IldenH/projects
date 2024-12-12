@@ -1,0 +1,23 @@
+@startuml
+
+start
+:tallerken med 100 av hver mat;
+if (tallerken tom?) then (nei)
+  if (ris og erter tomt?) then (nei)
+    :spis 5g ris og 3g erter;
+  elseif (erter og gulrøtter tomt?) then (nei)
+    :spis 5g erter og 3g gulrøtter;
+  elseif (gulrøtter og reinsdyrkjøtt tomt?) then (nei)
+    :spis 5g gulrøtter;
+  elseif (reinsdyrkjøtt tomt?) then (nei)
+    :spis 2g kjøtt;
+  else
+    :spis 1g julekringle;
+  endif
+else (ja)
+endif
+:Skriv ut hvor lang tid;
+
+stop
+
+@enduml
