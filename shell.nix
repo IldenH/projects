@@ -18,10 +18,11 @@ with import <nixpkgs> {};
       black
       pyright
 
-      (python311.withPackages (packages:
+      (python312.withPackages (packages:
         with packages; [
           matplotlib
           numpy
+          sympy
         ]))
 
       nixd
