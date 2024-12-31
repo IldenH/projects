@@ -1,0 +1,9 @@
+[package]
+name = "simple-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.23"
+serde = { version = "1.0.217", features = ["derive"] }
+toml = "0.8.19"
