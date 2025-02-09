@@ -27,5 +27,7 @@ with import <nixpkgs> {};
 
       nixd
       alejandra
+
+      go
     ];
   }
