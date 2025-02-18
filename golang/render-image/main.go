@@ -3,6 +3,8 @@ package main
 import (
   "log"
   "net/http"
+  "os/exec"
+  "os"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -15,7 +17,22 @@ func imageHandler(w http.ResponseWriter, r *http.Request) {
   http.ServeFile(w, r, "image.png")
 }
 
+func generateImage() {
+  err := exec.Command("python3", "image.py").Run()
+  if err != nil {
+    log.Fatal(err)
+  }
+}
+
 func main() {
+  args := os.Args
+  for _, arg := range args {
+    if arg == "generate" {
+      generateImage()
+    }
+  }
+
+
   http.HandleFunc("/", handler)
   http.HandleFunc("/image", imageHandler)
 
