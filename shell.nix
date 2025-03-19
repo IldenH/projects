@@ -23,6 +23,7 @@ with import <nixpkgs> {};
           matplotlib
           numpy
           sympy
+          scipy
         ]))
 
       nixd
