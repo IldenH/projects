@@ -24,6 +24,7 @@ with import <nixpkgs> {};
           numpy
           sympy
           scipy
+          pandas
         ]))
 
       nixd

@@ -1,0 +1,800 @@
+FagNivaa	Fagkategorikode	Fagomraadekode	Opplaeringsfagkode	Vurderingsfagkode	Fagkategorinavn	Fagomraadenavn	Opplaeringsfagnavn	Vurderingsfagnavn	2022-23.Alle eierformer.Alle trinn.Alle kjønn.Antall elever	2023-24.Alle eierformer.Alle trinn.Alle kjønn.Antall elever	2024-25.Alle eierformer.Alle trinn.Alle kjønn.Antall elever
+1	FKAT100			FKAT100	Estetiske fag	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	9833	9987	9932
+2	FKAT100	FOMR101		FOMR101	Estetiske fag	Andre fag - musikk, dans og drama	Alle opplæringsfag	Alle vurderingsfag	2046	2042	2072
+3	FKAT100	FOMR101	MDD2Z02	MDD2Z02	Estetiske fag	Andre fag - musikk, dans og drama	Bevegelse	Alle vurderingsfag	766	746	795
+4	FKAT100	FOMR101	MDD2Z02	MDD3006	Estetiske fag	Andre fag - musikk, dans og drama	Bevegelse	Bevegelse	766	746	795
+3	FKAT100	FOMR101	MDD1Z02	MDD1Z02	Estetiske fag	Andre fag - musikk, dans og drama	Musikk, dans og drama	Alle vurderingsfag	2008	2011	2020
+4	FKAT100	FOMR101	MDD1Z02	MDD2002	Estetiske fag	Andre fag - musikk, dans og drama	Musikk, dans og drama	Musikk, dans og drama	2008	2011	2020
+2	FKAT100	FOMR102		FOMR102	Estetiske fag	Dansefag	Alle opplæringsfag	Alle vurderingsfag	984	967	1005
+3	FKAT100	FOMR102	DAN3Z03	DAN3Z03	Estetiske fag	Dansefag	Dans i perspektiv 1	Alle vurderingsfag	314	306	313
+4	FKAT100	FOMR102	DAN3Z03	DAN2015	Estetiske fag	Dansefag	Dans i perspektiv 1	Dans i perspektiv 1	314	306	313
+3	FKAT100	FOMR102	DAN3Z04	DAN3Z04	Estetiske fag	Dansefag	Dans i perspektiv 2	Alle vurderingsfag	311	296	300
+4	FKAT100	FOMR102	DAN3Z04	DAN2017	Estetiske fag	Dansefag	Dans i perspektiv 2	Dans i perspektiv 2	311	296	300
+3	FKAT100	FOMR102	MDD4Z02	MDD4Z02	Estetiske fag	Dansefag	Danseteknikker	Alle vurderingsfag	356	359	382
+4	FKAT100	FOMR102	MDD4Z02	MDD3008	Estetiske fag	Dansefag	Danseteknikker	Danseteknikker	356	359	382
+3	FKAT100	FOMR102	DAN1Z03	DAN1Z03	Estetiske fag	Dansefag	Grunntrening i dans 1	Alle vurderingsfag	313	305	313
+4	FKAT100	FOMR102	DAN1Z03	DAN2010	Estetiske fag	Dansefag	Grunntrening i dans 1	Grunntrening i dans 1	313	305	313
+3	FKAT100	FOMR102	DAN1Z04	DAN1Z04	Estetiske fag	Dansefag	Grunntrening i dans 2	Alle vurderingsfag	311	295	301
+4	FKAT100	FOMR102	DAN1Z04	DAN2011	Estetiske fag	Dansefag	Grunntrening i dans 2	Grunntrening i dans 2	311	295	301
+3	FKAT100	FOMR102	DAN2Z04	DAN2Z04	Estetiske fag	Dansefag	Scenisk dans 1	Alle vurderingsfag	313	305	313
+4	FKAT100	FOMR102	DAN2Z04	DAN2012	Estetiske fag	Dansefag	Scenisk dans 1	Scenisk dans 1	313	305	313
+3	FKAT100	FOMR102	DAN2Z05	DAN2Z05	Estetiske fag	Dansefag	Scenisk dans 2	Alle vurderingsfag	311	296	300
+4	FKAT100	FOMR102	DAN2Z05	DAN2013	Estetiske fag	Dansefag	Scenisk dans 2	Scenisk dans 2	311	296	300
+3	FKAT100	FOMR102	DAN2Z06	DAN2Z06	Estetiske fag	Dansefag	Scenisk dans 3	Alle vurderingsfag	311	296	300
+4	FKAT100	FOMR102	DAN2Z06	DAN2014	Estetiske fag	Dansefag	Scenisk dans 3	Scenisk dans 3	311	296	300
+3	FKAT100	FOMR102	DAN4Z03	DAN4Z03	Estetiske fag	Dansefag	Scenisk dans fordypning 1	Alle vurderingsfag	308	308	312
+4	FKAT100	FOMR102	DAN4Z03	DAN3003	Estetiske fag	Dansefag	Scenisk dans fordypning 1	Scenisk dans fordypning 1	308	308	312
+3	FKAT100	FOMR102	DAN4Z04	DAN4Z04	Estetiske fag	Dansefag	Scenisk dans fordypning 2	Alle vurderingsfag	271	262	279
+4	FKAT100	FOMR102	DAN4Z04	DAN3004	Estetiske fag	Dansefag	Scenisk dans fordypning 2	Scenisk dans fordypning 2	271	262	279
+2	FKAT100	FOMR103		FOMR103	Estetiske fag	Dramafag	Alle opplæringsfag	Alle vurderingsfag	1416	1485	1534
+3	FKAT100	FOMR103	DRA4Z02	DRA4Z02	Estetiske fag	Dramafag	Drama og samfunn	Alle vurderingsfag	406	382	358
+4	FKAT100	FOMR103	DRA4Z02	DRA2018	Estetiske fag	Dramafag	Drama og samfunn	Drama og samfunn	406	382	358
+3	FKAT100	FOMR103	DRA3Z03	DRA3Z03	Estetiske fag	Dramafag	Teater i perspektiv 1	Alle vurderingsfag	368	376	373
+4	FKAT100	FOMR103	DRA3Z03	DRA2014	Estetiske fag	Dramafag	Teater i perspektiv 1	Teater i perspektiv 1	368	376	373
+3	FKAT100	FOMR103	DRA3Z04	DRA3Z04	Estetiske fag	Dramafag	Teater i perspektiv 2	Alle vurderingsfag	383	354	358
+4	FKAT100	FOMR103	DRA3Z04	DRA2016	Estetiske fag	Dramafag	Teater i perspektiv 2	Teater i perspektiv 2	383	354	358
+3	FKAT100	FOMR103	DRA1Z03	DRA1Z03	Estetiske fag	Dramafag	Teater og bevegelse 1	Alle vurderingsfag	370	374	372
+4	FKAT100	FOMR103	DRA1Z03	DRA2010	Estetiske fag	Dramafag	Teater og bevegelse 1	Teater og bevegelse 1	370	374	372
+3	FKAT100	FOMR103	DRA1Z04	DRA1Z04	Estetiske fag	Dramafag	Teater og bevegelse 2	Alle vurderingsfag	384	354	355
+4	FKAT100	FOMR103	DRA1Z04	DRA2011	Estetiske fag	Dramafag	Teater og bevegelse 2	Teater og bevegelse 2	384	354	355
+3	FKAT100	FOMR103	MDD6Z02	MDD6Z02	Estetiske fag	Dramafag	Teaterensemble	Alle vurderingsfag	596	638	700
+4	FKAT100	FOMR103	MDD6Z02	MDD3010	Estetiske fag	Dramafag	Teaterensemble	Teaterensemble	596	638	700
+3	FKAT100	FOMR103	DRA2Z03	DRA2Z03	Estetiske fag	Dramafag	Teaterproduksjon 1	Alle vurderingsfag	399	430	420
+4	FKAT100	FOMR103	DRA2Z03	DRA2012	Estetiske fag	Dramafag	Teaterproduksjon 1	Teaterproduksjon 1	399	430	420
+3	FKAT100	FOMR103	DRA2Z04	DRA2Z04	Estetiske fag	Dramafag	Teaterproduksjon 2	Alle vurderingsfag	384	355	360
+4	FKAT100	FOMR103	DRA2Z04	DRA2013	Estetiske fag	Dramafag	Teaterproduksjon 2	Teaterproduksjon 2	384	355	360
+3	FKAT100	FOMR103	DRA5Z03	DRA5Z03	Estetiske fag	Dramafag	Teaterproduksjon fordypning 1	Alle vurderingsfag	374	391	404
+4	FKAT100	FOMR103	DRA5Z03	DRA3003	Estetiske fag	Dramafag	Teaterproduksjon fordypning 1	Teaterproduksjon fordypning 1	374	391	404
+3	FKAT100	FOMR103	DRA5Z02	DRA5Z02	Estetiske fag	Dramafag	Teaterproduksjon fordypning 2	Alle vurderingsfag	28	18	
+4	FKAT100	FOMR103	DRA5Z02	DRA3002	Estetiske fag	Dramafag	Teaterproduksjon fordypning 2	Teaterproduksjon fordypning 2	28	18	
+3	FKAT100	FOMR103	DRA5Z04	DRA5Z04	Estetiske fag	Dramafag	Teaterproduksjon fordypning 2	Alle vurderingsfag	281	290	301
+4	FKAT100	FOMR103	DRA5Z04	DRA3004	Estetiske fag	Dramafag	Teaterproduksjon fordypning 2	Teaterproduksjon fordypning 2	281	290	301
+2	FKAT100	FOMR104		FOMR104	Estetiske fag	Kunst- og håndverksfag	Alle opplæringsfag	Alle vurderingsfag	3822	3995	3894
+3	FKAT100	FOMR104	KDA5Z02	KDA5Z02	Estetiske fag	Kunst- og håndverksfag	Arkitektur og samfunn	Alle vurderingsfag	142	134	240
+4	FKAT100	FOMR104	KDA5Z02	KDA3009	Estetiske fag	Kunst- og håndverksfag	Arkitektur og samfunn	Arkitektur og samfunn	142	134	240
+3	FKAT100	FOMR104	KDA2Z01	KDA2Z01	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 1	Alle vurderingsfag	1336	1289	1238
+4	FKAT100	FOMR104	KDA2Z01	KDA2010	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 1	Design og arkitektur 1	1336	1289	1238
+3	FKAT100	FOMR104	KDA2Z05	KDA2Z05	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 2	Alle vurderingsfag	978	1157	1096
+4	FKAT100	FOMR104	KDA2Z05	KDA2011	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 2	Design og arkitektur 2	978	1157	1096
+3	FKAT100	FOMR104	KDA2Z03	KDA2Z03	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 3	Design og arkitektur 3	22		
+4	FKAT100	FOMR104	KDA2Z03	KDA2006	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 3	Design og arkitektur 3	22		
+3	FKAT100	FOMR104	KDA2Z06	KDA2Z06	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 3	Alle vurderingsfag	875	957	1089
+4	FKAT100	FOMR104	KDA2Z06	KDA2012	Estetiske fag	Kunst- og håndverksfag	Design og arkitektur 3	Design og arkitektur 3	875	957	1089
+3	FKAT100	FOMR104	KDA4Z02	KDA4Z02	Estetiske fag	Kunst- og håndverksfag	Design og bærekraft	Alle vurderingsfag	330	279	196
+4	FKAT100	FOMR104	KDA4Z02	KDA3008	Estetiske fag	Kunst- og håndverksfag	Design og bærekraft	Design og bærekraft	330	279	196
+3	FKAT100	FOMR104	KDA6Z03	KDA6Z03	Estetiske fag	Kunst- og håndverksfag	Foto og grafikk 1	Alle vurderingsfag	596	733	713
+4	FKAT100	FOMR104	KDA6Z03	KDA3010	Estetiske fag	Kunst- og håndverksfag	Foto og grafikk 1	Foto og grafikk 1	596	733	713
+3	FKAT100	FOMR104	KDA6Z04	KDA6Z04	Estetiske fag	Kunst- og håndverksfag	Foto og grafikk 2	Alle vurderingsfag	145	151	145
+4	FKAT100	FOMR104	KDA6Z04	KDA3011	Estetiske fag	Kunst- og håndverksfag	Foto og grafikk 2	Foto og grafikk 2	145	151	145
+3	FKAT100	FOMR104	KDA3Z02	KDA3Z02	Estetiske fag	Kunst- og håndverksfag	Kunst og skapende arbeid	Alle vurderingsfag	500	477	521
+4	FKAT100	FOMR104	KDA3Z02	KDA3007	Estetiske fag	Kunst- og håndverksfag	Kunst og skapende arbeid	Kunst og skapende arbeid	500	477	521
+3	FKAT100	FOMR104	KDA1Z01	KDA1Z01	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 1	Kunst og visuelle virkemidler 1	5		
+4	FKAT100	FOMR104	KDA1Z01	KDA2001	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 1	Kunst og visuelle virkemidler 1	5		
+3	FKAT100	FOMR104	KDA1Z04	KDA1Z04	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 1	Alle vurderingsfag	1428	1443	1339
+4	FKAT100	FOMR104	KDA1Z04	KDA2007	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 1	Kunst og visuelle virkemidler 1	1428	1443	1339
+3	FKAT100	FOMR104	KDA1Z05	KDA1Z05	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 2	Alle vurderingsfag	1021	1176	1108
+4	FKAT100	FOMR104	KDA1Z05	KDA2008	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 2	Kunst og visuelle verkemiddel 2	1021	1176	1108
+3	FKAT100	FOMR104	KDA1Z03	KDA1Z03	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 3	Kunst og visuelle virkemidler 3	22		
+4	FKAT100	FOMR104	KDA1Z03	KDA2003	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 3	Kunst og visuelle virkemidler 3	22		
+3	FKAT100	FOMR104	KDA1Z06	KDA1Z06	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 3	Alle vurderingsfag	877	956	1089
+4	FKAT100	FOMR104	KDA1Z06	KDA2009	Estetiske fag	Kunst- og håndverksfag	Kunst og visuelle virkemidler 3	Kunst og visuelle virkemidler 3	877	956	1089
+2	FKAT100	FOMR105		FOMR105	Estetiske fag	Musikkfag	Alle opplæringsfag	Alle vurderingsfag	3616	3567	3612
+3	FKAT100	FOMR105	MUS4Z03	MUS4Z03	Estetiske fag	Musikkfag	Ergonomi og bevegelse 1	Alle vurderingsfag	1124	1113	1158
+4	FKAT100	FOMR105	MUS4Z03	MUS2010	Estetiske fag	Musikkfag	Ergonomi og bevegelse 1	Ergonomi og bevegelse 1	1124	1113	1158
+3	FKAT100	FOMR105	MUS4Z04	MUS4Z04	Estetiske fag	Musikkfag	Ergonomi og bevegelse 2	Alle vurderingsfag	1140	1085	1077
+4	FKAT100	FOMR105	MUS4Z04	MUS2011	Estetiske fag	Musikkfag	Ergonomi og bevegelse 2	Ergonomi og bevegelse 2	1140	1085	1077
+3	FKAT100	FOMR105	MUS7Z02	MUS7Z02	Estetiske fag	Musikkfag	Instruksjon og ledelse	Alle vurderingsfag	1147	1077	1080
+4	FKAT100	FOMR105	MUS7Z02	MUS2018	Estetiske fag	Musikkfag	Instruksjon og ledelse	Instruksjon og ledelse	1147	1077	1080
+3	FKAT100	FOMR105	MUS5Z03	MUS5Z03	Estetiske fag	Musikkfag	Instrument, kor, samspill 1	Alle vurderingsfag	1152	1150	1183
+4	FKAT100	FOMR105	MUS5Z03	MUS2012	Estetiske fag	Musikkfag	Instrument, kor, samspill 1	Instrument, kor, samspill 1	1152	1150	1183
+3	FKAT100	FOMR105	MUS5Z04	MUS5Z04	Estetiske fag	Musikkfag	Instrument, kor, samspill 2	Alle vurderingsfag	1168	1126	1097
+4	FKAT100	FOMR105	MUS5Z04	MUS2013	Estetiske fag	Musikkfag	Instrument, kor, samspill 2	Instrument, kor, samspill 2	1168	1126	1097
+3	FKAT100	FOMR105	MDD3Z02	MDD3Z02	Estetiske fag	Musikkfag	Lytting	Alle vurderingsfag	1236	1239	1256
+4	FKAT100	FOMR105	MDD3Z02	MDD3007	Estetiske fag	Musikkfag	Lytting	Lytting	1236	1239	1256
+3	FKAT100	FOMR105	MDD5Z02	MDD5Z02	Estetiske fag	Musikkfag	Musikk	Alle vurderingsfag	1264	1291	1307
+4	FKAT100	FOMR105	MDD5Z02	MDD3009	Estetiske fag	Musikkfag	Musikk	Musikk	1264	1291	1307
+3	FKAT100	FOMR105	MUS8Z01	MUS8Z01	Estetiske fag	Musikkfag	Musikk fordypning 1	Musikk fordypning 1	3		
+4	FKAT100	FOMR105	MUS8Z01	MUS3001	Estetiske fag	Musikkfag	Musikk fordypning 1	Musikk fordypning 1	3		
+3	FKAT100	FOMR105	MUS8Z03	MUS8Z03	Estetiske fag	Musikkfag	Musikk fordypning 1	Alle vurderingsfag	1000	1008	1023
+4	FKAT100	FOMR105	MUS8Z03	MUS3006	Estetiske fag	Musikkfag	Musikk fordypning 1	Musikk fordypning 1	1000	1008	1023
+3	FKAT100	FOMR105	MUS8Z02	MUS8Z02	Estetiske fag	Musikkfag	Musikk fordypning 2	Musikk fordypning 2	26		
+4	FKAT100	FOMR105	MUS8Z02	MUS3003	Estetiske fag	Musikkfag	Musikk fordypning 2	Musikk fordypning 2	26		
+3	FKAT100	FOMR105	MUS8Z04	MUS8Z04	Estetiske fag	Musikkfag	Musikk fordypning 2	Alle vurderingsfag	669	582	644
+4	FKAT100	FOMR105	MUS8Z04	MUS3008	Estetiske fag	Musikkfag	Musikk fordypning 2	Musikk fordypning 2	669	582	644
+3	FKAT100	FOMR105	MUS6Z03	MUS6Z03	Estetiske fag	Musikkfag	Musikk i perspektiv 1	Alle vurderingsfag	1128	1130	1159
+4	FKAT100	FOMR105	MUS6Z03	MUS2014	Estetiske fag	Musikkfag	Musikk i perspektiv 1	Musikk i perspektiv 1	1127	1130	1159
+4	FKAT100	FOMR105	MUS6Z03	MUS2015	Estetiske fag	Musikkfag	Musikk i perspektiv 1	Musikk i perspektiv, muntlig	1		
+3	FKAT100	FOMR105	MUS6Z02	MUS6Z02	Estetiske fag	Musikkfag	Musikk i perspektiv 2	Musikk i perspektiv 2	26		
+4	FKAT100	FOMR105	MUS6Z02	MUS2007	Estetiske fag	Musikkfag	Musikk i perspektiv 2	Musikk i perspektiv 2	26		
+3	FKAT100	FOMR105	MUS6Z04	MUS6Z04	Estetiske fag	Musikkfag	Musikk i perspektiv 2	Alle vurderingsfag	1142	1069	1085
+4	FKAT100	FOMR105	MUS6Z04	MUS2016	Estetiske fag	Musikkfag	Musikk i perspektiv 2	Musikk i perspektiv 2	1142	1069	1085
+1	FKAT200			FKAT200	Historie og samfunn	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	132693	133356	134198
+2	FKAT200	FOMR201		FOMR201	Historie og samfunn	Geografi	Alle opplæringsfag	Alle vurderingsfag	33685	34462	34484
+3	FKAT200	FOMR201	GEO1Z01	GEO1Z01	Historie og samfunn	Geografi	Geografi	Alle vurderingsfag	82		1
+4	FKAT200	FOMR201	GEO1Z01	GEO1001	Historie og samfunn	Geografi	Geografi	Geografi	82		1
+3	FKAT200	FOMR201	GEO1Z02	GEO1Z02	Historie og samfunn	Geografi	Geografi vg1	Alle vurderingsfag	33578	34451	34467
+4	FKAT200	FOMR201	GEO1Z02	GEO1003	Historie og samfunn	Geografi	Geografi vg1	Geografi	33578	34451	34467
+3	FKAT200	FOMR201	GEO2Z02	GEO2Z02	Historie og samfunn	Geografi	Geografi vg1, samisk plan	Alle vurderingsfag	25	11	16
+4	FKAT200	FOMR201	GEO2Z02	GEO1004	Historie og samfunn	Geografi	Geografi vg1, samisk plan	Geografi, samisk plan	25	11	16
+2	FKAT200	FOMR202		FOMR202	Historie og samfunn	Historie	Alle opplæringsfag	Alle vurderingsfag	76651	76061	76520
+3	FKAT200	FOMR202	HIF1Z03	HIF1Z03	Historie og samfunn	Historie	Historie og filosofi 1	Alle vurderingsfag	2239	1974	2084
+4	FKAT200	FOMR202	HIF1Z03	SAM3042	Historie og samfunn	Historie	Historie og filosofi 1	Historie og filosofi 1	2239	1974	2084
+3	FKAT200	FOMR202	HIF1Z04	HIF1Z04	Historie og samfunn	Historie	Historie og filosofi 2	Alle vurderingsfag	1196	1228	1115
+4	FKAT200	FOMR202	HIF1Z04	SAM3043	Historie og samfunn	Historie	Historie og filosofi 2	Historie og filosofi 2	1196	1228	1115
+3	FKAT200	FOMR202	HIS1Z09	HIS1Z09	Historie og samfunn	Historie	Historie vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	32583	32589	32677
+4	FKAT200	FOMR202	HIS1Z09	HIS1009	Historie og samfunn	Historie	Historie vg2 studieforberedende utdanningsprogram	Historie vg2 studieforberedende utdanningsprogram	32583	32589	32677
+3	FKAT200	FOMR202	HIS1Z11	HIS1Z11	Historie og samfunn	Historie	Historie vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	10714	10796	11191
+4	FKAT200	FOMR202	HIS1Z11	HIS1011	Historie og samfunn	Historie	Historie vg3 påbygging til generell studiekompetanse	Historie Vg3 påbygging til generell studiekompetanse	10714	10796	11191
+3	FKAT200	FOMR202	HIS1Z10	HIS1Z10	Historie og samfunn	Historie	Historie vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	32946	32680	32608
+4	FKAT200	FOMR202	HIS1Z10	HIS1010	Historie og samfunn	Historie	Historie vg3 studieforberedende utdanningsprogram	Historie Vg3 studieforberedende utdanningsprogram	32946	32680	32608
+3	FKAT200	FOMR202	HIS1Z02	HIS1Z02	Historie og samfunn	Historie	Historie vg3,studieforberedende utdanningsprogram	Alle vurderingsfag	269	13	
+4	FKAT200	FOMR202	HIS1Z02	HIS1002	Historie og samfunn	Historie	Historie vg3,studieforberedende utdanningsprogram	Historie vg3 studieforberedende utdanningsprogram	269	13	
+3	FKAT200	FOMR202	HIS2Z07	HIS2Z07	Historie og samfunn	Historie	Historie, samisk plan, vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	22	22	10
+4	FKAT200	FOMR202	HIS2Z07	HIS1012	Historie og samfunn	Historie	Historie, samisk plan, vg2 studieforberedende utdanningsprogram	Historie, samisk plan, vg2 studieforberedende utdanningsprogram	22	22	10
+3	FKAT200	FOMR202	HIS2Z09	HIS2Z09	Historie og samfunn	Historie	Historie, samisk plan, vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	14	17	42
+4	FKAT200	FOMR202	HIS2Z09	HIS1014	Historie og samfunn	Historie	Historie, samisk plan, vg3 påbygging til generell studiekompetanse	Historie, samisk plan, Vg3 påbygging til generell studiekompetanse	14	17	42
+3	FKAT200	FOMR202	HIS2Z08	HIS2Z08	Historie og samfunn	Historie	Historie, samisk plan, vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	34	23	23
+4	FKAT200	FOMR202	HIS2Z08	HIS1013	Historie og samfunn	Historie	Historie, samisk plan, vg3 studieforberedende utdanningsprogram	Historie, samisk plan, Vg3 studieforberedende utdanningsprogram	34	23	23
+3	FKAT200	FOMR202	HIS1Z03	HIS1Z03	Historie og samfunn	Historie	Historie, vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	168	3	
+4	FKAT200	FOMR202	HIS1Z03	HIS1003	Historie og samfunn	Historie	Historie, vg3 påbygging til generell studiekompetanse	Historie vg3 påbygging til generell studiekompetanse	168	3	
+3	FKAT200	FOMR202	SHS1Z03	SHS1Z03	Historie og samfunn	Historie	Samisk historie og samfunn 1	Alle vurderingsfag	5	15	20
+4	FKAT200	FOMR202	SHS1Z03	SAM3066	Historie og samfunn	Historie	Samisk historie og samfunn 1	Samisk historie og samfunn 1	5	15	20
+3	FKAT200	FOMR202	SHS1Z04	SHS1Z04	Historie og samfunn	Historie	Samisk historie og samfunn 2	Alle vurderingsfag	16	4	12
+4	FKAT200	FOMR202	SHS1Z04	SAM3067	Historie og samfunn	Historie	Samisk historie og samfunn 2	Samisk historie og samfunn 2	16	4	12
+2	FKAT200	FOMR203		FOMR203	Historie og samfunn	Mediefag	Alle opplæringsfag	Alle vurderingsfag	6765	6448	6384
+3	FKAT200	FOMR203	MOK4Z02	MOK4Z02	Historie og samfunn	Mediefag	Bilde	Alle vurderingsfag	1118	1157	1104
+4	FKAT200	FOMR203	MOK4Z02	MOK3008	Historie og samfunn	Mediefag	Bilde	Bilde	1118	1157	1104
+3	FKAT200	FOMR203	MOK6Z02	MOK6Z02	Historie og samfunn	Mediefag	Grafisk design	Alle vurderingsfag	805	711	780
+4	FKAT200	FOMR203	MOK6Z02	MOK3010	Historie og samfunn	Mediefag	Grafisk design	Grafisk design	805	711	780
+3	FKAT200	FOMR203	MOK5Z02	MOK5Z02	Historie og samfunn	Mediefag	Lyddesign	Alle vurderingsfag	326	415	331
+4	FKAT200	FOMR203	MOK5Z02	MOK3009	Historie og samfunn	Mediefag	Lyddesign	Lyddesign	326	415	331
+3	FKAT200	FOMR203	MIN1Z03	MIN1Z03	Historie og samfunn	Mediefag	Medie- og informasjonskunnskap 1	Alle vurderingsfag	1017	1019	1002
+4	FKAT200	FOMR203	MIN1Z03	SAM3048	Historie og samfunn	Mediefag	Medie- og informasjonskunnskap 1	Medie- og informasjonskunnskap 1	1017	1019	1002
+3	FKAT200	FOMR203	MIN1Z04	MIN1Z04	Historie og samfunn	Mediefag	Medie- og informasjonskunnskap 2	Alle vurderingsfag	571	569	554
+4	FKAT200	FOMR203	MIN1Z04	SAM3049	Historie og samfunn	Mediefag	Medie- og informasjonskunnskap 2	Medie- og informasjonskunnskap 2	571	569	554
+3	FKAT200	FOMR203	MOK1Z04	MOK1Z04	Historie og samfunn	Mediefag	Mediesamfunnet 1	Alle vurderingsfag	1679	1526	1516
+4	FKAT200	FOMR203	MOK1Z04	MOK2008	Historie og samfunn	Mediefag	Mediesamfunnet 1	Mediesamfunnet 1	1679	1526	1516
+3	FKAT200	FOMR203	MOK1Z05	MOK1Z05	Historie og samfunn	Mediefag	Mediesamfunnet 2	Alle vurderingsfag	1299	1490	1320
+4	FKAT200	FOMR203	MOK1Z05	MOK2009	Historie og samfunn	Mediefag	Mediesamfunnet 2	Mediesamfunnet 2	1299	1490	1320
+3	FKAT200	FOMR203	MOK1Z03	MOK1Z03	Historie og samfunn	Mediefag	Mediesamfunnet 3	Mediesamfunnet 3	38		
+4	FKAT200	FOMR203	MOK1Z03	MOK2003	Historie og samfunn	Mediefag	Mediesamfunnet 3	Mediesamfunnet 3	38		
+3	FKAT200	FOMR203	MOK1Z06	MOK1Z06	Historie og samfunn	Mediefag	Mediesamfunnet 3	Alle vurderingsfag	1582	1238	1466
+4	FKAT200	FOMR203	MOK1Z06	MOK2010	Historie og samfunn	Mediefag	Mediesamfunnet 3	Mediesamfunnet 3	1582	1238	1466
+3	FKAT200	FOMR203	MOK8Z01	MOK8Z01	Historie og samfunn	Mediefag	Mediespesialisering	Alle vurderingsfag		7	
+4	FKAT200	FOMR203	MOK8Z01	MOK3006	Historie og samfunn	Mediefag	Mediespesialisering	Mediespesialisering		7	
+3	FKAT200	FOMR203	MOK8Z02	MOK8Z02	Historie og samfunn	Mediefag	Mediespesialisering	Alle vurderingsfag	853	626	729
+4	FKAT200	FOMR203	MOK8Z02	MOK3012	Historie og samfunn	Mediefag	Mediespesialisering	Mediespesialisering	853	626	729
+3	FKAT200	FOMR203	MOK2Z04	MOK2Z04	Historie og samfunn	Mediefag	Medieuttrykk 1	Alle vurderingsfag	1685	1530	1515
+4	FKAT200	FOMR203	MOK2Z04	MOK2012	Historie og samfunn	Mediefag	Medieuttrykk 1	Medieuttrykk 1	1685	1530	1515
+3	FKAT200	FOMR203	MOK2Z05	MOK2Z05	Historie og samfunn	Mediefag	Medieuttrykk 2	Alle vurderingsfag	1300	1492	1321
+4	FKAT200	FOMR203	MOK2Z05	MOK2013	Historie og samfunn	Mediefag	Medieuttrykk 2	Medieuttrykk 2	1300	1492	1321
+3	FKAT200	FOMR203	MOK2Z03	MOK2Z03	Historie og samfunn	Mediefag	Medieuttrykk 3	Medieuttrykk 3	38		
+4	FKAT200	FOMR203	MOK2Z03	MOK2007	Historie og samfunn	Mediefag	Medieuttrykk 3	Medieuttrykk 3	38		
+3	FKAT200	FOMR203	MOK2Z06	MOK2Z06	Historie og samfunn	Mediefag	Medieuttrykk 3	Alle vurderingsfag	1584	1239	1464
+4	FKAT200	FOMR203	MOK2Z06	MOK2014	Historie og samfunn	Mediefag	Medieuttrykk 3	Medieuttrykk 3	1584	1239	1464
+3	FKAT200	FOMR203	MOK7Z02	MOK7Z02	Historie og samfunn	Mediefag	Medieutvikling	Alle vurderingsfag	333	260	197
+4	FKAT200	FOMR203	MOK7Z02	MOK3011	Historie og samfunn	Mediefag	Medieutvikling	Medieutvikling	333	260	197
+3	FKAT200	FOMR203	MOK3Z02	MOK3Z02	Historie og samfunn	Mediefag	Tekst	Alle vurderingsfag	125	139	175
+4	FKAT200	FOMR203	MOK3Z02	MOK3007	Historie og samfunn	Mediefag	Tekst	Tekst	125	139	175
+2	FKAT200	FOMR204		FOMR204	Historie og samfunn	Politikk, individ og samfunn	Alle opplæringsfag	Alle vurderingsfag	19516	19503	19388
+3	FKAT200	FOMR204	POS5Z01	POS5Z01	Historie og samfunn	Politikk, individ og samfunn	Politikk og menneskerettigheter	Alle vurderingsfag	3935	4181	3912
+4	FKAT200	FOMR204	POS5Z01	SAM3055	Historie og samfunn	Politikk, individ og samfunn	Politikk og menneskerettigheter	Politikk og menneskerettigheter	3935	4181	3912
+3	FKAT200	FOMR204	POS1Z02	POS1Z02	Historie og samfunn	Politikk, individ og samfunn	Samfunnsgeografi	Samfunnsgeografi	26		
+4	FKAT200	FOMR204	POS1Z02	SAM3018	Historie og samfunn	Politikk, individ og samfunn	Samfunnsgeografi	Samfunnsgeografi	26		
+3	FKAT200	FOMR204	POS3Z01	POS3Z01	Historie og samfunn	Politikk, individ og samfunn	Samfunnsgeografi	Alle vurderingsfag	896	907	1041
+4	FKAT200	FOMR204	POS3Z01	SAM3053	Historie og samfunn	Politikk, individ og samfunn	Samfunnsgeografi	Samfunnsgeografi	896	907	1041
+3	FKAT200	FOMR204	POS2Z01	POS2Z01	Historie og samfunn	Politikk, individ og samfunn	Sosialkunnskap	Alle vurderingsfag	4316	4591	4218
+4	FKAT200	FOMR204	POS2Z01	SAM3051	Historie og samfunn	Politikk, individ og samfunn	Sosialkunnskap	Sosialkunnskap	4316	4591	4218
+3	FKAT200	FOMR204	POS1Z03	POS1Z03	Historie og samfunn	Politikk, individ og samfunn	Sosiologi og sosialantropologi	Sosiologi og sosialantropologi	20		
+4	FKAT200	FOMR204	POS1Z03	SAM3019	Historie og samfunn	Politikk, individ og samfunn	Sosiologi og sosialantropologi	Sosiologi og sosialantropologi	20		
+3	FKAT200	FOMR204	POS4Z01	POS4Z01	Historie og samfunn	Politikk, individ og samfunn	Sosiologi og sosialantropologi	Alle vurderingsfag	11230	10741	11017
+4	FKAT200	FOMR204	POS4Z01	SAM3054	Historie og samfunn	Politikk, individ og samfunn	Sosiologi og sosialantropologi	Sosiologi og sosialantropologi	11230	10741	11017
+2	FKAT200	FOMR208		FOMR208	Historie og samfunn	Psykologi	Alle opplæringsfag	Alle vurderingsfag	17695	17927	18985
+3	FKAT200	FOMR208	PSY1Z01	PSY1Z01	Historie og samfunn	Psykologi	Psykologi 1	Alle vurderingsfag		1	
+4	FKAT200	FOMR208	PSY1Z01	SAM3037	Historie og samfunn	Psykologi	Psykologi 1	Psykologi 1		1	
+3	FKAT200	FOMR208	PSY1Z03	PSY1Z03	Historie og samfunn	Psykologi	Psykologi 1	Alle vurderingsfag	10542	10448	11383
+4	FKAT200	FOMR208	PSY1Z03	SAM3072	Historie og samfunn	Psykologi	Psykologi 1	Psykologi 1	10542	10448	11383
+3	FKAT200	FOMR208	PSY1Z02	PSY1Z02	Historie og samfunn	Psykologi	Psykologi 2	Alle vurderingsfag	30	32	
+4	FKAT200	FOMR208	PSY1Z02	SAM3038	Historie og samfunn	Psykologi	Psykologi 2	Psykologi 2	30	32	
+3	FKAT200	FOMR208	PSY1Z04	PSY1Z04	Historie og samfunn	Psykologi	Psykologi 2	Alle vurderingsfag	7258	7589	7747
+4	FKAT200	FOMR208	PSY1Z04	SAM3073	Historie og samfunn	Psykologi	Psykologi 2	Psykologi 2	7258	7589	7747
+2	FKAT200	FOMR205		FOMR205	Historie og samfunn	Rettslære	Alle opplæringsfag	Alle vurderingsfag	10030	10432	10708
+3	FKAT200	FOMR205	RTL1Z01	RTL1Z01	Historie og samfunn	Rettslære	Rettslære 1	Rettslære 1	1		
+4	FKAT200	FOMR205	RTL1Z01	SAM3022	Historie og samfunn	Rettslære	Rettslære 1	Rettslære 1	1		
+3	FKAT200	FOMR205	RTL1Z03	RTL1Z03	Historie og samfunn	Rettslære	Rettslære 1	Alle vurderingsfag	6064	6225	6281
+4	FKAT200	FOMR205	RTL1Z03	SAM3057	Historie og samfunn	Rettslære	Rettslære 1	Rettslære 1	6064	6225	6281
+3	FKAT200	FOMR205	RTL1Z02	RTL1Z02	Historie og samfunn	Rettslære	Rettslære 2	Alle vurderingsfag	1	18	
+4	FKAT200	FOMR205	RTL1Z02	SAM3023	Historie og samfunn	Rettslære	Rettslære 2	Rettslære 2	1	18	
+3	FKAT200	FOMR205	RTL1Z04	RTL1Z04	Historie og samfunn	Rettslære	Rettslære 2	Alle vurderingsfag	4008	4222	4466
+4	FKAT200	FOMR205	RTL1Z04	SAM3058	Historie og samfunn	Rettslære	Rettslære 2	Rettslære 2	4008	4222	4466
+2	FKAT200	FOMR206		FOMR206	Historie og samfunn	Samfunnsfag	Alle opplæringsfag	Alle vurderingsfag	61763	63590	63800
+3	FKAT200	FOMR206	SAK1Z01	SAK1Z01	Historie og samfunn	Samfunnsfag	Samfunnskunnskap vg1	Alle vurderingsfag	61705	63529	63734
+4	FKAT200	FOMR206	SAK1Z01	SAK1001	Historie og samfunn	Samfunnsfag	Samfunnskunnskap vg1	Samfunnskunnskap	61705	63529	63734
+3	FKAT200	FOMR206	SAK2Z01	SAK2Z01	Historie og samfunn	Samfunnsfag	Samfunnskunnskap vg1, samisk plan	Alle vurderingsfag	58	61	66
+4	FKAT200	FOMR206	SAK2Z01	SAK1002	Historie og samfunn	Samfunnsfag	Samfunnskunnskap vg1, samisk plan	Samfunnskunnskap, samisk plan	58	61	66
+2	FKAT200	FOMR207		FOMR207	Historie og samfunn	Økonomiske fag	Alle opplæringsfag	Alle vurderingsfag	18792	19925	20882
+3	FKAT200	FOMR207	ENT1Z02	ENT1Z02	Historie og samfunn	Økonomiske fag	Entrepenørskap og bedriftsutvikling 2	Alle vurderingsfag		18	
+4	FKAT200	FOMR207	ENT1Z02	SAM3029	Historie og samfunn	Økonomiske fag	Entrepenørskap og bedriftsutvikling 2	Entreprenørskap og bedriftsutvikling 2		18	
+3	FKAT200	FOMR207	ENT1Z03	ENT1Z03	Historie og samfunn	Økonomiske fag	Entreprenørskap og bedriftsutvikling 1	Alle vurderingsfag	4113	4559	4568
+4	FKAT200	FOMR207	ENT1Z03	SAM3063	Historie og samfunn	Økonomiske fag	Entreprenørskap og bedriftsutvikling 1	Entreprenørskap og bedriftsutvikling 1	4113	4559	4568
+3	FKAT200	FOMR207	ENT1Z04	ENT1Z04	Historie og samfunn	Økonomiske fag	Entreprenørskap og bedriftsutvikling 2	Alle vurderingsfag	1789	2115	2210
+4	FKAT200	FOMR207	ENT1Z04	SAM3064	Historie og samfunn	Økonomiske fag	Entreprenørskap og bedriftsutvikling 2	Entreprenørskap og bedriftsutvikling 2	1789	2115	2210
+3	FKAT200	FOMR207	MFL1Z03	MFL1Z03	Historie og samfunn	Økonomiske fag	Markedsføring og ledelse 1	Alle vurderingsfag	5183	5625	6093
+4	FKAT200	FOMR207	MFL1Z03	SAM3045	Historie og samfunn	Økonomiske fag	Markedsføring og ledelse 1	Markedsføring og ledelse 1	5183	5625	6093
+3	FKAT200	FOMR207	MFL1Z04	MFL1Z04	Historie og samfunn	Økonomiske fag	Markedsføring og ledelse 2	Alle vurderingsfag	3258	3414	3686
+4	FKAT200	FOMR207	MFL1Z04	SAM3046	Historie og samfunn	Økonomiske fag	Markedsføring og ledelse 2	Markedsføring og ledelse 2	3258	3414	3686
+3	FKAT200	FOMR207	SOK1Z03	SOK1Z03	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 1	Alle vurderingsfag	3009	3210	3340
+4	FKAT200	FOMR207	SOK1Z03	SAM3060	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 1	Samfunnsøkonomi 1	3009	3210	3340
+3	FKAT200	FOMR207	SOK1Z02	SOK1Z02	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 2	Samfunnsøkonomi 2	15		
+4	FKAT200	FOMR207	SOK1Z02	SAM3026	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 2	Samfunnsøkonomi 2	15		
+3	FKAT200	FOMR207	SOK1Z04	SOK1Z04	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 2	Alle vurderingsfag	1869	1833	1944
+4	FKAT200	FOMR207	SOK1Z04	SAM3061	Historie og samfunn	Økonomiske fag	Samfunnsøkonomi 2	Samfunnsøkonomi 2	1869	1833	1944
+3	FKAT200	FOMR207	NOK2Z02	NOK2Z02	Historie og samfunn	Økonomiske fag	Økonomi og ledelse	Alle vurderingsfag	1	32	
+4	FKAT200	FOMR207	NOK2Z02	SAM3035	Historie og samfunn	Økonomiske fag	Økonomi og ledelse	Økonomi og ledelse	1	32	
+3	FKAT200	FOMR207	NOK2Z04	NOK2Z04	Historie og samfunn	Økonomiske fag	Økonomi og ledelse	Alle vurderingsfag	2185	2311	2337
+4	FKAT200	FOMR207	NOK2Z04	SAM3070	Historie og samfunn	Økonomiske fag	Økonomi og ledelse	Økonomi og ledelse	2185	2311	2337
+3	FKAT200	FOMR207	NOK2Z03	NOK2Z03	Historie og samfunn	Økonomiske fag	Økonomistyring	Alle vurderingsfag	3255	3110	3387
+4	FKAT200	FOMR207	NOK2Z03	SAM3068	Historie og samfunn	Økonomiske fag	Økonomistyring	Økonomistyring	3255	3110	3387
+1	FKAT300			FKAT300	Mat, helse og idrett	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	165505	166565	169685
+2	FKAT300	FOMR301		FOMR301	Mat, helse og idrett	Idrettsfag	Alle opplæringsfag	Alle vurderingsfag	23970	24222	24493
+3	FKAT300	FOMR301	IDR1Z04	IDR1Z04	Mat, helse og idrett	Idrettsfag	Aktivitetslære 1	Alle vurderingsfag	4335	4428	4578
+4	FKAT300	FOMR301	IDR1Z04	IDR2018	Mat, helse og idrett	Idrettsfag	Aktivitetslære 1	Aktivitetslære 1	4335	4428	4578
+3	FKAT300	FOMR301	IDR1Z02	IDR1Z02	Mat, helse og idrett	Idrettsfag	Aktivitetslære 2	Aktivitetslære 2	112		
+4	FKAT300	FOMR301	IDR1Z02	IDR2002	Mat, helse og idrett	Idrettsfag	Aktivitetslære 2	Aktivitetslære 2	112		
+3	FKAT300	FOMR301	IDR1Z05	IDR1Z05	Mat, helse og idrett	Idrettsfag	Aktivitetslære 2	Alle vurderingsfag	3919	4115	4195
+4	FKAT300	FOMR301	IDR1Z05	IDR2019	Mat, helse og idrett	Idrettsfag	Aktivitetslære 2	Aktivitetslære 2	3919	4115	4195
+3	FKAT300	FOMR301	IDR1Z03	IDR1Z03	Mat, helse og idrett	Idrettsfag	Aktivitetslære 3	Alle vurderingsfag	139	1	
+4	FKAT300	FOMR301	IDR1Z03	IDR2003	Mat, helse og idrett	Idrettsfag	Aktivitetslære 3	Aktivitetslære 3	139	1	
+3	FKAT300	FOMR301	IDR1Z06	IDR1Z06	Mat, helse og idrett	Idrettsfag	Aktivitetslære 3	Alle vurderingsfag	3931	3904	4072
+4	FKAT300	FOMR301	IDR1Z06	IDR2020	Mat, helse og idrett	Idrettsfag	Aktivitetslære 3	Aktivitetslære 3	3931	3904	4072
+3	FKAT300	FOMR301	IDR6Z04	IDR6Z04	Mat, helse og idrett	Idrettsfag	Breddeidrett 1	Alle vurderingsfag	5982	5898	6090
+4	FKAT300	FOMR301	IDR6Z04	IDR3016	Mat, helse og idrett	Idrettsfag	Breddeidrett 1	Breddeidrett 1	5982	5898	6090
+3	FKAT300	FOMR301	IDR6Z02	IDR6Z02	Mat, helse og idrett	Idrettsfag	Breddeidrett 2	Breddeidrett 2	77		
+4	FKAT300	FOMR301	IDR6Z02	IDR3005	Mat, helse og idrett	Idrettsfag	Breddeidrett 2	Breddeidrett 2	77		
+3	FKAT300	FOMR301	IDR6Z05	IDR6Z05	Mat, helse og idrett	Idrettsfag	Breddeidrett 2	Alle vurderingsfag	3036	3153	2829
+4	FKAT300	FOMR301	IDR6Z05	IDR3017	Mat, helse og idrett	Idrettsfag	Breddeidrett 2	Breddeidrett 2	3036	3153	2829
+3	FKAT300	FOMR301	IDR6Z03	IDR6Z03	Mat, helse og idrett	Idrettsfag	Breddeidrett 3	Breddeidrett 3	41		
+4	FKAT300	FOMR301	IDR6Z03	IDR3006	Mat, helse og idrett	Idrettsfag	Breddeidrett 3	Breddeidrett 3	41		
+3	FKAT300	FOMR301	IDR6Z06	IDR6Z06	Mat, helse og idrett	Idrettsfag	Breddeidrett 3	Alle vurderingsfag	1675	1632	1616
+4	FKAT300	FOMR301	IDR6Z06	IDR3018	Mat, helse og idrett	Idrettsfag	Breddeidrett 3	Breddeidrett 3	1675	1632	1616
+3	FKAT300	FOMR301	IDR7Z03	IDR7Z03	Mat, helse og idrett	Idrettsfag	Friluftsliv 1	Alle vurderingsfag	1022	1046	973
+4	FKAT300	FOMR301	IDR7Z03	IDR3019	Mat, helse og idrett	Idrettsfag	Friluftsliv 1	Friluftsliv 1	1022	1046	973
+3	FKAT300	FOMR301	IDR7Z04	IDR7Z04	Mat, helse og idrett	Idrettsfag	Friluftsliv 2	Alle vurderingsfag	121	92	129
+4	FKAT300	FOMR301	IDR7Z04	IDR3020	Mat, helse og idrett	Idrettsfag	Friluftsliv 2	Friluftsliv 2	121	92	129
+3	FKAT300	FOMR301	IDR3Z01	IDR3Z01	Mat, helse og idrett	Idrettsfag	Idrett og samfunn	Alle vurderingsfag	311	5	
+4	FKAT300	FOMR301	IDR3Z01	IDR2013	Mat, helse og idrett	Idrettsfag	Idrett og samfunn	Idrett og samfunn vg3	311	5	
+3	FKAT300	FOMR301	IDR3Z03	IDR3Z03	Mat, helse og idrett	Idrettsfag	Idrett og samfunn 1. år	Alle vurderingsfag	4008	4012	4025
+4	FKAT300	FOMR301	IDR3Z03	IDR2021	Mat, helse og idrett	Idrettsfag	Idrett og samfunn 1. år	Idrett og samfunn vg2	4008	4012	4025
+3	FKAT300	FOMR301	IDR3Z04	IDR3Z04	Mat, helse og idrett	Idrettsfag	Idrett og samfunn 2. år	Alle vurderingsfag	3654	3894	3968
+4	FKAT300	FOMR301	IDR3Z04	IDR2022	Mat, helse og idrett	Idrettsfag	Idrett og samfunn 2. år	Idrett og samfunn Vg3	3654	3894	3968
+3	FKAT300	FOMR301	IDR8Z03	IDR8Z03	Mat, helse og idrett	Idrettsfag	Lederutvikling 1	Alle vurderingsfag	28	51	34
+4	FKAT300	FOMR301	IDR8Z03	IDR3021	Mat, helse og idrett	Idrettsfag	Lederutvikling 1	Lederutvikling 1	28	51	34
+3	FKAT300	FOMR301	IDR8Z04	IDR8Z04	Mat, helse og idrett	Idrettsfag	Lederutvikling 2	Alle vurderingsfag	6	5	7
+4	FKAT300	FOMR301	IDR8Z04	IDR3022	Mat, helse og idrett	Idrettsfag	Lederutvikling 2	Lederutvikling 2	6	5	7
+3	FKAT300	FOMR301	IDR5Z04	IDR5Z04	Mat, helse og idrett	Idrettsfag	Toppidrett 1	Alle vurderingsfag	5676	6146	6232
+4	FKAT300	FOMR301	IDR5Z04	IDR3013	Mat, helse og idrett	Idrettsfag	Toppidrett 1	Toppidrett 1	5676	6146	6232
+3	FKAT300	FOMR301	IDR5Z05	IDR5Z05	Mat, helse og idrett	Idrettsfag	Toppidrett 2	Alle vurderingsfag	3424	3438	3690
+4	FKAT300	FOMR301	IDR5Z05	IDR3014	Mat, helse og idrett	Idrettsfag	Toppidrett 2	Toppidrett 2	3424	3438	3690
+3	FKAT300	FOMR301	IDR5Z03	IDR5Z03	Mat, helse og idrett	Idrettsfag	Toppidrett 3	Toppidrett 3	11		
+4	FKAT300	FOMR301	IDR5Z03	IDR3003	Mat, helse og idrett	Idrettsfag	Toppidrett 3	Toppidrett 3	11		
+3	FKAT300	FOMR301	IDR5Z06	IDR5Z06	Mat, helse og idrett	Idrettsfag	Toppidrett 3	Alle vurderingsfag	2134	2221	2118
+4	FKAT300	FOMR301	IDR5Z06	IDR3015	Mat, helse og idrett	Idrettsfag	Toppidrett 3	Toppidrett 3	2134	2221	2118
+3	FKAT300	FOMR301	IDR4Z01	IDR4Z01	Mat, helse og idrett	Idrettsfag	Treningsledelse 1	Treningsledelse 1	53		
+4	FKAT300	FOMR301	IDR4Z01	IDR2007	Mat, helse og idrett	Idrettsfag	Treningsledelse 1	Treningsledelse 1	53		
+3	FKAT300	FOMR301	IDR4Z10	IDR4Z10	Mat, helse og idrett	Idrettsfag	Treningsledelse 1	Alle vurderingsfag	3928	4031	4187
+4	FKAT300	FOMR301	IDR4Z10	IDR2023	Mat, helse og idrett	Idrettsfag	Treningsledelse 1	Treningsledelse 1	3928	4031	4187
+3	FKAT300	FOMR301	IDR4Z09	IDR4Z09	Mat, helse og idrett	Idrettsfag	Treningsledelse 2	Alle vurderingsfag	3966	3888	3989
+4	FKAT300	FOMR301	IDR4Z09	IDR2024	Mat, helse og idrett	Idrettsfag	Treningsledelse 2	Treningsledelse 2	3966	3888	3989
+3	FKAT300	FOMR301	IDR4Z04	IDR4Z04	Mat, helse og idrett	Idrettsfag	Treningsledelse 2+3	Treningsledelse 2+3	80		
+4	FKAT300	FOMR301	IDR4Z04	IDR2014	Mat, helse og idrett	Idrettsfag	Treningsledelse 2+3	Treningsledelse 2+3	80		
+3	FKAT300	FOMR301	IDR2Z06	IDR2Z06	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg1	Alle vurderingsfag	4272	4374	4550
+4	FKAT300	FOMR301	IDR2Z06	IDR2025	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg1	Treningslære 1 vg1	4272	4374	4550
+3	FKAT300	FOMR301	IDR2Z04	IDR2Z04	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg2	Treningslære 1 vg2	112		
+4	FKAT300	FOMR301	IDR2Z04	IDR2016	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg2	Treningslære 1	112		
+3	FKAT300	FOMR301	IDR2Z07	IDR2Z07	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg2	Alle vurderingsfag	3859	4081	4152
+4	FKAT300	FOMR301	IDR2Z07	IDR2026	Mat, helse og idrett	Idrettsfag	Treningslære 1 vg2	Treningslære 1	3859	4081	4152
+3	FKAT300	FOMR301	IDR2Z05	IDR2Z05	Mat, helse og idrett	Idrettsfag	Treningslære 2	Treningslære 2	280		
+4	FKAT300	FOMR301	IDR2Z05	IDR2017	Mat, helse og idrett	Idrettsfag	Treningslære 2	Treningslære 2	280		
+3	FKAT300	FOMR301	IDR2Z08	IDR2Z08	Mat, helse og idrett	Idrettsfag	Treningslære 2	Alle vurderingsfag	3791	3909	4000
+4	FKAT300	FOMR301	IDR2Z08	IDR2027	Mat, helse og idrett	Idrettsfag	Treningslære 2	Treningslære 2	3791	3909	4000
+2	FKAT300	FOMR302		FOMR302	Mat, helse og idrett	Kroppsøving	Alle opplæringsfag	Alle vurderingsfag	152949	154029	156770
+3	FKAT300	FOMR302	KRO1Z37	KRO1Z37	Mat, helse og idrett	Kroppsøving	Kroppsøving vg1 SF	Alle vurderingsfag	61816	62103	64633
+4	FKAT300	FOMR302	KRO1Z37	KRO1017	Mat, helse og idrett	Kroppsøving	Kroppsøving vg1 SF	Kroppsøving vg1	61816	62103	64633
+3	FKAT300	FOMR302	KRO1Z17	KRO1Z17	Mat, helse og idrett	Kroppsøving	Kroppsøving vg2	Kroppsøving vg2	106		
+4	FKAT300	FOMR302	KRO1Z17	KRO1005	Mat, helse og idrett	Kroppsøving	Kroppsøving vg2	Kroppsøving vg2	106		
+3	FKAT300	FOMR302	KRO1Z38	KRO1Z38	Mat, helse og idrett	Kroppsøving	Kroppsøving vg2 SF	Alle vurderingsfag	53869	55224	55120
+4	FKAT300	FOMR302	KRO1Z38	KRO1018	Mat, helse og idrett	Kroppsøving	Kroppsøving vg2 SF	Kroppsøving vg2	53869	55224	55120
+3	FKAT300	FOMR302	KRO1Z18	KRO1Z18	Mat, helse og idrett	Kroppsøving	Kroppsøving vg3	Alle vurderingsfag	335	68	17
+4	FKAT300	FOMR302	KRO1Z18	KRO1006	Mat, helse og idrett	Kroppsøving	Kroppsøving vg3	Kroppsøving vg3	335	68	17
+3	FKAT300	FOMR302	KRO1Z39	KRO1Z39	Mat, helse og idrett	Kroppsøving	Kroppsøving vg3	Alle vurderingsfag	36874	36666	37123
+4	FKAT300	FOMR302	KRO1Z39	KRO1019	Mat, helse og idrett	Kroppsøving	Kroppsøving vg3	Kroppsøving Vg3	36874	36666	37123
+1	FKAT400			FKAT400	Norsk og morsmål	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	141658	142278	143496
+2	FKAT400	FOMR401		FOMR401	Norsk og morsmål	Finsk som andrespråk	Alle opplæringsfag	Alle vurderingsfag	17	16	16
+3	FKAT400	FOMR401	KEF1Z01	KEF1Z01	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	4	4	6
+4	FKAT400	FOMR401	KEF1Z01	KEF1004	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 studieforberedende utdanningsprogram	Kvensk som andrespråk, vg1 studieforberedende utdanningsprogram, skriftlig		1	
+4	FKAT400	FOMR401	KEF1Z01	KEF1104	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 studieforberedende utdanningsprogram	Finsk som andrespråk, vg1 studieforberedende utdanningsprogram, skriftlig	4	3	6
+3	FKAT400	FOMR401	KEF1Z04	KEF1Z04	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 yrkesfaglige utdanningsprogram	Alle vurderingsfag	2	2	1
+4	FKAT400	FOMR401	KEF1Z04	KEF1001	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 yrkesfaglige utdanningsprogram	Kvensk som andrespråk, vg1 yrkesfaglige utdanningsprogram			1
+4	FKAT400	FOMR401	KEF1Z04	KEF1101	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg1 yrkesfaglige utdanningsprogram	Finsk som andrespråk, vg1 yrkesfaglige utdanningsprogram	2	2	
+3	FKAT400	FOMR401	KEF1Z02	KEF1Z02	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	6	3	5
+4	FKAT400	FOMR401	KEF1Z02	KEF1006	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg2 studieforberedende utdanningsprogram	Kvensk som andrespråk, vg2 studieforberedende utdanningsprogram, skriftlig			1
+4	FKAT400	FOMR401	KEF1Z02	KEF1106	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg2 studieforberedende utdanningsprogram	Finsk som andrespråk, vg2 studieforberedende utdanningsprogram, skriftlig	6	3	4
+3	FKAT400	FOMR401	KEF1Z05	KEF1Z05	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	2	1	1
+4	FKAT400	FOMR401	KEF1Z05	KEF1102	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	Finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	2	1	1
+3	FKAT400	FOMR401	KEF1Z06	KEF1Z06	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg3 påbygging til generell studiekompetanse	Alle vurderingsfag			1
+4	FKAT400	FOMR401	KEF1Z06	KEF1110	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg3 påbygging til generell studiekompetanse	Finsk som andrespråk, vg3 påbygging til generell studiekompetanse, skriftlig			1
+3	FKAT400	FOMR401	KEF1Z03	KEF1Z03	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	4	6	2
+4	FKAT400	FOMR401	KEF1Z03	KEF1108	Norsk og morsmål	Finsk som andrespråk	Kvensk eller finsk som andrespråk, vg3 studieforberedende utdanningsprogram	Finsk som andrespråk, vg3 studieforberedende utdanningsprogram, skriftlig	4	6	2
+2	FKAT400	FOMR402		FOMR402	Norsk og morsmål	Grunnleggende norsk	Alle opplæringsfag	Alle vurderingsfag	293	221	321
+3	FKAT400	FOMR402	NOR7Z01	NOR7Z01	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Alle vurderingsfag	156	157	214
+4	FKAT400	FOMR402	NOR7Z01	NOR1051	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg1 studieforberedende utdanningsprogram og vg2 yrkesfaglige utdanningsprogram	88	89	122
+4	FKAT400	FOMR402	NOR7Z01	NOR1052	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg2 studieforberedende utdanningsprogram	4	4	3
+4	FKAT400	FOMR402	NOR7Z01	NOR1053	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg3 studieforberedende utdanningsprogram	5	1	
+4	FKAT400	FOMR402	NOR7Z01	NOR1054	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg3 påbygging til generell studiekompetanse	1		
+4	FKAT400	FOMR402	NOR7Z01	NOR1151	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg1 yrkesfaglige utdanningsprogram	56	56	63
+4	FKAT400	FOMR402	NOR7Z01	NOR1152	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 1	Grunnleggende norsk for språklige minoriteter, nivå 1, vg2 yrkesfaglige utdanningsprogram	4	7	26
+3	FKAT400	FOMR402	NOR7Z02	NOR7Z02	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Alle vurderingsfag	80	29	102
+4	FKAT400	FOMR402	NOR7Z02	NOR1055	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for spårklige minoriteter, nivå 2, vg1 studieforberedende utdanningsprogram	19	5	37
+4	FKAT400	FOMR402	NOR7Z02	NOR1056	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for språklige minoriteter, nivå 2, vg2 studieforberedende utdanningsprogram	1	4	14
+4	FKAT400	FOMR402	NOR7Z02	NOR1057	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for språklige minoriteter, nivå 2, vg3 studieforberedende utdanningsprogram	5	1	4
+4	FKAT400	FOMR402	NOR7Z02	NOR1058	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for språklige minoriteter, nivå 2, vg3 påbygging til generell studiekompetanse			5
+4	FKAT400	FOMR402	NOR7Z02	NOR1155	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for språklige minoriteter, nivå 2, vg1 yrkesfaglige utdanningsprogram	38	19	37
+4	FKAT400	FOMR402	NOR7Z02	NOR1156	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 2	Grunnleggende norsk for språklige minoriteter, nivå 2, vg2 yrkesfaglige utdanningsprogram	18		5
+3	FKAT400	FOMR402	NOR7Z03	NOR7Z03	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Alle vurderingsfag	78	37	5
+4	FKAT400	FOMR402	NOR7Z03	NOR1059	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg1 studieforberedende utdanningsprogram	15	34	5
+4	FKAT400	FOMR402	NOR7Z03	NOR1060	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg2 studieforberedende utdanningsprogram	3	1	
+4	FKAT400	FOMR402	NOR7Z03	NOR1061	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg3 studieforberedende utdanningsprogram	26	2	
+4	FKAT400	FOMR402	NOR7Z03	NOR1062	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg3 påbygging til generell studiekompetanse	1		
+4	FKAT400	FOMR402	NOR7Z03	NOR1159	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg1 yrkesfaglige utdanningsprogram	23		
+4	FKAT400	FOMR402	NOR7Z03	NOR1160	Norsk og morsmål	Grunnleggende norsk	Grunnleggende norsk for språklige minoriteter, nivå 3	Grunnleggende norsk for språklige minoriteter, nivå 3, vg2 yrkesfaglige utdanningsprogram	10		
+2	FKAT400	FOMR403		FOMR403	Norsk og morsmål	Morsmål	Alle opplæringsfag	Alle vurderingsfag		6	
+3	FKAT400	FOMR403	NOR8Z02	NOR8Z02	Norsk og morsmål	Morsmål	Morsmål for språklige minoriteter, nivå 2	Alle vurderingsfag		6	
+4	FKAT400	FOMR403	NOR8Z02	NOR1807	Norsk og morsmål	Morsmål	Morsmål for språklige minoriteter, nivå 2	Morsmål for språklige minoriteter, nivå 2		6	
+2	FKAT400	FOMR404		FOMR404	Norsk og morsmål	Norsk	Alle opplæringsfag	Alle vurderingsfag	139972	140659	141040
+3	FKAT400	FOMR404	NOR1Z68	NOR1Z68	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	54	59	122
+4	FKAT400	FOMR404	NOR1Z68	NOR1284	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg1 studieforberedende utdanningsprogram	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg1 studieforberedende utdanningsprogram, skriftlig	54	59	122
+3	FKAT400	FOMR404	NOR1Z69	NOR1Z69	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	57	63	80
+4	FKAT400	FOMR404	NOR1Z69	NOR1286	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 studieforberedende utdanningsprogram	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 studieforberedende utdanningsprogram, skriftlig	57	63	80
+3	FKAT400	FOMR404	NOR1Z71	NOR1Z71	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	28	36	18
+4	FKAT400	FOMR404	NOR1Z71	NOR1285	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg2 yrkesfaglige utdanningsprogram	28	36	18
+3	FKAT400	FOMR404	NOR1Z72	NOR1Z72	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	5	6	8
+4	FKAT400	FOMR404	NOR1Z72	NOR1288	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg3 påbygging til generell studiekompetanse	Norsk for elever med samisk/kvensk/finsk som andrespråk, Vg3 påbygging til generell studiekompetanse, skriftlig	5	6	8
+3	FKAT400	FOMR404	NOR1Z70	NOR1Z70	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	57	73	63
+4	FKAT400	FOMR404	NOR1Z70	NOR1287	Norsk og morsmål	Norsk	Norsk for elever med samisk/kvensk/finsk som andrespråk, vg3 studieforberedende utdanningsprogram	Norsk for elever med samisk/kvensk/finsk som andrespråk, Vg3 studieforberedende utdanningsprogram, skriftlig	57	73	63
+3	FKAT400	FOMR404	NOR1Z63	NOR1Z63	Norsk og morsmål	Norsk	Norsk vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	36049	36251	36482
+4	FKAT400	FOMR404	NOR1Z63	NOR1260	Norsk og morsmål	Norsk	Norsk vg1 studieforberedende utdanningsprogram	Norsk, vg1 studieforberedende utdanningsprogram, skriftlig	36049	36251	36482
+3	FKAT400	FOMR404	NOR1Z64	NOR1Z64	Norsk og morsmål	Norsk	Norsk vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	33625	33726	33584
+4	FKAT400	FOMR404	NOR1Z64	NOR1264	Norsk og morsmål	Norsk	Norsk vg2 studieforberedende utdanningsprogram	Norsk, vg2 studieforberedende utdanningsprogram, skriftlig	33625	33726	33584
+3	FKAT400	FOMR404	NOR1Z66	NOR1Z66	Norsk og morsmål	Norsk	Norsk vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	26424	27697	27502
+4	FKAT400	FOMR404	NOR1Z66	NOR1262	Norsk og morsmål	Norsk	Norsk vg2 yrkesfaglige utdanningsprogram	Norsk, vg2 yrkesfaglige utdanningsprogram	26424	27697	27502
+3	FKAT400	FOMR404	NOR1Z36	NOR1Z36	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	24	20	
+4	FKAT400	FOMR404	NOR1Z36	NOR1231	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Norsk hovedmål, vg3 påbygging til generell studiekompetanse, skriftlig	24		
+4	FKAT400	FOMR404	NOR1Z36	NOR1232	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Norsk sidemål, vg3 påbygging til generell studiekompetanse, skriftlig	24		
+4	FKAT400	FOMR404	NOR1Z36	NOR1233	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Norsk, vg3 påbygging til generell studiekompetanse, muntlig	24	20	
+3	FKAT400	FOMR404	NOR1Z67	NOR1Z67	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	9707	9542	9804
+4	FKAT400	FOMR404	NOR1Z67	NOR1270	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Norsk hovedmål, vg3 påbygging til generell studiekompetanse, skriftlig	9699	9536	9795
+4	FKAT400	FOMR404	NOR1Z67	NOR1271	Norsk og morsmål	Norsk	Norsk vg3 påbygging til generell studiekompetanse	Norsk sidemål, vg3 påbygging til generell studiekompetanse, skriftlig	9508	9389	9585
+3	FKAT400	FOMR404	NOR1Z35	NOR1Z35	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	112	28	
+4	FKAT400	FOMR404	NOR1Z35	NOR1211	Norsk og morsmål	Norsk	Norsk Vg3 studieforberedende utdanningsprogram	Norsk hovedmål, Vg3 studieforberedende utdanningsprogram, skriftlig	112	28	
+4	FKAT400	FOMR404	NOR1Z35	NOR1212	Norsk og morsmål	Norsk	Norsk Vg3 studieforberedende utdanningsprogram	Norsk sidemål,  Vg3 studieforberedende utdanningsprogram, skriftlig	112	28	
+3	FKAT400	FOMR404	NOR1Z27	NOR1Z27	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	112	28	
+4	FKAT400	FOMR404	NOR1Z27	NOR1213	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Norsk, vg3 studieforberedende utdanningsprogram, muntlig	112	28	
+3	FKAT400	FOMR404	NOR1Z65	NOR1Z65	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	34167	33734	33724
+4	FKAT400	FOMR404	NOR1Z65	NOR1267	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Norsk hovedmål, vg3 studieforberedende utdanningsprogram, skriftlig	34152	33720	33700
+4	FKAT400	FOMR404	NOR1Z65	NOR1268	Norsk og morsmål	Norsk	Norsk vg3 studieforberedende utdanningsprogram	Norsk sidemål, vg3 studieforberedende utdanningsprogram, skriftlig	33669	33395	33230
+2	FKAT400	FOMR405		FOMR405	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Alle opplæringsfag	Alle vurderingsfag	35	65	52
+3	FKAT400	FOMR405	NOR5Z37	NOR5Z37	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	24	48	10
+4	FKAT400	FOMR405	NOR5Z37	NOR1077	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg1 studieforberedende utdanningsprogram	Norsk for elever med tegnspråk, vg1 studieforberedende utdanningsprogram	24	48	10
+3	FKAT400	FOMR405	NOR5Z38	NOR5Z38	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	2	7	7
+4	FKAT400	FOMR405	NOR5Z38	NOR1078	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg2 studieforberedende utdanningsprogram	Norsk for elever med tegnspråk, vg2 studieforberedende utdanningsprogram	2	7	7
+3	FKAT400	FOMR405	NOR5Z40	NOR5Z40	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	7	4	27
+4	FKAT400	FOMR405	NOR5Z40	NOR1076	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg2 yrkesfaglige utdanningsprogram	Norsk for elever med tegnspråk, vg2 yrkesfaglige utdanningsprogram	7	4	27
+3	FKAT400	FOMR405	NOR5Z41	NOR5Z41	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	4	1	
+4	FKAT400	FOMR405	NOR5Z41	NOR1079	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg3 påbygging til generell studiekompetanse	Norsk for elever med tegnspråk, vg3 studieforberedende utdanningsprogram	2		
+4	FKAT400	FOMR405	NOR5Z41	NOR1080	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg3 påbygging til generell studiekompetanse	Norsk for elever med tegnspråk, vg3 påbygging til generell studiekompetanse	2	1	
+3	FKAT400	FOMR405	NOR5Z39	NOR5Z39	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag		5	8
+4	FKAT400	FOMR405	NOR5Z39	NOR1079	Norsk og morsmål	Norsk for døve og sterkt tunghørte	Norsk for elever med tegnspråk vg3 studieforberedende utdanningsprogram	Norsk for elever med tegnspråk, vg3 studieforberedende utdanningsprogram		5	8
+2	FKAT400	FOMR410		FOMR410	Norsk og morsmål	Norsk for elever med kort botid	Alle opplæringsfag	Alle vurderingsfag	1990	2640	2941
+3	FKAT400	FOMR410	NOR9Z07	NOR9Z07	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	488	773	884
+4	FKAT400	FOMR410	NOR9Z07	NOR1412	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg1 studieforberedende utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, vg1 studieforberedende utdanningsprogram, skriftlig	488	773	884
+3	FKAT400	FOMR410	NOR9Z08	NOR9Z08	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	376	519	784
+4	FKAT400	FOMR410	NOR9Z08	NOR1414	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg2 studieforberedende utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, vg2 studieforberedende utdanningsprogram, skriftlig	376	519	784
+3	FKAT400	FOMR410	NOR9Z10	NOR9Z10	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	451	450	395
+4	FKAT400	FOMR410	NOR9Z10	NOR1418	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg2 yrkesfaglige utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, vg2 yrkesfaglige utdanningsprogram	451	450	395
+3	FKAT400	FOMR410	NOR9Z06	NOR9Z06	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	26	27	
+4	FKAT400	FOMR410	NOR9Z06	NOR1410	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 påbygging til generell studiekompetanse	Norsk for elever i vgo med kort botid i Norge, vg3 påbygging til generell studiekompetanse, skriftlig	13		
+4	FKAT400	FOMR410	NOR9Z06	NOR1411	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 påbygging til generell studiekompetanse	Norsk for elever i vgo med kort botid i Norge, vg3 påbygging til generell studiekompetanse, muntlig	25	27	
+3	FKAT400	FOMR410	NOR9Z11	NOR9Z11	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	189	248	292
+4	FKAT400	FOMR410	NOR9Z11	NOR1422	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 påbygging til generell studiekompetanse	Norsk for elever i vgo med kort botid i Norge, Vg3 påbygging til generell studiekompetanse, skriftlig	189	248	292
+3	FKAT400	FOMR410	NOR9Z03	NOR9Z03	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	15	5	
+4	FKAT400	FOMR410	NOR9Z03	NOR1405	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 studieforberedende utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, vg3 studieforberedende utdanningsprogram, skriftlig	13	5	
+4	FKAT400	FOMR410	NOR9Z03	NOR1406	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 studieforberedende utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, vg3 studieforberedende utdanningsprogram, muntlig	6	4	
+3	FKAT400	FOMR410	NOR9Z09	NOR9Z09	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	458	643	595
+4	FKAT400	FOMR410	NOR9Z09	NOR1420	Norsk og morsmål	Norsk for elever med kort botid	Norsk for elever i vgo med kort botid i Norge vg3 studieforberedende utdanningsprogram	Norsk for elever i vgo med kort botid i Norge, Vg3 studieforberedende utdanningsprogram, skriftlig	458	643	595
+2	FKAT400	FOMR406		FOMR406	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Alle opplæringsfag	Alle vurderingsfag	145	143	215
+3	FKAT400	FOMR406	NOR3Z37	NOR3Z37	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	39	13	47
+4	FKAT400	FOMR406	NOR3Z37	NOR1276	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg1 studieforberedende utdanningsprogram	Norsk for elever med samisk som førstespråk, vg1 studieforberedende utdanningsprogram, skriftlig	39	13	47
+3	FKAT400	FOMR406	NOR3Z38	NOR3Z38	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	23	29	42
+4	FKAT400	FOMR406	NOR3Z38	NOR1278	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg2 studieforberedende utdanningsprogram	Norsk for elever med samisk som førstespråk, vg2 studieforberedende utdanningsprogram, skriftlig	23	29	42
+3	FKAT400	FOMR406	NOR3Z40	NOR3Z40	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	38	35	53
+4	FKAT400	FOMR406	NOR3Z40	NOR1274	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg2 yrkesfaglige utdanningsprogram	Norsk for elever med samisk som førstespråk, vg2 yrkesfaglige utdanningsprogram	38	35	53
+3	FKAT400	FOMR406	NOR3Z41	NOR3Z41	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	13	18	27
+4	FKAT400	FOMR406	NOR3Z41	NOR1282	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg3 påbygging til generell studiekompetanse	Norsk for elever med samisk som førstespråk, Vg3 påbygging til generell studiekompetanse, skriftlig	13	18	27
+3	FKAT400	FOMR406	NOR3Z39	NOR3Z39	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag	32	48	62
+4	FKAT400	FOMR406	NOR3Z39	NOR1280	Norsk og morsmål	Norsk for elever med samisk som førstespråk	Norsk for elever med samisk som førstespråk vg3 studieforberedende utdanningsprogram	Norsk for elever med samisk som førstespråk, Vg3 studieforberedende utdanningsprogram, skriftlig	32	48	62
+2	FKAT400	FOMR407		FOMR407	Norsk og morsmål	Norsk tegnspråk	Alle opplæringsfag	Alle vurderingsfag	48	61	59
+3	FKAT400	FOMR407	NOR4Z37	NOR4Z37	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	22	25	27
+4	FKAT400	FOMR407	NOR4Z37	NOR1068	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg1 studieforberedende utdanningsprogram	Norsk tegnspråk, vg1 studieforberedende utdanningsprogram, tekstskaping	22	25	27
+3	FKAT400	FOMR407	NOR4Z38	NOR4Z38	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg2 studieforberedende utdanningsprogram	Alle vurderingsfag	3	9	7
+4	FKAT400	FOMR407	NOR4Z38	NOR1070	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg2 studieforberedende utdanningsprogram	Norsk tegnspråk, vg2 studieforberedende utdanningsprogram, tekstskaping	3	9	7
+3	FKAT400	FOMR407	NOR4Z40	NOR4Z40	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg2 yrkesfaglige utdanningsprogram	Alle vurderingsfag	11	10	9
+4	FKAT400	FOMR407	NOR4Z40	NOR1066	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg2 yrkesfaglige utdanningsprogram	Norsk tegnspråk, vg2 yrkesfaglige utdanningsprogram	11	10	9
+3	FKAT400	FOMR407	NOR4Z41	NOR4Z41	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	2	3	
+4	FKAT400	FOMR407	NOR4Z41	NOR1074	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg3 påbygging til generell studiekompetanse	Norsk tegnspråk, vg3 påbygging til generell studiekompetanse, tekstskaping	2	3	
+3	FKAT400	FOMR407	NOR4Z39	NOR4Z39	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg3 studieforberedende utdanningsprogram	Alle vurderingsfag		3	7
+4	FKAT400	FOMR407	NOR4Z39	NOR1072	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk vg3 studieforberedende utdanningsprogram	Norsk tegnspråk, vg3 studieforberedende utdanningsprogram, tekstskaping		3	7
+3	FKAT400	FOMR407	NOR4Z42	NOR4Z42	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk, vg1 yrkesfaglige utdanningsprogram	Alle vurderingsfag	10	12	10
+4	FKAT400	FOMR407	NOR4Z42	NOR1065	Norsk og morsmål	Norsk tegnspråk	Norsk tegnspråk, vg1 yrkesfaglige utdanningsprogram	Norsk tegnspråk, vg1 yrkesfaglige utdanningsprogram	10	12	10
+2	FKAT400	FOMR411		FOMR411	Norsk og morsmål	Styrket norsk	Alle opplæringsfag	Alle vurderingsfag	716	731	933
+3	FKAT400	FOMR411	NOR6Z05	NOR6Z05	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg1	Alle vurderingsfag	265	333	470
+4	FKAT400	FOMR411	NOR6Z05	NOR3001	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg1	Norsk, styrket opplæring, vg1	265	333	470
+3	FKAT400	FOMR411	NOR6Z06	NOR6Z06	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg2	Alle vurderingsfag	246	208	279
+4	FKAT400	FOMR411	NOR6Z06	NOR3002	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg2	Norsk, styrket opplæring, vg2	246	208	279
+3	FKAT400	FOMR411	NOR6Z07	NOR6Z07	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg3	Alle vurderingsfag	205	193	184
+4	FKAT400	FOMR411	NOR6Z07	NOR3003	Norsk og morsmål	Styrket norsk	Norsk, styrket opplæring, vg3	Norsk, styrket opplæring, vg3	205	193	184
+2	FKAT400	FOMR413		FOMR413	Norsk og morsmål	Styrket samisk	Alle opplæringsfag	Alle vurderingsfag		1	3
+3	FKAT400	FOMR413	SAS4Z01	SAS4Z01	Norsk og morsmål	Styrket samisk	Samisk, styrket opplæring	Alle vurderingsfag		1	3
+4	FKAT400	FOMR413	SAS4Z01	SAS4000	Norsk og morsmål	Styrket samisk	Samisk, styrket opplæring	Samisk som andrespråk, samisk 4, styrket opplæring		1	3
+1	FKAT500			FKAT500	Realfag	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	127461	126793	129202
+2	FKAT500	FOMR501		FOMR501	Realfag	Biologi	Alle opplæringsfag	Alle vurderingsfag	10724	9911	10229
+3	FKAT500	FOMR501	BIO1Z03	BIO1Z03	Realfag	Biologi	Biologi 1	Alle vurderingsfag	6783	6430	6645
+4	FKAT500	FOMR501	BIO1Z03	REA3035	Realfag	Biologi	Biologi 1	Biologi 1	6783	6430	6645
+3	FKAT500	FOMR501	BIO1Z02	BIO1Z02	Realfag	Biologi	Biologi 2	Biologi 2	32		
+4	FKAT500	FOMR501	BIO1Z02	REA3002	Realfag	Biologi	Biologi 2	Biologi 2	32		
+3	FKAT500	FOMR501	BIO1Z04	BIO1Z04	Realfag	Biologi	Biologi 2	Alle vurderingsfag	3994	3556	3677
+4	FKAT500	FOMR501	BIO1Z04	REA3036	Realfag	Biologi	Biologi 2	Biologi 2	3994	3556	3677
+2	FKAT500	FOMR502		FOMR502	Realfag	Fysikk	Alle opplæringsfag	Alle vurderingsfag	11195	10865	10735
+3	FKAT500	FOMR502	FYS1Z03	FYS1Z03	Realfag	Fysikk	Fysikk 1	Alle vurderingsfag	8058	7825	7892
+4	FKAT500	FOMR502	FYS1Z03	REA3038	Realfag	Fysikk	Fysikk 1	Fysikk 1	8058	7825	7892
+3	FKAT500	FOMR502	FYS1Z02	FYS1Z02	Realfag	Fysikk	Fysikk 2	Alle vurderingsfag		4	
+4	FKAT500	FOMR502	FYS1Z02	REA3005	Realfag	Fysikk	Fysikk 2	Fysikk 2		4	
+3	FKAT500	FOMR502	FYS1Z04	FYS1Z04	Realfag	Fysikk	Fysikk 2	Alle vurderingsfag	3137	3038	2847
+4	FKAT500	FOMR502	FYS1Z04	REA3039	Realfag	Fysikk	Fysikk 2	Fysikk 2	3137	3038	2847
+2	FKAT500	FOMR503		FOMR503	Realfag	Geofag	Alle opplæringsfag	Alle vurderingsfag	1723	1750	1731
+3	FKAT500	FOMR503	GFG1Z05	GFG1Z05	Realfag	Geofag	Geofag 1	Alle vurderingsfag	992	1017	972
+4	FKAT500	FOMR503	GFG1Z05	REA3042	Realfag	Geofag	Geofag 1	Geofag 1	992	1017	972
+3	FKAT500	FOMR503	GFG1Z06	GFG1Z06	Realfag	Geofag	Geofag 2	Alle vurderingsfag	643	622	686
+4	FKAT500	FOMR503	GFG1Z06	REA3043	Realfag	Geofag	Geofag 2	Geofag 2	643	622	686
+3	FKAT500	FOMR503	GFG1Z04	GFG1Z04	Realfag	Geofag	Geofag X	Alle vurderingsfag	95	119	88
+4	FKAT500	FOMR503	GFG1Z04	REA3041	Realfag	Geofag	Geofag X	Geofag X	95	119	88
+2	FKAT500	FOMR504		FOMR504	Realfag	Informasjonsteknologi	Alle opplæringsfag	Alle vurderingsfag	3835	3533	2810
+3	FKAT500	FOMR504	INF1Z01	INF1Z01	Realfag	Informasjonsteknologi	Informasjonsteknologi 1	Informasjonsteknologi 1	42		
+4	FKAT500	FOMR504	INF1Z01	REA3014	Realfag	Informasjonsteknologi	Informasjonsteknologi 1	Informasjonsteknologi 1	42		
+3	FKAT500	FOMR504	INF1Z03	INF1Z03	Realfag	Informasjonsteknologi	Informasjonsteknologi 1	Alle vurderingsfag	2196	2092	1590
+4	FKAT500	FOMR504	INF1Z03	REA3048	Realfag	Informasjonsteknologi	Informasjonsteknologi 1	Informasjonsteknologi 1	2196	2092	1590
+3	FKAT500	FOMR504	INF1Z04	INF1Z04	Realfag	Informasjonsteknologi	Informasjonsteknologi 2	Alle vurderingsfag	1447	1304	1120
+4	FKAT500	FOMR504	INF1Z04	REA3049	Realfag	Informasjonsteknologi	Informasjonsteknologi 2	Informasjonsteknologi 2	1447	1304	1120
+3	FKAT500	FOMR504	PRM1Z02	PRM1Z02	Realfag	Informasjonsteknologi	Programmering og modellering X	Alle vurderingsfag	183	160	120
+4	FKAT500	FOMR504	PRM1Z02	REA3064	Realfag	Informasjonsteknologi	Programmering og modellering X	Programmering og modellering X	183	160	120
+2	FKAT500	FOMR505		FOMR505	Realfag	Kjemi	Alle opplæringsfag	Alle vurderingsfag	12687	11738	11169
+3	FKAT500	FOMR505	KJE1Z03	KJE1Z03	Realfag	Kjemi	Kjemi 1	Alle vurderingsfag	7687	7204	6847
+4	FKAT500	FOMR505	KJE1Z03	REA3045	Realfag	Kjemi	Kjemi 1	Kjemi 1	7687	7204	6847
+3	FKAT500	FOMR505	KJE1Z02	KJE1Z02	Realfag	Kjemi	Kjemi 2	Alle vurderingsfag		9	
+4	FKAT500	FOMR505	KJE1Z02	REA3012	Realfag	Kjemi	Kjemi 2	Kjemi 2		9	
+3	FKAT500	FOMR505	KJE1Z04	KJE1Z04	Realfag	Kjemi	Kjemi 2	Alle vurderingsfag	5024	4546	4339
+4	FKAT500	FOMR505	KJE1Z04	REA3046	Realfag	Kjemi	Kjemi 2	Kjemi 2	5024	4546	4339
+2	FKAT500	FOMR506		FOMR506	Realfag	Matematikk	Alle opplæringsfag	Alle vurderingsfag	122548	121653	123697
+3	FKAT500	FOMR506	MAT8Z01	MAT8Z01	Realfag	Matematikk	Matematikk 1P studieforberedende utdanningsprogram	Alle vurderingsfag	19370	19581	20042
+4	FKAT500	FOMR506	MAT8Z01	MAT1019	Realfag	Matematikk	Matematikk 1P studieforberedende utdanningsprogram	Matematikk 1P	19370	19581	20042
+3	FKAT500	FOMR506	MAT8Z02	MAT8Z02	Realfag	Matematikk	Matematikk 1P-Y BA	Alle vurderingsfag	4539	4632	4746
+4	FKAT500	FOMR506	MAT8Z02	MAT1111	Realfag	Matematikk	Matematikk 1P-Y BA	Matematikk 1P-Y BA	4539	4632	4746
+3	FKAT500	FOMR506	MAT8Z03	MAT8Z03	Realfag	Matematikk	Matematikk 1P-Y DT	Alle vurderingsfag	225	195	192
+4	FKAT500	FOMR506	MAT8Z03	MAT1119	Realfag	Matematikk	Matematikk 1P-Y DT	Matematikk 1P-Y DT	225	195	192
+3	FKAT500	FOMR506	MAT8Z04	MAT8Z04	Realfag	Matematikk	Matematikk 1P-Y EL	Alle vurderingsfag	4210	4362	4622
+4	FKAT500	FOMR506	MAT8Z04	MAT1113	Realfag	Matematikk	Matematikk 1P-Y EL	Matematikk 1P-Y EL	4210	4362	4622
+3	FKAT500	FOMR506	MAT8Z05	MAT8Z05	Realfag	Matematikk	Matematikk 1P-Y FD	Alle vurderingsfag	1111	1137	1309
+4	FKAT500	FOMR506	MAT8Z05	MAT1115	Realfag	Matematikk	Matematikk 1P-Y FD	Matematikk 1P-Y FD	1111	1137	1309
+3	FKAT500	FOMR506	MAT8Z06	MAT8Z06	Realfag	Matematikk	Matematikk 1P-Y HS	Alle vurderingsfag	8010	7686	8174
+4	FKAT500	FOMR506	MAT8Z06	MAT1117	Realfag	Matematikk	Matematikk 1P-Y HS	Matematikk 1P-Y HS	8010	7686	8174
+3	FKAT500	FOMR506	MAT8Z07	MAT8Z07	Realfag	Matematikk	Matematikk 1P-Y IM	Alle vurderingsfag	1417	1468	1478
+4	FKAT500	FOMR506	MAT8Z07	MAT1121	Realfag	Matematikk	Matematikk 1P-Y IM	Matematikk 1P-Y IM	1417	1468	1478
+3	FKAT500	FOMR506	MAT8Z08	MAT8Z08	Realfag	Matematikk	Matematikk 1P-Y NA	Alle vurderingsfag	1803	1799	1783
+4	FKAT500	FOMR506	MAT8Z08	MAT1123	Realfag	Matematikk	Matematikk 1P-Y NA	Matematikk 1P-Y NA	1803	1799	1783
+3	FKAT500	FOMR506	MAT8Z09	MAT8Z09	Realfag	Matematikk	Matematikk 1P-Y RM	Alle vurderingsfag	1432	1421	1614
+4	FKAT500	FOMR506	MAT8Z09	MAT1125	Realfag	Matematikk	Matematikk 1P-Y RM	Matematikk 1P-Y RM	1432	1421	1614
+3	FKAT500	FOMR506	MAT8Z10	MAT8Z10	Realfag	Matematikk	Matematikk 1P-Y SR	Alle vurderingsfag	2508	2690	3026
+4	FKAT500	FOMR506	MAT8Z10	MAT1127	Realfag	Matematikk	Matematikk 1P-Y SR	Matematikk 1P-Y SR	2508	2690	3026
+3	FKAT500	FOMR506	MAT8Z11	MAT8Z11	Realfag	Matematikk	Matematikk 1P-Y TP	Alle vurderingsfag	6167	6448	6910
+4	FKAT500	FOMR506	MAT8Z11	MAT1129	Realfag	Matematikk	Matematikk 1P-Y TP	Matematikk 1P-Y TP	6167	6448	6910
+3	FKAT500	FOMR506	MAT9Z01	MAT9Z01	Realfag	Matematikk	Matematikk 1T studieforberedende utdanningsprogram	Alle vurderingsfag	17197	17072	17182
+4	FKAT500	FOMR506	MAT9Z01	MAT1021	Realfag	Matematikk	Matematikk 1T studieforberedende utdanningsprogram	Matematikk 1T	17197	17072	17182
+3	FKAT500	FOMR506	MAT9Z02	MAT9Z02	Realfag	Matematikk	Matematikk 1T-Y BA	Alle vurderingsfag	6		6
+4	FKAT500	FOMR506	MAT9Z02	MAT1131	Realfag	Matematikk	Matematikk 1T-Y BA	Matematikk 1T-Y BA	6		6
+3	FKAT500	FOMR506	MAT9Z04	MAT9Z04	Realfag	Matematikk	Matematikk 1T-Y EL	Alle vurderingsfag	178	139	122
+4	FKAT500	FOMR506	MAT9Z04	MAT1133	Realfag	Matematikk	Matematikk 1T-Y EL	Matematikk 1T-Y EL	178	139	122
+3	FKAT500	FOMR506	MAT9Z06	MAT9Z06	Realfag	Matematikk	Matematikk 1T-Y HS	Matematikk 1T-Y HS	1		
+4	FKAT500	FOMR506	MAT9Z06	MAT1137	Realfag	Matematikk	Matematikk 1T-Y HS	Matematikk 1T-Y HS	1		
+3	FKAT500	FOMR506	MAT9Z07	MAT9Z07	Realfag	Matematikk	Matematikk 1T-Y IM	Alle vurderingsfag	19	6	24
+4	FKAT500	FOMR506	MAT9Z07	MAT1141	Realfag	Matematikk	Matematikk 1T-Y IM	Matematikk 1T-Y IM	19	6	24
+3	FKAT500	FOMR506	MAT5Z05	MAT5Z05	Realfag	Matematikk	Matematikk 2P	Alle vurderingsfag	20093	21026	21451
+4	FKAT500	FOMR506	MAT5Z05	MAT1023	Realfag	Matematikk	Matematikk 2P	Matematikk 2P	20093	21026	21451
+3	FKAT500	FOMR506	MAT6Z01	MAT6Z01	Realfag	Matematikk	Matematikk 2P-Y	Alle vurderingsfag	213	15	15
+4	FKAT500	FOMR506	MAT6Z01	MAT1005	Realfag	Matematikk	Matematikk 2P-Y	Matematikk 2P-Y	213	15	15
+3	FKAT500	FOMR506	MAT6Z05	MAT6Z05	Realfag	Matematikk	Matematikk 2P-Y	Alle vurderingsfag	9624	9540	9880
+4	FKAT500	FOMR506	MAT6Z05	MAT1151	Realfag	Matematikk	Matematikk 2P-Y	Matematikk 2P-Y	9624	9540	9880
+3	FKAT500	FOMR506	MAT3Z03	MAT3Z03	Realfag	Matematikk	Matematikk R1	Alle vurderingsfag	9297	9764	10314
+4	FKAT500	FOMR506	MAT3Z03	REA3056	Realfag	Matematikk	Matematikk R1	Matematikk R1	9297	9764	10314
+3	FKAT500	FOMR506	MAT3Z02	MAT3Z02	Realfag	Matematikk	Matematikk R2	Alle vurderingsfag		29	
+4	FKAT500	FOMR506	MAT3Z02	REA3024	Realfag	Matematikk	Matematikk R2	Matematikk R2		29	
+3	FKAT500	FOMR506	MAT3Z04	MAT3Z04	Realfag	Matematikk	Matematikk R2	Alle vurderingsfag	5959	5954	5905
+4	FKAT500	FOMR506	MAT3Z04	REA3058	Realfag	Matematikk	Matematikk R2	Matematikk R2	5959	5954	5905
+3	FKAT500	FOMR506	MAT4Z03	MAT4Z03	Realfag	Matematikk	Matematikk S1	Alle vurderingsfag	5010	3710	2774
+4	FKAT500	FOMR506	MAT4Z03	REA3060	Realfag	Matematikk	Matematikk S1	Matematikk S1	5010	3710	2774
+3	FKAT500	FOMR506	MAT4Z02	MAT4Z02	Realfag	Matematikk	Matematikk S2	Matematikk S2	6		
+4	FKAT500	FOMR506	MAT4Z02	REA3028	Realfag	Matematikk	Matematikk S2	Matematikk S2	6		
+3	FKAT500	FOMR506	MAT4Z04	MAT4Z04	Realfag	Matematikk	Matematikk S2	Alle vurderingsfag	4965	3580	2657
+4	FKAT500	FOMR506	MAT4Z04	REA3062	Realfag	Matematikk	Matematikk S2	Matematikk S2	4965	3580	2657
+3	FKAT500	FOMR506	MAT2Z02	MAT2Z02	Realfag	Matematikk	Matematikk X	Alle vurderingsfag	15	37	46
+4	FKAT500	FOMR506	MAT2Z02	REA3055	Realfag	Matematikk	Matematikk X	Matematikk X	15	37	46
+2	FKAT500	FOMR507		FOMR507	Realfag	Naturfag	Alle opplæringsfag	Alle vurderingsfag	77627	77975	80876
+3	FKAT500	FOMR507	NAT1Z07	NAT1Z07	Realfag	Naturfag	Naturfag i videregående opplæring vg3 påbygging til generell studiekompentanse	Alle vurderingsfag	154	15	15
+4	FKAT500	FOMR507	NAT1Z07	NAT1003	Realfag	Naturfag	Naturfag i videregående opplæring vg3 påbygging til generell studiekompentanse	Naturfag, vg3 påbygging til generell studiekompetanse	154	15	15
+3	FKAT500	FOMR507	NAT1Z26	NAT1Z26	Realfag	Naturfag	Naturfag vg1 BA	Alle vurderingsfag	4524	4586	4704
+4	FKAT500	FOMR507	NAT1Z26	NAT1008	Realfag	Naturfag	Naturfag vg1 BA	Naturfag vg1 BA	4524	4586	4704
+3	FKAT500	FOMR507	NAT2Z26	NAT2Z26	Realfag	Naturfag	Naturfag vg1 BA, samisk plan	Alle vurderingsfag	12	17	17
+4	FKAT500	FOMR507	NAT2Z26	NAT1020	Realfag	Naturfag	Naturfag vg1 BA, samisk plan	Naturfag vg1 BA, samisk plan	12	17	17
+3	FKAT500	FOMR507	NAT1Z27	NAT1Z27	Realfag	Naturfag	Naturfag vg1 DT	Alle vurderingsfag	193	189	187
+4	FKAT500	FOMR507	NAT1Z27	NAT1012	Realfag	Naturfag	Naturfag vg1 DT	Naturfag vg1 DT	193	189	187
+3	FKAT500	FOMR507	NAT2Z27	NAT2Z27	Realfag	Naturfag	Naturfag vg1 DT, samisk plan	Alle vurderingsfag	2	5	
+4	FKAT500	FOMR507	NAT2Z27	NAT1024	Realfag	Naturfag	Naturfag vg1 DT, samisk plan	Naturfag vg1 DT, samisk plan	2	5	
+3	FKAT500	FOMR507	NAT1Z28	NAT1Z28	Realfag	Naturfag	Naturfag vg1 EL	Alle vurderingsfag	4444	4588	4831
+4	FKAT500	FOMR507	NAT1Z28	NAT1009	Realfag	Naturfag	Naturfag vg1 EL	Naturfag vg1 EL	4444	4588	4831
+3	FKAT500	FOMR507	NAT1Z29	NAT1Z29	Realfag	Naturfag	Naturfag vg1 FD	Alle vurderingsfag	1124	1128	1286
+4	FKAT500	FOMR507	NAT1Z29	NAT1010	Realfag	Naturfag	Naturfag vg1 FD	Naturfag vg1 FD	1124	1128	1286
+3	FKAT500	FOMR507	NAT1Z30	NAT1Z30	Realfag	Naturfag	Naturfag vg1 HS	Alle vurderingsfag	7879	7644	8183
+4	FKAT500	FOMR507	NAT1Z30	NAT1011	Realfag	Naturfag	Naturfag vg1 HS	Naturfag vg1 HS	7879	7644	8183
+3	FKAT500	FOMR507	NAT2Z30	NAT2Z30	Realfag	Naturfag	Naturfag vg1 HS, samisk plan	Alle vurderingsfag	4	5	4
+4	FKAT500	FOMR507	NAT2Z30	NAT1023	Realfag	Naturfag	Naturfag vg1 HS, samisk plan	Naturfag vg1 HS, samisk plan	4	5	4
+3	FKAT500	FOMR507	NAT1Z31	NAT1Z31	Realfag	Naturfag	Naturfag vg1 IM	Alle vurderingsfag	1453	1511	1530
+4	FKAT500	FOMR507	NAT1Z31	NAT1013	Realfag	Naturfag	Naturfag vg1 IM	Naturfag vg1 IM	1453	1511	1530
+3	FKAT500	FOMR507	NAT1Z32	NAT1Z32	Realfag	Naturfag	Naturfag vg1 NA	Alle vurderingsfag	1876	1804	1797
+4	FKAT500	FOMR507	NAT1Z32	NAT1014	Realfag	Naturfag	Naturfag vg1 NA	Naturfag vg1 NA	1876	1804	1797
+3	FKAT500	FOMR507	NAT2Z32	NAT2Z32	Realfag	Naturfag	Naturfag vg1 NA, samisk plan	Alle vurderingsfag	13	15	10
+4	FKAT500	FOMR507	NAT2Z32	NAT1026	Realfag	Naturfag	Naturfag vg1 NA, samisk plan	Naturfag vg1 NA, samisk plan	13	15	10
+3	FKAT500	FOMR507	NAT1Z33	NAT1Z33	Realfag	Naturfag	Naturfag vg1 RM	Alle vurderingsfag	1405	1393	1608
+4	FKAT500	FOMR507	NAT1Z33	NAT1015	Realfag	Naturfag	Naturfag vg1 RM	Naturfag vg1 RM	1405	1393	1608
+3	FKAT500	FOMR507	NAT2Z33	NAT2Z33	Realfag	Naturfag	Naturfag vg1 RM, samisk plan	Alle vurderingsfag	1	2	4
+4	FKAT500	FOMR507	NAT2Z33	NAT1027	Realfag	Naturfag	Naturfag vg1 RM, samisk plan	Naturfag vg1 RM, samisk plan	1	2	4
+3	FKAT500	FOMR507	NAT1Z34	NAT1Z34	Realfag	Naturfag	Naturfag vg1 SR	Alle vurderingsfag	2545	2766	3068
+4	FKAT500	FOMR507	NAT1Z34	NAT1016	Realfag	Naturfag	Naturfag vg1 SR	Naturfag vg1 SR	2545	2766	3068
+3	FKAT500	FOMR507	NAT1Z25	NAT1Z25	Realfag	Naturfag	Naturfag vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	36303	36390	36940
+4	FKAT500	FOMR507	NAT1Z25	NAT1007	Realfag	Naturfag	Naturfag vg1 studieforberedende utdanningsprogram	Naturfag vg1 studieforberedende utdanningsprogram	36303	36390	36940
+3	FKAT500	FOMR507	NAT2Z25	NAT2Z25	Realfag	Naturfag	Naturfag vg1 studieforberedende utdanningsprogram, samisk plan	Alle vurderingsfag	27	12	17
+4	FKAT500	FOMR507	NAT2Z25	NAT1019	Realfag	Naturfag	Naturfag vg1 studieforberedende utdanningsprogram, samisk plan	Naturfag vg1 studieforberedende utdanningsprogram, samisk plan	27	12	17
+3	FKAT500	FOMR507	NAT1Z35	NAT1Z35	Realfag	Naturfag	Naturfag vg1 TP	Alle vurderingsfag	6112	6410	6863
+4	FKAT500	FOMR507	NAT1Z35	NAT1017	Realfag	Naturfag	Naturfag vg1 TP	Naturfag vg1 TP	6112	6410	6863
+3	FKAT500	FOMR507	NAT2Z35	NAT2Z35	Realfag	Naturfag	Naturfag vg1 TP, samisk plan	Alle vurderingsfag	13	9	9
+4	FKAT500	FOMR507	NAT2Z35	NAT1029	Realfag	Naturfag	Naturfag vg1 TP, samisk plan	Naturfag vg1 TP, samisk plan	13	9	9
+3	FKAT500	FOMR507	NAT1Z36	NAT1Z36	Realfag	Naturfag	Naturfag vg3 påbygging til generell studiekompetanse	Alle vurderingsfag	9684	9638	9823
+4	FKAT500	FOMR507	NAT1Z36	NAT1018	Realfag	Naturfag	Naturfag vg3 påbygging til generell studiekompetanse	Naturfag Vg3 påbygging til generell studiekompetanse	9684	9638	9823
+3	FKAT500	FOMR507	NAT2Z36	NAT2Z36	Realfag	Naturfag	Naturfag vg3 påbygging til generell studiekompetanse, samisk plan	Alle vurderingsfag	12	18	45
+4	FKAT500	FOMR507	NAT2Z36	NAT1030	Realfag	Naturfag	Naturfag vg3 påbygging til generell studiekompetanse, samisk plan	Naturfag Vg3 påbygging til generell studiekompetanse, samisk plan	12	18	45
+2	FKAT500	FOMR508		FOMR508	Realfag	Teknologi og forskningslære	Alle opplæringsfag	Alle vurderingsfag	1880	1810	1530
+3	FKAT500	FOMR508	TNF1Z02	TNF1Z02	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 1	Alle vurderingsfag	25	1	
+4	FKAT500	FOMR508	TNF1Z02	REA3018	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 1	Teknologi og forskningslære 1	25	1	
+3	FKAT500	FOMR508	TNF1Z05	TNF1Z05	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 1	Alle vurderingsfag	1221	1261	1053
+4	FKAT500	FOMR508	TNF1Z05	REA3052	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 1	Teknologi og forskningslære 1	1221	1261	1053
+3	FKAT500	FOMR508	TNF1Z06	TNF1Z06	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 2	Alle vurderingsfag	387	360	314
+4	FKAT500	FOMR508	TNF1Z06	REA3053	Realfag	Teknologi og forskningslære	Teknologi og forskningslære 2	Teknologi og forskningslære 2	387	360	314
+3	FKAT500	FOMR508	TNF1Z01	TNF1Z01	Realfag	Teknologi og forskningslære	Teknologi og forskningslære X	Teknologi og forskningslære X	10		
+4	FKAT500	FOMR508	TNF1Z01	REA3017	Realfag	Teknologi og forskningslære	Teknologi og forskningslære X	Teknologi og forskningslære X	10		
+3	FKAT500	FOMR508	TNF1Z04	TNF1Z04	Realfag	Teknologi og forskningslære	Teknologi og forskningslære X	Alle vurderingsfag	237	193	163
+4	FKAT500	FOMR508	TNF1Z04	REA3051	Realfag	Teknologi og forskningslære	Teknologi og forskningslære X	Teknologi og forskningslære X	237	193	163
+1	FKAT600			FKAT600	Religion og livssyn	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	32983	32421	32455
+2	FKAT600	FOMR602		FOMR602	Religion og livssyn	Religion og etikk	Alle opplæringsfag	Alle vurderingsfag	32983	32421	32455
+3	FKAT600	FOMR602	REL1Z01	REL1Z01	Religion og livssyn	Religion og etikk	Religion og etikk	Alle vurderingsfag	156	46	1
+4	FKAT600	FOMR602	REL1Z01	REL1001	Religion og livssyn	Religion og etikk	Religion og etikk	Religion og etikk	156	46	1
+3	FKAT600	FOMR602	REL1Z02	REL1Z02	Religion og livssyn	Religion og etikk	Religion og etikk	Alle vurderingsfag	32797	32352	32431
+4	FKAT600	FOMR602	REL1Z02	REL1003	Religion og livssyn	Religion og etikk	Religion og etikk	Religion og etikk	32797	32352	32431
+3	FKAT600	FOMR602	REL2Z02	REL2Z02	Religion og livssyn	Religion og etikk	Religion og etikk, samisk plan	Alle vurderingsfag	30	23	23
+4	FKAT600	FOMR602	REL2Z02	REL1004	Religion og livssyn	Religion og etikk	Religion og etikk, samisk plan	Religion og etikk, samisk plan	30	23	23
+1	FKAT700			FKAT700	Språkfag	Alle fagområder	Alle opplæringsfag	Alle vurderingsfag	107760	108532	110738
+2	FKAT700	FOMR701		FOMR701	Språkfag	Antikkens språk og kultur	Alle opplæringsfag	Alle vurderingsfag	156	141	168
+3	FKAT700	FOMR701	ASK1Z01	ASK1Z01	Språkfag	Antikkens språk og kultur	Antikkens kultur	Antikkens kultur	22		
+4	FKAT700	FOMR701	ASK1Z01	SPR3001	Språkfag	Antikkens språk og kultur	Antikkens kultur	Antikkens kultur	22		
+3	FKAT700	FOMR701	ASK2Z01	ASK2Z01	Språkfag	Antikkens språk og kultur	Antikkens kultur	Alle vurderingsfag	9	23	46
+4	FKAT700	FOMR701	ASK2Z01	SPR3022	Språkfag	Antikkens språk og kultur	Antikkens kultur	Antikkens kultur	9	23	46
+3	FKAT700	FOMR701	ASK3Z03	ASK3Z03	Språkfag	Antikkens språk og kultur	Latin 1	Alle vurderingsfag	89	97	93
+4	FKAT700	FOMR701	ASK3Z03	SPR3026	Språkfag	Antikkens språk og kultur	Latin 1	Latin 1	89	97	93
+3	FKAT700	FOMR701	ASK3Z04	ASK3Z04	Språkfag	Antikkens språk og kultur	Latin 2	Alle vurderingsfag	36	21	29
+4	FKAT700	FOMR701	ASK3Z04	SPR3027	Språkfag	Antikkens språk og kultur	Latin 2	Latin 2	36	21	29
+2	FKAT700	FOMR702		FOMR702	Språkfag	Engelsk	Alle opplæringsfag	Alle vurderingsfag	77943	78471	80399
+3	FKAT700	FOMR702	ENG4Z04	ENG4Z04	Språkfag	Engelsk	Engelsk 1 programfag	Alle vurderingsfag	6454	6386	5900
+4	FKAT700	FOMR702	ENG4Z04	SPR3029	Språkfag	Engelsk	Engelsk 1 programfag	Engelsk 1	6454	6386	5900
+3	FKAT700	FOMR702	ENG4Z05	ENG4Z05	Språkfag	Engelsk	Engelsk 2 programfag	Alle vurderingsfag	3756	3947	3649
+4	FKAT700	FOMR702	ENG4Z05	SPR3031	Språkfag	Engelsk	Engelsk 2 programfag	Engelsk 2	3756	3947	3649
+3	FKAT700	FOMR702	ENG1Z05	ENG1Z05	Språkfag	Engelsk	Engelsk vg1 studieforberedende og vg2 yrkesfaglige utdanningsprogram	Engelsk vg1 studieforberedende og vg2 yrkesfaglige utdanningsprogram	3		
+4	FKAT700	FOMR702	ENG1Z05	ENG1003	Språkfag	Engelsk	Engelsk vg1 studieforberedende og vg2 yrkesfaglige utdanningsprogram	Engelsk, vg2 yrkesfaglige utdanningsprogram	3		
+3	FKAT700	FOMR702	ENG1Z23	ENG1Z23	Språkfag	Engelsk	Engelsk vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	35648	35840	36474
+4	FKAT700	FOMR702	ENG1Z23	ENG1007	Språkfag	Engelsk	Engelsk vg1 studieforberedende utdanningsprogram	Engelsk vg1 studieforberedende utdanningsprogram	35648	35840	36474
+3	FKAT700	FOMR702	ENG1Z24	ENG1Z24	Språkfag	Engelsk	Engelsk vg1 yrkesfaglige utdanningsprogram	Alle vurderingsfag	32120	32374	34423
+4	FKAT700	FOMR702	ENG1Z24	ENG1009	Språkfag	Engelsk	Engelsk vg1 yrkesfaglige utdanningsprogram	Engelsk vg1 yrkesfaglige utdanningsprogram	32120	32374	34423
+3	FKAT700	FOMR702	ENG4Z01	ENG4Z01	Språkfag	Engelsk	Internasjonal engelsk	Internasjonal engelsk	14		
+4	FKAT700	FOMR702	ENG4Z01	SPR3008	Språkfag	Engelsk	Internasjonal engelsk	Internasjonal engelsk, skriftlig	14		
+3	FKAT700	FOMR702	ENG4Z02	ENG4Z02	Språkfag	Engelsk	Samfunnsfaglig engelsk	Samfunnsfaglig engelsk	18		
+4	FKAT700	FOMR702	ENG4Z02	SPR3010	Språkfag	Engelsk	Samfunnsfaglig engelsk	Samfunnsfaglig engelsk, skriftlig	18		
+2	FKAT700	FOMR703		FOMR703	Språkfag	Engelsk for døve og sterkt tunghørte	Alle opplæringsfag	Alle vurderingsfag	22	17	16
+3	FKAT700	FOMR703	ENG2Z23	ENG2Z23	Språkfag	Engelsk for døve og sterkt tunghørte	Engelsk for elever med tegnspråk, vg1 studieforberedende utdanningsprogram	Alle vurderingsfag	10	9	9
+4	FKAT700	FOMR703	ENG2Z23	ENG1011	Språkfag	Engelsk for døve og sterkt tunghørte	Engelsk for elever med tegnspråk, vg1 studieforberedende utdanningsprogram	Engelsk for elever med tegnspråk, vg1 studieforberedende utdanningsprogram	10	9	9
+3	FKAT700	FOMR703	ENG2Z24	ENG2Z24	Språkfag	Engelsk for døve og sterkt tunghørte	Engelsk for elever med tegnspråk, vg1 yrkesfaglige utdanningsprogram	Alle vurderingsfag	12	8	7
+4	FKAT700	FOMR703	ENG2Z24	ENG1013	Språkfag	Engelsk for døve og sterkt tunghørte	Engelsk for elever med tegnspråk, vg1 yrkesfaglige utdanningsprogram	Engelsk for elever med tegnspråk, vg1 yrkesfaglige utdanningsprogram	12	8	7
+2	FKAT700	FOMR802		FOMR802	Språkfag	Fremmedspråk fellesfag	Alle opplæringsfag	Alle vurderingsfag	64460	64113	63723
+3	FKAT700	FOMR802	FSP1X03	FSP1X03	Språkfag	Fremmedspråk fellesfag	Albansk fellesfag	Albansk fellesfag	1		
+4	FKAT700	FOMR802	FSP1X03	FSP6249	Språkfag	Fremmedspråk fellesfag	Albansk fellesfag	Albansk I	1		
+3	FKAT700	FOMR802	FSP1X06	FSP1X06	Språkfag	Fremmedspråk fellesfag	Arabisk fellesfag	Alle vurderingsfag			1
+4	FKAT700	FOMR802	FSP1X06	FSP6262	Språkfag	Fremmedspråk fellesfag	Arabisk fellesfag	Arabisk II			1
+3	FKAT700	FOMR802	FSP1X13	FSP1X13	Språkfag	Fremmedspråk fellesfag	Finsk fellesfag	Alle vurderingsfag		20	21
+4	FKAT700	FOMR802	FSP1X13	FSP6139	Språkfag	Fremmedspråk fellesfag	Finsk fellesfag	Finsk I		20	19
+4	FKAT700	FOMR802	FSP1X13	FSP6142	Språkfag	Fremmedspråk fellesfag	Finsk fellesfag	Finsk II			3
+3	FKAT700	FOMR802	FSP1X14	FSP1X14	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Alle vurderingsfag	7977	7799	7540
+4	FKAT700	FOMR802	FSP1X14	FSP6148	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk I, 1. år	418	363	392
+4	FKAT700	FOMR802	FSP1X14	FSP6149	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk I	416	379	348
+4	FKAT700	FOMR802	FSP1X14	FSP6151	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk II, 1. år	3429	3303	3277
+4	FKAT700	FOMR802	FSP1X14	FSP6152	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk II	3048	3155	2954
+4	FKAT700	FOMR802	FSP1X14	FSP6154	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk I+II, 1. år	234	246	226
+4	FKAT700	FOMR802	FSP1X14	FSP6155	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk I+II, 2. år	202	185	182
+4	FKAT700	FOMR802	FSP1X14	FSP6156	Språkfag	Fremmedspråk fellesfag	Fransk fellesfag	Fransk I+II	239	186	173
+3	FKAT700	FOMR802	FSP1X19	FSP1X19	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Alle vurderingsfag	459	407	444
+4	FKAT700	FOMR802	FSP1X19	FSP6158	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Italiensk I, 1. år	93	195	179
+4	FKAT700	FOMR802	FSP1X19	FSP6159	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Italiensk I	256	87	140
+4	FKAT700	FOMR802	FSP1X19	FSP6164	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Italiensk I+II, 1. år	53	47	45
+4	FKAT700	FOMR802	FSP1X19	FSP6165	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Italiensk I+II, 2. år	24	37	40
+4	FKAT700	FOMR802	FSP1X19	FSP6166	Språkfag	Fremmedspråk fellesfag	Italiensk fellesfag	Italiensk I+II	34	42	40
+3	FKAT700	FOMR802	FSP1X20	FSP1X20	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Alle vurderingsfag	95	68	48
+4	FKAT700	FOMR802	FSP1X20	FSP6168	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Japansk I, 1. år	30	18	12
+4	FKAT700	FOMR802	FSP1X20	FSP6169	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Japansk I	44	27	21
+4	FKAT700	FOMR802	FSP1X20	FSP6174	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Japansk I+II, 1. år	3	6	9
+4	FKAT700	FOMR802	FSP1X20	FSP6175	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Japansk I+II, 2. år	13	3	3
+4	FKAT700	FOMR802	FSP1X20	FSP6176	Språkfag	Fremmedspråk fellesfag	Japansk fellesfag	Japansk I+II	5	14	3
+3	FKAT700	FOMR802	FSP1X23	FSP1X23	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Alle vurderingsfag	456	347	334
+4	FKAT700	FOMR802	FSP1X23	FSP6288	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk I, 1. år	156	161	167
+4	FKAT700	FOMR802	FSP1X23	FSP6289	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk I	227	128	129
+4	FKAT700	FOMR802	FSP1X23	FSP6291	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk II, 1. år	27	11	8
+4	FKAT700	FOMR802	FSP1X23	FSP6292	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk II	16	23	7
+4	FKAT700	FOMR802	FSP1X23	FSP6294	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk I+II, 2. år	10	7	4
+4	FKAT700	FOMR802	FSP1X23	FSP6295	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk I+II, 1. år	11	5	14
+4	FKAT700	FOMR802	FSP1X23	FSP6296	Språkfag	Fremmedspråk fellesfag	Kinesisk fellesfag	Kinesisk I+II	11	12	5
+3	FKAT700	FOMR802	FSP1X33	FSP1X33	Språkfag	Fremmedspråk fellesfag	Lulesamisk fellesfag	Alle vurderingsfag		9	
+4	FKAT700	FOMR802	FSP1X33	FSP6182	Språkfag	Fremmedspråk fellesfag	Lulesamisk fellesfag	Lulesamisk II		9	
+3	FKAT700	FOMR802	FSP1X39	FSP1X39	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Alle vurderingsfag	57	47	14
+4	FKAT700	FOMR802	FSP1X39	FSP6188	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk I, 1. år	18	15	
+4	FKAT700	FOMR802	FSP1X39	FSP6189	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk I	12	21	
+4	FKAT700	FOMR802	FSP1X39	FSP6192	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk II			1
+4	FKAT700	FOMR802	FSP1X39	FSP6194	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk I+II, 1. år	7		
+4	FKAT700	FOMR802	FSP1X39	FSP6195	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk I+II, 2. år	10	4	7
+4	FKAT700	FOMR802	FSP1X39	FSP6196	Språkfag	Fremmedspråk fellesfag	Nordsamisk fellesfag	Nordsamisk I+II	10	7	6
+3	FKAT700	FOMR802	FSP1X45	FSP1X45	Språkfag	Fremmedspråk fellesfag	Polsk fellesfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR802	FSP1X45	FSP6329	Språkfag	Fremmedspråk fellesfag	Polsk fellesfag	Polsk I		1	
+3	FKAT700	FOMR802	FSP1X48	FSP1X48	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Alle vurderingsfag	122	93	85
+4	FKAT700	FOMR802	FSP1X48	FSP6208	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk I, 1. år	45	40	26
+4	FKAT700	FOMR802	FSP1X48	FSP6209	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk I	54	34	34
+4	FKAT700	FOMR802	FSP1X48	FSP6211	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk II, 1. år	5	4	11
+4	FKAT700	FOMR802	FSP1X48	FSP6212	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk II	7	5	5
+4	FKAT700	FOMR802	FSP1X48	FSP6214	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk I+II, 1. år	4	4	3
+4	FKAT700	FOMR802	FSP1X48	FSP6215	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk I+II, 2. år	3	2	5
+4	FKAT700	FOMR802	FSP1X48	FSP6216	Språkfag	Fremmedspråk fellesfag	Russisk fellesfag	Russisk I+II	4	4	1
+3	FKAT700	FOMR802	FSP1X51	FSP1X51	Språkfag	Fremmedspråk fellesfag	Somali fellesfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR802	FSP1X51	FSP6339	Språkfag	Fremmedspråk fellesfag	Somali fellesfag	Somali I		1	
+3	FKAT700	FOMR802	FSP1X52	FSP1X52	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Alle vurderingsfag	30240	30986	31517
+4	FKAT700	FOMR802	FSP1X52	FSP5098	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I+II	4		
+4	FKAT700	FOMR802	FSP1X52	FSP6218	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I, 1. år	2544	2524	2351
+4	FKAT700	FOMR802	FSP1X52	FSP6219	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I	2128	2270	2176
+4	FKAT700	FOMR802	FSP1X52	FSP6221	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk II, 1. år	10800	11094	11423
+4	FKAT700	FOMR802	FSP1X52	FSP6222	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk II	10062	10075	10288
+4	FKAT700	FOMR802	FSP1X52	FSP6224	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I+II, 1. år	2016	2138	2086
+4	FKAT700	FOMR802	FSP1X52	FSP6225	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I+II, 2. år	1415	1579	1729
+4	FKAT700	FOMR802	FSP1X52	FSP6226	Språkfag	Fremmedspråk fellesfag	Spansk fellesfag	Spansk I+II	1339	1366	1501
+3	FKAT700	FOMR802	FSP1X57	FSP1X57	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Alle vurderingsfag	278	317	340
+4	FKAT700	FOMR802	FSP1X57	FSP6228	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Tegnspråk I, 1. år	77	102	82
+4	FKAT700	FOMR802	FSP1X57	FSP6229	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Tegnspråk I	69	75	94
+4	FKAT700	FOMR802	FSP1X57	FSP6234	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Tegnspråk I+II, 1. år	58	63	73
+4	FKAT700	FOMR802	FSP1X57	FSP6235	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Tegnspråk I+II, 2. år	37	41	49
+4	FKAT700	FOMR802	FSP1X57	FSP6236	Språkfag	Fremmedspråk fellesfag	Tegnspråk fellesfag	Tegnspråk I+II	37	36	42
+3	FKAT700	FOMR802	FSP1X59	FSP1X59	Språkfag	Fremmedspråk fellesfag	Tigrinja fellesfag	Tigrinja fellesfag	3		
+4	FKAT700	FOMR802	FSP1X59	FSP6502	Språkfag	Fremmedspråk fellesfag	Tigrinja fellesfag	Tigrinja II	3		
+3	FKAT700	FOMR802	FSP1X62	FSP1X62	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Alle vurderingsfag	24861	24061	23410
+4	FKAT700	FOMR802	FSP1X62	FSP5125	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I+II	13	14	
+4	FKAT700	FOMR802	FSP1X62	FSP6238	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I, 1. år	2703	2786	2614
+4	FKAT700	FOMR802	FSP1X62	FSP6239	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I	2291	2467	2487
+4	FKAT700	FOMR802	FSP1X62	FSP6241	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk II, 1. år	7324	6633	6369
+4	FKAT700	FOMR802	FSP1X62	FSP6242	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk II	7401	6886	6214
+4	FKAT700	FOMR802	FSP1X62	FSP6244	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I+II, 1. år	2083	2148	2380
+4	FKAT700	FOMR802	FSP1X62	FSP6245	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I+II, 2. år	1644	1727	1805
+4	FKAT700	FOMR802	FSP1X62	FSP6246	Språkfag	Fremmedspråk fellesfag	Tysk fellesfag	Tysk I+II	1440	1484	1628
+3	FKAT700	FOMR802	FSP1X64	FSP1X64	Språkfag	Fremmedspråk fellesfag	Urdu fellesfag	Alle vurderingsfag			38
+4	FKAT700	FOMR802	FSP1X64	FSP6368	Språkfag	Fremmedspråk fellesfag	Urdu fellesfag	Urdu I, 1. år			26
+4	FKAT700	FOMR802	FSP1X64	FSP6374	Språkfag	Fremmedspråk fellesfag	Urdu fellesfag	Urdu I+II, 1. år			12
+2	FKAT700	FOMR801		FOMR801	Språkfag	Fremmedspråk programfag	Alle opplæringsfag	Alle vurderingsfag	1660	1776	1559
+3	FKAT700	FOMR801	PSP1X03	PSP1X03	Språkfag	Fremmedspråk programfag	Albansk programfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR801	PSP1X03	PSP5878	Språkfag	Fremmedspråk programfag	Albansk programfag	Albansk nivå III		1	
+3	FKAT700	FOMR801	PSP1X06	PSP1X06	Språkfag	Fremmedspråk programfag	Arabisk programfag	Alle vurderingsfag	30	28	16
+4	FKAT700	FOMR801	PSP1X06	PSP5856	Språkfag	Fremmedspråk programfag	Arabisk programfag	Arabisk nivå I	24	19	4
+4	FKAT700	FOMR801	PSP1X06	PSP5858	Språkfag	Fremmedspråk programfag	Arabisk programfag	Arabisk nivå II	6	7	12
+4	FKAT700	FOMR801	PSP1X06	PSP5860	Språkfag	Fremmedspråk programfag	Arabisk programfag	Arabisk nivå III		2	
+3	FKAT700	FOMR801	PSP1X12	PSP1X12	Språkfag	Fremmedspråk programfag	Filipino programfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR801	PSP1X12	PSP5962	Språkfag	Fremmedspråk programfag	Filipino programfag	Filipino nivå III		1	
+3	FKAT700	FOMR801	PSP1X15	PSP1X15	Språkfag	Fremmedspråk programfag	Fransk programfag	Alle vurderingsfag	285	317	286
+4	FKAT700	FOMR801	PSP1X15	PSP5796	Språkfag	Fremmedspråk programfag	Fransk programfag	Fransk nivå I			1
+4	FKAT700	FOMR801	PSP1X15	PSP5798	Språkfag	Fremmedspråk programfag	Fransk programfag	Fransk nivå II	18	1	7
+4	FKAT700	FOMR801	PSP1X15	PSP5800	Språkfag	Fremmedspråk programfag	Fransk programfag	Fransk nivå III	267	316	279
+3	FKAT700	FOMR801	PSP1X20	PSP1X20	Språkfag	Fremmedspråk programfag	Italiensk programfag	Alle vurderingsfag	66	89	66
+4	FKAT700	FOMR801	PSP1X20	PSP5844	Språkfag	Fremmedspråk programfag	Italiensk programfag	Italiensk nivå I	37	51	17
+4	FKAT700	FOMR801	PSP1X20	PSP5846	Språkfag	Fremmedspråk programfag	Italiensk programfag	Italiensk nivå II	18	30	26
+4	FKAT700	FOMR801	PSP1X20	PSP5848	Språkfag	Fremmedspråk programfag	Italiensk programfag	Italiensk nivå III	11	8	23
+3	FKAT700	FOMR801	PSP1X21	PSP1X21	Språkfag	Fremmedspråk programfag	Japansk programfag	Alle vurderingsfag	64	41	28
+4	FKAT700	FOMR801	PSP1X21	PSP5179	Språkfag	Fremmedspråk programfag	Japansk programfag	Japansk nivå III	2		
+4	FKAT700	FOMR801	PSP1X21	PSP5850	Språkfag	Fremmedspråk programfag	Japansk programfag	Japansk nivå I	38	27	13
+4	FKAT700	FOMR801	PSP1X21	PSP5852	Språkfag	Fremmedspråk programfag	Japansk programfag	Japansk nivå II	24	14	15
+3	FKAT700	FOMR801	PSP1X24	PSP1X24	Språkfag	Fremmedspråk programfag	Kinesisk programfag	Alle vurderingsfag	108	77	109
+4	FKAT700	FOMR801	PSP1X24	PSP5862	Språkfag	Fremmedspråk programfag	Kinesisk programfag	Kinesisk nivå I	42	33	56
+4	FKAT700	FOMR801	PSP1X24	PSP5864	Språkfag	Fremmedspråk programfag	Kinesisk programfag	Kinesisk nivå II	61	41	53
+4	FKAT700	FOMR801	PSP1X24	PSP5866	Språkfag	Fremmedspråk programfag	Kinesisk programfag	Kinesisk nivå III	5	6	
+3	FKAT700	FOMR801	PSP1X26	PSP1X26	Språkfag	Fremmedspråk programfag	Koreansk programfag	Alle vurderingsfag			10
+4	FKAT700	FOMR801	PSP1X26	PSP5892	Språkfag	Fremmedspråk programfag	Koreansk programfag	Koreansk nivå I			10
+3	FKAT700	FOMR801	PSP1X40	PSP1X40	Språkfag	Fremmedspråk programfag	Nordsamisk programfag	Alle vurderingsfag	2	3	
+4	FKAT700	FOMR801	PSP1X40	PSP5810	Språkfag	Fremmedspråk programfag	Nordsamisk programfag	Nordsamisk nivå II	2	3	
+3	FKAT700	FOMR801	PSP1X42	PSP1X42	Språkfag	Fremmedspråk programfag	Oromo programfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR801	PSP1X42	PSP5990	Språkfag	Fremmedspråk programfag	Oromo programfag	Oromo nivå II		1	
+3	FKAT700	FOMR801	PSP1X44	PSP1X44	Språkfag	Fremmedspråk programfag	Pashto programfag	Alle vurderingsfag		3	
+4	FKAT700	FOMR801	PSP1X44	PSP6002	Språkfag	Fremmedspråk programfag	Pashto programfag	Pashto nivå II		2	
+4	FKAT700	FOMR801	PSP1X44	PSP6004	Språkfag	Fremmedspråk programfag	Pashto programfag	Pashto nivå III		1	
+3	FKAT700	FOMR801	PSP1X46	PSP1X46	Språkfag	Fremmedspråk programfag	Polsk programfag	Alle vurderingsfag		1	1
+4	FKAT700	FOMR801	PSP1X46	PSP5910	Språkfag	Fremmedspråk programfag	Polsk programfag	Polsk nivå I			1
+4	FKAT700	FOMR801	PSP1X46	PSP5912	Språkfag	Fremmedspråk programfag	Polsk programfag	Polsk nivå II			1
+4	FKAT700	FOMR801	PSP1X46	PSP5914	Språkfag	Fremmedspråk programfag	Polsk programfag	Polsk nivå III		1	
+3	FKAT700	FOMR801	PSP1X49	PSP1X49	Språkfag	Fremmedspråk programfag	Russisk programfag	Alle vurderingsfag	18	24	30
+4	FKAT700	FOMR801	PSP1X49	PSP5820	Språkfag	Fremmedspråk programfag	Russisk programfag	Russisk, nivå I	10	15	15
+4	FKAT700	FOMR801	PSP1X49	PSP5822	Språkfag	Fremmedspråk programfag	Russisk programfag	Russisk nivå II	8	8	15
+4	FKAT700	FOMR801	PSP1X49	PSP5824	Språkfag	Fremmedspråk programfag	Russisk programfag	Russisk nivå III		1	
+3	FKAT700	FOMR801	PSP1X50	PSP1X50	Språkfag	Fremmedspråk programfag	Serbisk programfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR801	PSP1X50	PSP6048	Språkfag	Fremmedspråk programfag	Serbisk programfag	Serbisk nivå III		1	
+3	FKAT700	FOMR801	PSP1X52	PSP1X52	Språkfag	Fremmedspråk programfag	Somali programfag	Alle vurderingsfag		9	
+4	FKAT700	FOMR801	PSP1X52	PSP5918	Språkfag	Fremmedspråk programfag	Somali programfag	Somali nivå II		7	
+4	FKAT700	FOMR801	PSP1X52	PSP5920	Språkfag	Fremmedspråk programfag	Somali programfag	Somali nivå III		2	
+3	FKAT700	FOMR801	PSP1X53	PSP1X53	Språkfag	Fremmedspråk programfag	Spansk programfag	Alle vurderingsfag	738	804	703
+4	FKAT700	FOMR801	PSP1X53	PSP5053	Språkfag	Fremmedspråk programfag	Spansk programfag	Spansk nivå III	26	1	
+4	FKAT700	FOMR801	PSP1X53	PSP5054	Språkfag	Fremmedspråk programfag	Spansk programfag	Spansk nivå III, muntlig	45		
+4	FKAT700	FOMR801	PSP1X53	PSP5826	Språkfag	Fremmedspråk programfag	Spansk programfag	Spansk, nivå I	12	8	10
+4	FKAT700	FOMR801	PSP1X53	PSP5828	Språkfag	Fremmedspråk programfag	Spansk programfag	Spansk nivå II	11	23	18
+4	FKAT700	FOMR801	PSP1X53	PSP5830	Språkfag	Fremmedspråk programfag	Spansk programfag	Spansk nivå III	689	773	675
+3	FKAT700	FOMR801	PSP1X59	PSP1X59	Språkfag	Fremmedspråk programfag	Tegnspråk programfag	Alle vurderingsfag	56	85	81
+4	FKAT700	FOMR801	PSP1X59	PSP5832	Språkfag	Fremmedspråk programfag	Tegnspråk programfag	Tegnspråk, nivå I	38	70	67
+4	FKAT700	FOMR801	PSP1X59	PSP5834	Språkfag	Fremmedspråk programfag	Tegnspråk programfag	Tegnspråk nivå II	18	15	14
+3	FKAT700	FOMR801	PSP1X63	PSP1X63	Språkfag	Fremmedspråk programfag	Tyrkisk programfag	Alle vurderingsfag		5	
+4	FKAT700	FOMR801	PSP1X63	PSP5930	Språkfag	Fremmedspråk programfag	Tyrkisk programfag	Tyrkisk nivå II		4	
+4	FKAT700	FOMR801	PSP1X63	PSP5932	Språkfag	Fremmedspråk programfag	Tyrkisk programfag	Tyrkisk nivå III		1	
+3	FKAT700	FOMR801	PSP1X64	PSP1X64	Språkfag	Fremmedspråk programfag	Tysk programfag	Alle vurderingsfag	305	300	246
+4	FKAT700	FOMR801	PSP1X64	PSP5071	Språkfag	Fremmedspråk programfag	Tysk programfag	Tysk nivå III	11		
+4	FKAT700	FOMR801	PSP1X64	PSP5072	Språkfag	Fremmedspråk programfag	Tysk programfag	Tysk nivå III, muntlig	13		
+4	FKAT700	FOMR801	PSP1X64	PSP5838	Språkfag	Fremmedspråk programfag	Tysk programfag	Tysk, nivå I	23	5	2
+4	FKAT700	FOMR801	PSP1X64	PSP5840	Språkfag	Fremmedspråk programfag	Tysk programfag	Tysk nivå II	17	27	20
+4	FKAT700	FOMR801	PSP1X64	PSP5842	Språkfag	Fremmedspråk programfag	Tysk programfag	Tysk nivå III	254	269	224
+3	FKAT700	FOMR801	PSP1X66	PSP1X66	Språkfag	Fremmedspråk programfag	Urdu programfag	Alle vurderingsfag		1	
+4	FKAT700	FOMR801	PSP1X66	PSP5938	Språkfag	Fremmedspråk programfag	Urdu programfag	Urdu nivå III		1	
+2	FKAT700	FOMR705		FOMR705	Språkfag	Kommunikasjon og kultur	Alle opplæringsfag	Alle vurderingsfag	1130	1081	1062
+3	FKAT700	FOMR705	KKM1Z04	KKM1Z04	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 1	Alle vurderingsfag	819	749	755
+4	FKAT700	FOMR705	KKM1Z04	SPR3033	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 1	Kommunikasjon og kultur 1	819	749	755
+3	FKAT700	FOMR705	KKM1Z05	KKM1Z05	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 2	Alle vurderingsfag	61	47	52
+4	FKAT700	FOMR705	KKM1Z05	SPR3034	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 2	Kommunikasjon og kultur 2	61	47	52
+3	FKAT700	FOMR705	KKM1Z06	KKM1Z06	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 3	Alle vurderingsfag	253	288	255
+4	FKAT700	FOMR705	KKM1Z06	SPR3036	Språkfag	Kommunikasjon og kultur	Kommunikasjon og kultur 3	Kommunikasjon og kultur 3	253	288	255
+2	FKAT700	FOMR706		FOMR706	Språkfag	Reiseliv	Alle opplæringsfag	Alle vurderingsfag	570	752	772
+3	FKAT700	FOMR706	RSP1Z03	RSP1Z03	Språkfag	Reiseliv	Reiseliv og språk 1	Alle vurderingsfag	345	527	498
+4	FKAT700	FOMR706	RSP1Z03	SPR3038	Språkfag	Reiseliv	Reiseliv og språk 1	Reiseliv og språk 1	345	527	498
+3	FKAT700	FOMR706	RSP1Z04	RSP1Z04	Språkfag	Reiseliv	Reiseliv og språk 2	Alle vurderingsfag	230	227	277
+4	FKAT700	FOMR706	RSP1Z04	SPR3039	Språkfag	Reiseliv	Reiseliv og språk 2	Reiseliv og språk 2	230	227	277
+2	FKAT700	FOMR707		FOMR707	Språkfag	Styrket engelsk	Alle opplæringsfag	Alle vurderingsfag	110	124	120
+3	FKAT700	FOMR707	ENG3Z05	ENG3Z05	Språkfag	Styrket engelsk	Engelsk, styrket opplæring, vg1	Alle vurderingsfag	95	113	102
+4	FKAT700	FOMR707	ENG3Z05	ENG3001	Språkfag	Styrket engelsk	Engelsk, styrket opplæring, vg1	Engelsk, styrket opplæring, vg1	95	113	102
+3	FKAT700	FOMR707	ENG3Z06	ENG3Z06	Språkfag	Styrket engelsk	Engelsk, styrket opplæring, vg2	Alle vurderingsfag	15	11	18
+4	FKAT700	FOMR707	ENG3Z06	ENG3002	Språkfag	Styrket engelsk	Engelsk, styrket opplæring, vg2	Engelsk, styrket opplæring, vg2	15	11	18
