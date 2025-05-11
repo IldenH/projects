@@ -31,5 +31,9 @@ with import <nixpkgs> {};
       alejandra
 
       go
+
+      typst
+      tinymist
+      typstyle
     ];
   }
