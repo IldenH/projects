@@ -35,5 +35,8 @@ with import <nixpkgs> {};
       typst
       tinymist
       typstyle
+
+      ghostscript
+      imagemagick
     ];
   }
