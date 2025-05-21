@@ -15,16 +15,23 @@ with import <nixpkgs> {};
 
       plantuml
 
-      black
       pyright
 
-      (python312.withPackages (packages:
+      (python3.withPackages (packages:
         with packages; [
+          black # needs to be here for jupyterlab to work
+
           matplotlib
           numpy
           sympy
           scipy
           pandas
+
+          # python3 -m jupyterlab
+          jupyterlab
+          ipykernel
+          ipywidgets
+          ipython
         ]))
 
       nixd
