@@ -55,9 +55,13 @@ struct Call {
 }
 
 impl Call {
-    // fn delay(&self) -> {
-    //     self.actual_departure_time - self.aimed_departure_time
-    // }
+    fn delay(&self) -> Option<time::Duration> {
+        match (self.actual_departure_time, self.aimed_departure_time) {
+            (Some(actual), Some(aimed)) => Some(actual - aimed),
+            (None, _) => None,
+            (_, None) => None,
+        }
+    }
 }
 
 #[derive(Debug, Deserialize)]
@@ -125,10 +129,14 @@ fn main() {
             .map(|v| !v.calls.is_empty())
             .unwrap_or(false)
     }) {
-        // println!("{}", journey.line_name.as_ref().unwrap());
-        // for call in &journey.calls.as_ref().unwrap().calls {
-        //     println!("\t{}", call.stop_point_name.as_ref().unwrap());
-        // }
-        dbg!(journey);
+        println!("{}", journey.line_ref);
+        for call in &journey.calls.as_ref().unwrap().calls {
+            println!(
+                "\t{}\t{} seconds delayed",
+                call.stop_point_ref,
+                call.delay().unwrap_or_default().whole_seconds()
+            );
+        }
+        // dbg!(journey);
     }
 }
