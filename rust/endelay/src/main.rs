@@ -151,6 +151,17 @@ fn main() {
         }
         println!("{}\t{:?}", journey.line_ref, journey.recorded_at_time);
         for call in &journey.calls.as_ref().unwrap().calls {
+            // let stop_place = ureq::get(format!(
+            //     "https://api.entur.io/stop-places/v1/read/quays/{}/stop-place",
+            //     call.stop_point_ref
+            // ))
+            // .call()
+            // .unwrap()
+            // .body_mut()
+            // .read_to_string()
+            // .unwrap();
+            // let data: Value = serde_json::de::from_str(&stop_place).unwrap();
+            // let stop_point_name = &data["name"]["value"].as_str().unwrap();
             println!(
                 "\t{}\t{} seconds delayed",
                 call.stop_point_ref,
