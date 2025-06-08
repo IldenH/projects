@@ -123,13 +123,33 @@ fn main() {
     let journeys = data.delivery.delivery.frame.journeys;
     // dbg!(&journeys);
 
-    if let Some(journey) = journeys.iter().find(|j| {
+    // if let Some(journey) = journeys.iter().find(|j| {
+    //     j.calls
+    //         .as_ref()
+    //         .map(|v| !v.calls.is_empty())
+    //         .unwrap_or(false)
+    // }) {
+    //     println!("{}", journey.line_ref);
+    //     for call in &journey.calls.as_ref().unwrap().calls {
+    //         println!(
+    //             "\t{}\t{} seconds delayed",
+    //             call.stop_point_ref,
+    //             call.delay().unwrap_or_default().whole_seconds()
+    //         );
+    //     }
+    //     // dbg!(journey);
+    // }
+    //
+    for journey in journeys.iter().filter(|j| {
         j.calls
             .as_ref()
             .map(|v| !v.calls.is_empty())
             .unwrap_or(false)
     }) {
-        println!("{}", journey.line_ref);
+        if !journey.line_ref.contains("SKY") {
+            continue;
+        }
+        println!("{}\t{:?}", journey.line_ref, journey.recorded_at_time);
         for call in &journey.calls.as_ref().unwrap().calls {
             println!(
                 "\t{}\t{} seconds delayed",
@@ -137,6 +157,5 @@ fn main() {
                 call.delay().unwrap_or_default().whole_seconds()
             );
         }
-        // dbg!(journey);
     }
 }
