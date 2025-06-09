@@ -109,7 +109,11 @@ struct Data {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let xml = read_to_string("estimated_timetable.xml")?;
+    let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
+        .call()?
+        .body_mut()
+        .read_to_string()?;
+    // let xml = read_to_string("estimated_timetable.xml")?;
     let data: Data = from_str(&xml)?;
     let journeys = data.delivery.delivery.frame.journeys;
     // dbg!(&journeys);
@@ -134,11 +138,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             // .read_to_string()?;
             // let data: Value = serde_json::de::from_str(&stop_place)?;
             // let stop_point_name = &data["name"]["value"].as_str().unwrap();
-            println!(
-                "\t{}\t{} seconds delayed",
-                call.stop_point_ref,
-                call.delay().unwrap_or_default().whole_seconds()
-            );
+            if call.aimed_departure_time == None || call.actual_departure_time == None {
+                println!("\t{}\tNone", call.stop_point_ref);
+            } else {
+                println!(
+                    "\t{}\t{}, {:?}\t{:?}",
+                    call.stop_point_ref,
+                    call.delay().unwrap_or_default().whole_seconds(),
+                    call.aimed_departure_time.unwrap().time(),
+                    call.actual_departure_time.unwrap().time()
+                );
+            }
         }
     }
 
