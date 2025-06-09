@@ -40,16 +40,7 @@ struct Call {
     aimed_departure_time: Option<OffsetDateTime>,
     #[serde(default, deserialize_with = "deserialize_xml_timestamp")]
     actual_departure_time: Option<OffsetDateTime>,
-    // aimed_arrival_time: Option<String>,
-    // arrival_status: String,
-    // destination_display: String,
-    // arrival_boarding_activity: String,
-    // aimed_departure_time: String,
-    // expected_departure_time: String,
-    // expected_arrival_time: String,
-    // stop_point_name: Option<String>,
     stop_point_ref: String,
-    // cancellation: Option<bool>,
     #[serde(flatten)]
     extra: HashMap<String, Value>,
 }
@@ -117,29 +108,12 @@ struct Data {
     delivery: ServiceDelivery,
 }
 
-fn main() {
-    let xml = read_to_string("estimated_timetable.xml").unwrap();
-    let data: Data = from_str(&xml).unwrap();
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let xml = read_to_string("estimated_timetable.xml")?;
+    let data: Data = from_str(&xml)?;
     let journeys = data.delivery.delivery.frame.journeys;
     // dbg!(&journeys);
 
-    // if let Some(journey) = journeys.iter().find(|j| {
-    //     j.calls
-    //         .as_ref()
-    //         .map(|v| !v.calls.is_empty())
-    //         .unwrap_or(false)
-    // }) {
-    //     println!("{}", journey.line_ref);
-    //     for call in &journey.calls.as_ref().unwrap().calls {
-    //         println!(
-    //             "\t{}\t{} seconds delayed",
-    //             call.stop_point_ref,
-    //             call.delay().unwrap_or_default().whole_seconds()
-    //         );
-    //     }
-    //     // dbg!(journey);
-    // }
-    //
     for journey in journeys.iter().filter(|j| {
         j.calls
             .as_ref()
@@ -155,12 +129,10 @@ fn main() {
             //     "https://api.entur.io/stop-places/v1/read/quays/{}/stop-place",
             //     call.stop_point_ref
             // ))
-            // .call()
-            // .unwrap()
+            // .call()?
             // .body_mut()
-            // .read_to_string()
-            // .unwrap();
-            // let data: Value = serde_json::de::from_str(&stop_place).unwrap();
+            // .read_to_string()?;
+            // let data: Value = serde_json::de::from_str(&stop_place)?;
             // let stop_point_name = &data["name"]["value"].as_str().unwrap();
             println!(
                 "\t{}\t{} seconds delayed",
@@ -169,4 +141,6 @@ fn main() {
             );
         }
     }
+
+    Ok(())
 }
