@@ -2,7 +2,9 @@ use quick_xml::de::from_str;
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
 use std::collections::HashMap;
+use std::fs::File;
 use std::fs::read_to_string;
+use std::io::Write;
 use time::OffsetDateTime;
 
 #[derive(Debug, Deserialize)]
@@ -109,14 +111,21 @@ struct Data {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
-        .call()?
-        .body_mut()
-        .read_to_string()?;
-    // let xml = read_to_string("estimated_timetable.xml")?;
+    // let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
+    //     .call()?
+    //     .body_mut()
+    //     .read_to_string()?;
+    let xml = read_to_string("estimated_timetable.xml")?;
     let data: Data = from_str(&xml)?;
     let journeys = data.delivery.delivery.frame.journeys;
     // dbg!(&journeys);
+
+    File::create("output.csv")?;
+    let mut f = File::options().append(true).open("output.csv")?;
+    writeln!(
+        &mut f,
+        "line_ref,stop_point_ref,delay,aimed_departure_time,actual_departure_time"
+    )?;
 
     for journey in journeys.iter().filter(|j| {
         j.calls
@@ -140,6 +149,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             // let stop_point_name = &data["name"]["value"].as_str().unwrap();
             if call.aimed_departure_time == None || call.actual_departure_time == None {
                 println!("\t{}\tNone", call.stop_point_ref);
+
+                let columns = vec![
+                    journey.line_ref.clone(),
+                    call.stop_point_ref.clone(),
+                    "".to_string(),
+                    "".to_string(),
+                    "".to_string(),
+                ];
+                writeln!(&mut f, "{}", columns.join(","))?;
             } else {
                 println!(
                     "\t{}\t{}, {:?}\t{:?}",
@@ -148,6 +166,19 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     call.aimed_departure_time.unwrap().time(),
                     call.actual_departure_time.unwrap().time()
                 );
+
+                let columns = vec![
+                    journey.line_ref.clone(),
+                    call.stop_point_ref.clone(),
+                    call.delay()
+                        .unwrap_or_default()
+                        .whole_seconds()
+                        .to_string()
+                        .clone(),
+                    call.aimed_departure_time.unwrap().to_string().clone(),
+                    call.actual_departure_time.unwrap().to_string().clone(),
+                ];
+                writeln!(&mut f, "{}", columns.join(","))?;
             }
         }
     }
