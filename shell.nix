@@ -45,5 +45,15 @@ with import <nixpkgs> {};
 
       ghostscript
       imagemagick
+
+      nodejs_20
+      nodePackages.npm
+      nodePackages.typescript-language-server
+      nodePackages.typescript
+      emmet-ls
+      vscode-langservers-extracted
+      prettierd
+      tailwindcss-language-server
+      svelte-language-server
     ];
   }
