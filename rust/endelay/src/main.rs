@@ -1,4 +1,6 @@
+use endelay::db::create_db;
 use quick_xml::de::from_str;
+use rusqlite::{Connection, Result};
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
 use std::collections::HashMap;
@@ -111,6 +113,8 @@ struct Data {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+    create_db()?;
+
     // let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
     //     .call()?
     //     .body_mut()

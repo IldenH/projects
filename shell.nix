@@ -8,6 +8,9 @@ with import <nixpkgs> {};
       rust-analyzer
       bacon
 
+      sqlite
+      pkg-config
+
       ghc
       ghcid
       haskell-language-server
