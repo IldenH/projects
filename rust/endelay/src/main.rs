@@ -1,12 +1,9 @@
-use endelay::db::create_db;
 use quick_xml::de::from_str;
-use rusqlite::{Connection, Result};
+use rusqlite::{Connection, Result, params};
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
 use std::collections::HashMap;
-use std::fs::File;
 use std::fs::read_to_string;
-use std::io::Write;
 use time::OffsetDateTime;
 
 #[derive(Debug, Deserialize)]
@@ -61,8 +58,6 @@ impl Call {
 
 #[derive(Debug, Deserialize)]
 struct JourneyCalls {
-    // #[serde(rename = "EstimatedCall", alias = "RecordedCall")]
-    // #[serde(rename = "EstimatedCall")]
     #[serde(rename = "RecordedCall")]
     calls: Vec<Call>,
 }
@@ -70,8 +65,6 @@ struct JourneyCalls {
 #[derive(Debug, Deserialize)]
 #[serde(rename_all = "PascalCase")]
 struct Journey {
-    // #[serde(rename = "EstimatedCalls", alias = "RecordedCalls")]
-    // #[serde(rename = "EstimatedCalls")]
     #[serde(rename = "RecordedCalls")]
     calls: Option<JourneyCalls>,
 
@@ -113,7 +106,18 @@ struct Data {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    create_db()?;
+    let mut conn = Connection::open("./db.db")?;
+    conn.execute(
+        "CREATE TABLE IF NOT EXISTS row (
+            id  INTEGER PRIMARY KEY,
+            line  TEXT NOT NULL,
+            stop  TEXT NOT NULL,
+            delay INTEGER NOT NULL,
+            aimed_departure  INTEGER NOT NULL,
+            actual_departure  INTEGER NOT NULL
+        )",
+        (),
+    )?;
 
     // let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
     //     .call()?
@@ -122,70 +126,51 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let xml = read_to_string("estimated_timetable.xml")?;
     let data: Data = from_str(&xml)?;
     let journeys = data.delivery.delivery.frame.journeys;
-    // dbg!(&journeys);
 
-    File::create("output.csv")?;
-    let mut f = File::options().append(true).open("output.csv")?;
-    writeln!(
-        &mut f,
-        "line_ref,stop_point_ref,delay,aimed_departure_time,actual_departure_time"
-    )?;
+    let tx = conn.transaction()?;
+    {
+        let mut stmt = tx.prepare("INSERT INTO row (line, stop, delay, aimed_departure, actual_departure) VALUES (?1, ?2, ?3, ?4, ?5)")?;
 
-    for journey in journeys.iter().filter(|j| {
-        j.calls
-            .as_ref()
-            .map(|v| !v.calls.is_empty())
-            .unwrap_or(false)
-    }) {
-        if !journey.line_ref.contains("SKY") {
-            continue;
-        }
-        println!("{}\t{:?}", journey.line_ref, journey.recorded_at_time);
-        for call in &journey.calls.as_ref().unwrap().calls {
-            // let stop_place = ureq::get(format!(
-            //     "https://api.entur.io/stop-places/v1/read/quays/{}/stop-place",
-            //     call.stop_point_ref
-            // ))
-            // .call()?
-            // .body_mut()
-            // .read_to_string()?;
-            // let data: Value = serde_json::de::from_str(&stop_place)?;
-            // let stop_point_name = &data["name"]["value"].as_str().unwrap();
-            if call.aimed_departure_time == None || call.actual_departure_time == None {
-                println!("\t{}\tNone", call.stop_point_ref);
+        for journey in journeys
+            .iter()
+            .filter(|j| j.calls.as_ref().map_or(false, |v| !v.calls.is_empty()))
+        {
+            if !journey.line_ref.contains("SKY") {
+                continue;
+            }
 
-                let columns = vec![
-                    journey.line_ref.clone(),
-                    call.stop_point_ref.clone(),
-                    "".to_string(),
-                    "".to_string(),
-                    "".to_string(),
-                ];
-                writeln!(&mut f, "{}", columns.join(","))?;
-            } else {
-                println!(
-                    "\t{}\t{}, {:?}\t{:?}",
-                    call.stop_point_ref,
-                    call.delay().unwrap_or_default().whole_seconds(),
-                    call.aimed_departure_time.unwrap().time(),
-                    call.actual_departure_time.unwrap().time()
-                );
-
-                let columns = vec![
-                    journey.line_ref.clone(),
-                    call.stop_point_ref.clone(),
-                    call.delay()
-                        .unwrap_or_default()
-                        .whole_seconds()
-                        .to_string()
-                        .clone(),
-                    call.aimed_departure_time.unwrap().to_string().clone(),
-                    call.actual_departure_time.unwrap().to_string().clone(),
-                ];
-                writeln!(&mut f, "{}", columns.join(","))?;
+            if let Some(calls) = &journey.calls {
+                for call in &calls.calls {
+                    // let stop_place = ureq::get(format!(
+                    //     "https://api.entur.io/stop-places/v1/read/quays/{}/stop-place",
+                    //     call.stop_point_ref
+                    // ))
+                    // .call()?
+                    // .body_mut()
+                    // .read_to_string()?;
+                    // let data: Value = serde_json::de::from_str(&stop_place)?;
+                    // let stop_point_name = &data["name"]["value"].as_str().unwrap();
+                    if let (Some(delay), Some(aimed), Some(actual)) = (
+                        &call.delay(),
+                        &call.aimed_departure_time,
+                        &call.actual_departure_time,
+                    ) {
+                        stmt.execute(params![
+                            journey.line_ref,
+                            call.stop_point_ref,
+                            delay.whole_seconds(),
+                            aimed.unix_timestamp(),
+                            actual.unix_timestamp(),
+                        ])?;
+                    }
+                }
             }
         }
     }
+    tx.commit()?;
+
+    conn.execute("VACUUM;", ())?;
+    conn.execute("PRAGMA optimize;", ())?;
 
     Ok(())
 }
