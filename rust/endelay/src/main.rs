@@ -16,22 +16,14 @@ fn deserialize_xml_timestamp<'de, D>(deserializer: D) -> Result<Option<OffsetDat
 where
     D: Deserializer<'de>,
 {
-    let timestamp_text_wrapper: Option<TimestampText> = Option::deserialize(deserializer)?;
-
-    match timestamp_text_wrapper {
-        Some(wrapper) => {
-            match OffsetDateTime::parse(
-                &wrapper.text,
-                &time::format_description::well_known::Rfc3339,
-            ) {
-                Ok(odt) => Ok(Some(odt)),
-                Err(e) => Err(serde::de::Error::custom(format!(
-                    "Failed to parse OffsetDateTime: {e}"
-                ))),
-            }
-        }
-        None => Ok(None),
-    }
+    Option::<TimestampText>::deserialize(deserializer)?.map_or(Ok(None), |wrapper| {
+        OffsetDateTime::parse(
+            &wrapper.text,
+            &time::format_description::well_known::Rfc3339,
+        )
+        .map(Some)
+        .map_err(|e| serde::de::Error::custom(format!("Failed to parse OffsetDateTime: {e}")))
+    })
 }
 
 #[derive(Debug, Deserialize)]
@@ -42,6 +34,7 @@ struct Call {
     #[serde(default, deserialize_with = "deserialize_xml_timestamp")]
     actual_departure_time: Option<OffsetDateTime>,
     stop_point_ref: String,
+
     #[serde(flatten)]
     extra: HashMap<String, Value>,
 }
@@ -67,15 +60,7 @@ struct JourneyCalls {
 struct Journey {
     #[serde(rename = "RecordedCalls")]
     calls: Option<JourneyCalls>,
-
-    #[serde(rename = "PublishedLineName")]
-    line_name: Option<String>,
     line_ref: String,
-    #[serde(rename = "OperatorRef")]
-    operator: Option<String>,
-    vehicle_mode: Option<String>,
-    #[serde(deserialize_with = "deserialize_xml_timestamp")]
-    recorded_at_time: Option<OffsetDateTime>,
 
     #[serde(flatten)]
     extra: HashMap<String, Value>,
@@ -108,7 +93,7 @@ struct Data {
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut conn = Connection::open("./db.db")?;
     conn.execute(
-        "CREATE TABLE IF NOT EXISTS row (
+        "CREATE TABLE IF NOT EXISTS call (
             id  INTEGER PRIMARY KEY,
             line  TEXT NOT NULL,
             stop  TEXT NOT NULL,
@@ -129,16 +114,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let tx = conn.transaction()?;
     {
-        let mut stmt = tx.prepare("INSERT INTO row (line, stop, delay, aimed_departure, actual_departure) VALUES (?1, ?2, ?3, ?4, ?5)")?;
+        let mut stmt = tx.prepare("INSERT INTO call (line, stop, delay, aimed_departure, actual_departure) VALUES (?1, ?2, ?3, ?4, ?5)")?;
 
         for journey in journeys
             .iter()
             .filter(|j| j.calls.as_ref().map_or(false, |v| !v.calls.is_empty()))
         {
-            if !journey.line_ref.contains("SKY") {
-                continue;
-            }
-
             if let Some(calls) = &journey.calls {
                 for call in &calls.calls {
                     // let stop_place = ureq::get(format!(
@@ -169,8 +150,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     tx.commit()?;
 
-    conn.execute("VACUUM;", ())?;
-    conn.execute("PRAGMA optimize;", ())?;
+    conn.execute_batch("VACUUM; PRAGMA optimize;")?;
 
     Ok(())
 }
