@@ -1,0 +1,23 @@
+h1 {
+  background-color: red;
+  text-color: green;
+  margin: 1;
+  padding: 1;
+  font-size: 14em;
+  font-family: monospace;
+}
+
+.boks {
+  width: 500px;
+  height: 500px;
+  border-width: 1px;
+  border-color: blue;
+  padding: 1em;
+}
+
+#banner {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem;
+}
