@@ -178,6 +178,7 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
             actual_departure INTEGER NOT NULL,
             FOREIGN KEY(line_id) REFERENCES line(id),
             FOREIGN KEY(stop_id) REFERENCES stop(id)
+            UNIQUE(line_id, stop_id, delay, aimed_departure, actual_departure)
         );",
     )?;
 
@@ -191,7 +192,7 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
 
     let tx = conn.transaction()?;
     {
-        let mut stmt = tx.prepare("INSERT INTO call (line_id, stop_id, delay, aimed_departure, actual_departure) VALUES (?1, ?2, ?3, ?4, ?5)")?;
+        let mut stmt = tx.prepare("INSERT OR IGNORE INTO call (line_id, stop_id, delay, aimed_departure, actual_departure) VALUES (?1, ?2, ?3, ?4, ?5)")?;
 
         for journey in journeys
             .iter()
