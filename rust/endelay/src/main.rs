@@ -1,4 +1,5 @@
 use quick_xml::de::from_str;
+use reqwest::blocking::get;
 use rusqlite::{Connection, params};
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
@@ -73,7 +74,7 @@ struct Journey {
 #[derive(Debug, Deserialize)]
 struct Frame {
     #[serde(rename = "EstimatedVehicleJourney")]
-    journeys: Vec<Journey>,
+    journeys: Option<Vec<Journey>>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -98,12 +99,10 @@ fn get_stop_name(stop_ref: String) -> Result<String, Box<dyn std::error::Error>>
     // https://developer.entur.org/stop-places-v1-read
 
     sleep(Duration::from_millis(50));
-    let stop_place = ureq::get(format!(
+    let stop_place = get(format!(
         "https://api.entur.io/stop-places/v1/read/quays/{stop_ref}/stop-place"
-    ))
-    .call()?
-    .body_mut()
-    .read_to_string()?;
+    ))?
+    .text()?;
     let data: Value = serde_json::de::from_str(&stop_place)?;
 
     Ok(data["name"]["value"].as_str().unwrap().to_string())
@@ -182,13 +181,18 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
         );",
     )?;
 
-    // let xml = ureq::get("https://api.entur.io/realtime/v1/rest/et?datasetId=SKY")
-    //     .call()?
-    //     .body_mut()
-    //     .read_to_string()?;
-    let xml = read_to_string("estimated_timetable.xml")?;
+    dotenvy::dotenv()?;
+    let requestor_id = std::env::var("REQUESTOR_ID").expect("Error getting REQUESTOR_ID env var");
+    let xml = get(format!(
+        "https://api.entur.io/realtime/v1/rest/et?requestorId={requestor_id}"
+    ))?
+    .text()?;
     let data: Data = from_str(&xml)?;
-    let journeys = data.delivery.delivery.frame.journeys;
+    if data.delivery.delivery.frame.journeys.is_none() {
+        println!("No new data");
+        return Ok(());
+    }
+    let journeys = data.delivery.delivery.frame.journeys.unwrap();
 
     let tx = conn.transaction()?;
     {
