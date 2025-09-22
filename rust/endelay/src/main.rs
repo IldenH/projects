@@ -3,10 +3,11 @@ use reqwest::blocking::get;
 use rusqlite::{Connection, params};
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
-use std::collections::HashMap;
-use std::fs::read_to_string;
 use std::io;
 use std::io::Write;
+use std::sync::Arc;
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::thread;
 use std::thread::sleep;
 use std::time::Duration;
 use time::OffsetDateTime;
@@ -39,9 +40,6 @@ struct Call {
     #[serde(default, deserialize_with = "deserialize_xml_timestamp")]
     actual_departure_time: Option<OffsetDateTime>,
     stop_point_ref: String,
-
-    #[serde(flatten)]
-    extra: HashMap<String, Value>,
 }
 
 impl Call {
@@ -66,9 +64,6 @@ struct Journey {
     #[serde(rename = "RecordedCalls")]
     calls: Option<JourneyCalls>,
     line_ref: String,
-
-    #[serde(flatten)]
-    extra: HashMap<String, Value>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -155,32 +150,7 @@ fn get_or_insert_id(
     Ok(id)
 }
 
-fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
-    let mut conn = Connection::open("./db.db")?;
-    conn.execute_batch(
-        "
-        CREATE TABLE IF NOT EXISTS line (
-            id INTEGER PRIMARY KEY,
-            line TEXT NOT NULL UNIQUE
-        );
-        CREATE TABLE IF NOT EXISTS stop (
-            id INTEGER PRIMARY KEY,
-            stop_ref TEXT NOT NULL UNIQUE,
-            stop_name TEXT
-        );
-        CREATE TABLE IF NOT EXISTS call (
-            id INTEGER PRIMARY KEY,
-            line_id INTEGER NOT NULL,
-            stop_id INTEGER NOT NULL,
-            delay INTEGER NOT NULL,
-            aimed_departure INTEGER NOT NULL,
-            actual_departure INTEGER NOT NULL,
-            FOREIGN KEY(line_id) REFERENCES line(id),
-            FOREIGN KEY(stop_id) REFERENCES stop(id)
-            UNIQUE(line_id, stop_id, delay, aimed_departure, actual_departure)
-        );",
-    )?;
-
+fn fetch_and_insert(conn: &mut Connection) -> rusqlite::Result<(), Box<dyn std::error::Error>> {
     dotenvy::dotenv()?;
     let requestor_id = std::env::var("REQUESTOR_ID").expect("Error getting REQUESTOR_ID env var");
     let xml = get(format!(
@@ -189,7 +159,6 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
     .text()?;
     let data: Data = from_str(&xml)?;
     if data.delivery.delivery.frame.journeys.is_none() {
-        println!("No new data");
         return Ok(());
     }
     let journeys = data.delivery.delivery.frame.journeys.unwrap();
@@ -227,7 +196,63 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
     }
     tx.commit()?;
 
-    conn.execute_batch("VACUUM; PRAGMA optimize;")?;
+    Ok(())
+}
+
+fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
+    let mut conn = Connection::open("./db.db")?;
+    conn.pragma_update(None, "journal_mode", &"WAL")?;
+    conn.pragma_update(None, "synchronous", &"NORMAL")?;
+    conn.execute_batch(
+        "
+        CREATE TABLE IF NOT EXISTS line (
+            id INTEGER PRIMARY KEY,
+            line TEXT NOT NULL UNIQUE
+        );
+        CREATE TABLE IF NOT EXISTS stop (
+            id INTEGER PRIMARY KEY,
+            stop_ref TEXT NOT NULL UNIQUE,
+            stop_name TEXT
+        );
+        CREATE TABLE IF NOT EXISTS call (
+            id INTEGER PRIMARY KEY,
+            line_id INTEGER NOT NULL,
+            stop_id INTEGER NOT NULL,
+            delay INTEGER NOT NULL,
+            aimed_departure INTEGER NOT NULL,
+            actual_departure INTEGER NOT NULL,
+            FOREIGN KEY(line_id) REFERENCES line(id),
+            FOREIGN KEY(stop_id) REFERENCES stop(id)
+            UNIQUE(line_id, stop_id, delay, aimed_departure, actual_departure)
+        );",
+    )?;
+
+    let running = Arc::new(AtomicBool::new(true));
+    let r = running.clone();
+
+    thread::spawn(move || {
+        let mut input = String::new();
+        loop {
+            input.clear();
+            if io::stdin().read_line(&mut input).is_ok() {
+                if input.trim() == "q" {
+                    r.store(false, Ordering::SeqCst);
+                    break;
+                }
+            }
+        }
+    });
+
+    println!("Running. Type 'q' + Enter to quit.");
+
+    while running.load(Ordering::SeqCst) {
+        if let Err(e) = fetch_and_insert(&mut conn) {
+            eprintln!("{e}")
+        };
+        sleep(Duration::from_secs(3));
+    }
+
+    conn.execute_batch("PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE); VACUUM;")?;
 
     Ok(())
 }
