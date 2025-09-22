@@ -249,7 +249,7 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
         if let Err(e) = fetch_and_insert(&mut conn) {
             eprintln!("{e}")
         };
-        sleep(Duration::from_secs(3));
+        sleep(Duration::from_secs(15));
     }
 
     conn.execute_batch("PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE); VACUUM;")?;
