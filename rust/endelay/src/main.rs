@@ -44,11 +44,7 @@ struct Call {
 
 impl Call {
     fn delay(&self) -> Option<time::Duration> {
-        match (self.actual_departure_time, self.aimed_departure_time) {
-            (Some(actual), Some(aimed)) => Some(actual - aimed),
-            (None, _) => None,
-            (_, None) => None,
-        }
+        Some(self.actual_departure_time? - self.aimed_departure_time?)
     }
 }
 
@@ -115,7 +111,7 @@ fn add_stop_names(conn: &Connection) -> rusqlite::Result<(), Box<dyn std::error:
     let stops = stmt.query_map([], |row| {
         let id: u64 = row.get(0)?;
         let stop_ref: String = row.get(1)?;
-        let stop_name = get_stop_name(stop_ref).unwrap_or(String::from(""));
+        let stop_name = get_stop_name(stop_ref).unwrap_or_default();
         println!("\r{count}/{total}\t{stop_name}");
         io::stdout().flush().unwrap();
         count += 1;
@@ -158,10 +154,10 @@ fn fetch_and_insert(conn: &mut Connection) -> rusqlite::Result<(), Box<dyn std::
     ))?
     .text()?;
     let data: Data = from_str(&xml)?;
-    if data.delivery.delivery.frame.journeys.is_none() {
-        return Ok(());
-    }
-    let journeys = data.delivery.delivery.frame.journeys.unwrap();
+    let journeys = match data.delivery.delivery.frame.journeys {
+        Some(j) => j,
+        None => return Ok(()),
+    };
 
     let tx = conn.transaction()?;
     {
