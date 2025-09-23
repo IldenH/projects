@@ -1,0 +1,98 @@
+:root {
+  --base00: #282828;
+  --base01: #3c3836;
+  --base02: #504945;
+  --base03: #665c54;
+  --base04: #bdae93;
+  --base05: #d5c4a1;
+  --base06: #ebdbb2;
+  --base07: #fbf1c7;
+  --base08: #fb4934;
+  --base09: #fe8019;
+  --base0A: #fabd2f;
+  --base0B: #b8bb26;
+  --base0C: #8ec07c;
+  --base0D: #83a598;
+  --base0E: #d3869b;
+  --base0F: #d65d0e;
+}
+
+body {
+  background-color: var(--base00);
+  color: var(--base07);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+label {
+  font-size: 4rem;
+  height: 20%;
+  button {
+    background-color: var(--base0E);
+    border-radius: 2rem;
+    border-width: 0px;
+    padding: 1rem;
+    font-size: 3rem;
+  }
+  button:hover {
+    background-color: var(--base0D);
+  }
+}
+
+button:hover {
+  background-color: var(--base0C);
+}
+
+#kontainer {
+  font-size: 5rem;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column-reverse;
+  text-transform: capitalize full-width;
+}
+
+#kontainer2 {
+  container-type: size;
+  width: 10%;
+}
+
+@container (width > 50px) {
+  div {
+    background-color: var(--base08);
+  }
+}
+
+@media (max-width: 50em) {
+  div {
+    background-color: var(--base0A);
+  }
+}
+
+div + p {
+  text-align: center;
+}
+
+h1 + p {
+  text-decoration-line: underline;
+  font-style: bold;
+}
+
+#forelder {
+  background-color: var(--base09);
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(4, minmax(100px, auto));
+}
+
+#barn {
+  display: grid;
+  grid-column: 2 / 7;
+  grid-row: 2 / 4;
+  grid-template-columns: subgrid;
+  grid-template-rows: repeat(3, 80px);
+}
+
+#subbarn {
+  grid-column: 3 / 6;
+  grid-row: 1 / 3;
+}
