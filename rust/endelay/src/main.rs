@@ -1,5 +1,5 @@
 use quick_xml::de::from_str;
-use reqwest::blocking::get;
+use reqwest::blocking::{Client, get};
 use rusqlite::{Connection, params};
 use serde::{Deserialize, Deserializer};
 use serde_json::Value;
@@ -146,13 +146,19 @@ fn get_or_insert_id(
     Ok(id)
 }
 
-fn fetch_and_insert(conn: &mut Connection) -> rusqlite::Result<(), Box<dyn std::error::Error>> {
+fn fetch_and_insert(
+    conn: &mut Connection,
+    client: &Client,
+) -> rusqlite::Result<(), Box<dyn std::error::Error>> {
     dotenvy::dotenv()?;
     let requestor_id = std::env::var("REQUESTOR_ID").expect("Error getting REQUESTOR_ID env var");
-    let xml = get(format!(
-        "https://api.entur.io/realtime/v1/rest/et?requestorId={requestor_id}"
-    ))?
-    .text()?;
+    let resp = client
+        .get(format!(
+            "https://api.entur.io/realtime/v1/rest/et?requestorId={requestor_id}"
+        ))
+        .send()?
+        .error_for_status()?;
+    let xml = resp.text()?;
     let data: Data = from_str(&xml)?;
     let journeys = match data.delivery.delivery.frame.journeys {
         Some(j) => j,
@@ -241,8 +247,9 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
 
     println!("Running. Type 'q' + Enter to quit.");
 
+    let client = Client::new();
     while running.load(Ordering::SeqCst) {
-        if let Err(e) = fetch_and_insert(&mut conn) {
+        if let Err(e) = fetch_and_insert(&mut conn, &client) {
             eprintln!("{e}")
         };
         sleep(Duration::from_secs(15));
