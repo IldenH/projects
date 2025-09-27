@@ -245,14 +245,16 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
         }
     });
 
-    println!("Running. Type 'q' + Enter to quit.");
+    let now: OffsetDateTime = std::time::SystemTime::now().into();
+    println!("{now} Running. Type 'q' + Enter to quit.");
 
     let client = Client::new();
     while running.load(Ordering::SeqCst) {
         if let Err(e) = fetch_and_insert(&mut conn, &client) {
-            eprintln!("{e}")
+            let now: OffsetDateTime = std::time::SystemTime::now().into();
+            eprintln!("{now}: {e}",)
         };
-        sleep(Duration::from_secs(15));
+        sleep(Duration::from_secs(16));
     }
 
     conn.execute_batch("PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE); VACUUM;")?;
