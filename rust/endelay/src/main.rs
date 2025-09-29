@@ -156,10 +156,24 @@ fn fetch_and_insert(
         .get(format!(
             "https://api.entur.io/realtime/v1/rest/et?requestorId={requestor_id}"
         ))
-        .send()?
-        .error_for_status()?;
+        .send()?;
+    if resp.status() == reqwest::StatusCode::TOO_MANY_REQUESTS {
+        if let Some(retry_after) = resp.headers().get(reqwest::header::RETRY_AFTER) {
+            if let Ok(secs) = retry_after.to_str()?.parse::<u64>() {
+                let now: OffsetDateTime = std::time::SystemTime::now().into();
+                eprintln!("{now}: 429 rate limited, retrying after {secs} seconds");
+                sleep(Duration::from_secs(secs));
+                return Ok(());
+            }
+        }
+    }
     let xml = resp.text()?;
-    let data: Data = from_str(&xml)?;
+    let data: Data = from_str(&xml).map_err(|err| {
+        let preview: String = xml.chars().take(1000).collect();
+        eprintln!("{err:?}");
+        eprintln!("{preview}");
+        err
+    })?;
     let journeys = match data.delivery.delivery.frame.journeys {
         Some(j) => j,
         None => return Ok(()),
