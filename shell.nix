@@ -58,5 +58,7 @@ with import <nixpkgs> {};
       prettierd
       tailwindcss-language-server
       svelte-language-server
+
+      live-server
     ];
   }

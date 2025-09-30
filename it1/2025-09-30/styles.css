@@ -1,0 +1,126 @@
+article {
+  background-color: red;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.oppg {
+  display: grid;
+  background-color: pink;
+  margin: 0.5rem;
+  border-radius: 1rem;
+}
+
+.oppg:nth-child(1) {
+  grid-template-columns: 1fr 1fr;
+}
+
+.oppg:nth-child(2) {
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.oppg:nth-child(3) {
+  grid-template-rows: 2fr 1fr;
+}
+
+.oppg:nth-child(4) {
+  grid-template-rows: 1fr 1fr;
+
+  div:nth-child(1) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+}
+
+.oppg:nth-child(5) {
+  grid-template-rows: 1fr 1fr 1fr;
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+}
+
+.oppg:nth-child(6) {
+  grid-template-columns: 1fr 3fr;
+}
+
+.oppg:nth-child(7) {
+  grid-template-rows: 1fr 1fr;
+
+  div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    div {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.oppg:nth-child(8) {
+  grid-template-columns: 2fr 1fr;
+
+  div:nth-child(1) {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+  }
+
+  div:nth-child(2) {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.oppg:nth-child(9) {
+  grid-template-columns: 1fr 1fr 1fr;
+
+  div:nth-child(1) {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+  }
+
+  div:nth-child(2) {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  div:nth-child(3) {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      article:nth-child(2) {
+        grid-column-start: 2;
+        grid-row: 1 / 3;
+      }
+    }
+  }
+}
