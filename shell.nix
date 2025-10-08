@@ -30,6 +30,8 @@ with import <nixpkgs> {};
           scipy
           pandas
 
+          scrapy
+
           # python3 -m jupyterlab
           jupyterlab
           ipykernel

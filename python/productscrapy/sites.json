@@ -1,0 +1,7 @@
+{
+  "switchcraft.com": {
+    "search_url": "https://www.switchcraft.com/search/?keyword={sku}",
+    "product_link": ".product a::attr(href)",
+    "description_selector": ".specification-list"
+  },
+}
