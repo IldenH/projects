@@ -1,24 +1,52 @@
 int leds[4] = {2, 3, 4, 5};
-int btns[4] = {A0, A1, A2, A3};
+int btns[4] = {12, 11, 10, 9};
+
+const int patternLength = 4;
+int pattern[patternLength] = {0,1,3,2};
 
 void setup() {
-    pinMode(leds[0], OUTPUT);
-    pinMode(leds[1], OUTPUT);
-    pinMode(leds[2], OUTPUT);
-    pinMode(leds[3], OUTPUT);
-  // for (int i = 0; i <= 4; i++) {
-  //   pinMode(leds[i], OUTPUT);
-  //   pinMode(btns[i], INPUT);
-  // }
+  for (int i = 0; i < 4; i++) {
+    pinMode(leds[i], OUTPUT);
+    pinMode(btns[i], INPUT_PULLUP);
+  }
+}
+
+void blink(int led) {
+  digitalWrite(led, HIGH);
+  delay(500);
+  digitalWrite(led, LOW);
+}
+
+void allLeds(int state) {
+  for (int i = 0; i < 4; i++) {
+    digitalWrite(leds[i], state);
+  }
+  delay(1000);
+}
+
+int waitForButton() {
+  while (true) {
+    for (int i = 0; i < 4; i++) {
+      if (digitalRead(btns[i]) == LOW) {
+        blink(leds[i]);
+        while (digitalRead(btns[i]) == LOW);
+        return i;
+      }
+    }
+  }
 }
 
 void loop() {
-    digitalWrite(leds[0], HIGH);
-    digitalWrite(leds[1], HIGH);
-    digitalWrite(leds[2], HIGH);
-    digitalWrite(leds[3], HIGH);
-  // for (int i = 0; i <= 4; i++) {
-  //   digitalWrite(leds[i], HIGH);
-  //   analogRead(btns[i]);
-  // }
+  for (int i = 0; i < patternLength; i++) {
+    blink(leds[pattern[i]]);
+  }
+  for (int i = 0; i < patternLength; i++) {
+    int guess = waitForButton();
+    if (guess != pattern[i]) {
+      allLeds(LOW);
+      return;
+    }
+  }
+  allLeds(HIGH);
+  allLeds(LOW);
 }
