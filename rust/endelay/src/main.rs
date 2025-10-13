@@ -234,7 +234,7 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
             aimed_departure INTEGER NOT NULL,
             actual_departure INTEGER NOT NULL,
             FOREIGN KEY(line_id) REFERENCES line(id),
-            FOREIGN KEY(stop_id) REFERENCES stop(id)
+            FOREIGN KEY(stop_id) REFERENCES stop(id),
             UNIQUE(line_id, stop_id, delay, aimed_departure, actual_departure)
         );",
     )?;
