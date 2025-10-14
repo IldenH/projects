@@ -8,6 +8,9 @@ with import <nixpkgs> {};
       rust-analyzer
       bacon
 
+      wasm-pack
+      lld
+
       sqlite
       pkg-config
 
