@@ -1,7 +1,7 @@
 from math import log10
 
 # f = lambda x: log10(x + 2) + x - 2
-f = lambda x: 350*1.2**x - 756
+f = lambda x: 350 * 1.2**x - 756
 
 start = float(input("Startverdi: "))
 print(f(start))

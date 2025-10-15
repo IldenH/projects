@@ -1,5 +1,6 @@
 import scrapy, json
 
+
 class GenericProductSpider(scrapy.Spider):
     name = "generic_product"
 

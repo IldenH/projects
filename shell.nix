@@ -25,7 +25,7 @@ with import <nixpkgs> {};
 
       (python3.withPackages (packages:
         with packages; [
-          black # needs to be here for jupyterlab to work
+          ruff # needs to be here for jupyterlab to work
 
           matplotlib
           numpy

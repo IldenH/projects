@@ -1,6 +1,6 @@
 from math import log
 
-f = lambda x: 5*log(x**3 + 2) + x - 6
+f = lambda x: 5 * log(x**3 + 2) + x - 6
 
 start = float(input("Startverdi: "))
 slutt = float(input("Sluttverdi: "))
