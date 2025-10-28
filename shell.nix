@@ -10,6 +10,7 @@ with import <nixpkgs> {};
 
       wasm-pack
       lld
+      trunk
 
       sqlite
       pkg-config
