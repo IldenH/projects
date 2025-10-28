@@ -2,10 +2,10 @@ use cached::proc_macro::cached;
 use yew::prelude::*;
 
 #[cached]
-fn fibonacci(n: u64) -> u64 {
+fn fibonacci(n: u64) -> f64 {
     match n {
-        0 => 0,
-        1 => 1,
+        0 => 0.0,
+        1 => 1.0,
         _ => fibonacci(n - 1) + fibonacci(n - 2),
     }
 }
@@ -37,7 +37,7 @@ impl Component for App {
 
     fn view(&self, ctx: &Context<Self>) -> Html {
         let start = 0;
-        let end = 50;
+        let end = 100000;
         let fibbonacci = (start..end).map(|n| fibonacci(n)).map(|num| {
             html! {
                 <p>{ num }</p>
