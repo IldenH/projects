@@ -5,6 +5,7 @@ use serde::{Deserialize, Deserializer};
 use serde_json::Value;
 use std::io;
 use std::io::Write;
+use std::path::PathBuf;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::thread;
@@ -212,7 +213,12 @@ fn fetch_and_insert(
 }
 
 fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
-    let mut conn = Connection::open("./db.db")?;
+    let db_path = dirs_next::data_dir()
+        .expect("Failed to get data dir")
+        .join("endelay/db.db");
+    std::fs::create_dir_all(db_path.parent().unwrap()).expect("Failed to create db dir");
+
+    let mut conn = Connection::open(db_path)?;
     conn.pragma_update(None, "journal_mode", &"WAL")?;
     conn.pragma_update(None, "synchronous", &"NORMAL")?;
     conn.execute_batch(
@@ -260,14 +266,21 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
 
     let client = Client::new();
     while running.load(Ordering::SeqCst) {
+        let now: OffsetDateTime = std::time::SystemTime::now().into();
         if let Err(e) = fetch_and_insert(&mut conn, &client) {
-            let now: OffsetDateTime = std::time::SystemTime::now().into();
             eprintln!("{now}: {e:?}",)
         };
-        sleep(Duration::from_secs(16));
+
+        let sleep_until = now + Duration::from_secs(16);
+        while now < sleep_until {
+            if !running.load(Ordering::SeqCst) {
+                break;
+            }
+            sleep(Duration::from_millis(100));
+        }
     }
 
-    conn.execute_batch("PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE); VACUUM;")?;
+    conn.execute_batch("PRAGMA optimize; PRAGMA wal_checkpoint(TRUNCATE);")?;
 
     Ok(())
 }
