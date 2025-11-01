@@ -5,7 +5,6 @@ use serde::{Deserialize, Deserializer};
 use serde_json::Value;
 use std::io;
 use std::io::Write;
-use std::path::PathBuf;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::thread;
@@ -266,13 +265,15 @@ fn main() -> rusqlite::Result<(), Box<dyn std::error::Error>> {
 
     let client = Client::new();
     while running.load(Ordering::SeqCst) {
-        let now: OffsetDateTime = std::time::SystemTime::now().into();
         if let Err(e) = fetch_and_insert(&mut conn, &client) {
+            let now: OffsetDateTime = std::time::SystemTime::now().into();
             eprintln!("{now}: {e:?}",)
         };
 
-        let sleep_until = now + Duration::from_secs(16);
+        let mut now: OffsetDateTime = std::time::SystemTime::now().into();
+        let sleep_until = now + Duration::from_secs(15);
         while now < sleep_until {
+            now = std::time::SystemTime::now().into();
             if !running.load(Ordering::SeqCst) {
                 break;
             }
