@@ -1,4 +1,11 @@
-const shaders = ["boxes.frag", "gradient.frag", "japan.frag"];
+const shaders = [
+  "boxes.frag",
+  "gradient.frag",
+  "japan.frag",
+  "wheel.frag",
+  "outline.frag",
+  "rainbow.frag",
+];
 
 for (const shader of shaders) {
   let canvas = document.createElement("canvas");
