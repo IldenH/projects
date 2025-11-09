@@ -5,6 +5,8 @@ const shaders = [
   "wheel.frag",
   "outline.frag",
   "rainbow.frag",
+  "cross.frag",
+  "hud.frag",
 ];
 
 for (const shader of shaders) {
