@@ -7,6 +7,7 @@ const shaders = [
   "rainbow.frag",
   "cross.frag",
   "hud.frag",
+  "tictactoe.frag",
 ];
 
 for (const shader of shaders) {
