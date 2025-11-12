@@ -30,10 +30,20 @@ let bEl = document.getElementById("b");
 
 let rgb = [rEl.value, gEl.value, bEl.value];
 
-// rEl.addEventListener("change", (event) => {
-//   // rgb[0] = event.value;
-//   console.log("hei");
-// });
+rEl.addEventListener("input", (event) => {
+  rgb[0] = event.data;
+  rgbEl.textContent = `RGB: (${rgb})`;
+});
+
+gEl.addEventListener("input", (event) => {
+  rgb[1] = event.data;
+  rgbEl.textContent = `RGB: (${rgb})`;
+});
+
+bEl.addEventListener("input", (event) => {
+  rgb[2] = event.data;
+  rgbEl.textContent = `RGB: (${rgb})`;
+});
 
 let rgbNorm = [];
 for (const color of rgb) {
