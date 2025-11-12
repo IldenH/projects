@@ -8,7 +8,7 @@ v = 0
 t = 0
 dt = 0.001
 
-while s < 20/100:
+while s < 20 / 100:
     G = m * g
     L = k * v
     a = (G - L) / m
