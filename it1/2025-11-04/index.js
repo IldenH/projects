@@ -8,6 +8,7 @@ const shaders = [
   "cross.frag",
   "hud.frag",
   "tictactoe.frag",
+  "shapegrid.frag",
 ];
 
 for (const shader of shaders) {
