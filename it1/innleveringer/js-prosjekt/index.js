@@ -1,3 +1,23 @@
+let hexEl = document.getElementById("hex");
+let rgbEl = document.getElementById("rgb");
+let rgbNormEl = document.getElementById("rgbNorm");
+let rgbNormForm = document.getElementById("rgbNormForm");
+
+let rgbForm = document.getElementById("rgbForm");
+rgbForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  update();
+});
+
+function update() {
+  let rgb = ["r", "g", "b"].map((color) => parseInt(rgbForm[color].value, 10));
+  let rgbNorm = rgb.map((color) => color / 255.0);
+
+  rgbEl.textContent = `RGB: (${rgb})`;
+  rgbNormEl.textContent = `RGB normalized: (${rgbNorm.map((color) => color.toFixed(2))})`;
+  hexEl.value = `${rgbToHex(rgb)}`;
+}
+
 function hexToRgb(hex) {
   if (length(hex) != 7 && hex[0] != "#") {
     window.alert("Invalid hex");
@@ -20,37 +40,6 @@ function rgbToHex(rgb) {
   return "#" + hex;
 }
 
-let hexEl = document.getElementById("hex");
-let rgbEl = document.getElementById("rgb");
-let rgbNormEl = document.getElementById("rgbNormalized");
-
-let rEl = document.getElementById("r");
-let gEl = document.getElementById("g");
-let bEl = document.getElementById("b");
-
-let rgb = [rEl.value, gEl.value, bEl.value];
-
-rEl.addEventListener("input", (event) => {
-  rgb[0] = event.data;
-  rgbEl.textContent = `RGB: (${rgb})`;
-});
-
-gEl.addEventListener("input", (event) => {
-  rgb[1] = event.data;
-  rgbEl.textContent = `RGB: (${rgb})`;
-});
-
-bEl.addEventListener("input", (event) => {
-  rgb[2] = event.data;
-  rgbEl.textContent = `RGB: (${rgb})`;
-});
-
-let rgbNorm = [];
-for (const color of rgb) {
-  rgbNorm.push(color / 255.0);
-}
-
-rgbEl.textContent = `RGB: (${rgb})`;
-rgbNormEl.textContent = `RGB normalized: (${rgbNorm.map((color) => color.toFixed(2))})`;
-
-hexEl.textContent = `Hex: ${rgbToHex(rgb)}`;
+(() => {
+  update();
+})();

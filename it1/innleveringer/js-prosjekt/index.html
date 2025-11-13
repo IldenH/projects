@@ -4,21 +4,32 @@
     <meta charset="utf-8" />
     <title>JS Prosjekt</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
+    <script src="index.js" type="module" defer></script>
   </head>
 
   <body>
-    <p id="hex">Hex:</p>
-    <input placeholder="#282828" />
-    <input />
-    <input />
-    <p id="rgb">RGB</p>
-    <div>
-      <input type="number" min="0" max="255" value="0" id="r" />
-      <input type="number" min="0" max="255" value="0" id="g" />
-      <input type="number" min="0" max="255" value="0" id="b" />
-    </div>
-
-    <p id="rgbNormalized">RGB normalized</p>
+    <main>
+      <header><h1>Color picker</h1></header>
+      <article class="forms">
+        <span>Hex</span>
+        <form id="hexForm">
+          <input id="hex" />
+        </form>
+        <span id="rgb">RGB</span>
+        <form id="rgbForm">
+          <input name="r" type="number" min="0" max="255" value="0" />
+          <input name="g" type="number" min="0" max="255" value="0" />
+          <input name="b" type="number" min="0" max="255" value="0" />
+          <button type="sumbit">ok</button>
+        </form>
+        <span id="rgbNorm">RGB normalized</span>
+        <form id="rgbNormForm">
+          <input name="r" type="number" min="0" max="1" value="0" />
+          <input name="g" type="number" min="0" max="1" value="0" />
+          <input name="b" type="number" min="0" max="1" value="0" />
+          <button type="sumbit">ok</button>
+        </form>
+      </article>
+    </main>
   </body>
 </html>
