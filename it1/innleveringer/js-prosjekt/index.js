@@ -1,3 +1,5 @@
+let preview = document.getElementById("preview");
+
 let hexEl = document.getElementById("hex");
 let rgbEl = document.getElementById("rgb");
 let rgbNormEl = document.getElementById("rgbNorm");
@@ -34,6 +36,8 @@ function update(event) {
         break;
     }
   }
+
+  preview.style.backgroundColor = `${rgbToHex(rgb)}`;
 
   rgbEl.textContent = `RGB: (${rgb})`;
 

@@ -7,12 +7,17 @@ body {
   background-color: #282828;
 }
 
-input {
-  background-color: #3c3836;
+h1 {
+  background-color: #282828;
+  padding: 0.5rem;
 }
 
+input,
 button {
   background-color: #3c3836;
+  border-color: #3c3836;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -30,4 +35,11 @@ input[type="number"] {
   grid-template-columns: auto 1fr;
   gap: 0.5rem;
   padding: 0.5rem;
+  background-color: #282828;
+}
+
+#preview {
+  background-color: #000000;
+  width: 10rem;
+  height: 10rem;
 }
