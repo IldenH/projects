@@ -1,31 +1,64 @@
 let hexEl = document.getElementById("hex");
 let rgbEl = document.getElementById("rgb");
 let rgbNormEl = document.getElementById("rgbNorm");
-let rgbNormForm = document.getElementById("rgbNormForm");
 
 let rgbForm = document.getElementById("rgbForm");
-rgbForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  update();
-});
+let rgbNormForm = document.getElementById("rgbNormForm");
 
-function update() {
-  let rgb = ["r", "g", "b"].map((color) => parseInt(rgbForm[color].value, 10));
-  let rgbNorm = rgb.map((color) => color / 255.0);
+let forms = [...document.querySelector(".forms").children].filter(
+  (el) => el.tagName.toLowerCase() == "form",
+);
+for (let form of forms) {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    update(event);
+  });
+}
+
+function update(event) {
+  let rgb = [0, 0, 0];
+  if (event) {
+    switch (event.target.id) {
+      case "hexForm":
+        rgb = hexToRgb(event.target["hex"].value);
+        break;
+      case "rgbForm":
+        rgb = ["r", "g", "b"].map((color) =>
+          parseInt(event.target[color].value, 10),
+        );
+        break;
+      case "rgbNormForm":
+        rgb = ["r", "g", "b"].map((color) =>
+          Math.round(parseFloat(event.target[color].value) * 255),
+        );
+        break;
+    }
+  }
 
   rgbEl.textContent = `RGB: (${rgb})`;
-  rgbNormEl.textContent = `RGB normalized: (${rgbNorm.map((color) => color.toFixed(2))})`;
+
   hexEl.value = `${rgbToHex(rgb)}`;
+
+  ["r", "g", "b"].map((color, i) => {
+    rgbForm[color].value = rgb[i];
+  });
+
+  let rgbNorm = rgb
+    .map((color) => color / 255.0)
+    .map((color) => color.toFixed(2));
+  rgbNormEl.textContent = `RGB normalized: (${rgbNorm})`;
+  ["r", "g", "b"].map((color, i) => {
+    rgbNormForm[color].value = rgbNorm[i];
+  });
 }
 
 function hexToRgb(hex) {
-  if (length(hex) != 7 && hex[0] != "#") {
+  if (hex.length != 7 && hex[0] != "#") {
     window.alert("Invalid hex");
   }
-  hex.pop(0);
-  let r = parseInt(hex.arr(0, 2));
-  let g = parseInt(hex.arr(2, 4));
-  let b = parseInt(hex.arr(4, 6));
+  let r = parseInt(hex.slice(1, 3), 16);
+  let g = parseInt(hex.slice(3, 5), 16);
+  let b = parseInt(hex.slice(5, 7), 16);
   return [r, g, b];
 }
 
@@ -33,13 +66,17 @@ function rgbToHex(rgb) {
   if (rgb.length != 3) {
     window.alert("Invalid rgb");
   }
-  let hex = "";
-  hex += rgb[0].toString(16);
-  hex += rgb[1].toString(16);
-  hex += rgb[2].toString(16);
-  return "#" + hex;
+  let hex = "#";
+  rgb.map((color) => {
+    let part = color.toString(16);
+    if (part.length == 1) {
+      part = "0" + part;
+    }
+    hex += part;
+  });
+  return hex;
 }
 
 (() => {
-  update();
+  update(null);
 })();
