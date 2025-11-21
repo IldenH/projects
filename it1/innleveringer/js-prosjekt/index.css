@@ -42,4 +42,44 @@ input[type="number"] {
   background-color: #000000;
   width: 10rem;
   height: 10rem;
+  border-radius: 0.5rem;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 80%;
+  padding: 0;
+  margin: 0.5rem;
+  height: 1.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb,
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 3px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.hue {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    magenta,
+    red
+  );
+}
+.saturation {
+  background: linear-gradient(to right, #000000, red);
+}
+.light {
+  background: linear-gradient(to right, #000000, red, #ffffff);
 }
