@@ -17,8 +17,11 @@ for (let form of forms) {
   });
 }
 
+let rgb = [0, 0, 0];
+let rgbNorm = [0.0, 0.0, 0.0];
+let hex = "#000000";
+
 function update(event) {
-  let rgb = [0, 0, 0];
   if (event) {
     switch (event.target.id) {
       case "hexForm":
@@ -36,20 +39,19 @@ function update(event) {
         break;
     }
   }
+  hex = rgbToHex(rgb);
 
-  preview.style.backgroundColor = `${rgbToHex(rgb)}`;
+  preview.style.backgroundColor = hex;
 
   rgbEl.textContent = `RGB: (${rgb})`;
 
-  hexEl.value = `${rgbToHex(rgb)}`;
+  hexEl.value = hex;
 
   ["r", "g", "b"].map((color, i) => {
     rgbForm[color].value = rgb[i];
   });
 
-  let rgbNorm = rgb
-    .map((color) => color / 255.0)
-    .map((color) => color.toFixed(2));
+  rgbNorm = rgb.map((color) => color / 255.0).map((color) => color.toFixed(2));
   rgbNormEl.textContent = `RGB normalized: (${rgbNorm})`;
   ["r", "g", "b"].map((color, i) => {
     rgbNormForm[color].value = rgbNorm[i];
@@ -79,6 +81,23 @@ function rgbToHex(rgb) {
     hex += part;
   });
   return hex;
+}
+
+function copyToClipboard(event) {
+  const form = event.target.closest("form").id;
+  let text;
+  switch (form) {
+    case "hexForm":
+      text = hex;
+      break;
+    case "rgbForm":
+      text = `(${rgb})`;
+      break;
+    case "rgbNormForm":
+      text = `(${rgbNorm})`;
+      break;
+  }
+  navigator.clipboard.writeText(text);
 }
 
 (() => {
