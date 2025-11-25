@@ -47,3 +47,17 @@ numbers = [1, 4, 5, 1, 99, 52, 42, 5, 21, 32, 67, 44, 36, 12, 6, 8, 51]
 
 sum' [] = 0
 sum' (x : xs) = x + sum' xs
+
+max' :: (Ord a) => a -> a -> a
+max' a b
+  | a > b = a
+  | otherwise = b
+
+densityTell :: (RealFloat a) => a -> a -> String
+densityTell mass volume
+  | density < air = "Float"
+  | density <= water = "Swim"
+  | otherwise = "Sink"
+  where
+    density = mass / volume
+    (air, water) = (1.2, 1000.0)
