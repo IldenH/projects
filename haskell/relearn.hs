@@ -1,5 +1,7 @@
 -- Relearning haskell trough https://learnyouahaskell.github.io since i haven't used haskell in about a year and learning some things about haskell i didn't know existed
 
+import Data.Maybe
+
 doubleMe :: (Num a) => a -> a
 doubleMe x = x + x
 
@@ -61,3 +63,81 @@ densityTell mass volume
   where
     density = mass / volume
     (air, water) = (1.2, 1000.0)
+
+cylinder :: (RealFloat a) => a -> a -> a
+cylinder r h =
+  let sideArea = 2 * pi * r * h
+      topArea = pi * r ^ 2
+   in sideArea + 2 * topArea
+
+swapPair :: (a, b) -> (b, a)
+swapPair (a, b) = (b, a)
+
+listDescriptor :: [a] -> String
+listDescriptor [] = "Empty"
+listDescriptor [x] = "Singleton"
+listDescriptor xs = "Long"
+
+listDescriptor' xs = "The list is " ++ what xs
+  where
+    what [] = "empty"
+    what [x] = "singleton"
+    what xs = "long"
+
+safeHead :: [a] -> Maybe a
+safeHead [] = Nothing
+safeHead (x : _) = Just x
+
+product' :: (Num a) => [a] -> a
+product' [] = 1
+product' (x : xs) = x * product' xs
+
+replicate' :: (Integral n) => n -> a -> [a]
+replicate' 0 _ = []
+replicate' n x = x : replicate' (n - 1) x
+
+take' :: (Integral n) => n -> [a] -> [a]
+take' 0 _ = []
+take' _ [] = []
+take' n (x : xs)
+  | n <= 0 = []
+  | otherwise = x : take' (n - 1) xs
+
+getGrade :: (Integral a) => a -> String
+getGrade x
+  | x < 60 = "F"
+  | x < 70 = "D"
+  | x < 80 = "C"
+  | x < 90 = "B"
+  | x < 100 = "A"
+  | otherwise = error "score is more than 100"
+
+bmi :: (RealFloat a) => a -> a -> String
+bmi mass height
+  | bmi < 18.5 = "Underweight"
+  | bmi < 25.0 = "Normal"
+  | bmi < 30.0 = "Overweight"
+  | otherwise = "Obese"
+  where
+    bmi = mass / height ^ 2
+
+roots :: (Floating a) => a -> a -> a -> (a, a)
+roots a b c = (root1, root2)
+  where
+    root1 = (-b + sqrt (b ^ 2 - 4 * a * c)) / (2 * a)
+    root2 = (-b - sqrt (b ^ 2 - 4 * a * c)) / (2 * a)
+
+radii = [1.0, 2.5, 3.0, 0.5]
+
+radiusArea rs = [(r, a) | r <- rs, let a = pi * r ^ 2]
+
+describeList :: [a] -> String
+describeList xs =
+  "The list is " ++ case xs of
+    [] -> "empty"
+    [x] -> "singleton"
+    xs -> "long"
+
+capital :: String -> String
+capital [] = "'' starts with ''"
+capital all@(x : _) = "'" ++ all ++ "' starts with " ++ show x
