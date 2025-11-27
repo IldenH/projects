@@ -141,3 +141,19 @@ describeList xs =
 capital :: String -> String
 capital [] = "'' starts with ''"
 capital all@(x : _) = "'" ++ all ++ "' starts with " ++ show x
+
+primes = 2 : [x | x <- [3, 5 ..], all (\p -> x `rem` p /= 0) (takeWhile (\p -> p * p <= x) primes)]
+
+tverrsum :: (Integral a) => a -> a
+tverrsum x = tverrsum' x 0
+  where
+    tverrsum' :: (Integral a) => a -> a -> a
+    tverrsum' 0 acc = acc
+    tverrsum' x acc = tverrsum' (x `div` 10) (acc + x `rem` 10)
+
+maximum' :: (Ord a) => [a] -> a
+maximum' [] = error "empty list"
+maximum' [x] = x
+maximum' (x : xs) = max x maxTail
+  where
+    maxTail = maximum' xs
