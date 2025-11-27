@@ -157,3 +157,65 @@ maximum' [x] = x
 maximum' (x : xs) = max x maxTail
   where
     maxTail = maximum' xs
+
+reverse' :: [a] -> [a]
+reverse' [] = []
+reverse' (x : xs) = reverse' xs ++ [x]
+
+repeat' :: a -> [a]
+repeat' x = x : repeat' x
+
+zip' :: [a] -> [b] -> [(a, b)]
+zip' [] _ = []
+zip' _ [] = []
+zip' (x : xs) (y : ys) = (x, y) : zip' xs ys
+
+elem' :: (Eq a) => a -> [a] -> Bool
+elem' _ [] = False
+elem' e (x : xs)
+  | e == x = True
+  | otherwise = elem' e xs
+
+quicksort :: (Ord a) => [a] -> [a]
+quicksort [] = []
+quicksort (x : xs) =
+  let smallerSorted = quicksort [a | a <- xs, a <= x]
+      biggerSorted = quicksort [a | a <- xs, a > x]
+   in smallerSorted ++ [x] ++ biggerSorted
+
+drop' :: (Integral n) => n -> [a] -> [a]
+drop' 0 xs = xs
+drop' _ [] = []
+drop' n (x : xs) = drop' (n - 1) xs
+
+filter' :: (a -> Bool) -> [a] -> [a]
+filter' _ [] = []
+filter' f (x : xs)
+  | f x = x : filter' f xs
+  | otherwise = filter' f xs
+
+zipWith' :: (a -> b -> c) -> [a] -> [b] -> [c]
+zipWith' _ [] _ = []
+zipWith' _ _ [] = []
+zipWith' f (x : xs) (y : ys) = f x y : zipWith' f xs ys
+
+concat' :: [[a]] -> [a]
+concat' [] = []
+concat' (xs : xxs) = xs ++ concat' xxs
+
+intersperse' :: a -> [a] -> [a]
+intersperse' _ [] = []
+intersperse' _ [x] = [x]
+intersperse' a (x : xs) = x : a : intersperse' a xs
+
+gcd' :: (Integral a) => a -> a -> a
+gcd' a 0 = a
+gcd' a b = gcd' b (a `mod` b)
+
+flip' :: (a -> b -> c) -> b -> a -> c
+flip' f x y = f y x
+
+-- find the largest number under 100,000 that's divisible by 3829.
+largestDivisibleNumberUnder x num = maximum $ filter isDivisible [1 .. x]
+  where
+    isDivisible = (== 0) . (`rem` num)
