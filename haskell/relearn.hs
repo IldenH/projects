@@ -1,5 +1,6 @@
 -- Relearning haskell trough https://learnyouahaskell.github.io since i haven't used haskell in about a year and learning some things about haskell i didn't know existed
 
+import Data.List
 import Data.Maybe
 
 doubleMe :: (Num a) => a -> a
@@ -269,3 +270,7 @@ squareAndFilterEvens = filter even . map (^ 2)
 
 countOccurences :: (Eq a, Integral i) => a -> [a] -> i
 countOccurences a = foldl (\acc x -> if x == a then acc + 1 else acc) 0
+
+checkerBoard w h = concat . replicate h . unlines $ [rep "ox", rep "xo"]
+  where
+    rep = concat . replicate w
