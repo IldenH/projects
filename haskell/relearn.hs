@@ -219,3 +219,53 @@ flip' f x y = f y x
 largestDivisibleNumberUnder x num = maximum $ filter isDivisible [1 .. x]
   where
     isDivisible = (== 0) . (`rem` num)
+
+collatz :: (Integral a) => a -> [a]
+collatz 1 = [1]
+collatz n
+  | even n = n : collatz (n `div` 2)
+  | odd n = n : collatz (n * 3 + 1)
+
+sum'' :: (Num a) => [a] -> a
+sum'' xs = foldl (\acc x -> acc + x) 0 xs
+
+sum''' :: (Num a) => [a] -> a
+sum''' = foldl (+) 0
+
+elem'' :: (Eq a) => a -> [a] -> Bool
+elem'' y = foldl (\acc x -> x == y || acc) False
+
+map' :: (a -> b) -> [a] -> [b]
+map' f = foldr (\x acc -> f x : acc) []
+
+maximum'' :: (Ord a) => [a] -> a
+maximum'' = foldr1 (\x acc -> if x > acc then x else acc)
+
+reverse'' :: [a] -> [a]
+reverse'' = foldl (\acc x -> x : acc) []
+
+product'' :: (Num a) => [a] -> a
+product'' = foldr1 (*)
+
+filter'' :: (a -> Bool) -> [a] -> [a]
+filter'' f = foldr (\x acc -> if f x then x : acc else acc) []
+
+head'' :: [a] -> a
+head'' = foldr1 (\x _ -> x)
+
+last'' :: [a] -> a
+last'' = foldl1 (\_ x -> x)
+
+applyIf :: (a -> Bool) -> (a -> a) -> a -> a
+applyIf p f x
+  | p x = f x
+  | otherwise = x
+
+findLongs :: [[a]] -> [[a]]
+findLongs = filter $ \x -> length x > 7
+
+squareAndFilterEvens :: (Integral a) => [a] -> [a]
+squareAndFilterEvens = filter even . map (^ 2)
+
+countOccurences :: (Eq a, Integral i) => a -> [a] -> i
+countOccurences a = foldl (\acc x -> if x == a then acc + 1 else acc) 0
