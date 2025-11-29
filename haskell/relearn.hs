@@ -1,7 +1,10 @@
 -- Relearning haskell trough https://learnyouahaskell.github.io since i haven't used haskell in about a year and learning some things about haskell i didn't know existed
 
+import Data.Char
 import Data.List
+import qualified Data.Map as Map
 import Data.Maybe
+import qualified Data.Set as Set
 
 doubleMe :: (Num a) => a -> a
 doubleMe x = x + x
@@ -274,3 +277,29 @@ countOccurences a = foldl (\acc x -> if x == a then acc + 1 else acc) 0
 checkerBoard w h = concat . replicate h . unlines $ [rep "ox", rep "xo"]
   where
     rep = concat . replicate w
+
+frequencies :: (Ord a) => [a] -> [(a, Int)]
+frequencies = sortBy (\(_, x) (_, y) -> y `compare` x) . occurrences
+  where
+    occurrences = map (\all@(x : _) -> (x, length all)) . group . sort
+
+frequencies' :: (Ord a, Num b, Ord b) => [a] -> [(a, b)]
+frequencies' = reverse . sortOn snd . occurrences
+  where
+    occurrences = map (\all@(x : _) -> (x, genericLength all)) . group . sort
+
+search :: (Eq a) => [a] -> [a] -> Bool
+search needle haystack =
+  let nlen = length needle
+   in foldl (\acc x -> if take nlen x == needle then True else acc) False (tails haystack)
+
+words' :: String -> [String]
+words' s =
+  case dropWhile isSpace s of
+    "" -> []
+    s' -> w : words' s''
+      where
+        (w, s'') = break isSpace s'
+
+caesar :: (Int -> Int) -> String -> String
+caesar shift = map chr . map shift . map ord
