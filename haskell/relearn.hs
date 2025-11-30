@@ -303,3 +303,54 @@ words' s =
 
 caesar :: (Int -> Int) -> String -> String
 caesar shift = map chr . map shift . map ord
+
+sanitize :: String -> String
+sanitize = concat . map removeDoubleSpace . group . alphaSpace
+  where
+    alphaSpace = filter (`elem` ' ' : ['a' .. 'z']) . map toLower
+    removeDoubleSpace x = if length x /= 1 && all isSpace x then " " else x
+
+parseInt :: String -> Int
+parseInt = foldr (\(x, y) acc -> acc + x * y) 0 . zip (iterate (* 10) 1) . reverse . map digitToInt
+
+parseInt' :: String -> Int
+parseInt' = foldl (\acc d -> acc * 10 + d) 0 . map digitToInt
+
+mostFrequent :: (Ord a) => [a] -> Maybe [a]
+mostFrequent [] = Nothing
+mostFrequent xs = Just . map (\(x : _) -> x) . takeWhile (\x -> length x == length longest) . sorted $ xs
+  where
+    sorted = sortOn (negate . length) . group . sort
+    (longest : _) = sorted $ xs
+
+findLongestRun :: (Eq a) => [a] -> [(a, Int)]
+findLongestRun xs = map (\xs@(x : _) -> (x, length xs)) . takeWhile (\x -> length x == length longest) . grouped $ xs
+  where
+    grouped = sortOn (negate . length) . group
+    (longest : _) = grouped $ xs
+
+findLongestRun' :: (Eq a) => [a] -> [(a, Int)]
+findLongestRun' xs =
+  let groups = group xs
+      maxLen = maximum $ map length groups
+   in [(x, length g) | g@(x : _) <- groups, length g == maxLen]
+
+jaccardIndex :: (Ord a) => Set.Set a -> Set.Set a -> Double
+jaccardIndex x y
+  | Set.null x && Set.null y = 0.0
+  | otherwise =
+      let interSize = fromIntegral $ Set.size $ Set.intersection x y
+          unionSize = fromIntegral $ Set.size $ Set.union x y
+       in interSize / unionSize
+
+symmetricDiff :: (Ord a) => Set.Set a -> Set.Set a -> Set.Set a
+symmetricDiff x y = Set.union x y Set.\\ Set.intersection x y
+
+invertMap :: (Ord k, Ord v) => Map.Map k v -> Map.Map v [k]
+invertMap = Map.fromListWith (++) . map (\(k, v) -> (v, [k])) . Map.toList
+
+letterFrequencies :: String -> Map.Map Char Int
+letterFrequencies =
+  let toMap = foldl (\acc x -> Map.insertWith (+) x 1 acc) Map.empty
+      letters = filter (`elem` ['a' .. 'z']) . map toLower
+   in toMap . letters
