@@ -354,3 +354,17 @@ letterFrequencies =
   let toMap = foldl (\acc x -> Map.insertWith (+) x 1 acc) Map.empty
       letters = filter (`elem` ['a' .. 'z']) . map toLower
    in toMap . letters
+
+data Person = Person
+  { firstName :: String,
+    lastName :: String,
+    age :: Int
+  }
+  deriving (Show)
+
+data WeekDay = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday deriving (Ord, Eq, Show, Read, Bounded, Enum)
+
+data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)
+
+singletonTree :: a -> Tree a
+singletonTree x = Node x EmptyTree EmptyTree
