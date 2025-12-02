@@ -3,3 +3,5 @@
 **/.direnv
 **/__pycache__
 **/.ipynb_checkpoints
+**/*.hi
+**/*.o
