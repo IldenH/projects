@@ -102,6 +102,9 @@ function hexToRgb(hex) {
   let r = parseInt(hex.slice(1, 3), 16);
   let g = parseInt(hex.slice(3, 5), 16);
   let b = parseInt(hex.slice(5, 7), 16);
+  if (isNaN(r) || isNaN(g) || isNaN(b)) {
+    return [0, 0, 0];
+  }
   return [r, g, b];
 }
 
