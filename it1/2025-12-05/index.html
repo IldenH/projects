@@ -1,0 +1,48 @@
+<html>
+  <head></head>
+  <body>
+    <form id="skjema">
+      <label for="email">E-post:</label>
+      <input type="email" name="email" required />
+
+      <label for="password">Passord:</label>
+      <input type="password" name="password" required />
+
+      <label for="alder">Alder:</label>
+      <input type="number" name="alder" min="1" max="120" required />
+
+      <label>Kjønn:</label>
+      <input type="radio" name="kjonn" value="mann" required />
+      <label for="mann">Mann</label>
+      <input type="radio" name="kjonn" value="kvinne" />
+      <label for="kvinne">Kvinne</label>
+
+      <label for="interesser">Interesser:</label>
+      <select name="interesser" multiple>
+        <option value="sport">Sport</option>
+        <option value="musikk">Musikk</option>
+        <option value="kunst">Kunst</option>
+      </select>
+
+      <label for="farge">Favorittfarge:</label>
+      <input type="color" name="farge" value="#ff0000" />
+
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="file" />
+      <input type="range" />
+      <input type="image" />
+      <input type="hidden" />
+      <input type="reset" />
+      <input type="time" />
+      <input type="month" />
+      <input type="tel" />
+      <input type="search" />
+      <input type="week" />
+      <input type="url" />
+      <input type="button" />
+
+      <button type="submit">Send inn</button>
+    </form>
+  </body>
+</html>
