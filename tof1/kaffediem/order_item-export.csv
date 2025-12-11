@@ -1,0 +1,921 @@
+order_id,inserted_at,updated_at,item_name,price_nok,category_name,customization_key,customization_value,price_increment_nok,constant_price
+2h8feraee987wr8,2025-09-08 06:24:07.411Z,2025-09-08 06:24:07.708Z,Latte,10,Varm drikke,Melk,Hel,0,1
+2h8feraee987wr8,2025-09-08 06:24:07.411Z,2025-09-08 06:24:07.708Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+2h8feraee987wr8,2025-09-08 06:24:07.411Z,2025-09-08 06:24:07.708Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+8ongct2f5xfef2u,2025-09-08 06:34:42.518Z,2025-09-08 06:34:42.820Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+kq17fr27xsp9y0l,2025-09-08 06:40:47.608Z,2025-09-08 06:40:47.911Z,Chai Latte,10,Varm drikke,Melk,Havre,0,1
+kq17fr27xsp9y0l,2025-09-08 06:40:47.608Z,2025-09-08 06:40:47.911Z,Chai Latte,10,Varm drikke,Smak,Vanilje,0,1
+kq17fr27xsp9y0l,2025-09-08 06:40:47.608Z,2025-09-08 06:40:47.911Z,Chai Latte,10,Varm drikke,Ekstra,Krem,5,1
+s3sbjg74yevfl2c,2025-09-08 06:40:47.609Z,2025-09-08 06:40:47.948Z,Espresso,10,Varm drikke,Smak,Vanilje,0,1
+s3sbjg74yevfl2c,2025-09-08 06:40:47.609Z,2025-09-08 06:40:47.948Z,Espresso,10,Varm drikke,Melk,Lett,0,1
+s3sbjg74yevfl2c,2025-09-08 06:40:47.609Z,2025-09-08 06:40:47.948Z,Espresso,10,Varm drikke,Ekstra,Krem,5,1
+s3sbjg74yevfl2c,2025-09-08 06:40:47.609Z,2025-09-08 06:40:47.948Z,Espresso,10,Varm drikke,Kopp,Egen,0,1
+lheo0qubmr4etzt,2025-09-08 07:04:33.466Z,2025-09-08 07:04:33.764Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+lheo0qubmr4etzt,2025-09-08 07:04:33.466Z,2025-09-08 07:04:33.764Z,Latte,10,Varm drikke,Kopp,Stor,20,1
+pax22wuanlncy8w,2025-09-08 07:14:53.444Z,2025-09-08 07:14:53.753Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+pax22wuanlncy8w,2025-09-08 07:14:53.444Z,2025-09-08 07:14:53.753Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+pax22wuanlncy8w,2025-09-08 07:14:53.444Z,2025-09-08 07:14:53.753Z,Islatte,10,Kald drikke,Melk,Hel,0,1
+r63e2fp4u2p7vsf,2025-09-08 07:15:43.385Z,2025-09-08 07:15:43.691Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r63e2fp4u2p7vsf,2025-09-08 07:15:43.385Z,2025-09-08 07:15:43.691Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+04k7u9nmystrm1x,2025-09-08 07:16:54.345Z,2025-09-08 07:16:54.699Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+7u851g0gwd9vvtd,2025-09-08 07:17:21.931Z,2025-09-08 07:17:22.238Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+7d19b5ex1aqfp51,2025-09-08 07:17:47.947Z,2025-09-08 07:17:48.252Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+grovfxyaf0u9nov,2025-09-08 07:18:16.615Z,2025-09-08 07:18:16.944Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+grovfxyaf0u9nov,2025-09-08 07:18:16.615Z,2025-09-08 07:18:16.944Z,Islatte,10,Kald drikke,Melk,Lett,0,1
+ven2wdlleyo5kih,2025-09-08 07:20:27.212Z,2025-09-08 07:20:27.509Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+f14s2omfqkcrewc,2025-09-08 07:22:06.091Z,2025-09-08 07:22:06.392Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+f14s2omfqkcrewc,2025-09-08 07:22:06.091Z,2025-09-08 07:22:06.392Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+end3m6qobvaz2ue,2025-09-08 07:22:33.725Z,2025-09-08 07:22:34.024Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+yt0zap93y4rqx7r,2025-09-08 07:24:17.822Z,2025-09-08 07:24:18.157Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+yt0zap93y4rqx7r,2025-09-08 07:24:17.822Z,2025-09-08 07:24:18.157Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+yt0zap93y4rqx7r,2025-09-08 07:24:17.822Z,2025-09-08 07:24:18.157Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+s5fu2h6i32os92n,2025-09-08 07:24:52.336Z,2025-09-08 07:24:52.635Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+4qlzz69ig0gaq4c,2025-09-08 07:25:25.953Z,2025-09-08 07:25:26.267Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+msxoptmwqlmgwhw,2025-09-08 07:31:43.326Z,2025-09-08 07:31:43.624Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+vl7baw6ncxc7x4m,2025-09-08 07:32:26.818Z,2025-09-08 07:32:27.118Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+t1uw59ub0vi8ef2,2025-09-08 07:38:59.572Z,2025-09-08 07:38:59.889Z,Latte,10,Varm drikke,Kopp,Stor,20,1
+t1uw59ub0vi8ef2,2025-09-08 07:38:59.572Z,2025-09-08 07:38:59.889Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+nkr1q8q3gwzoj64,2025-09-08 07:39:56.061Z,2025-09-08 07:39:56.363Z,Cappuccino,10,Varm drikke,Kopp,Liten,10,1
+uayvnlzgxatp9ux,2025-09-08 07:56:21.993Z,2025-09-08 07:56:22.299Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+upmq80aallad6pd,2025-09-08 07:56:21.995Z,2025-09-08 07:56:22.307Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+tohojj4r5rlftpw,2025-09-08 07:57:03.981Z,2025-09-08 07:57:04.276Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+i6v6kify332abe2,2025-09-08 07:58:30.534Z,2025-09-08 07:58:30.830Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+i6v6kify332abe2,2025-09-08 07:58:30.534Z,2025-09-08 07:58:30.830Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+xl89pidda0oj27v,2025-09-08 07:58:30.536Z,2025-09-08 07:58:30.833Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+bog5tv5u9ty2fgj,2025-09-08 08:13:04.001Z,2025-09-08 08:13:04.303Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+7t696qasql9hvp2,2025-09-08 08:13:56.269Z,2025-09-08 08:13:56.575Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+7t696qasql9hvp2,2025-09-08 08:13:56.269Z,2025-09-08 08:13:56.575Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+y6jnufqmlyprayy,2025-09-08 08:25:21.060Z,2025-09-08 08:25:21.748Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+krbyzvsnidl0mml,2025-09-08 08:26:12.679Z,2025-09-08 08:26:13.012Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+krbyzvsnidl0mml,2025-09-08 08:26:12.679Z,2025-09-08 08:26:13.012Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+s0z1ncsrkaw0dd6,2025-09-08 08:26:58.736Z,2025-09-08 08:26:59.035Z,Varm sjokolade u/krem,10,Varm drikke,Melk,Laktosefri,0,1
+xereqlz6v9nf84j,2025-09-08 08:30:14.994Z,2025-09-08 08:30:15.303Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+mc995zykvowm18s,2025-09-08 08:52:46.035Z,2025-09-08 08:52:46.329Z,Karamell Frappe,15,Kald drikke,Melk,Laktosefri,0,1
+mc995zykvowm18s,2025-09-08 08:52:46.035Z,2025-09-08 08:52:46.329Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+3db2w3sqq3ks84g,2025-09-08 09:10:55.129Z,2025-09-08 09:10:55.430Z,Varm sjokolade u/krem,10,Varm drikke,Ekstra,Is,5,1
+3db2w3sqq3ks84g,2025-09-08 09:10:55.129Z,2025-09-08 09:10:55.430Z,Varm sjokolade u/krem,10,Varm drikke,Annet,Klippekort,0,0
+mchcqsf21vi32ao,2025-09-08 09:14:02.640Z,2025-09-08 09:14:02.952Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+eh06hogtfbygvzn,2025-09-08 09:14:37.278Z,2025-09-08 09:14:37.576Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+eh06hogtfbygvzn,2025-09-08 09:14:37.278Z,2025-09-08 09:14:37.576Z,Islatte,10,Kald drikke,Melk,Lett,0,1
+fqer9a3xw93defw,2025-09-08 09:32:59.639Z,2025-09-08 09:32:59.955Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+ac2h51glgmnnqgg,2025-09-08 09:33:46.429Z,2025-09-08 09:33:46.728Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+cz8wfanu13rulqb,2025-09-08 09:38:56.416Z,2025-09-08 09:38:56.718Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+rkq8uy31gmss6ql,2025-09-08 09:40:15.843Z,2025-09-08 09:40:16.187Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+hcw1ga84aknx0j0,2025-09-08 09:40:56.131Z,2025-09-08 09:40:56.437Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+u2urxx77lfvxff4,2025-09-08 09:41:40.003Z,2025-09-08 09:41:40.309Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+u2urxx77lfvxff4,2025-09-08 09:41:40.003Z,2025-09-08 09:41:40.309Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+vqe728b742xpsek,2025-09-08 09:42:32.201Z,2025-09-08 09:42:32.505Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+mo42c5tvhp6jc4q,2025-09-08 09:43:16.911Z,2025-09-08 09:43:17.211Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+aex2wjjcmqkpq5k,2025-09-08 09:44:29.208Z,2025-09-08 09:44:29.499Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+fx66luvyq37mgew,2025-09-08 09:48:40.639Z,2025-09-08 09:48:40.938Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+9edbkypckyvbvog,2025-09-08 09:53:23.400Z,2025-09-08 09:53:23.689Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+usqzhlfq85wkk75,2025-09-08 10:07:34.875Z,2025-09-08 10:07:35.223Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+y1l6h0trgnajcqf,2025-09-08 10:09:23.820Z,2025-09-08 10:09:24.188Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+v0aebbnomb2apjw,2025-09-09 06:24:52.486Z,2025-09-09 06:24:52.785Z,Karamell Frappe,15,Kald drikke,Smak,Hassel,0,1
+si0pf3jbi3x65r1,2025-09-09 08:00:12.344Z,2025-09-09 08:00:12.638Z,Cappuccino,10,Varm drikke,Kopp,Stor,20,1
+g685pmwh7371wey,2025-09-09 08:11:15.118Z,2025-09-09 08:11:15.408Z,Latte,10,Varm drikke,Melk,Havre,0,1
+6ex476s905axpn0,2025-09-09 08:19:27.480Z,2025-09-09 08:19:27.774Z,Mocca,10,Varm drikke,Smak,Salt karamell,0,1
+cc3abb6jqvqoy3c,2025-09-09 08:23:19.684Z,2025-09-09 08:23:20.017Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+cc3abb6jqvqoy3c,2025-09-09 08:23:19.684Z,2025-09-09 08:23:20.017Z,Latte,10,Varm drikke,Kopp,Stor,20,1
+cc3abb6jqvqoy3c,2025-09-09 08:23:19.684Z,2025-09-09 08:23:20.017Z,Latte,10,Varm drikke,Annet,Bursdag,0,0
+jngqlm6cqk1l4f9,2025-09-09 08:38:09.350Z,2025-09-09 08:38:09.643Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+1aourojtb8ps9vr,2025-09-09 08:42:38.965Z,2025-09-09 08:42:39.285Z,Is Americano,10,Kald drikke,Ekstra,Espresso,5,1
+rqnb0nxpqvr2zw9,2025-09-09 08:45:10.935Z,2025-09-09 08:45:11.231Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+ito8kdmt0o8vkp0,2025-09-09 08:51:36.694Z,2025-09-09 08:51:37.022Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+ito8kdmt0o8vkp0,2025-09-09 08:51:36.694Z,2025-09-09 08:51:37.022Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+ito8kdmt0o8vkp0,2025-09-09 08:51:36.694Z,2025-09-09 08:51:37.022Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+lzt4l9twvvd2dmy,2025-09-09 08:52:42.587Z,2025-09-09 08:52:42.900Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+5ru1t40ghofkhkr,2025-09-09 08:53:13.706Z,2025-09-09 08:53:14.003Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+5ru1t40ghofkhkr,2025-09-09 08:53:13.706Z,2025-09-09 08:53:14.003Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+5ru1t40ghofkhkr,2025-09-09 08:53:13.706Z,2025-09-09 08:53:14.003Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+6631utbkxn8hcs9,2025-09-09 08:53:53.262Z,2025-09-09 08:53:53.563Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+oqc8kf7c0dj6r00,2025-09-09 08:57:20.714Z,2025-09-09 08:57:21.010Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+oqc8kf7c0dj6r00,2025-09-09 08:57:20.714Z,2025-09-09 08:57:21.010Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+mfjr8s9asdu319b,2025-09-09 08:59:02.559Z,2025-09-09 08:59:02.850Z,Cortado,10,Varm drikke,Kopp,Liten,10,1
+8l52xoaz0khxpo8,2025-09-09 09:02:22.049Z,2025-09-09 09:02:22.363Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+8l52xoaz0khxpo8,2025-09-09 09:02:22.049Z,2025-09-09 09:02:22.363Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+0qpmey4n2dtu4so,2025-09-09 09:19:30.242Z,2025-09-09 09:19:30.544Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+0qpmey4n2dtu4so,2025-09-09 09:19:30.242Z,2025-09-09 09:19:30.544Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+0qpmey4n2dtu4so,2025-09-09 09:19:30.242Z,2025-09-09 09:19:30.544Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+55fbnqevkx9v6h8,2025-09-09 09:37:16.731Z,2025-09-09 09:37:17.055Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+55fbnqevkx9v6h8,2025-09-09 09:37:16.731Z,2025-09-09 09:37:17.055Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+55fbnqevkx9v6h8,2025-09-09 09:37:16.731Z,2025-09-09 09:37:17.055Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+bzl39rby3123t27,2025-09-09 09:38:51.811Z,2025-09-09 09:38:52.108Z,Is Matcha,10,Kald drikke,Smak,Vanilje,0,1
+bzl39rby3123t27,2025-09-09 09:38:51.811Z,2025-09-09 09:38:52.108Z,Is Matcha,10,Kald drikke,Annet,Klippekort,0,0
+bzl39rby3123t27,2025-09-09 09:38:51.811Z,2025-09-09 09:38:52.108Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+xhvq4o7b6mngi9n,2025-09-09 09:41:14.853Z,2025-09-09 09:41:15.155Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+xhvq4o7b6mngi9n,2025-09-09 09:41:14.853Z,2025-09-09 09:41:15.155Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+xhvq4o7b6mngi9n,2025-09-09 09:41:14.853Z,2025-09-09 09:41:15.155Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+qzeuk4pm4xsarcl,2025-09-09 09:41:50.350Z,2025-09-09 09:41:50.635Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+4tf5huy9v6hqlgy,2025-09-09 09:42:34.087Z,2025-09-09 09:42:34.390Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+4tf5huy9v6hqlgy,2025-09-09 09:42:34.087Z,2025-09-09 09:42:34.390Z,Chai Latte,10,Varm drikke,Annet,Klippekort,0,0
+32xaa8eadewuart,2025-09-09 09:45:02.631Z,2025-09-09 09:45:02.933Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+32xaa8eadewuart,2025-09-09 09:45:02.631Z,2025-09-09 09:45:02.933Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+u7mvg7e3ksz2n1g,2025-09-09 09:46:02.920Z,2025-09-09 09:46:03.223Z,Latte,10,Varm drikke,Melk,Havre,0,1
+u7mvg7e3ksz2n1g,2025-09-09 09:46:02.920Z,2025-09-09 09:46:03.223Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+u7mvg7e3ksz2n1g,2025-09-09 09:46:02.920Z,2025-09-09 09:46:03.223Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+72onabk0hmsxbyy,2025-09-09 09:54:27.718Z,2025-09-09 09:54:28.344Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+9jkcdbag5vv1msx,2025-09-09 10:01:35.609Z,2025-09-09 10:01:35.922Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+gudrdgfxmoskclo,2025-09-09 10:02:05.863Z,2025-09-09 10:02:06.168Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+qx39gn568wgkn6b,2025-09-09 10:02:55.763Z,2025-09-09 10:02:56.069Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+qx39gn568wgkn6b,2025-09-09 10:02:55.763Z,2025-09-09 10:02:56.069Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+if3okn4kitt4dzs,2025-09-09 10:04:10.514Z,2025-09-09 10:04:10.824Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+if3okn4kitt4dzs,2025-09-09 10:04:10.514Z,2025-09-09 10:04:10.824Z,Islatte,10,Kald drikke,Annet,Bursdag,0,0
+tqz33b3g86joaxr,2025-09-09 10:05:56.277Z,2025-09-09 10:05:56.563Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+39xin5axe5n05y7,2025-09-09 10:06:41.240Z,2025-09-09 10:06:41.562Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+39xin5axe5n05y7,2025-09-09 10:06:41.240Z,2025-09-09 10:06:41.562Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+39xin5axe5n05y7,2025-09-09 10:06:41.240Z,2025-09-09 10:06:41.562Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+9s1i06j7spulkra,2025-09-09 10:07:08.244Z,2025-09-09 10:07:08.528Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+40wk3y5zatoidks,2025-09-09 10:07:22.285Z,2025-09-09 10:07:22.587Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+40wk3y5zatoidks,2025-09-09 10:07:22.285Z,2025-09-09 10:07:22.587Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+djexeuo37ua4abk,2025-09-09 10:08:35.456Z,2025-09-09 10:08:35.747Z,Chai Latte,10,Varm drikke,Kopp,Stor,20,1
+acye9f56pejezp0,2025-09-09 10:09:00.672Z,2025-09-09 10:09:00.975Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+0mo2ndocc3lqw6h,2025-09-09 10:09:20.702Z,2025-09-09 10:09:20.997Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+hqch6ne6lvvp7ok,2025-09-09 10:09:42.090Z,2025-09-09 10:09:42.378Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+wpjlodsvrz4kt6u,2025-09-09 10:10:11.097Z,2025-09-09 10:10:11.390Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+22cxzojeugvuixf,2025-09-09 10:10:29.774Z,2025-09-09 10:10:30.076Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+22cxzojeugvuixf,2025-09-09 10:10:29.774Z,2025-09-09 10:10:30.076Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+jumn7d2tezlrynb,2025-09-09 10:11:08.981Z,2025-09-09 10:11:09.285Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+htgeqbh53u082p9,2025-09-09 10:12:08.417Z,2025-09-09 10:12:08.708Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rqebjbnec1nvyom,2025-09-09 10:12:50.148Z,2025-09-09 10:12:50.449Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rqebjbnec1nvyom,2025-09-09 10:12:50.148Z,2025-09-09 10:12:50.449Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+zg7gt17sngnlv6r,2025-09-09 10:13:43.834Z,2025-09-09 10:13:44.122Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+n93v3566mo81jaw,2025-09-09 10:14:15.751Z,2025-09-09 10:14:16.059Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+774sq72a140rw3u,2025-09-09 10:15:00.389Z,2025-09-09 10:15:00.695Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+tdsixfhmlkm69da,2025-09-09 10:15:37.983Z,2025-09-09 10:15:38.310Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+2zhlx5am6pzukyx,2025-09-09 10:18:12.251Z,2025-09-09 10:18:12.540Z,Mocca Islatte,10,Kald drikke,Kopp,Stor,20,1
+6jgb22256w5zfun,2025-09-09 10:18:44.937Z,2025-09-09 10:18:45.229Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+ws9emjoonraja1q,2025-09-09 10:19:53.478Z,2025-09-09 10:19:53.789Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+aipf4v4hieu5iky,2025-09-09 10:21:21.015Z,2025-09-09 10:21:21.305Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+oax7n0ox3i000yn,2025-09-09 10:23:12.016Z,2025-09-09 10:23:12.314Z,Varm sjokolade u/krem,10,Varm drikke,Kopp,Liten,10,1
+txgkmgm20kjo0sk,2025-09-09 10:24:02.504Z,2025-09-09 10:24:02.893Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+hw4bz2gevg13tuk,2025-09-09 10:26:15.466Z,2025-09-09 10:26:15.765Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+93gz78bptluf6l4,2025-09-09 10:27:38.447Z,2025-09-09 10:27:38.746Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+7hj2zmhzbkwgz67,2025-09-10 06:41:04.667Z,2025-09-10 06:41:04.978Z,Varm sjokolade u/krem,10,Varm drikke,Ekstra,Sirup,5,1
+m00hy3w7whccm7h,2025-09-10 06:41:41.703Z,2025-09-10 06:41:42.003Z,Espresso,10,Varm drikke,Melk,Lett,0,1
+m00hy3w7whccm7h,2025-09-10 06:41:41.703Z,2025-09-10 06:41:42.003Z,Espresso,10,Varm drikke,Smak,Salt karamell,0,1
+0cmbl2ghjh9pbu1,2025-09-10 06:44:17.762Z,2025-09-10 06:44:18.074Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+0cmbl2ghjh9pbu1,2025-09-10 06:44:17.762Z,2025-09-10 06:44:18.074Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Plastikkopp ,10,1
+f70f3ikneb7qkat,2025-09-10 06:44:48.995Z,2025-09-10 06:44:49.291Z,Espresso,10,Varm drikke,Kopp,Liten,10,1
+jyrvsyitymt0p48,2025-09-10 06:44:48.996Z,2025-09-10 06:44:49.289Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+n8hghmdgxkpqvrr,2025-09-10 06:45:22.691Z,2025-09-10 06:45:23.015Z,Chai Latte,10,Varm drikke,Ekstra,Sirup,5,1
+n8hghmdgxkpqvrr,2025-09-10 06:45:22.691Z,2025-09-10 06:45:23.015Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+94nwkntts76blg1,2025-09-10 06:46:25.140Z,2025-09-10 06:46:25.440Z,Varm sjokolade u/krem,10,Varm drikke,Ekstra,Krem,5,1
+94nwkntts76blg1,2025-09-10 06:46:25.140Z,2025-09-10 06:46:25.440Z,Varm sjokolade u/krem,10,Varm drikke,Kopp,Plastikkopp ,10,1
+lf3ydm89dun4itm,2025-09-10 06:51:23.721Z,2025-09-10 06:51:24.030Z,Chai Latte,10,Varm drikke,Ekstra,Espresso,5,1
+f7on3a8hkhknma2,2025-09-10 07:18:15.187Z,2025-09-10 07:18:15.481Z,Latte,10,Varm drikke,Melk,Havre,0,1
+71qtxwi7crj3xui,2025-09-10 07:18:36.079Z,2025-09-10 07:18:36.367Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+3r43echqme1s3nn,2025-09-10 07:19:03.776Z,2025-09-10 07:19:04.118Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+9m1f93lkxk7hrcp,2025-09-10 07:19:27.653Z,2025-09-10 07:19:27.958Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+camdg03wm5hi5iq,2025-09-10 07:20:28.076Z,2025-09-10 07:20:28.367Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+z9ho8o39dghcuu4,2025-09-10 07:21:38.502Z,2025-09-10 07:21:38.810Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+dahhaozs70li8rp,2025-09-10 07:22:15.418Z,2025-09-10 07:22:15.746Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+o52nrev6kaf36z0,2025-09-10 07:22:43.580Z,2025-09-10 07:22:43.929Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+o52nrev6kaf36z0,2025-09-10 07:22:43.580Z,2025-09-10 07:22:43.929Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+pocv0bvbfjcig6o,2025-09-10 07:23:19.536Z,2025-09-10 07:23:19.899Z,Mocca,10,Varm drikke,Annet,Klippekort,0,0
+pocv0bvbfjcig6o,2025-09-10 07:23:19.536Z,2025-09-10 07:23:19.899Z,Mocca,10,Varm drikke,Melk,Laktosefri,0,1
+u2f726bq5wofe5w,2025-09-10 07:23:19.537Z,2025-09-10 07:23:19.911Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+3ow4xt6vs5s6792,2025-09-10 07:23:57.716Z,2025-09-10 07:23:58.029Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+3ow4xt6vs5s6792,2025-09-10 07:23:57.716Z,2025-09-10 07:23:58.029Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+3ow4xt6vs5s6792,2025-09-10 07:23:57.716Z,2025-09-10 07:23:58.029Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+7schab2p4mcylxm,2025-09-10 07:24:26.287Z,2025-09-10 07:24:26.586Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+7schab2p4mcylxm,2025-09-10 07:24:26.287Z,2025-09-10 07:24:26.586Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+2cig1k9t6pujty3,2025-09-10 07:25:13.631Z,2025-09-10 07:25:13.921Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+31ts4rno2uxj1pk,2025-09-10 07:25:52.814Z,2025-09-10 07:25:53.200Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+hlmg31neyffeyk2,2025-09-10 07:26:38.711Z,2025-09-10 07:26:39.019Z,Klippekort 12,100,Annet,Kopp,Egen,0,1
+t6nxsegv9z16nfe,2025-09-10 07:26:58.407Z,2025-09-10 07:26:58.717Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+t6nxsegv9z16nfe,2025-09-10 07:26:58.407Z,2025-09-10 07:26:58.717Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+01998pxj9hc3us2,2025-09-10 07:34:33.687Z,2025-09-10 07:34:33.978Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+nd5idk0nmor7lsj,2025-09-10 07:35:58.267Z,2025-09-10 07:35:58.585Z,Is Matcha,10,Kald drikke,Smak,Vanilje,0,1
+lci97u0sfynci9c,2025-09-10 07:52:09.494Z,2025-09-10 07:52:09.815Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+6ph1avrks9mjjjl,2025-09-10 07:57:40.960Z,2025-09-10 07:57:41.258Z,Klippekort 12,100,Annet,Smak,Salt karamell,0,1
+6ph1avrks9mjjjl,2025-09-10 07:57:40.960Z,2025-09-10 07:57:41.258Z,Klippekort 12,100,Annet,Kopp,Stor,20,1
+yqi8glbmhuitob5,2025-09-10 08:12:03.521Z,2025-09-10 08:12:03.825Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+yqi8glbmhuitob5,2025-09-10 08:12:03.521Z,2025-09-10 08:12:03.825Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+vuf6e6kctpbqy5d,2025-09-10 08:16:06.063Z,2025-09-10 08:16:06.364Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+vuf6e6kctpbqy5d,2025-09-10 08:16:06.063Z,2025-09-10 08:16:06.364Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+wf4gppkvouw97c1,2025-09-10 08:19:27.795Z,2025-09-10 08:19:28.092Z,Chai Latte,10,Varm drikke,Ekstra,Espresso,5,1
+fpyqsim8jo7pqv4,2025-09-10 08:21:10.903Z,2025-09-10 08:21:11.194Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+g2th804m9lritp0,2025-09-10 08:24:33.224Z,2025-09-10 08:24:33.545Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+ko1wn37gyskkg0w,2025-09-10 08:26:16.075Z,2025-09-10 08:26:16.375Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+2o3oynlqa75irrh,2025-09-10 08:31:34.146Z,2025-09-10 08:31:34.465Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+qsx1a7n49z6b84p,2025-09-10 08:32:07.606Z,2025-09-10 08:32:07.914Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+qsx1a7n49z6b84p,2025-09-10 08:32:07.606Z,2025-09-10 08:32:07.914Z,Latte,10,Varm drikke,Melk,Havre,0,1
+w4j78u4seqx7nak,2025-09-10 08:32:46.983Z,2025-09-10 08:32:47.291Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+w4j78u4seqx7nak,2025-09-10 08:32:46.983Z,2025-09-10 08:32:47.291Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+w4j78u4seqx7nak,2025-09-10 08:32:46.983Z,2025-09-10 08:32:47.291Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+bod37j8bsw9j6xr,2025-09-10 08:33:48.895Z,2025-09-10 08:33:49.249Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+dyyoqsbwzhf88lq,2025-09-10 08:34:32.213Z,2025-09-10 08:34:32.520Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+3p82mu2ymcy0oc4,2025-09-10 08:34:53.766Z,2025-09-10 08:34:54.080Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+bnee8m83ucy6dp8,2025-09-10 08:37:28.558Z,2025-09-10 08:37:28.857Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+a07qy008kpos1j7,2025-09-10 08:43:07.770Z,2025-09-10 08:43:08.061Z,"Iste, Pasjonsfrukt",10,Kald drikke,Kopp,Plastikkopp ,10,1
+pci0e85zdcsqyns,2025-09-10 08:46:43.214Z,2025-09-10 08:46:43.518Z,Is Matcha,10,Kald drikke,Kopp,Stor,20,1
+izi09y01o9xa0m7,2025-09-10 08:48:02.212Z,2025-09-10 08:48:02.512Z,Karamell Frappe,15,Kald drikke,Smak,Salt karamell,0,1
+izi09y01o9xa0m7,2025-09-10 08:48:02.212Z,2025-09-10 08:48:02.512Z,Karamell Frappe,15,Kald drikke,Ekstra,Sirup,5,1
+ijqfq8hc73rbpw5,2025-09-10 08:49:43.092Z,2025-09-10 08:49:43.389Z,Is Matcha,10,Kald drikke,Ekstra,Espresso,5,1
+ijqfq8hc73rbpw5,2025-09-10 08:49:43.092Z,2025-09-10 08:49:43.389Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+sggc6bk8d4xiqy1,2025-09-10 08:56:18.408Z,2025-09-10 08:56:18.712Z,Klippekort 12,100,Annet,Ekstra,Espresso,5,1
+j8o3lylcowbsagh,2025-09-10 09:34:29.515Z,2025-09-10 09:34:29.855Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+hdfzps4r53cb1ng,2025-09-10 09:35:12.755Z,2025-09-10 09:35:13.054Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+hdfzps4r53cb1ng,2025-09-10 09:35:12.755Z,2025-09-10 09:35:13.054Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+92b694hrjh2k7yx,2025-09-10 09:36:37.272Z,2025-09-10 09:36:37.562Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+08wp022mnaux5yk,2025-09-12 06:43:33.533Z,2025-09-12 06:43:33.883Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+dspggjuuyt0pbom,2025-09-12 06:43:55.913Z,2025-09-12 06:43:56.338Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+cr75ld1t4d2wfms,2025-09-12 06:44:17.076Z,2025-09-12 06:44:17.381Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+5cromucrbyqcesc,2025-09-12 08:47:58.355Z,2025-09-12 08:47:58.635Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+gh8de5rb6p3ctp4,2025-09-15 08:03:09.150Z,2025-09-15 08:03:09.452Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+ehkb52fwm9q2crt,2025-09-15 08:07:14.765Z,2025-09-15 08:07:15.223Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+7e3txp091mqwriy,2025-09-15 08:08:09.879Z,2025-09-15 08:08:10.184Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+sylmvydl0kr6xjg,2025-09-15 08:11:25.207Z,2025-09-15 08:11:25.576Z,Chai Latte,10,Varm drikke,Ekstra,Espresso,5,1
+coiszudvq3lrc4g,2025-09-15 08:12:33.524Z,2025-09-15 08:12:33.849Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+coiszudvq3lrc4g,2025-09-15 08:12:33.524Z,2025-09-15 08:12:33.849Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+aarqp9ehanmenno,2025-09-15 08:14:33.241Z,2025-09-15 08:14:33.545Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+3fm2ycsas9gnahd,2025-09-15 08:22:56.784Z,2025-09-15 08:22:57.075Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+hgjs5m0xcerewhr,2025-09-15 08:23:55.053Z,2025-09-15 08:23:55.353Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+2aonyw3dlmoqq79,2025-09-15 08:25:03.118Z,2025-09-15 08:25:03.412Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+0if3596q17kuwgo,2025-09-15 08:25:51.101Z,2025-09-15 08:25:51.409Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+0if3596q17kuwgo,2025-09-15 08:25:51.101Z,2025-09-15 08:25:51.409Z,Islatte,10,Kald drikke,Melk,Lett,0,1
+0if3596q17kuwgo,2025-09-15 08:25:51.101Z,2025-09-15 08:25:51.409Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+g7qd55h3lcit2z7,2025-09-15 08:26:51.741Z,2025-09-15 08:26:52.045Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+kqfj762yhivzw8m,2025-09-15 08:27:45.943Z,2025-09-15 08:27:46.267Z,Latte,10,Varm drikke,Melk,Havre,0,1
+kqfj762yhivzw8m,2025-09-15 08:27:45.943Z,2025-09-15 08:27:46.267Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+7k2jmmdbsplx9x0,2025-09-15 08:28:11.507Z,2025-09-15 08:28:11.799Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+xecfunko54le00t,2025-09-15 08:28:39.844Z,2025-09-15 08:28:40.153Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+cxf5gydv8gpm41f,2025-09-15 08:29:18.475Z,2025-09-15 08:29:18.783Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+cxf5gydv8gpm41f,2025-09-15 08:29:18.475Z,2025-09-15 08:29:18.783Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+zc3jtn9ev339t99,2025-09-15 08:29:58.755Z,2025-09-15 08:29:59.081Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+9iq3yzbq4b5gqfa,2025-09-15 08:30:45.747Z,2025-09-15 08:30:46.040Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+qegmdlnoxnlugz9,2025-09-15 08:31:13.340Z,2025-09-15 08:31:13.639Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+gwjaqicbpjepyep,2025-09-15 08:31:35.049Z,2025-09-15 08:31:35.353Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+gwjaqicbpjepyep,2025-09-15 08:31:35.049Z,2025-09-15 08:31:35.353Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+vpsnlco1y9z1c42,2025-09-15 08:32:21.468Z,2025-09-15 08:32:21.791Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+vpsnlco1y9z1c42,2025-09-15 08:32:21.468Z,2025-09-15 08:32:21.791Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+byxpuzbzxaqhymy,2025-09-15 08:33:08.491Z,2025-09-15 08:33:08.819Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+byxpuzbzxaqhymy,2025-09-15 08:33:08.491Z,2025-09-15 08:33:08.819Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+byxpuzbzxaqhymy,2025-09-15 08:33:08.491Z,2025-09-15 08:33:08.819Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+thzz4nkxj88fvit,2025-09-15 08:34:04.407Z,2025-09-15 08:34:04.713Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+thzz4nkxj88fvit,2025-09-15 08:34:04.407Z,2025-09-15 08:34:04.713Z,Latte,10,Varm drikke,Melk,Havre,0,1
+yw5bfjbd00hu7zc,2025-09-15 08:34:35.316Z,2025-09-15 08:34:35.627Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+yw5bfjbd00hu7zc,2025-09-15 08:34:35.316Z,2025-09-15 08:34:35.627Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+99rl18dts3tt553,2025-09-15 08:50:52.018Z,2025-09-15 08:50:52.359Z,Is Matcha,10,Kald drikke,Melk,Mandel,0,1
+99rl18dts3tt553,2025-09-15 08:50:52.018Z,2025-09-15 08:50:52.359Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+05nl03f8ggl0l5b,2025-09-15 08:52:38.304Z,2025-09-15 08:52:38.613Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+2l5q621g9rtdoih,2025-09-15 09:32:19.557Z,2025-09-15 09:32:19.868Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+8kyij5qqn0tscs3,2025-09-15 09:34:09.431Z,2025-09-15 09:34:09.731Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+09xj7grb0yl6j2o,2025-09-15 09:35:04.619Z,2025-09-15 09:35:04.910Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+wu544ik4vx1outh,2025-09-15 09:36:08.198Z,2025-09-15 09:36:08.496Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+evi9slrf6hm0xfv,2025-09-15 09:37:01.017Z,2025-09-15 09:37:01.306Z,Mocca Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+dc6mjproiellcj0,2025-09-15 09:37:28.728Z,2025-09-15 09:37:29.027Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+lotedc6sfgzyq5h,2025-09-15 09:39:37.121Z,2025-09-15 09:39:37.416Z,Chai Latte,10,Varm drikke,Ekstra,Espresso,5,1
+vj95xpp1x8pjgp3,2025-09-15 09:42:50.967Z,2025-09-15 09:42:51.282Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+3opoq8bpmwwnxjf,2025-09-15 09:43:38.814Z,2025-09-15 09:43:39.124Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+3t7bpo6z0x3ctlt,2025-09-15 09:44:08.587Z,2025-09-15 09:44:08.901Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+m5z1eyku57k9zta,2025-09-15 09:44:35.255Z,2025-09-15 09:44:35.558Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+1cku0wjxwpe4p1p,2025-09-15 09:45:00.785Z,2025-09-15 09:45:01.117Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+1cku0wjxwpe4p1p,2025-09-15 09:45:00.785Z,2025-09-15 09:45:01.117Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+5401zr1d9yimqod,2025-09-15 09:47:37.831Z,2025-09-15 09:47:38.150Z,Islatte,10,Kald drikke,Melk,Hel,0,1
+6ccids2rp43ltz0,2025-09-15 09:50:09.006Z,2025-09-15 09:50:09.321Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+6ccids2rp43ltz0,2025-09-15 09:50:09.006Z,2025-09-15 09:50:09.321Z,Is Matcha,10,Kald drikke,Ekstra,Is,5,1
+x2m6578vl39ae69,2025-09-15 09:50:27.867Z,2025-09-15 09:50:28.161Z,Is Matcha,10,Kald drikke,Ekstra,Is,5,1
+x2m6578vl39ae69,2025-09-15 09:50:27.867Z,2025-09-15 09:50:28.161Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+p9dioj6qtzvsqq8,2025-09-15 09:52:21.739Z,2025-09-15 09:52:22.052Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+wvo5qbzre9829iq,2025-09-15 09:53:08.872Z,2025-09-15 09:53:09.184Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+os3oycx6rxo88tz,2025-09-15 09:53:40.565Z,2025-09-15 09:53:40.868Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+f0eum9aeleg7vel,2025-09-15 09:54:07.306Z,2025-09-15 09:54:07.601Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r91f1n7deia7ram,2025-09-15 09:55:01.404Z,2025-09-15 09:55:01.707Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+l1tleanywujtnwe,2025-09-15 09:55:14.608Z,2025-09-15 09:55:14.912Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+l1tleanywujtnwe,2025-09-15 09:55:14.608Z,2025-09-15 09:55:14.912Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+a74suebcded70xk,2025-09-15 09:55:51.630Z,2025-09-15 09:55:51.919Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+lotv4ugsq29qcrx,2025-09-15 09:56:06.194Z,2025-09-15 09:56:06.488Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+5bzdf55m20p991h,2025-09-15 10:02:34.236Z,2025-09-15 10:02:34.546Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+5bzdf55m20p991h,2025-09-15 10:02:34.236Z,2025-09-15 10:02:34.546Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+vy4buaty4iwmr3a,2025-09-15 10:04:10.447Z,2025-09-15 10:04:10.762Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+ta9llk4hh0g8fk4,2025-09-15 10:11:17.840Z,2025-09-15 10:11:18.150Z,Latte,10,Varm drikke,Melk,Hel,0,1
+1u5b666o6ut8iwx,2025-09-15 10:11:21.995Z,2025-09-15 10:11:22.219Z,Chai Latte,10,Varm drikke,Melk,Lett,0,1
+vaxeruu61zzfsnd,2025-09-15 10:11:47.582Z,2025-09-15 10:11:47.895Z,Latte,10,Varm drikke,Melk,Hel,0,1
+uzezxowhnwiypyc,2025-09-16 08:05:57.100Z,2025-09-16 08:05:57.468Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+uzezxowhnwiypyc,2025-09-16 08:05:57.100Z,2025-09-16 08:05:57.468Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+fedej5241lycvbv,2025-09-16 08:06:17.955Z,2025-09-16 08:06:18.251Z,Is Americano,10,Kald drikke,Ekstra,Espresso,5,1
+jpbn5nam1d7xxtv,2025-09-16 08:13:27.514Z,2025-09-16 08:13:27.811Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+fu19qa8nfvxqdkm,2025-09-16 08:24:02.733Z,2025-09-16 08:24:03.049Z,Chai Latte,10,Varm drikke,Annet,Klippekort,0,0
+e5zpizcryxs4n79,2025-09-16 08:24:35.667Z,2025-09-16 08:24:35.970Z,Latte,10,Varm drikke,Melk,Havre,0,1
+w64rd5vguzz9gvl,2025-09-16 08:37:31.206Z,2025-09-16 08:37:31.517Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+w64rd5vguzz9gvl,2025-09-16 08:37:31.206Z,2025-09-16 08:37:31.517Z,Latte,10,Varm drikke,Melk,Havre,0,1
+w64rd5vguzz9gvl,2025-09-16 08:37:31.206Z,2025-09-16 08:37:31.517Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+t914dise3n4h9j9,2025-09-16 08:46:54.248Z,2025-09-16 08:46:54.618Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+t914dise3n4h9j9,2025-09-16 08:46:54.248Z,2025-09-16 08:46:54.618Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+0269me8gxlmn3n2,2025-09-16 08:49:00.374Z,2025-09-16 08:49:00.781Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+0269me8gxlmn3n2,2025-09-16 08:49:00.374Z,2025-09-16 08:49:00.781Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+0269me8gxlmn3n2,2025-09-16 08:49:00.374Z,2025-09-16 08:49:00.781Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+xr7h3qgg1heiki0,2025-09-16 08:49:57.010Z,2025-09-16 08:49:57.807Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+hdjne8gb90972li,2025-09-16 08:50:56.805Z,2025-09-16 08:50:57.140Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+hdjne8gb90972li,2025-09-16 08:50:56.805Z,2025-09-16 08:50:57.140Z,Islatte,10,Kald drikke,Ekstra,Krem,5,1
+dm1dcoudvcgkp6i,2025-09-16 08:51:11.305Z,2025-09-16 08:51:11.781Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+ytxoc76zkxbvgyk,2025-09-16 08:51:42.281Z,2025-09-16 08:51:42.582Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+k3r5q9huiyte7ys,2025-09-16 08:52:18.921Z,2025-09-16 08:52:19.793Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+k3r5q9huiyte7ys,2025-09-16 08:52:18.921Z,2025-09-16 08:52:19.793Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+k3r5q9huiyte7ys,2025-09-16 08:52:18.921Z,2025-09-16 08:52:19.793Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+ecp7vclq9lgqi3a,2025-09-16 08:53:18.513Z,2025-09-16 08:53:19.005Z,Mocca Islatte,10,Kald drikke,Kopp,Egen,0,1
+ai7gndd94gndgcc,2025-09-16 08:53:34.391Z,2025-09-16 08:53:34.763Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+dxit1w8v9f4vjmm,2025-09-16 08:54:42.375Z,2025-09-16 08:54:42.973Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+dxit1w8v9f4vjmm,2025-09-16 08:54:42.375Z,2025-09-16 08:54:42.973Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+p6s1tseynmng5rd,2025-09-16 08:55:01.446Z,2025-09-16 08:55:01.982Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+p6s1tseynmng5rd,2025-09-16 08:55:01.446Z,2025-09-16 08:55:01.982Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+uftdctdmjlstvfy,2025-09-16 08:56:02.765Z,2025-09-16 08:56:03.451Z,Is Matcha,10,Kald drikke,Smak,Vanilje,0,1
+uftdctdmjlstvfy,2025-09-16 08:56:02.765Z,2025-09-16 08:56:03.451Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+55v9sg4trs27yfc,2025-09-16 08:56:25.797Z,2025-09-16 08:56:26.403Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+fok1pgjsfgpgb0h,2025-09-16 08:58:16.728Z,2025-09-16 08:58:17.111Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+fok1pgjsfgpgb0h,2025-09-16 08:58:16.728Z,2025-09-16 08:58:17.111Z,Karamell Frappe,15,Kald drikke,Melk,Laktosefri,0,1
+10oizdrsczsq4tm,2025-09-16 08:58:16.730Z,2025-09-16 08:58:17.124Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+i5dbeh92yy45s16,2025-09-16 08:58:16.731Z,2025-09-16 08:58:17.109Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+mzjoaa3cidzfdw7,2025-09-16 08:59:29.308Z,2025-09-16 08:59:29.688Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+z0jc0sly0bfu966,2025-09-16 09:00:25.248Z,2025-09-16 09:00:25.583Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+z0jc0sly0bfu966,2025-09-16 09:00:25.248Z,2025-09-16 09:00:25.583Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+z0jc0sly0bfu966,2025-09-16 09:00:25.248Z,2025-09-16 09:00:25.583Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+2p3nj8pja293rjt,2025-09-16 09:11:02.330Z,2025-09-16 09:11:02.642Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+di9mtosye48w2z0,2025-09-16 09:21:33.935Z,2025-09-16 09:21:34.250Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+di9mtosye48w2z0,2025-09-16 09:21:33.935Z,2025-09-16 09:21:34.250Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+g4ua9g7adfi29sp,2025-09-16 09:23:48.402Z,2025-09-16 09:23:48.733Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+g4ua9g7adfi29sp,2025-09-16 09:23:48.402Z,2025-09-16 09:23:48.733Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+vlo9wgtr5n2f5ux,2025-09-16 09:25:11.719Z,2025-09-16 09:25:12.026Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+vlo9wgtr5n2f5ux,2025-09-16 09:25:11.719Z,2025-09-16 09:25:12.026Z,Mocca,10,Varm drikke,Annet,Klippekort,0,0
+l7ankrnuclarfuu,2025-09-16 09:25:42.739Z,2025-09-16 09:25:43.035Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+l7ankrnuclarfuu,2025-09-16 09:25:42.739Z,2025-09-16 09:25:43.035Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+jsshsweq1q6czn2,2025-09-16 09:27:58.736Z,2025-09-16 09:27:59.036Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+jsshsweq1q6czn2,2025-09-16 09:27:58.736Z,2025-09-16 09:27:59.036Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+22brkup8uduhtfn,2025-09-16 09:41:00.220Z,2025-09-16 09:41:00.531Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+22brkup8uduhtfn,2025-09-16 09:41:00.220Z,2025-09-16 09:41:00.531Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+22brkup8uduhtfn,2025-09-16 09:41:00.220Z,2025-09-16 09:41:00.531Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+0n8qbyn13tnl2op,2025-09-16 09:52:45.196Z,2025-09-16 09:52:45.490Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+0n8qbyn13tnl2op,2025-09-16 09:52:45.196Z,2025-09-16 09:52:45.490Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+l1znvjswbssql7f,2025-09-16 10:00:10.724Z,2025-09-16 10:00:11.040Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+x9vw6cv2b49bhql,2025-09-16 10:01:38.491Z,2025-09-16 10:01:38.808Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+35pdx1aap7jhcrs,2025-09-16 10:02:39.780Z,2025-09-16 10:02:40.077Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+48vmpshwu4m7wwj,2025-09-16 10:03:22.634Z,2025-09-16 10:03:22.932Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+kgucltf8cs1otau,2025-09-16 10:03:52.006Z,2025-09-16 10:03:52.313Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+kgucltf8cs1otau,2025-09-16 10:03:52.006Z,2025-09-16 10:03:52.313Z,Islatte,10,Kald drikke,Melk,Lett,0,1
+95clmjhio25lfby,2025-09-16 10:05:21.687Z,2025-09-16 10:05:21.993Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+95clmjhio25lfby,2025-09-16 10:05:21.687Z,2025-09-16 10:05:21.993Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+95clmjhio25lfby,2025-09-16 10:05:21.687Z,2025-09-16 10:05:21.993Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+cjeqgqxegt8k07j,2025-09-16 10:06:32.810Z,2025-09-16 10:06:33.125Z,Karamell Frappe,15,Kald drikke,Melk,Laktosefri,0,1
+h6u2ylfju5okh77,2025-09-16 10:07:27.334Z,2025-09-16 10:07:27.635Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+h6u2ylfju5okh77,2025-09-16 10:07:27.334Z,2025-09-16 10:07:27.635Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+64rsdq7fmz2tyoi,2025-09-16 10:09:24.144Z,2025-09-16 10:09:24.433Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+38tk77q8hqljuza,2025-09-16 10:13:20.392Z,2025-09-16 10:13:20.695Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+t8zjkfv19z3wwkk,2025-09-16 10:16:45.241Z,2025-09-16 10:16:45.554Z,Klippekort 6,50,Annet,Kopp,Plastikkopp ,10,1
+oj91oz9f8etp0au,2025-09-16 10:20:15.497Z,2025-09-16 10:20:15.791Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+75jba5vgtw4d8nh,2025-09-16 10:27:14.698Z,2025-09-16 10:27:15.078Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+75jba5vgtw4d8nh,2025-09-16 10:27:14.698Z,2025-09-16 10:27:15.078Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+empjxos3i6h1i8z,2025-09-16 10:28:18.839Z,2025-09-16 10:28:19.152Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+dygr5asb80vip1u,2025-09-18 07:06:50.653Z,2025-09-18 07:06:50.974Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+dkyt6rs3vlu05bh,2025-09-18 07:08:19.623Z,2025-09-18 07:08:19.918Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+dkyt6rs3vlu05bh,2025-09-18 07:08:19.623Z,2025-09-18 07:08:19.918Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+s0xsugv263j23h3,2025-09-18 07:08:55.092Z,2025-09-18 07:08:55.390Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+s0xsugv263j23h3,2025-09-18 07:08:55.092Z,2025-09-18 07:08:55.390Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+3g06qn8p6kiqgdk,2025-09-18 07:10:02.145Z,2025-09-18 07:10:02.501Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+3g06qn8p6kiqgdk,2025-09-18 07:10:02.145Z,2025-09-18 07:10:02.501Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+1p28trluvnj1772,2025-09-18 07:11:11.906Z,2025-09-18 07:11:12.204Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+1p28trluvnj1772,2025-09-18 07:11:11.906Z,2025-09-18 07:11:12.204Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+q2lrtbf16c094ll,2025-09-18 07:12:17.390Z,2025-09-18 07:12:17.687Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+q2lrtbf16c094ll,2025-09-18 07:12:17.390Z,2025-09-18 07:12:17.687Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+9mmbc8nnamt2ukb,2025-09-18 07:13:31.682Z,2025-09-18 07:13:31.991Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+vclgy24bwjz3x3h,2025-09-18 07:14:15.164Z,2025-09-18 07:14:15.484Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+vclgy24bwjz3x3h,2025-09-18 07:14:15.164Z,2025-09-18 07:14:15.484Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+vclgy24bwjz3x3h,2025-09-18 07:14:15.164Z,2025-09-18 07:14:15.484Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+ebqnqa99qb5be9f,2025-09-18 07:14:55.352Z,2025-09-18 07:14:55.658Z,Mocca Islatte,10,Kald drikke,Kopp,Egen,0,1
+jsqg5v29e876552,2025-09-18 07:15:39.594Z,2025-09-18 07:15:39.888Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+unqbwj87zoohk5t,2025-09-18 07:17:14.605Z,2025-09-18 07:17:14.901Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+unqbwj87zoohk5t,2025-09-18 07:17:14.605Z,2025-09-18 07:17:14.901Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+3iff8sgc9xl3smn,2025-09-18 07:17:29.786Z,2025-09-18 07:17:30.109Z,Karamell Frappe,15,Kald drikke,Annet,Bursdag,0,0
+3iff8sgc9xl3smn,2025-09-18 07:17:29.786Z,2025-09-18 07:17:30.109Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+a0mxizxltual5s2,2025-09-18 07:18:13.541Z,2025-09-18 07:18:13.922Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+a0mxizxltual5s2,2025-09-18 07:18:13.541Z,2025-09-18 07:18:13.922Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+6fxf8v7j6ngb44y,2025-09-18 07:19:09.864Z,2025-09-18 07:19:10.172Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+ma83rixiw6arm40,2025-09-18 07:19:36.728Z,2025-09-18 07:19:37.041Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+ma83rixiw6arm40,2025-09-18 07:19:36.728Z,2025-09-18 07:19:37.041Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+yi51yvxms80l3c4,2025-09-18 07:19:36.729Z,2025-09-18 07:19:37.058Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+yi51yvxms80l3c4,2025-09-18 07:19:36.729Z,2025-09-18 07:19:37.058Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+shjy1sb6r1k03kx,2025-09-18 07:20:34.938Z,2025-09-18 07:20:35.247Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+shjy1sb6r1k03kx,2025-09-18 07:20:34.938Z,2025-09-18 07:20:35.247Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+shjy1sb6r1k03kx,2025-09-18 07:20:34.938Z,2025-09-18 07:20:35.247Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+f8j31ldwwkodxse,2025-09-18 07:20:54.253Z,2025-09-18 07:20:54.580Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+f8j31ldwwkodxse,2025-09-18 07:20:54.253Z,2025-09-18 07:20:54.580Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+f8j31ldwwkodxse,2025-09-18 07:20:54.253Z,2025-09-18 07:20:54.580Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+f8j31ldwwkodxse,2025-09-18 07:20:54.253Z,2025-09-18 07:20:54.580Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+ce2kt3y4pgyy37x,2025-09-18 07:22:15.692Z,2025-09-18 07:22:16.398Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+lh56rwzyb16uvh4,2025-09-18 07:22:25.199Z,2025-09-18 07:22:25.494Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+lh56rwzyb16uvh4,2025-09-18 07:22:25.199Z,2025-09-18 07:22:25.494Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+j2t2r90h7y1q0in,2025-09-18 07:24:09.559Z,2025-09-18 07:24:09.890Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+j2t2r90h7y1q0in,2025-09-18 07:24:09.559Z,2025-09-18 07:24:09.890Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+nn9xtfsqhx94jvx,2025-09-18 07:24:09.562Z,2025-09-18 07:24:09.911Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+nn9xtfsqhx94jvx,2025-09-18 07:24:09.562Z,2025-09-18 07:24:09.911Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+nn9xtfsqhx94jvx,2025-09-18 07:24:09.562Z,2025-09-18 07:24:09.911Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+h0gbabzpgdco9de,2025-09-18 07:24:30.730Z,2025-09-18 07:24:31.029Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+wmft3iaqlpnay4u,2025-09-18 07:26:27.107Z,2025-09-18 07:26:27.439Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+wmft3iaqlpnay4u,2025-09-18 07:26:27.107Z,2025-09-18 07:26:27.439Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+wmft3iaqlpnay4u,2025-09-18 07:26:27.107Z,2025-09-18 07:26:27.439Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+wmft3iaqlpnay4u,2025-09-18 07:26:27.107Z,2025-09-18 07:26:27.439Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+grkg765r61rd9z1,2025-09-18 07:28:11.896Z,2025-09-18 07:28:12.213Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+grkg765r61rd9z1,2025-09-18 07:28:11.896Z,2025-09-18 07:28:12.213Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+grkg765r61rd9z1,2025-09-18 07:28:11.896Z,2025-09-18 07:28:12.213Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+drcaxgjvhaxhcog,2025-09-18 07:28:21.018Z,2025-09-18 07:28:21.310Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+u5yrxy3gbz2a8tq,2025-09-18 07:31:36.100Z,2025-09-18 07:31:36.411Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+u5yrxy3gbz2a8tq,2025-09-18 07:31:36.100Z,2025-09-18 07:31:36.411Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+u5yrxy3gbz2a8tq,2025-09-18 07:31:36.100Z,2025-09-18 07:31:36.411Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+61eismxqnat0x1n,2025-09-18 08:24:00.263Z,2025-09-18 08:24:00.585Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+phe8pijd9xpj06r,2025-09-18 08:29:01.572Z,2025-09-18 08:29:01.867Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+tpavmzmcabrjes6,2025-09-18 08:29:18.472Z,2025-09-18 08:29:18.761Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+byfe794e16nf8sr,2025-09-18 08:31:40.683Z,2025-09-18 08:31:40.971Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+gu0rt8g95joslr9,2025-09-18 08:32:47.939Z,2025-09-18 08:32:48.261Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+ekiwp0sk72a90to,2025-09-18 08:32:47.940Z,2025-09-18 08:32:48.263Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+n09wv7sllndmesi,2025-09-18 08:34:29.110Z,2025-09-18 08:34:29.452Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+n09wv7sllndmesi,2025-09-18 08:34:29.110Z,2025-09-18 08:34:29.452Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+9fujc4jrm7bwjo4,2025-09-18 08:36:03.562Z,2025-09-18 08:36:03.857Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+9fujc4jrm7bwjo4,2025-09-18 08:36:03.562Z,2025-09-18 08:36:03.857Z,Latte,10,Varm drikke,Melk,Havre,0,1
+9fujc4jrm7bwjo4,2025-09-18 08:36:03.562Z,2025-09-18 08:36:03.857Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+9fujc4jrm7bwjo4,2025-09-18 08:36:03.562Z,2025-09-18 08:36:03.857Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+wabmznjtr91u8md,2025-09-22 08:05:44.094Z,2025-09-22 08:05:44.416Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+wabmznjtr91u8md,2025-09-22 08:05:44.094Z,2025-09-22 08:05:44.416Z,Latte,10,Varm drikke,Kopp,Stor,20,1
+awdaf6y1b16ka44,2025-09-22 08:06:17.840Z,2025-09-22 08:06:18.147Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+awdaf6y1b16ka44,2025-09-22 08:06:17.840Z,2025-09-22 08:06:18.147Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+teulpkv2fdweoog,2025-09-22 08:07:04.239Z,2025-09-22 08:07:04.552Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+teulpkv2fdweoog,2025-09-22 08:07:04.239Z,2025-09-22 08:07:04.552Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+24wi7831rf0cl1z,2025-09-22 08:09:12.546Z,2025-09-22 08:09:12.856Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+aeqagrfe79h6cdl,2025-09-22 08:10:25.381Z,2025-09-22 08:10:25.665Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+82mf4pfhm0htjg9,2025-09-22 08:11:20.592Z,2025-09-22 08:11:20.919Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+mq4i324ybkfpugo,2025-09-22 08:15:51.701Z,2025-09-22 08:15:52.007Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+okdz8xz0ltwmak4,2025-09-22 08:21:42.579Z,2025-09-22 08:21:42.887Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+olqmev28mjcjltr,2025-09-22 08:23:34.848Z,2025-09-22 08:23:35.223Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+b9kx2d8gwdogtt9,2025-09-22 08:23:34.849Z,2025-09-22 08:23:35.204Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+k58eyac38wi0bwl,2025-09-22 08:24:24.962Z,2025-09-22 08:24:25.250Z,Chai Latte,10,Varm drikke,Ekstra,Espresso,5,1
+60z3wdtmi8ui68u,2025-09-22 08:25:39.803Z,2025-09-22 08:25:40.135Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+uf21f8kawofikoy,2025-09-22 08:26:45.297Z,2025-09-22 08:26:45.615Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+uf21f8kawofikoy,2025-09-22 08:26:45.297Z,2025-09-22 08:26:45.615Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+vc9ta74mflnhquh,2025-09-22 08:27:26.697Z,2025-09-22 08:27:27.001Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+vc9ta74mflnhquh,2025-09-22 08:27:26.697Z,2025-09-22 08:27:27.001Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+i128vxe4a8lj3o2,2025-09-22 08:28:05.492Z,2025-09-22 08:28:05.778Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+i8pm5zmdcy4yrxd,2025-09-22 08:28:40.345Z,2025-09-22 08:28:40.654Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+tk56fs3n0exwmvb,2025-09-22 08:28:55.674Z,2025-09-22 08:28:55.982Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+7stz2pmz7gd1sxh,2025-09-22 08:29:21.146Z,2025-09-22 08:29:21.455Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+v96s1tcgyuwoppj,2025-09-22 08:32:08.386Z,2025-09-22 08:32:08.693Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+4btprnneta0skaj,2025-09-22 08:32:32.194Z,2025-09-22 08:32:32.633Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+hqw4opzsm2d1s8y,2025-09-22 08:33:10.638Z,2025-09-22 08:33:10.972Z,Latte,10,Varm drikke,Melk,Havre,0,1
+sfotf6ofra1sirv,2025-09-22 08:33:44.360Z,2025-09-22 08:33:44.687Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+jk5qh9gw16pq1xu,2025-09-22 09:33:56.231Z,2025-09-22 09:33:56.558Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+2wvvpj02pkwyzil,2025-09-22 09:34:43.447Z,2025-09-22 09:34:43.764Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+a11cl6hsa1hgc55,2025-09-22 09:37:22.808Z,2025-09-22 09:37:23.125Z,Cappuccino,10,Varm drikke,Kopp,Stor,20,1
+a11cl6hsa1hgc55,2025-09-22 09:37:22.808Z,2025-09-22 09:37:23.125Z,Cappuccino,10,Varm drikke,Melk,Soya,0,1
+unk47l9cumvbak2,2025-09-22 09:40:16.499Z,2025-09-22 09:40:16.796Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+9kv77fjz3clawir,2025-09-22 09:40:54.834Z,2025-09-22 09:40:55.131Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+9kv77fjz3clawir,2025-09-22 09:40:54.834Z,2025-09-22 09:40:55.131Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+6h5x3g9lpsl127v,2025-09-22 09:41:47.347Z,2025-09-22 09:41:47.653Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+ou2ey0i2yfh48uo,2025-09-22 09:42:44.219Z,2025-09-22 09:42:44.893Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+3uefnxr2a0wrqrp,2025-09-22 09:44:24.094Z,2025-09-22 09:44:24.388Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+936io8s6zid7b0j,2025-09-22 09:45:03.525Z,2025-09-22 09:45:03.817Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+vm8m33gnnh9bx6i,2025-09-22 09:46:53.845Z,2025-09-22 09:46:54.241Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+vm8m33gnnh9bx6i,2025-09-22 09:46:53.845Z,2025-09-22 09:46:54.241Z,Latte,10,Varm drikke,Melk,Havre,0,1
+pwgprrch4a9zgth,2025-09-22 09:47:38.790Z,2025-09-22 09:47:39.081Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+pbiwzl4zcxug8nk,2025-09-22 09:59:20.081Z,2025-09-22 09:59:20.434Z,Mocca Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+ct8dica9ryvjfz1,2025-09-22 10:03:00.189Z,2025-09-22 10:03:00.514Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+0hyggpqay89vhfv,2025-09-22 10:07:12.555Z,2025-09-22 10:07:13.199Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+4fu5sp9nyixqcxr,2025-09-23 07:34:47.323Z,2025-09-23 07:34:47.620Z,Latte,10,Varm drikke,Smak,Hassel,0,1
+4fu5sp9nyixqcxr,2025-09-23 07:34:47.323Z,2025-09-23 07:34:47.620Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+2b9k8ajoszkexq9,2025-09-23 07:35:08.950Z,2025-09-23 07:35:09.241Z,Cortado,10,Varm drikke,Kopp,Liten,10,1
+0p50vyrfoqfkqh5,2025-09-23 07:36:05.324Z,2025-09-23 07:36:05.613Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+ixe58o276whkbcd,2025-09-23 07:41:04.029Z,2025-09-23 07:41:04.330Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+ixe58o276whkbcd,2025-09-23 07:41:04.029Z,2025-09-23 07:41:04.330Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+qhvyxtvth7f1lht,2025-09-23 08:04:02.181Z,2025-09-23 08:04:02.472Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+66l812aivcn7y05,2025-09-23 08:06:31.447Z,2025-09-23 08:06:31.737Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+p3h88wyucvox9af,2025-09-23 08:21:12.106Z,2025-09-23 08:21:12.398Z,Mocca Islatte,10,Kald drikke,Kopp,Egen,0,1
+p3h88wyucvox9af,2025-09-23 08:21:12.106Z,2025-09-23 08:21:12.398Z,Mocca Islatte,10,Kald drikke,Annet,Klippekort,0,0
+avfh5pg6pb4ck0p,2025-09-23 08:22:09.613Z,2025-09-23 08:22:09.900Z,Latte,10,Varm drikke,Melk,Havre,0,1
+avfh5pg6pb4ck0p,2025-09-23 08:22:09.613Z,2025-09-23 08:22:09.900Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+ngevodv1vzq80mb,2025-09-23 08:28:11.048Z,2025-09-23 08:28:11.338Z,Cappuccino,10,Varm drikke,Annet,Klippekort,0,0
+ngevodv1vzq80mb,2025-09-23 08:28:11.048Z,2025-09-23 08:28:11.338Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+jhnm1vqg38s9d07,2025-09-23 08:39:13.506Z,2025-09-23 08:39:13.847Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+jhnm1vqg38s9d07,2025-09-23 08:39:13.506Z,2025-09-23 08:39:13.847Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+2um0bu9fjly15qq,2025-09-23 08:40:46.668Z,2025-09-23 08:40:46.965Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+3n6ibtoatupesbf,2025-09-23 08:42:14.572Z,2025-09-23 08:42:14.868Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+3n6ibtoatupesbf,2025-09-23 08:42:14.572Z,2025-09-23 08:42:14.868Z,Latte,10,Varm drikke,Melk,Havre,0,1
+3d58vtgk6tdm4op,2025-09-23 08:44:23.259Z,2025-09-23 08:44:23.571Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+3d58vtgk6tdm4op,2025-09-23 08:44:23.259Z,2025-09-23 08:44:23.571Z,Mocca,10,Varm drikke,Annet,Klippekort,0,0
+qoulz7l20qy48wk,2025-09-23 08:44:49.008Z,2025-09-23 08:44:49.310Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+qoulz7l20qy48wk,2025-09-23 08:44:49.008Z,2025-09-23 08:44:49.310Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+qoulz7l20qy48wk,2025-09-23 08:44:49.008Z,2025-09-23 08:44:49.310Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+5lbd027il8q11ek,2025-09-23 08:45:29.297Z,2025-09-23 08:45:29.599Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+5lbd027il8q11ek,2025-09-23 08:45:29.297Z,2025-09-23 08:45:29.599Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+5lbd027il8q11ek,2025-09-23 08:45:29.297Z,2025-09-23 08:45:29.599Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+5lbd027il8q11ek,2025-09-23 08:45:29.297Z,2025-09-23 08:45:29.599Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+lbst19o8ehmuz1t,2025-09-23 08:46:17.662Z,2025-09-23 08:46:17.967Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+lbst19o8ehmuz1t,2025-09-23 08:46:17.662Z,2025-09-23 08:46:17.967Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+j5jkhdpjqihh76m,2025-09-23 08:46:54.330Z,2025-09-23 08:46:54.657Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+j5jkhdpjqihh76m,2025-09-23 08:46:54.330Z,2025-09-23 08:46:54.657Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+j5jkhdpjqihh76m,2025-09-23 08:46:54.330Z,2025-09-23 08:46:54.657Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+a1uwj8ci9dj36xd,2025-09-23 08:47:14.287Z,2025-09-23 08:47:14.614Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+a1uwj8ci9dj36xd,2025-09-23 08:47:14.287Z,2025-09-23 08:47:14.614Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+a1uwj8ci9dj36xd,2025-09-23 08:47:14.287Z,2025-09-23 08:47:14.614Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+a1uwj8ci9dj36xd,2025-09-23 08:47:14.287Z,2025-09-23 08:47:14.614Z,Latte,10,Varm drikke,Annet,Klippekort,0,0
+6jgtiqyjtwb2udn,2025-09-23 08:48:15.655Z,2025-09-23 08:48:15.960Z,Is Matcha,10,Kald drikke,Smak,Vanilje,0,1
+6jgtiqyjtwb2udn,2025-09-23 08:48:15.655Z,2025-09-23 08:48:15.960Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+6jgtiqyjtwb2udn,2025-09-23 08:48:15.655Z,2025-09-23 08:48:15.960Z,Is Matcha,10,Kald drikke,Annet,Klippekort,0,0
+gizh540d749iia7,2025-09-23 08:49:59.978Z,2025-09-23 08:50:00.276Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+n58r71z3sto5be9,2025-09-23 08:52:30.158Z,2025-09-23 08:52:30.460Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+n58r71z3sto5be9,2025-09-23 08:52:30.158Z,2025-09-23 08:52:30.460Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+n58r71z3sto5be9,2025-09-23 08:52:30.158Z,2025-09-23 08:52:30.460Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+w5zdnlix2cuze2e,2025-09-23 08:53:28.878Z,2025-09-23 08:53:29.184Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+w5zdnlix2cuze2e,2025-09-23 08:53:28.878Z,2025-09-23 08:53:29.184Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+o6llala17afa2dw,2025-09-23 08:54:22.844Z,2025-09-23 08:54:23.195Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+o6llala17afa2dw,2025-09-23 08:54:22.844Z,2025-09-23 08:54:23.195Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+o6llala17afa2dw,2025-09-23 08:54:22.844Z,2025-09-23 08:54:23.195Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+yo15i3on9zx5vha,2025-09-23 08:55:13.029Z,2025-09-23 08:55:13.320Z,Is Americano,10,Kald drikke,Kopp,Egen,0,1
+yo15i3on9zx5vha,2025-09-23 08:55:13.029Z,2025-09-23 08:55:13.320Z,Is Americano,10,Kald drikke,Annet,Klippekort,0,0
+45v3mr4qq0qpfns,2025-09-23 08:56:50.951Z,2025-09-23 08:56:51.279Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+45v3mr4qq0qpfns,2025-09-23 08:56:50.951Z,2025-09-23 08:56:51.279Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Klippekort,0,0
+i3c6atbn1a7kdjy,2025-09-23 08:57:51.188Z,2025-09-23 08:57:51.494Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+i3c6atbn1a7kdjy,2025-09-23 08:57:51.188Z,2025-09-23 08:57:51.494Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+i3c6atbn1a7kdjy,2025-09-23 08:57:51.188Z,2025-09-23 08:57:51.494Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+mrw1kjoftv2bh93,2025-09-23 08:58:31.486Z,2025-09-23 08:58:32.047Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+mrw1kjoftv2bh93,2025-09-23 08:58:31.486Z,2025-09-23 08:58:32.047Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+g3prah6ndj8vbia,2025-09-23 08:59:51.862Z,2025-09-23 08:59:52.153Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+g3prah6ndj8vbia,2025-09-23 08:59:51.862Z,2025-09-23 08:59:52.153Z,Varm Sjokolade m/krem,10,Varm drikke,Annet,Bursdag,0,0
+pabg036a1ajl30a,2025-09-23 09:00:08.700Z,2025-09-23 09:00:09.010Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+pabg036a1ajl30a,2025-09-23 09:00:08.700Z,2025-09-23 09:00:09.010Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+pabg036a1ajl30a,2025-09-23 09:00:08.700Z,2025-09-23 09:00:09.010Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+tzmdxs1jv6gvogc,2025-09-23 10:05:55.831Z,2025-09-23 10:05:56.127Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+tzmdxs1jv6gvogc,2025-09-23 10:05:55.831Z,2025-09-23 10:05:56.127Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+qk33g6ccqu8wro4,2025-09-23 10:07:12.501Z,2025-09-23 10:07:12.795Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+qk33g6ccqu8wro4,2025-09-23 10:07:12.501Z,2025-09-23 10:07:12.795Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+fbpqjlx4idwtyj5,2025-09-23 10:07:49.215Z,2025-09-23 10:07:49.517Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+hf5hvd8o3c08j9s,2025-09-23 10:10:10.328Z,2025-09-23 10:10:10.635Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+bn01ynerumtsby3,2025-09-23 10:11:11.527Z,2025-09-23 10:11:11.830Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+bn01ynerumtsby3,2025-09-23 10:11:11.527Z,2025-09-23 10:11:11.830Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+26do7ljqkf74xan,2025-09-23 10:11:40.042Z,2025-09-23 10:11:40.342Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+sxx6l2fwsrjhp5x,2025-09-23 10:12:25.054Z,2025-09-23 10:12:25.350Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+xmw1t1kev7q3ghe,2025-09-23 10:14:20.445Z,2025-09-23 10:14:20.742Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+f26yfvp954ambnj,2025-09-23 10:16:17.896Z,2025-09-23 10:16:18.187Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+gxq36ogw3p19s56,2025-09-23 10:18:31.043Z,2025-09-23 10:18:31.352Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+gxq36ogw3p19s56,2025-09-23 10:18:31.043Z,2025-09-23 10:18:31.352Z,Islatte,10,Kald drikke,Kopp,Stor,20,1
+o6jr0rzq2rqm12m,2025-09-23 10:20:11.037Z,2025-09-23 10:20:11.469Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+o6jr0rzq2rqm12m,2025-09-23 10:20:11.037Z,2025-09-23 10:20:11.469Z,Latte,10,Varm drikke,Melk,Havre,0,1
+55djxwme8orq7bs,2025-09-25 08:25:33.095Z,2025-09-25 08:25:33.399Z,Espresso,10,Varm drikke,Kopp,Liten,10,1
+55djxwme8orq7bs,2025-09-25 08:25:33.095Z,2025-09-25 08:25:33.399Z,Espresso,10,Varm drikke,Melk,Mandel,0,1
+55djxwme8orq7bs,2025-09-25 08:25:33.095Z,2025-09-25 08:25:33.399Z,Espresso,10,Varm drikke,Ekstra,Is,5,1
+55djxwme8orq7bs,2025-09-25 08:25:33.095Z,2025-09-25 08:25:33.399Z,Espresso,10,Varm drikke,Smak,Salt karamell,0,1
+tfthc3n5drpqwp1,2025-09-25 08:31:05.203Z,2025-09-25 08:31:05.514Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+xmuv0n4sva2gok0,2025-09-25 08:32:19.191Z,2025-09-25 08:32:19.507Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+4uiuvl9fw253iqg,2025-09-25 08:33:21.973Z,2025-09-25 08:33:22.320Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+4uiuvl9fw253iqg,2025-09-25 08:33:21.973Z,2025-09-25 08:33:22.320Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+i48dvwhgd6029yf,2025-09-25 08:34:57.312Z,2025-09-25 08:34:57.637Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+i48dvwhgd6029yf,2025-09-25 08:34:57.312Z,2025-09-25 08:34:57.637Z,Latte,10,Varm drikke,Ekstra,Krem,5,1
+fu5fbvh9res6yge,2025-09-25 08:36:05.539Z,2025-09-25 08:36:05.839Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+zf95mwoz2a5rb5f,2025-09-25 08:37:44.352Z,2025-09-25 08:37:44.658Z,"Iste, Pasjonsfrukt",10,Kald drikke,Kopp,Plastikkopp ,10,1
+2ttrew13llfcek3,2025-09-25 08:38:34.359Z,2025-09-25 08:38:34.656Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+2ttrew13llfcek3,2025-09-25 08:38:34.359Z,2025-09-25 08:38:34.656Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+ma6txsnxhoyalpm,2025-09-25 08:40:59.055Z,2025-09-25 08:40:59.354Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+ma6txsnxhoyalpm,2025-09-25 08:40:59.055Z,2025-09-25 08:40:59.354Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+dnrwg9fdc0gb427,2025-09-25 08:42:07.786Z,2025-09-25 08:42:08.075Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+dnrwg9fdc0gb427,2025-09-25 08:42:07.786Z,2025-09-25 08:42:08.075Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+df696c86w9abt9d,2025-09-25 08:52:27.633Z,2025-09-25 08:52:27.950Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+df696c86w9abt9d,2025-09-25 08:52:27.633Z,2025-09-25 08:52:27.950Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+ibgria6lctngi0t,2025-09-25 08:54:11.729Z,2025-09-25 08:54:12.016Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+wa1m2ymukcla7ru,2025-09-25 08:55:10.207Z,2025-09-25 08:55:10.740Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+wa1m2ymukcla7ru,2025-09-25 08:55:10.207Z,2025-09-25 08:55:10.740Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+n4n1dvjom29yis0,2025-09-25 08:57:09.229Z,2025-09-25 08:57:09.838Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+tl0krtegsviwsl7,2025-09-25 09:07:51.223Z,2025-09-25 09:07:51.509Z,Mocca,10,Varm drikke,Melk,Hel,0,1
+tl0krtegsviwsl7,2025-09-25 09:07:51.223Z,2025-09-25 09:07:51.509Z,Mocca,10,Varm drikke,Ekstra,Krem,5,1
+pg37eha4ik26wy0,2025-09-25 09:38:26.083Z,2025-09-25 09:38:26.554Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+6kajafdwugeerb8,2025-09-25 09:38:55.990Z,2025-09-25 09:38:56.287Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+1gjmcx6qvolfp8h,2025-09-25 09:40:54.057Z,2025-09-25 09:40:54.342Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+t0qobulsp7e4fmk,2025-09-25 09:42:19.599Z,2025-09-25 09:42:19.981Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+6ptrbyxgaba2lc1,2025-09-25 09:42:57.748Z,2025-09-25 09:42:58.058Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+w0skjlqzmhervyp,2025-09-25 09:44:13.790Z,2025-09-25 09:44:14.092Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+ro1ie4y8qidjgc7,2025-09-25 09:47:33.788Z,2025-09-25 09:47:34.101Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+ak3357kmo8s76ww,2025-09-25 09:48:55.408Z,2025-09-25 09:48:55.724Z,Latte,10,Varm drikke,Melk,Havre,0,1
+ak3357kmo8s76ww,2025-09-25 09:48:55.408Z,2025-09-25 09:48:55.724Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+clj9kwypzciazjv,2025-09-25 09:49:30.283Z,2025-09-25 09:49:30.900Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+lz6d157yeidu1dl,2025-09-25 09:51:04.443Z,2025-09-25 09:51:04.740Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+lz6d157yeidu1dl,2025-09-25 09:51:04.443Z,2025-09-25 09:51:04.740Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+lpck381sa9sys2k,2025-09-25 10:03:49.508Z,2025-09-25 10:03:49.820Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+lpck381sa9sys2k,2025-09-25 10:03:49.508Z,2025-09-25 10:03:49.820Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+qy1v08r2vfz6une,2025-09-25 10:04:25.982Z,2025-09-25 10:04:26.267Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+qy1v08r2vfz6une,2025-09-25 10:04:25.982Z,2025-09-25 10:04:26.267Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+y73sbb0jg6fw6ex,2025-09-25 10:05:18.184Z,2025-09-25 10:05:18.498Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+r638372d601f100,2025-10-13T07:36:34.728752Z,2025-10-13T07:36:34.731498Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r49d3594784654a,2025-10-13T08:11:43.149442Z,2025-10-13T08:11:43.151526Z,"Iste, Pasjonsfrukt",10,Kald drikke,Kopp,Egen,0,1
+re782b6283c8d1f,2025-10-13T08:22:50.598177Z,2025-10-13T08:22:50.604130Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+re782b6283c8d1f,2025-10-13T08:22:50.598177Z,2025-10-13T08:22:50.604130Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+re782b6283c8d1f,2025-10-13T08:22:50.598177Z,2025-10-13T08:22:50.604130Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+rd32d355c0ee868,2025-10-13T08:25:29.720148Z,2025-10-13T08:25:29.721888Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+rf18e3eb4054223,2025-10-13T08:27:59.248258Z,2025-10-13T08:27:59.251776Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rf18e3eb4054223,2025-10-13T08:27:59.248258Z,2025-10-13T08:27:59.251776Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rbc988f1a11a70f,2025-10-13T08:29:04.871409Z,2025-10-13T08:29:04.872969Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+rc0d1913b484afb,2025-10-13T08:31:47.673182Z,2025-10-13T08:31:47.675155Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r7335b102197ea2,2025-10-13T08:32:25.030011Z,2025-10-13T08:32:25.031580Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+re7968b946b6178,2025-10-13T08:36:11.253266Z,2025-10-13T08:36:11.254749Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r0b4d6f0eae6d9d,2025-10-13T09:16:23.049992Z,2025-10-13T09:16:23.052358Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r514c2c7b9046e8,2025-10-13T09:16:49.312050Z,2025-10-13T09:16:49.313773Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r91cc88bf0508a8,2025-10-13T09:31:12.639518Z,2025-10-13T09:31:12.641132Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r6ef63bc2aa8c9f,2025-10-13T09:31:41.952407Z,2025-10-13T09:31:41.954644Z,Pumpkin Latte,10,Varm drikke,Kopp,Stor,20,1
+rbc0aab0c0d283c,2025-10-13T09:35:18.570017Z,2025-10-13T09:35:18.571982Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+re8c09188a28fa1,2025-10-13T09:35:57.768892Z,2025-10-13T09:35:57.770616Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+re8debb0ef7a268,2025-10-13T09:36:37.433212Z,2025-10-13T09:36:37.435704Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r787febcd6b8393,2025-10-13T09:37:31.971422Z,2025-10-13T09:37:31.973354Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r53f7813e2ce2fe,2025-10-13T09:38:22.591145Z,2025-10-13T09:38:22.595731Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r53f7813e2ce2fe,2025-10-13T09:38:22.591145Z,2025-10-13T09:38:22.595731Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+r7f231c888083ed,2025-10-13T09:38:22.598503Z,2025-10-13T09:38:22.600718Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r97c4b7788c913b,2025-10-13T09:38:48.898850Z,2025-10-13T09:38:48.900659Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rf7d6e5a67e98ed,2025-10-13T09:39:23.073901Z,2025-10-13T09:39:23.076916Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+rf7d6e5a67e98ed,2025-10-13T09:39:23.073901Z,2025-10-13T09:39:23.076916Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+rdd6b6fd5ee0491,2025-10-13T09:40:11.933750Z,2025-10-13T09:40:11.937819Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rdd6b6fd5ee0491,2025-10-13T09:40:11.933750Z,2025-10-13T09:40:11.937819Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rac600aa058b7f7,2025-10-13T09:40:54.748849Z,2025-10-13T09:40:54.752595Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rac600aa058b7f7,2025-10-13T09:40:54.748849Z,2025-10-13T09:40:54.752595Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r0ffc5c064b3b53,2025-10-13T09:41:48.186034Z,2025-10-13T09:41:48.189350Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r0ffc5c064b3b53,2025-10-13T09:41:48.186034Z,2025-10-13T09:41:48.189350Z,Mocca,10,Varm drikke,Melk,Mandel,0,1
+ra4ab40acb0b3d6,2025-10-13T09:43:04.588294Z,2025-10-13T09:43:04.589957Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r492a216652b8bb,2025-10-13T09:45:23.996719Z,2025-10-13T09:45:23.998481Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+red00c35b12ee2d,2025-10-13T09:46:19.330922Z,2025-10-13T09:46:19.332788Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r146ebe9168a2c4,2025-10-13T09:46:55.699541Z,2025-10-13T09:46:55.703181Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r146ebe9168a2c4,2025-10-13T09:46:55.699541Z,2025-10-13T09:46:55.703181Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r6a12896fd195d9,2025-10-13T09:47:25.897638Z,2025-10-13T09:47:25.901938Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r6a12896fd195d9,2025-10-13T09:47:25.897638Z,2025-10-13T09:47:25.901938Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+r6a12896fd195d9,2025-10-13T09:47:25.897638Z,2025-10-13T09:47:25.901938Z,Latte,10,Varm drikke,Melk,Havre,0,1
+r5af910a7501eca,2025-10-13T09:47:45.291849Z,2025-10-13T09:47:45.293939Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+rd4e2da23384cc8,2025-10-13T09:49:45.210602Z,2025-10-13T09:49:45.214005Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+rb01db7338be59b,2025-10-13T09:50:08.789055Z,2025-10-13T09:50:08.791052Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r383bdfd51eaaec,2025-10-13T09:51:02.567564Z,2025-10-13T09:51:02.572285Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r383bdfd51eaaec,2025-10-13T09:51:02.567564Z,2025-10-13T09:51:02.572285Z,Islatte,10,Kald drikke,Melk,Laktosefri,0,1
+r383bdfd51eaaec,2025-10-13T09:51:02.567564Z,2025-10-13T09:51:02.572285Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+rc09c27d08ca8f8,2025-10-13T09:51:43.065618Z,2025-10-13T09:51:43.067140Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r205b96fd8d07b1,2025-10-13T09:52:14.916883Z,2025-10-13T09:52:14.918587Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+r0cd0e954f94a31,2025-10-13T09:53:02.532377Z,2025-10-13T09:53:02.534284Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rac7eb7fdb9465f,2025-10-13T09:55:32.586528Z,2025-10-13T09:55:32.587956Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rdec7de48051cdd,2025-10-13T09:57:42.915579Z,2025-10-13T09:57:42.919370Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rdec7de48051cdd,2025-10-13T09:57:42.915579Z,2025-10-13T09:57:42.919370Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rc142b3206917ef,2025-10-13T09:58:29.925815Z,2025-10-13T09:58:29.927669Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rabe8c919d0d51e,2025-10-13T09:58:55.198840Z,2025-10-13T09:58:55.200984Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Liten,10,1
+r0c7fce980df6f9,2025-10-13T10:01:58.105848Z,2025-10-13T10:01:58.107527Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r8bcd0a6b700483,2025-10-13T10:02:42.720447Z,2025-10-13T10:02:42.723748Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r8bcd0a6b700483,2025-10-13T10:02:42.720447Z,2025-10-13T10:02:42.723748Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rc6a4cc9f408f7b,2025-10-13T10:05:29.538263Z,2025-10-13T10:05:29.541943Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rc6a4cc9f408f7b,2025-10-13T10:05:29.538263Z,2025-10-13T10:05:29.541943Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+re3933fbb77f6b1,2025-10-14T08:26:55.591814Z,2025-10-14T08:26:55.593594Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r982c195167aafa,2025-10-14T08:30:35.925817Z,2025-10-14T08:30:35.927482Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r10143197866477,2025-10-14T08:34:24.044422Z,2025-10-14T08:34:24.045970Z,"Iste, Pasjonsfrukt",10,Kald drikke,Kopp,Egen,0,1
+r0f9cb76e0fa2b8,2025-10-14T08:36:42.102649Z,2025-10-14T08:36:42.104131Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r59762c87b7ad9a,2025-10-14T08:37:05.466787Z,2025-10-14T08:37:05.468976Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r445e1d61fbb95e,2025-10-14T08:37:15.755679Z,2025-10-14T08:37:15.757285Z,"Iste, sitron",10,Kald drikke,Kopp,Plastikkopp ,10,1
+ra878015aca164b,2025-10-14T08:38:16.314363Z,2025-10-14T08:38:16.318777Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+ra878015aca164b,2025-10-14T08:38:16.314363Z,2025-10-14T08:38:16.318777Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r0dbe44572e676e,2025-10-14T08:38:37.694258Z,2025-10-14T08:38:37.695807Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r835f12615ebe1b,2025-10-14T08:39:19.531699Z,2025-10-14T08:39:19.536577Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r835f12615ebe1b,2025-10-14T08:39:19.531699Z,2025-10-14T08:39:19.536577Z,Latte,10,Varm drikke,Melk,Havre,0,1
+r835f12615ebe1b,2025-10-14T08:39:19.531699Z,2025-10-14T08:39:19.536577Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+rb346c6b8cefa6f,2025-10-14T08:40:01.999472Z,2025-10-14T08:40:02.001085Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+r5a0b342094a7b0,2025-10-14T08:46:11.714770Z,2025-10-14T08:46:11.716514Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r91bf9db9944019,2025-10-14T08:49:06.551206Z,2025-10-14T08:49:06.557017Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r91bf9db9944019,2025-10-14T08:49:06.551206Z,2025-10-14T08:49:06.557017Z,Latte,10,Varm drikke,Smak,Hassel,0,1
+r91bf9db9944019,2025-10-14T08:49:06.551206Z,2025-10-14T08:49:06.557017Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+r7394bb1e395698,2025-10-14T08:52:49.545369Z,2025-10-14T08:52:49.548575Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r7394bb1e395698,2025-10-14T08:52:49.545369Z,2025-10-14T08:52:49.548575Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+re175a2940d0825,2025-10-14T08:55:06.517627Z,2025-10-14T08:55:06.520660Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+re175a2940d0825,2025-10-14T08:55:06.517627Z,2025-10-14T08:55:06.520660Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rd7c4877a503fb4,2025-10-14T08:57:22.541623Z,2025-10-14T08:57:22.545997Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+rd7c4877a503fb4,2025-10-14T08:57:22.541623Z,2025-10-14T08:57:22.545997Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+rd7c4877a503fb4,2025-10-14T08:57:22.541623Z,2025-10-14T08:57:22.545997Z,Cappuccino,10,Varm drikke,Smak,Salt karamell,0,1
+r5ce6d5df71d403,2025-10-14T08:59:50.826938Z,2025-10-14T08:59:50.831431Z,Cortado,10,Varm drikke,Kopp,Liten,10,1
+r5ce6d5df71d403,2025-10-14T08:59:50.826938Z,2025-10-14T08:59:50.831431Z,Cortado,10,Varm drikke,Ekstra,Espresso,5,1
+r6cbedd12015d16,2025-10-14T09:04:06.251142Z,2025-10-14T09:04:06.254314Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r6cbedd12015d16,2025-10-14T09:04:06.251142Z,2025-10-14T09:04:06.254314Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+r0ad64c345b63f2,2025-10-14T09:09:00.850549Z,2025-10-14T09:09:00.856897Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r0ad64c345b63f2,2025-10-14T09:09:00.850549Z,2025-10-14T09:09:00.856897Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+r0ad64c345b63f2,2025-10-14T09:09:00.850549Z,2025-10-14T09:09:00.856897Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+r0ad64c345b63f2,2025-10-14T09:09:00.850549Z,2025-10-14T09:09:00.856897Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+r6df62203fcc88a,2025-10-14T09:10:29.478933Z,2025-10-14T09:10:29.483706Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r6df62203fcc88a,2025-10-14T09:10:29.478933Z,2025-10-14T09:10:29.483706Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r6df62203fcc88a,2025-10-14T09:10:29.478933Z,2025-10-14T09:10:29.483706Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+r38e254b71dbc16,2025-10-14T09:13:06.754462Z,2025-10-14T09:13:06.756179Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r9cc8ba22cef3d1,2025-10-14T09:14:26.587488Z,2025-10-14T09:14:26.590416Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r9cc8ba22cef3d1,2025-10-14T09:14:26.587488Z,2025-10-14T09:14:26.590416Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+r6348748db0ed72,2025-10-14T09:44:24.248996Z,2025-10-14T09:44:24.250517Z,"Iste, Fersken",10,Kald drikke,Kopp,Egen,0,1
+r6ea235ebf379b2,2025-10-14T09:57:19.232283Z,2025-10-14T09:57:19.234243Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r22d90b3d2f051d,2025-10-14T09:57:43.390110Z,2025-10-14T09:57:43.391820Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+r516c075e4cb058,2025-10-14T10:00:40.997014Z,2025-10-14T10:00:40.999272Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rffe1af4dfd1113,2025-10-14T10:01:31.942670Z,2025-10-14T10:01:31.944715Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r748d35b0015fe5,2025-10-14T10:05:27.559882Z,2025-10-14T10:05:27.561526Z,Pumpkin Latte,10,Varm drikke,Kopp,Liten,10,1
+r8563bf0ea638b4,2025-10-14T10:06:18.374174Z,2025-10-14T10:06:18.377416Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r8563bf0ea638b4,2025-10-14T10:06:18.374174Z,2025-10-14T10:06:18.377416Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+rae064792e4bd3d,2025-10-14T10:06:39.417326Z,2025-10-14T10:06:39.421049Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rae064792e4bd3d,2025-10-14T10:06:39.417326Z,2025-10-14T10:06:39.421049Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r069992e2365286,2025-10-14T10:07:02.348520Z,2025-10-14T10:07:02.351226Z,Pumpkin Latte,10,Varm drikke,Kopp,Liten,10,1
+r1f0a4a61646ece,2025-10-14T10:07:29.353488Z,2025-10-14T10:07:29.356870Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r1f0a4a61646ece,2025-10-14T10:07:29.353488Z,2025-10-14T10:07:29.356870Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+r4e620f0198b93d,2025-10-14T10:07:51.174584Z,2025-10-14T10:07:51.176068Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r4d8056b18bf2a0,2025-10-14T10:08:29.997035Z,2025-10-14T10:08:29.999136Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+ra71b08f9899088,2025-10-14T10:09:21.845832Z,2025-10-14T10:09:21.848125Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r276292080e2be6,2025-10-14T10:09:45.612247Z,2025-10-14T10:09:45.614113Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+rede67c834d2338,2025-10-14T10:10:26.318725Z,2025-10-14T10:10:26.320322Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+r69aa1cca937652,2025-10-14T10:11:14.812718Z,2025-10-14T10:11:14.814363Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Liten,10,1
+r7b3b7fd4dad132,2025-10-14T10:12:35.485667Z,2025-10-14T10:12:35.489306Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r7b3b7fd4dad132,2025-10-14T10:12:35.485667Z,2025-10-14T10:12:35.489306Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+r3262d52795c526,2025-10-14T10:13:15.812353Z,2025-10-14T10:13:15.816302Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r3262d52795c526,2025-10-14T10:13:15.812353Z,2025-10-14T10:13:15.816302Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+rbd351e62fc1e59,2025-10-14T10:14:18.514067Z,2025-10-14T10:14:18.515695Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r570635385825b8,2025-10-14T10:15:33.091096Z,2025-10-14T10:15:33.094370Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+r570635385825b8,2025-10-14T10:15:33.091096Z,2025-10-14T10:15:33.094370Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+r84207afe223f54,2025-10-14T10:16:13.387139Z,2025-10-14T10:16:13.388939Z,Varm sjokolade u/krem,10,Varm drikke,Kopp,Egen,0,1
+r2261741e9ac8a3,2025-10-14T10:16:59.618279Z,2025-10-14T10:16:59.623225Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r2261741e9ac8a3,2025-10-14T10:16:59.618279Z,2025-10-14T10:16:59.623225Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+r2261741e9ac8a3,2025-10-14T10:16:59.618279Z,2025-10-14T10:16:59.623225Z,Islatte,10,Kald drikke,Annet,Klippekort,0,0
+r587e35fa88bc63,2025-10-14T10:17:42.394677Z,2025-10-14T10:17:42.396111Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+rf66237a3a3f400,2025-10-14T10:18:20.145635Z,2025-10-14T10:18:20.148781Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+rf66237a3a3f400,2025-10-14T10:18:20.145635Z,2025-10-14T10:18:20.148781Z,Latte,10,Varm drikke,Smak,Vanilje,0,1
+re8699297b46898,2025-10-14T10:23:11.427564Z,2025-10-14T10:23:11.429492Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+rb24de0e22a4472,2025-10-14T10:23:57.574924Z,2025-10-14T10:23:57.576736Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r07ec61930c2657,2025-10-15T06:47:19.646485Z,2025-10-15T06:47:19.649782Z,Chai Latte,10,Varm drikke,Kopp,Egen,0,1
+r07ec61930c2657,2025-10-15T06:47:19.646485Z,2025-10-15T06:47:19.649782Z,Chai Latte,10,Varm drikke,Melk,Mandel,0,1
+r49c88c2986e084,2025-10-15T07:15:38.201030Z,2025-10-15T07:15:38.206337Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r49c88c2986e084,2025-10-15T07:15:38.201030Z,2025-10-15T07:15:38.206337Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+r49c88c2986e084,2025-10-15T07:15:38.201030Z,2025-10-15T07:15:38.206337Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+re3f42d6e9e2a94,2025-10-15T07:16:12.020408Z,2025-10-15T07:16:12.025852Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+re3f42d6e9e2a94,2025-10-15T07:16:12.020408Z,2025-10-15T07:16:12.025852Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+re3f42d6e9e2a94,2025-10-15T07:16:12.020408Z,2025-10-15T07:16:12.025852Z,Islatte,10,Kald drikke,Melk,Hel,0,1
+r99bdd5a05f7dcd,2025-10-15T07:16:41.833412Z,2025-10-15T07:16:41.836398Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r99bdd5a05f7dcd,2025-10-15T07:16:41.833412Z,2025-10-15T07:16:41.836398Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+r365c6abe0283e5,2025-10-15T07:17:10.904647Z,2025-10-15T07:17:10.908317Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r365c6abe0283e5,2025-10-15T07:17:10.904647Z,2025-10-15T07:17:10.908317Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r74f8973ab634d0,2025-10-15T07:18:25.256581Z,2025-10-15T07:18:25.258371Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+raa453b17d31d0e,2025-10-15T07:18:25.259893Z,2025-10-15T07:18:25.261806Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+r6866a7b036c4fd,2025-10-15T07:19:11.816420Z,2025-10-15T07:19:11.820132Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+r6866a7b036c4fd,2025-10-15T07:19:11.816420Z,2025-10-15T07:19:11.820132Z,Pumpkin Spice Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+rdc72d2b31e7ce7,2025-10-15T07:19:42.911523Z,2025-10-15T07:19:42.913238Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+re75bfc22b08b03,2025-10-15T07:20:37.803342Z,2025-10-15T07:20:37.808584Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+re75bfc22b08b03,2025-10-15T07:20:37.803342Z,2025-10-15T07:20:37.808584Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+re75bfc22b08b03,2025-10-15T07:20:37.803342Z,2025-10-15T07:20:37.808584Z,Latte,10,Varm drikke,Melk,Soya,0,1
+rf658896bca7a9f,2025-10-15T07:21:08.065600Z,2025-10-15T07:21:08.069068Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+rf658896bca7a9f,2025-10-15T07:21:08.065600Z,2025-10-15T07:21:08.069068Z,Latte,10,Varm drikke,Melk,Havre,0,1
+r82442bc323019e,2025-10-15T07:21:58.917745Z,2025-10-15T07:21:58.919614Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r8da2c782d7a1b0,2025-10-15T07:21:58.921495Z,2025-10-15T07:21:58.923399Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rfa80b9e0120988,2025-10-15T07:22:48.747768Z,2025-10-15T07:22:48.749465Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r0120a1935b1129,2025-10-15T07:23:12.940434Z,2025-10-15T07:23:12.944064Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r0120a1935b1129,2025-10-15T07:23:12.940434Z,2025-10-15T07:23:12.944064Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r3dfa7fd6927e61,2025-10-15T07:24:00.460828Z,2025-10-15T07:24:00.462432Z,Pumpkin Latte,10,Varm drikke,Kopp,Liten,10,1
+r09e215f2d949f5,2025-10-15T07:24:43.470478Z,2025-10-15T07:24:43.472145Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rec54ddfbafa9dd,2025-10-15T07:25:22.203802Z,2025-10-15T07:25:22.204961Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+rf27fa36c87b1c5,2025-10-15T07:26:11.658774Z,2025-10-15T07:26:11.660410Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r8f2e53d8deb329,2025-10-15T07:27:06.831786Z,2025-10-15T07:27:06.836911Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r8f2e53d8deb329,2025-10-15T07:27:06.831786Z,2025-10-15T07:27:06.836911Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r8f2e53d8deb329,2025-10-15T07:27:06.831786Z,2025-10-15T07:27:06.836911Z,Latte,10,Varm drikke,Ekstra,Espresso,5,1
+r9d2a99a3aae9c7,2025-10-15T07:40:10.823915Z,2025-10-15T07:40:10.825738Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r082dddf4a77e18,2025-10-15T07:41:40.015118Z,2025-10-15T07:41:40.017612Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r911cc66fc38a69,2025-10-15T07:43:01.784152Z,2025-10-15T07:43:01.786446Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r033b5c7507b973,2025-10-15T07:54:06.132652Z,2025-10-15T07:54:06.134512Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r542af46335986b,2025-10-15T07:57:43.183436Z,2025-10-15T07:57:43.187171Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r542af46335986b,2025-10-15T07:57:43.183436Z,2025-10-15T07:57:43.187171Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r7698bce3cf283a,2025-10-15T08:25:41.978160Z,2025-10-15T08:25:41.979835Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rbfb1f55e23d1bc,2025-10-15T08:29:07.635609Z,2025-10-15T08:29:07.638235Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r40b9e92520ff5e,2025-10-15T08:30:05.292256Z,2025-10-15T08:30:05.296320Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+r40b9e92520ff5e,2025-10-15T08:30:05.292256Z,2025-10-15T08:30:05.296320Z,Is Matcha,10,Kald drikke,Melk,Lett,0,1
+rf5051e5889573f,2025-10-15T08:30:42.409663Z,2025-10-15T08:30:42.411920Z,Pumpkin Spice Islatte,10,Kald drikke,Kopp,Egen,0,1
+ra2ddeaad036d44,2025-10-15T08:36:15.185845Z,2025-10-15T08:36:15.187641Z,Cortado,10,Varm drikke,Kopp,Liten,10,1
+rf88720da5ea15d,2025-10-15T08:37:30.027115Z,2025-10-15T08:37:30.030189Z,Cortado,10,Varm drikke,Kopp,Egen,0,1
+rf88720da5ea15d,2025-10-15T08:37:30.027115Z,2025-10-15T08:37:30.030189Z,Cortado,10,Varm drikke,Ekstra,Espresso,5,1
+r657493195f335b,2025-10-15T09:04:08.106322Z,2025-10-15T09:04:08.109085Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r657493195f335b,2025-10-15T09:04:08.106322Z,2025-10-15T09:04:08.109085Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+r1a14488206c6b0,2025-10-15T09:14:58.218240Z,2025-10-15T09:14:58.223677Z,Varm sjokolade u/krem,10,Varm drikke,Kopp,Plastikkopp ,10,1
+r1a14488206c6b0,2025-10-15T09:14:58.218240Z,2025-10-15T09:14:58.223677Z,Varm sjokolade u/krem,10,Varm drikke,Smak,Hassel,0,1
+r1a14488206c6b0,2025-10-15T09:14:58.218240Z,2025-10-15T09:14:58.223677Z,Varm sjokolade u/krem,10,Varm drikke,Melk,Mandel,0,1
+rcb601adaf567bf,2025-10-15T09:21:43.735385Z,2025-10-15T09:21:43.737224Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+ra62139f4c7563e,2025-10-15T09:23:56.944048Z,2025-10-15T09:23:56.945669Z,"Iste, sitron",10,Kald drikke,Kopp,Egen,0,1
+r80fe6cd331bbd6,2025-10-15T09:29:25.085177Z,2025-10-15T09:29:25.086768Z,Is Matcha,10,Kald drikke,Kopp,Plastikkopp ,10,1
+rc311c08132d983,2025-10-15T09:34:57.732459Z,2025-10-15T09:34:57.734293Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+rba37dee89ff091,2025-10-15T09:36:11.789733Z,2025-10-15T09:36:11.791286Z,"Iste, Pasjonsfrukt",10,Kald drikke,Kopp,Plastikkopp ,10,1
+r933af15a5a76ae,2025-10-15T09:36:59.342218Z,2025-10-15T09:36:59.343884Z,Pumpkin Latte,10,Varm drikke,Kopp,Liten,10,1
+rab93a395922e35,2025-10-15T09:38:36.896223Z,2025-10-15T09:38:36.899902Z,Islatte,10,Kald drikke,Kopp,Liten,10,1
+rab93a395922e35,2025-10-15T09:38:36.896223Z,2025-10-15T09:38:36.899902Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+rc505712549019e,2025-10-15T09:39:17.300855Z,2025-10-15T09:39:17.302599Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r4563d5723738e9,2025-10-15T09:40:07.338051Z,2025-10-15T09:40:07.339619Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+r671e699c3608e0,2025-10-15T09:41:06.959291Z,2025-10-15T09:41:06.962440Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r671e699c3608e0,2025-10-15T09:41:06.959291Z,2025-10-15T09:41:06.962440Z,Americano,10,Varm drikke,Annet,Klippekort,0,0
+r93484b69502f39,2025-10-15T09:41:55.920924Z,2025-10-15T09:41:55.922666Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+rf7ca096e592250,2025-10-15T09:42:35.505174Z,2025-10-15T09:42:35.508564Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rf7ca096e592250,2025-10-15T09:42:35.505174Z,2025-10-15T09:42:35.508564Z,Karamell Frappe,15,Kald drikke,Annet,Klippekort,0,0
+rdaf768978717be,2025-10-15T09:43:05.820421Z,2025-10-15T09:43:05.824497Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rdaf768978717be,2025-10-15T09:43:05.820421Z,2025-10-15T09:43:05.824497Z,Pumpkin Latte,10,Varm drikke,Annet,Klippekort,0,0
+r4b2acbabec5f01,2025-10-15T09:43:53.740810Z,2025-10-15T09:43:53.742463Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+r81e9b70f03713f,2025-10-15T09:44:54.312850Z,2025-10-15T09:44:54.314593Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+rf5c7418302591f,2025-10-15T09:45:18.645121Z,2025-10-15T09:45:18.648523Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rf5c7418302591f,2025-10-15T09:45:18.645121Z,2025-10-15T09:45:18.648523Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r1236c1306e00f3,2025-10-16T07:13:28.030197Z,2025-10-16T07:13:28.031868Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r209b8d6657c464,2025-10-16T07:13:55.189771Z,2025-10-16T07:13:55.192461Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r209b8d6657c464,2025-10-16T07:13:55.189771Z,2025-10-16T07:13:55.192461Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r2654550861ea3a,2025-10-16T07:15:38.291685Z,2025-10-16T07:15:38.295053Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r87018029566d53,2025-10-16T07:18:41.271780Z,2025-10-16T07:18:41.277031Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r87018029566d53,2025-10-16T07:18:41.271780Z,2025-10-16T07:18:41.277031Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+r87018029566d53,2025-10-16T07:18:41.271780Z,2025-10-16T07:18:41.277031Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r08e6bbc79495c6,2025-10-16T07:20:38.104776Z,2025-10-16T07:20:38.108296Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r08e6bbc79495c6,2025-10-16T07:20:38.104776Z,2025-10-16T07:20:38.108296Z,Pumpkin Latte,10,Varm drikke,Ekstra,Espresso,5,1
+r0ead7fe7c9a77b,2025-10-16T07:28:21.854842Z,2025-10-16T07:28:21.856817Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+rba86165ec99a5d,2025-10-16T07:28:22.312152Z,2025-10-16T07:28:22.314272Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+ra5cc046d657271,2025-10-16T07:40:43.394813Z,2025-10-16T07:40:43.396302Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+re3d20e1cc933df,2025-10-16T07:44:17.515371Z,2025-10-16T07:44:17.516980Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r2f8d2076ace8dd,2025-10-16T08:01:33.403414Z,2025-10-16T08:01:33.405560Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r1dd0580c94ff88,2025-10-16T08:02:16.607622Z,2025-10-16T08:02:16.610214Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r0357bfcb757de2,2025-10-16T08:02:26.616992Z,2025-10-16T08:02:26.618830Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r4d94ebbcbee815,2025-10-16T08:17:32.372574Z,2025-10-16T08:17:32.378324Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r4d94ebbcbee815,2025-10-16T08:17:32.372574Z,2025-10-16T08:17:32.378324Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r658a091dfda3c9,2025-10-16T08:22:12.143625Z,2025-10-16T08:22:12.146653Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r658a091dfda3c9,2025-10-16T08:22:12.143625Z,2025-10-16T08:22:12.146653Z,Varm Sjokolade m/krem,10,Varm drikke,Melk,Havre,0,1
+rd9fbefc27a2af1,2025-10-16T08:31:02.735595Z,2025-10-16T08:31:02.737377Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r8c15e8702e726d,2025-10-16T08:31:39.457411Z,2025-10-16T08:31:39.459652Z,Americano,10,Varm drikke,Kopp,Egen,0,1
+r20c615868fde6a,2025-10-17T07:07:53.508287Z,2025-10-17T07:07:53.511217Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+rae7d276c38b1d3,2025-10-17T07:10:59.380608Z,2025-10-17T07:10:59.382787Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r054b1d786a6559,2025-10-17T07:11:24.247682Z,2025-10-17T07:11:24.249266Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r03adda9ad02119,2025-10-17T07:15:09.007960Z,2025-10-17T07:15:09.009828Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r17afae4ed6ecf4,2025-10-17T07:15:49.424588Z,2025-10-17T07:15:49.428545Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r17afae4ed6ecf4,2025-10-17T07:15:49.424588Z,2025-10-17T07:15:49.428545Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+red52c4c40f97d1,2025-10-17T07:16:38.209743Z,2025-10-17T07:16:38.211417Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+rb242eb962e5da4,2025-10-17T07:16:48.355649Z,2025-10-17T07:16:48.357782Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Liten,10,1
+r21cfecfc5e6564,2025-10-17T07:17:53.753373Z,2025-10-17T07:17:53.756579Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r21cfecfc5e6564,2025-10-17T07:17:53.753373Z,2025-10-17T07:17:53.756579Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r91f9471aa27588,2025-10-17T07:18:23.640753Z,2025-10-17T07:18:23.642413Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r76fd2d9d214da5,2025-10-17T07:18:52.655743Z,2025-10-17T07:18:52.657212Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r11cd033a6f3c90,2025-10-17T07:19:19.710231Z,2025-10-17T07:19:19.713689Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r11cd033a6f3c90,2025-10-17T07:19:19.710231Z,2025-10-17T07:19:19.713689Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r98b88dcb48fe16,2025-10-17T07:20:11.293897Z,2025-10-17T07:20:11.295743Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r70bdd8407423a1,2025-10-17T07:20:31.965904Z,2025-10-17T07:20:31.967782Z,Is Americano,10,Kald drikke,Kopp,Egen,0,1
+r6034a123de691e,2025-10-17T07:20:42.372313Z,2025-10-17T07:20:42.374210Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r674570b30339a6,2025-10-17T07:21:15.165638Z,2025-10-17T07:21:15.167873Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+r5b19ab168deb4f,2025-10-17T07:22:24.557178Z,2025-10-17T07:22:24.559144Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r8df20f4725c04e,2025-10-17T07:23:02.554745Z,2025-10-17T07:23:02.556379Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+r3477d4c8e986f5,2025-10-17T07:25:01.909765Z,2025-10-17T07:25:01.911680Z,Mocca,10,Varm drikke,Kopp,Egen,0,1
+r145a58bda8a94e,2025-10-17T07:29:12.259343Z,2025-10-17T07:29:12.260848Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+re1a62b67455774,2025-10-17T07:30:57.830076Z,2025-10-17T07:30:57.831845Z,Cappuccino,10,Varm drikke,Kopp,Stor,20,1
+r4b680e3865e9d7,2025-10-17T07:39:32.071055Z,2025-10-17T07:39:32.074885Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r4b680e3865e9d7,2025-10-17T07:39:32.071055Z,2025-10-17T07:39:32.074885Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r78e91d7c5c5d2e,2025-10-17T07:43:47.663990Z,2025-10-17T07:43:47.667291Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r78e91d7c5c5d2e,2025-10-17T07:43:47.663990Z,2025-10-17T07:43:47.667291Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+rdda429e098b323,2025-10-17T07:45:10.833655Z,2025-10-17T07:45:10.835467Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+ra0cb33b84a65f0,2025-10-17T07:45:10.836605Z,2025-10-17T07:45:10.839092Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+rcfaad8f5d7e797,2025-10-17T07:45:10.840791Z,2025-10-17T07:45:10.843168Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+rad619e7ef55ff5,2025-10-17T07:46:15.111398Z,2025-10-17T07:46:15.113300Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+rbef5256aeefa8a,2025-10-17T07:47:04.052960Z,2025-10-17T07:47:04.055335Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+r08f1bd457b86cb,2025-10-17T08:01:51.276031Z,2025-10-17T08:01:51.279715Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r08f1bd457b86cb,2025-10-17T08:01:51.276031Z,2025-10-17T08:01:51.279715Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r06ea844b86ec4b,2025-10-17T08:15:19.361150Z,2025-10-17T08:15:19.364745Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r06ea844b86ec4b,2025-10-17T08:15:19.361150Z,2025-10-17T08:15:19.364745Z,Islatte,10,Kald drikke,Smak,Salt karamell,0,1
+r982fd3ea11c41e,2025-10-17T08:22:15.289860Z,2025-10-17T08:22:15.292062Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+rff063c355d2f7d,2025-10-17T08:26:05.285760Z,2025-10-17T08:26:05.289736Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+rff063c355d2f7d,2025-10-17T08:26:05.285760Z,2025-10-17T08:26:05.289736Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r8e0fe9d189a563,2025-10-17T08:28:42.950908Z,2025-10-17T08:28:42.953353Z,Pumpkin Latte,10,Varm drikke,Kopp,Liten,10,1
+re79beba1b04285,2025-10-17T08:29:27.850586Z,2025-10-17T08:29:27.852164Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Stor,20,1
+ra3d0890c7fac55,2025-10-17T08:30:36.379467Z,2025-10-17T08:30:36.383516Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+ra3d0890c7fac55,2025-10-17T08:30:36.379467Z,2025-10-17T08:30:36.383516Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+ra3d0890c7fac55,2025-10-17T08:30:36.379467Z,2025-10-17T08:30:36.383516Z,Islatte,10,Kald drikke,Melk,Havre,0,1
+r5ddba4362cc3fb,2025-10-17T08:32:05.439741Z,2025-10-17T08:32:05.441615Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r0c2bf1a327ede2,2025-10-17T08:32:46.303921Z,2025-10-17T08:32:46.305861Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r1c5420ba3c88be,2025-10-17T08:33:45.781700Z,2025-10-17T08:33:45.783624Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r315b988e4ef7f4,2025-10-17T08:36:18.113364Z,2025-10-17T08:36:18.117894Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r315b988e4ef7f4,2025-10-17T08:36:18.113364Z,2025-10-17T08:36:18.117894Z,Varm Sjokolade m/krem,10,Varm drikke,Melk,Laktosefri,0,1
+rda5c842bca606a,2025-10-17T08:39:01.515842Z,2025-10-17T08:39:01.517328Z,Mocca,10,Varm drikke,Kopp,Stor,20,1
+rf5f1fc32eac3b0,2025-10-17T08:42:36.376100Z,2025-10-17T08:42:36.377736Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r942cb461dd85af,2025-10-17T08:46:09.332316Z,2025-10-17T08:46:09.334738Z,"Iste, Fersken",10,Kald drikke,Kopp,Plastikkopp ,10,1
+rbd638f1e6eafe9,2025-10-17T08:47:33.072429Z,2025-10-17T08:47:33.074174Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+r7cfb7d6e7105d0,2025-10-17T08:53:42.863461Z,2025-10-17T08:53:42.865306Z,Is Matcha,10,Kald drikke,Kopp,Egen,0,1
+r731d1d944e9ae4,2025-10-17T09:00:10.915501Z,2025-10-17T09:00:10.917836Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+rd32290ae90dc4e,2025-10-17T09:12:34.369379Z,2025-10-17T09:12:34.372457Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rb31840d1c5c6bc,2025-10-17T09:13:34.108434Z,2025-10-17T09:13:34.112391Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rb31840d1c5c6bc,2025-10-17T09:13:34.108434Z,2025-10-17T09:13:34.112391Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+rb31840d1c5c6bc,2025-10-17T09:13:34.108434Z,2025-10-17T09:13:34.112391Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+ra3db196d3919bf,2025-10-17T09:26:07.474836Z,2025-10-17T09:26:07.476561Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+r2fc14d6fc63942,2025-10-17T09:27:33.084557Z,2025-10-17T09:27:33.088178Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r2fc14d6fc63942,2025-10-17T09:27:33.084557Z,2025-10-17T09:27:33.088178Z,Islatte,10,Kald drikke,Smak,Hassel,0,1
+ra04c0d729f3641,2025-10-17T09:28:26.436454Z,2025-10-17T09:28:26.438330Z,Latte,10,Varm drikke,Kopp,Liten,10,1
+rc36a84fce72cbc,2025-10-17T09:29:38.076573Z,2025-10-17T09:29:38.078619Z,Varm Sjokolade m/krem,10,Varm drikke,Kopp,Egen,0,1
+rfaf7f2193af423,2025-10-17T09:35:22.080710Z,2025-10-17T09:35:22.082579Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r507903ba19810f,2025-10-17T09:37:55.334342Z,2025-10-17T09:37:55.338683Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+r507903ba19810f,2025-10-17T09:37:55.334342Z,2025-10-17T09:37:55.338683Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+r10cd7a55a780de,2025-10-17T09:41:27.184707Z,2025-10-17T09:41:27.188177Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r10cd7a55a780de,2025-10-17T09:41:27.184707Z,2025-10-17T09:41:27.188177Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+r50077e07770c03,2025-10-17T09:42:02.981362Z,2025-10-17T09:42:02.984517Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r50077e07770c03,2025-10-17T09:42:02.981362Z,2025-10-17T09:42:02.984517Z,Cappuccino,10,Varm drikke,Ekstra,Espresso,5,1
+rae408b117ece1d,2025-10-17T09:42:44.543529Z,2025-10-17T09:42:44.547270Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rae408b117ece1d,2025-10-17T09:42:44.543529Z,2025-10-17T09:42:44.547270Z,Islatte,10,Kald drikke,Ekstra,Espresso,5,1
+r3cb464ca42c462,2025-10-17T09:43:40.931487Z,2025-10-17T09:43:40.933733Z,Pumpkin Latte,10,Varm drikke,Kopp,Egen,0,1
+rb32fdb9215279f,2025-10-17T09:44:07.935704Z,2025-10-17T09:44:07.939777Z,Islatte,10,Kald drikke,Kopp,Egen,0,1
+rb32fdb9215279f,2025-10-17T09:44:07.935704Z,2025-10-17T09:44:07.939777Z,Islatte,10,Kald drikke,Smak,Vanilje,0,1
+rebc337044aff71,2025-10-17T09:55:39.935615Z,2025-10-17T09:55:39.937156Z,Karamell Frappe,15,Kald drikke,Kopp,Egen,0,1
+rc4149ae3fb4f41,2025-10-17T09:59:01.493215Z,2025-10-17T09:59:01.494790Z,Karamell Frappe,15,Kald drikke,Kopp,Plastikkopp ,10,1
+r9e1a6f7111c8f3,2025-10-20T07:11:21.260069Z,2025-10-20T07:11:21.264911Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r9e1a6f7111c8f3,2025-10-20T07:11:21.260069Z,2025-10-20T07:11:21.264911Z,Latte,10,Varm drikke,Ekstra,Sirup,5,1
+r9e1a6f7111c8f3,2025-10-20T07:11:21.260069Z,2025-10-20T07:11:21.264911Z,Latte,10,Varm drikke,Smak,Salt karamell,0,1
+r8d34d9b06423e7,2025-10-20T07:11:39.779742Z,2025-10-20T07:11:39.786510Z,Latte,10,Varm drikke,Kopp,Stor,20,1
+r8d34d9b06423e7,2025-10-20T07:11:39.779742Z,2025-10-20T07:11:39.786510Z,Latte,10,Varm drikke,Melk,Laktosefri,0,1
+r8d34d9b06423e7,2025-10-20T07:11:39.779742Z,2025-10-20T07:11:39.786510Z,Latte,10,Varm drikke,Smak,Hassel,0,1
+rf13d0a6e0a64b0,2025-10-20T07:11:59.066365Z,2025-10-20T07:11:59.073715Z,Cortado,10,Varm drikke,Kopp,Egen,0,1
+rf13d0a6e0a64b0,2025-10-20T07:11:59.066365Z,2025-10-20T07:11:59.073715Z,Cortado,10,Varm drikke,Melk,Lett,0,1
+rf13d0a6e0a64b0,2025-10-20T07:11:59.066365Z,2025-10-20T07:11:59.073715Z,Cortado,10,Varm drikke,Ekstra,Sirup,5,1
+rf13d0a6e0a64b0,2025-10-20T07:11:59.066365Z,2025-10-20T07:11:59.073715Z,Cortado,10,Varm drikke,Smak,Hassel,0,1
+r92ac4745d57e79,2025-10-20T07:14:34.485234Z,2025-10-20T07:14:34.486948Z,Cappuccino,10,Varm drikke,Kopp,Egen,0,1
+r9d3d4830190d66,2025-10-20T07:16:28.761617Z,2025-10-20T07:16:28.764860Z,Latte,10,Varm drikke,Kopp,Egen,0,1
+r9d3d4830190d66,2025-10-20T07:16:28.761617Z,2025-10-20T07:16:28.764860Z,Latte,10,Varm drikke,Melk,Havre,0,1

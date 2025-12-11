@@ -33,6 +33,7 @@ with import <nixpkgs> {};
           sympy
           scipy
           pandas
+          seaborn
 
           scrapy
 
