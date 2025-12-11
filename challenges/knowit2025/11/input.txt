@@ -1,0 +1,26 @@
+100
+dukke 10 60
+lego 20 100
+sokker 30 120
+klementin 5 10
+bamse 15 80
+bok 8 40
+spill 25 110
+pysjamas 12 55
+sjokolade 3 20
+skøyter 18 90
+togbane 22 130
+skjerf 7 35
+votter 4 25
+lue 6 30
+brettspill 28 115
+klosser 17 85
+spillkonsoll 35 160
+malebok 9 45
+tusjer 2 15
+genser 14 70
+hansker 5 25
+puslespill 16 95
+blyanter 1 5
+robot 24 125
+kamera 27 140
