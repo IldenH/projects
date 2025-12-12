@@ -1,0 +1,167 @@
+* {
+  color: #fbf1c7;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  width: 70%;
+  height: 70%;
+  background-color: #1b1631;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lights {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  div {
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+  }
+
+  div:nth-child(odd) {
+    animation:
+      oddCycle 2s steps(1) infinite,
+      pulse 2s ease-in-out infinite;
+  }
+
+  div:nth-child(even) {
+    animation:
+      evenCycle 2s steps(1) infinite,
+      pulse 2s ease-in-out infinite;
+  }
+}
+
+@keyframes oddCycle {
+  0% {
+    background: green;
+  }
+  50% {
+    background: red;
+  }
+}
+
+@keyframes evenCycle {
+  0% {
+    background: red;
+  }
+  50% {
+    background: green;
+  }
+}
+@keyframes pulse {
+  0% {
+    filter: brightness(0.8);
+  }
+  50% {
+    filter: brightness(1.8);
+  }
+  100% {
+    filter: brightness(0.8);
+  }
+}
+
+.snow-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  animation: fallAndSway linear infinite;
+}
+
+@keyframes fallAndSway {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(20px) translateY(55vh);
+  }
+  100% {
+    transform: translateX(0) translateY(110vh);
+  }
+}
+.rainbow-text {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.day {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.advent {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(3, 50px);
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lyrics {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.8rem;
+  gap: 1rem;
+  font-weight: bold;
+}
