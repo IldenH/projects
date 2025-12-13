@@ -1,0 +1,26 @@
+T=45
+Pepperkake 7 Knead Mix AddMilk Rest Frost Glaze Bake
+Sjokoladekake 15 AddButter AddMilk Start Knead AddFlour Wrap
+Havrekjeks 10 AddHoney Wrap Start AddFlour Decorate
+Sukkerkake 7 Frost AddFlour Start AddEggs Knead
+Brownies 7 Mix Decorate Bake Cool Taste
+Kokoskuler 12 AddHoney Taste Wrap AddFlour Frost AddCinnamon
+Vaniljekrans 14 Cool AddSugar Decorate Glaze
+Marsipankake 6 AddHoney AddButter AddMilk Bake Start
+Sjokoladecookies 8 AddButter AddSugar AddMilk AddHoney Decorate Wrap Shape
+Honningkake 8 AddMilk Taste Wrap AddChocolate
+Kanelboller 9 AddHoney Wrap Cool Taste Knead
+Sitronkake 13 AddSugar AddEggs Bake Cool Shape AddFlour Mix
+Eplekake 15 Frost Glaze Shape Mix AddFlour
+Smørkjeks 6 AddEggs Decorate Rest AddCinnamon
+Pistasjkake 14 AddHoney Decorate AddCinnamon Cool Glaze Wrap AddSugar
+Makroner 11 Glaze Shape Start AddButter
+Marengs 8 AddButter AddFlour Decorate Start AddHoney Frost AddChocolate
+Karamellkake 8 Glaze Start Bake AddSugar
+Nøttekake 9 Start AddChocolate Rest AddSugar AddCinnamon
+Blåbærmuffins 8 Shape Mix AddFlour Decorate Cool
+Bringebærpai 15 Shape Decorate AddChocolate Cool Glaze Rest Mix
+Kokosmakroner 6 AddFlour Mix Knead AddMilk Wrap AddButter
+Sjokotrøfler 12 Frost Knead Glaze Rest AddSugar
+Hasselnøttkake 10 Frost AddButter Mix Taste
+Appelsinkake 9 Start AddFlour Wrap AddChocolate Bake Frost AddCinnamon
