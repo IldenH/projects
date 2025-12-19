@@ -1,0 +1,7 @@
+Gave A, kube, 7
+Gave B, rektangulær boks, 6
+Gave C, rund, 5
+Gave D, sylinder, 4
+Gave E, kube, 4
+Gave F, rektangulær boks, 3
+Gave G, kube, 2
