@@ -1,0 +1,10 @@
+Skittles,400,1,40,8,5
+Mentos,350,1,40,8,5
+Salt lakris,160,0.75,12,20,9
+Søt lakris,120,0.75,12,15,9
+Sjokobons,45,0.5,4,100,30
+Kamferdrops,650,0.7,40,10,5
+Fløtekarameller,600,0.7,40,8,5
+Vingummi,450,0.7,40,12,5
+Marsipan,500,0.7,40,9,5
+Melkesjokolade,575,0.7,40,15,9

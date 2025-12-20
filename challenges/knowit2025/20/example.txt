@@ -1,0 +1,4 @@
+Melkesjokolade,300,0.75,8,18,5
+Vingummi,550,1.40,10,8,5
+Marsipan,300,0.75,12,5,3
+Eventyrsjokolade,40,0.5,5,50,10
