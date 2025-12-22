@@ -368,3 +368,26 @@ data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Show, Read, Eq)
 
 singletonTree :: a -> Tree a
 singletonTree x = Node x EmptyTree EmptyTree
+
+data TrafficLight = Red | Yellow | Green
+
+instance Show TrafficLight where
+  show x = l ++ " light"
+    where
+      l = case x of
+        Red -> "Red"
+        Yellow -> "Yellow"
+        Green -> "Green"
+
+data MyMap k v = EmptyMap | MyMap [(k, v)] deriving (Show)
+
+instance Functor (MyMap k) where
+  fmap f EmptyMap = EmptyMap
+  fmap f (MyMap xs) = MyMap (map (\(k, v) -> (k, f v)) xs)
+
+main :: IO ()
+main = do
+  contents <- getLine
+  if null contents
+    then main
+    else return ()
