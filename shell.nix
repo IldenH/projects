@@ -15,7 +15,10 @@ with import <nixpkgs> {};
       sqlite
       pkg-config
 
-      ghc
+      (ghc.withPackages (packages:
+        with packages; [
+          random
+        ]))
       ghcid
       haskell-language-server
       ormolu
