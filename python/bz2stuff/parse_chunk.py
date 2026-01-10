@@ -8,6 +8,7 @@ INDEX_FILE = "short_index.txt"
 
 wikitext = re.compile(b"<text.*?>(.*?)</text>", flags=re.DOTALL)
 
+
 def get_articles(xml_f: str, chunk: tuple[int, int]) -> list[str]:
     offset, chunk_size = chunk
     bz = bz2.BZ2Decompressor()
@@ -19,31 +20,33 @@ def get_articles(xml_f: str, chunk: tuple[int, int]) -> list[str]:
 
     return re.findall(wikitext, data)
 
+
 def get_chunks(index_f: str) -> list[tuple[int, int]]:
-    def process(line: str, line_next: str):
-        b = lambda l: int(l.split(":")[0])
-        byte = b(line_next)
-        start_byte = b(line)
-        data_length = byte - start_byte
-        return start_byte, data_length
-
-
     chunks = []
-
     with open(index_f, "r") as f:
         prev_line = f.readline()
-        for _, line in enumerate(f, start=1):
-            if prev_line.split(":")[0] != line.split(":")[0]:
-                chunks.append(process(prev_line, line))
+        for line in f:
+            start_byte = prev_line.split(":")[0]
+            byte = line.split(":")[0]
+            if start_byte != byte:
+                start = int(start_byte)
+                end = int(byte)
+                chunks.append((start, end - start))
             prev_line = line
     return chunks
 
-def process_chunk(c):
+
+def process_chunk(c: tuple[int, int]) -> list[str]:
     return get_articles(WIKI_FILE, c)
 
-if __name__ == "__main__" and not sys.flags.interactive:
+
+def main():
     chunks = get_chunks(INDEX_FILE)
     with ProcessPoolExecutor() as executor:
         results = list(executor.map(process_chunk, chunks))
     articles = [a for r in results for a in r]
     print(len(articles))
+
+
+if __name__ == "__main__" and not sys.flags.interactive:
+    main()
