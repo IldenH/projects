@@ -8,23 +8,24 @@ from typing import ByteString
 WIKI_FILE = "/BIG/wikipedia/wiki.xml.bz2"
 INDEX_FILE = "short_index.txt"
 
-wikitext = re.compile(b"<text.*?>(.*?)</text>", flags=re.DOTALL)
+PAGE_RE = re.compile(b"<page.*?>(.*?)</page>", flags=re.DOTALL)
+TITLE_RE = re.compile(b"<title.*?>(.*?)</title>", flags=re.DOTALL)
+INFO_RE = re.compile(b"{{Infobox(.*?)}}", flags=re.DOTALL)
 
-
-YEAR_REGEX = re.compile(rb"\b([0-9]{1,4})\b", re.ASCII)
-DAYS_MONTH = 31
+YEAR_REGEX = re.compile(rb"\b([0-9]{3,4})\b", re.ASCII)
 YEAR = datetime.now().year
 
-NAME_RE = re.compile(rb"\|.*?name.*?=(.*)", re.ASCII)
 BIRTH_RE = re.compile(rb"\|.*?birth_date.*?=(.*)", re.ASCII)
 DEATH_RE = re.compile(rb"\|.*?death_date.*?=(.*)", re.ASCII)
 
-def parse_year(s: ByteString) -> list[int]:
-    return [
-        year
-        for m in re.findall(YEAR_REGEX, s) or []
-        if (year := int(m)) > DAYS_MONTH and year <= YEAR
-    ]
+
+def parse_year(s: ByteString) -> int | None:
+    m = re.search(YEAR_REGEX, s)
+    if not m:
+        return None
+    year = int(m.group(1))
+    return year if year <= YEAR else None
+
 
 def process_chunk(chunk: tuple[int, int]) -> None:
     offset, chunk_size = chunk
@@ -35,27 +36,27 @@ def process_chunk(chunk: tuple[int, int]) -> None:
         comp_data = f.read(chunk_size)
         data = bz.decompress(comp_data)
 
-    txts = re.findall(wikitext, data)
-    with open("abc.txt", "a") as f:
-        for txt in txts:
-            name_m = re.search(NAME_RE, txt)
-            if not name_m:
-                continue
-            name = name_m.group(1)
-            if not name:
-                continue
+    pages = re.findall(PAGE_RE, data)
+    txts = [
+        (title.group(1), txt.group(1))
+        for p in pages
+        if (txt := re.search(INFO_RE, p)) and (title := re.search(TITLE_RE, p))
+    ]
+    with open("people.txt", "a") as f:
+        for title, txt in txts:
             birth_m = re.search(BIRTH_RE, txt)
             if not birth_m:
                 continue
             birth = birth_m.group(1)
-            if not birth:
-                continue
             death_m = re.search(DEATH_RE, txt)
             if not death_m:
                 continue
             death = death_m.group(1)
-            if death:
-                f.write(f"{name.decode("utf-8")} {parse_year(birth)[0]} {parse_year(death)[0]}\n")
+            birth_year = parse_year(birth)
+            death_year = parse_year(death)
+            f.write(
+                f"{title.decode('utf-8')} {birth_year} {death_year}\n"
+            )
 
 
 def get_chunks() -> list[tuple[int, int]]:
@@ -71,7 +72,6 @@ def get_chunks() -> list[tuple[int, int]]:
                 chunks.append((start, end - start))
             prev_line = line
     return chunks
-
 
 
 def main():
