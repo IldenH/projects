@@ -72,7 +72,7 @@ fn process_page(page: &Page) -> Option<String> {
     let b = parse_year(birth)?;
     let d = parse_year(death)?;
     Some(format!(
-        "{} {} {}",
+        "{};{};{}",
         String::from_utf8_lossy(&page.title),
         b,
         d
