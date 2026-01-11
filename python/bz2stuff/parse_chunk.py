@@ -3,14 +3,13 @@ import bz2
 import sys
 from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime
-from typing import ByteString
 
 WIKI_FILE = "/BIG/wikipedia/wiki.xml.bz2"
 INDEX_FILE = "short_index.txt"
 
 PAGE_RE = re.compile(b"<page.*?>(.*?)</page>", flags=re.DOTALL)
 TITLE_RE = re.compile(b"<title.*?>(.*?)</title>", flags=re.DOTALL)
-INFO_RE = re.compile(b"{{Infobox(.*?)}}", flags=re.DOTALL)
+INFO_RE = re.compile(b"{{Infobox(.*)}}", flags=re.DOTALL)
 
 YEAR_REGEX = re.compile(rb"\b([0-9]{3,4})\b", re.ASCII)
 YEAR = datetime.now().year
@@ -19,7 +18,7 @@ BIRTH_RE = re.compile(rb"\|.*?birth_date.*?=(.*)", re.ASCII)
 DEATH_RE = re.compile(rb"\|.*?death_date.*?=(.*)", re.ASCII)
 
 
-def parse_year(s: ByteString) -> int | None:
+def parse_year(s: bytes) -> int | None:
     m = re.search(YEAR_REGEX, s)
     if not m:
         return None
