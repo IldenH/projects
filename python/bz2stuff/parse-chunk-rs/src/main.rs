@@ -1,34 +1,26 @@
-use bzip2::read::BzDecoder;
 use chrono::{Datelike, Utc};
-use memchr::memmem;
+use crossbeam::channel::bounded;
+use quick_xml::events::Event;
 use rayon::prelude::*;
 use regex::bytes::Regex;
 use std::{
-    fs::File,
-    io::{BufRead, BufReader, BufWriter, Read, Seek, SeekFrom, Write},
-    sync::Mutex,
+    fs::OpenOptions,
+    io::{BufReader, BufWriter, Write},
+    thread,
 };
 
-fn extract_pages(data: &[u8]) -> Vec<&[u8]> {
-    let start_pat = b"<page";
-    let end_pat = b"</page>";
+const WIKI_FILE: &str = "/BIG/wikipedia/wiki.xml";
+const OUTPUT_FILE: &str = "people.txt";
 
-    let mut pages = Vec::new();
-    let mut pos = 0;
+lazy_static::lazy_static! {
+    static ref BIRTH_RE: Regex = Regex::new(r"\|\s*birth_date\s*=\s*(.*)").unwrap();
+    static ref DEATH_RE: Regex = Regex::new(r"\|\s*death_date\s*=\s*(.*)").unwrap();
+    static ref YEAR_RE: Regex = Regex::new(r"\b([0-9]{3,4})\b").unwrap();
+}
 
-    while let Some(start) = memmem::find(&data[pos..], start_pat) {
-        let start_idx = pos + start;
-
-        if let Some(end) = memmem::find(&data[start_idx..], end_pat) {
-            let end_idx = start_idx + end + end_pat.len();
-            pages.push(&data[start_idx..end_idx]);
-            pos = end_idx;
-        } else {
-            break;
-        }
-    }
-
-    pages
+struct Page {
+    title: Vec<u8>,
+    text: Vec<u8>,
 }
 
 fn extract_infobox(page: &[u8]) -> Option<&[u8]> {
@@ -61,19 +53,6 @@ fn extract_infobox(page: &[u8]) -> Option<&[u8]> {
     None
 }
 
-const WIKI_FILE: &str = "/BIG/wikipedia/wiki.xml.bz2";
-const INDEX_FILE: &str = "../short_index.txt";
-const OUTPUT_FILE: &str = "people.txt";
-
-lazy_static::lazy_static! {
-    static ref PAGE_RE: Regex = Regex::new(r"<page.*?>(.*?)</page>").unwrap();
-    static ref TITLE_RE: Regex = Regex::new(r"<title.*?>(.*?)</title>").unwrap();
-    static ref INFO_RE: Regex = Regex::new(r"\{\{Infobox(.*)\}\}").unwrap();
-    static ref BIRTH_RE: Regex = Regex::new(r"\|\s*birth_date\s*=\s*(.*)").unwrap();
-    static ref DEATH_RE: Regex = Regex::new(r"\|\s*death_date\s*=\s*(.*)").unwrap();
-    static ref YEAR_RE: Regex = Regex::new(r"\b([0-9]{3,4})\b").unwrap();
-}
-
 fn parse_year(s: &[u8]) -> Option<i32> {
     if let Some(caps) = YEAR_RE.captures(s) {
         let y = std::str::from_utf8(&caps[1]).ok()?.parse::<i32>().ok()?;
@@ -85,80 +64,104 @@ fn parse_year(s: &[u8]) -> Option<i32> {
     None
 }
 
-fn process_chunk(chunk: (u64, u64), writer: &Mutex<BufWriter<File>>) {
-    let (offset, size) = chunk;
-    let mut file = File::open(WIKI_FILE).expect("Wiki file missing");
-    file.seek(SeekFrom::Start(offset)).unwrap();
+fn process_page(page: &Page) -> Option<String> {
+    let infobox = extract_infobox(&page.text)?;
+    let birth = BIRTH_RE.captures(infobox)?.get(1)?.as_bytes();
+    let death = DEATH_RE.captures(infobox)?.get(1)?.as_bytes();
 
-    let mut comp = vec![0u8; size as usize];
-    file.read_exact(&mut comp).unwrap();
-
-    let mut decoder = BzDecoder::new(&comp[..]);
-    let mut data = Vec::new();
-    decoder.read_to_end(&mut data).unwrap();
-
-    for page in extract_pages(&data) {
-        let block = &page;
-        let title = match TITLE_RE.captures(block) {
-            Some(c) => c[1].to_vec(),
-            None => continue,
-        };
-        let info = match extract_infobox(block) {
-            Some(c) => c.to_vec(),
-            None => continue,
-        };
-        let birth = match BIRTH_RE.captures(&info) {
-            Some(c) => c[1].to_vec(),
-            None => continue,
-        };
-        let death = match DEATH_RE.captures(&info) {
-            Some(c) => c[1].to_vec(),
-            None => continue,
-        };
-
-        let birth_year = parse_year(&birth);
-        let death_year = parse_year(&death);
-
-        if let Some(b) = birth_year {
-            if let Some(d) = death_year {
-                let mut w = writer.lock().unwrap();
-                let title_str = String::from_utf8_lossy(&title);
-                writeln!(w, "{} {} {}", title_str, b, d).unwrap();
-            }
-        }
-    }
-}
-
-fn get_chunks() -> Vec<(u64, u64)> {
-    let f = File::open(INDEX_FILE).expect("index file missing");
-    let mut lines = BufReader::new(f).lines();
-
-    let mut chunks = Vec::new();
-    let mut prev = match lines.next() {
-        Some(Ok(l)) => l,
-        _ => return chunks,
-    };
-
-    for line in lines.flatten() {
-        let a: u64 = prev.split(':').next().unwrap().parse().unwrap();
-        let b: u64 = line.split(':').next().unwrap().parse().unwrap();
-        if a != b {
-            chunks.push((a, b - a));
-        }
-        prev = line;
-    }
-
-    chunks
+    let b = parse_year(birth)?;
+    let d = parse_year(death)?;
+    Some(format!(
+        "{} {} {}",
+        String::from_utf8_lossy(&page.title),
+        b,
+        d
+    ))
 }
 
 fn main() {
-    let chunks = get_chunks();
-    println!("Loaded {} chunks", chunks.len());
+    let file = std::fs::File::open(WIKI_FILE).unwrap();
+    let reader = BufReader::new(file);
 
-    let output = File::create(OUTPUT_FILE).expect("cannot create output file");
-    let writer = Mutex::new(BufWriter::new(output));
+    let (page_tx, page_rx) = bounded::<Page>(256);
+    let (line_tx, line_rx) = bounded::<String>(1024);
 
-    chunks.par_iter().for_each(|chunk| {
-        process_chunk(*chunk, &writer);
+    let producer = {
+        let page_tx = page_tx.clone();
+        thread::spawn(move || {
+            let mut xml = quick_xml::Reader::from_reader(reader);
+            let mut buf = Vec::new();
+            let mut title_buf = Vec::new();
+            let mut text_buf = Vec::new();
+            let mut in_title = false;
+            let mut in_text = false;
+
+            loop {
+                match xml.read_event_into(&mut buf) {
+                    Ok(Event::Start(ref e)) => match e.name().as_ref() {
+                        b"title" => {
+                            title_buf.clear();
+                            in_title = true;
+                        }
+                        b"text" => {
+                            text_buf.clear();
+                            in_text = true;
+                        }
+                        _ => {}
+                    },
+                    Ok(Event::End(ref e)) => match e.name().as_ref() {
+                        b"title" => in_title = false,
+                        b"text" => {
+                            in_text = false;
+                            let page = Page {
+                                title: title_buf.clone(),
+                                text: text_buf.clone(),
+                            };
+                            page_tx.send(page).unwrap();
+                        }
+                        _ => {}
+                    },
+                    Ok(Event::Text(t)) => {
+                        if in_title {
+                            title_buf.extend_from_slice(t.as_ref());
+                        }
+                        if in_text {
+                            text_buf.extend_from_slice(t.as_ref());
+                        }
+                    }
+                    Ok(Event::Eof) => break,
+                    _ => {}
+                }
+                buf.clear();
+            }
+            drop(page_tx);
+        })
+    };
+
+    let writer = thread::spawn(move || {
+        let file = OpenOptions::new()
+            .create(true)
+            .write(true)
+            .truncate(true)
+            .open(OUTPUT_FILE)
+            .unwrap();
+        let mut writer = BufWriter::new(file);
+        for line in line_rx {
+            writeln!(writer, "{}", line).unwrap();
+        }
+        writer.flush().unwrap();
     });
+
+    page_rx
+        .into_iter()
+        .par_bridge()
+        .for_each_with(line_tx.clone(), |line_tx, page| {
+            if let Some(person) = process_page(&page) {
+                line_tx.send(person).unwrap();
+            }
+        });
+
+    producer.join().unwrap();
+    drop(line_tx);
+    writer.join().unwrap();
 }
