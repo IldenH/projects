@@ -13,8 +13,8 @@ const WIKI_FILE: &str = "/BIG/wikipedia/wiki.xml";
 const OUTPUT_FILE: &str = "people.txt";
 
 lazy_static::lazy_static! {
-    static ref BIRTH_RE: Regex = Regex::new(r"\|\s*birth_date\s*=\s*(.*)").unwrap();
-    static ref DEATH_RE: Regex = Regex::new(r"\|\s*death_date\s*=\s*(.*)").unwrap();
+    static ref BIRTH_RE: Regex = Regex::new(r"\|\s*birth_date\s*=\s*([^\r\n]*)").unwrap();
+    static ref DEATH_RE: Regex = Regex::new(r"\|\s*death_date\s*=\s*([^\r\n]*)").unwrap();
     static ref YEAR_RE: Regex = Regex::new(r"\b([0-9]{3,4})\b").unwrap();
 }
 
@@ -161,7 +161,8 @@ fn main() {
             }
         });
 
-    producer.join().unwrap();
     drop(line_tx);
+
+    producer.join().unwrap();
     writer.join().unwrap();
 }
