@@ -13,6 +13,8 @@ const WIKI_FILE: &str = "/BIG/wikipedia/wiki.xml";
 const OUTPUT_FILE: &str = "people.csv";
 
 lazy_static::lazy_static! {
+    static ref REF_RE: Regex = Regex::new(r"(?s)ref.*").unwrap();
+    static ref COMMENT_RE: Regex = Regex::new(r"(?s)<!--.*").unwrap();
     static ref BIRTH_RE: Regex = Regex::new(r"(?m)^\|\s*birth_date\s*=\s*([^\r\n]+)(?:\r?\n|$)").unwrap();
     static ref DEATH_RE: Regex = Regex::new(r"(?m)^\|\s*death_date\s*=\s*([^\r\n]+)(?:\r?\n|$)").unwrap();
     static ref YEAR_RE: Regex = Regex::new(r"\b([1-9][0-9]{2,3})\b").unwrap();
@@ -73,13 +75,11 @@ fn parse_year(s: &[u8]) -> Option<i32> {
 fn process_page(page: &Page) -> Option<String> {
     let infobox = extract_infobox(&page.text)?;
 
-    let ref_re = Regex::new(r"(?s)ref.*").unwrap();
-    let infobox = &ref_re.replace_all(infobox, b"");
-    let comment_re = Regex::new(r"(?s)<!--.*").unwrap();
-    let infobox = &comment_re.replace_all(infobox, b"");
-
     let birth = BIRTH_RE.captures(infobox)?.get(1)?.as_bytes();
+    let birth = &REF_RE.replace_all(birth, b"");
+
     let death = DEATH_RE.captures(infobox)?.get(1)?.as_bytes();
+    let death = &COMMENT_RE.replace_all(death, b"");
 
     let b = parse_year(birth)?;
     let d = parse_year(death)?;
