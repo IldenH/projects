@@ -10,12 +10,12 @@ use std::{
 };
 
 const WIKI_FILE: &str = "/BIG/wikipedia/wiki.xml";
-const OUTPUT_FILE: &str = "people.txt";
+const OUTPUT_FILE: &str = "people.csv";
 
 lazy_static::lazy_static! {
-    static ref BIRTH_RE: Regex = Regex::new(r"\|\s*birth_date\s*=\s*([^\r\n]*)").unwrap();
-    static ref DEATH_RE: Regex = Regex::new(r"\|\s*death_date\s*=\s*([^\r\n]*)").unwrap();
-    static ref YEAR_RE: Regex = Regex::new(r"\b([0-9]{3,4})\b").unwrap();
+    static ref BIRTH_RE: Regex = Regex::new(r"(?m)^\|\s*birth_date\s*=\s*([^\r\n]+)(?:\r?\n|$)").unwrap();
+    static ref DEATH_RE: Regex = Regex::new(r"(?m)^\|\s*death_date\s*=\s*([^\r\n]+)(?:\r?\n|$)").unwrap();
+    static ref YEAR_RE: Regex = Regex::new(r"\b([1-9][0-9]{2,3})\b").unwrap();
 }
 
 struct Page {
@@ -54,14 +54,20 @@ fn extract_infobox(page: &[u8]) -> Option<&[u8]> {
 }
 
 fn parse_year(s: &[u8]) -> Option<i32> {
-    if let Some(caps) = YEAR_RE.captures(s) {
-        let y = std::str::from_utf8(&caps[1]).ok()?.parse::<i32>().ok()?;
-        let current_year = Utc::now().year();
-        if y <= current_year {
-            return Some(y);
-        }
-    }
-    None
+    let current_year = Utc::now().year();
+
+    let years: Vec<i32> = YEAR_RE
+        .captures_iter(s)
+        .filter_map(|caps| {
+            let y = std::str::from_utf8(&caps[1]).unwrap().parse::<i32>().ok()?;
+            if y >= 100 && y <= current_year {
+                Some(y)
+            } else {
+                None
+            }
+        })
+        .collect();
+    return years.get(0).copied();
 }
 
 fn process_page(page: &Page) -> Option<String> {
@@ -71,12 +77,15 @@ fn process_page(page: &Page) -> Option<String> {
 
     let b = parse_year(birth)?;
     let d = parse_year(death)?;
-    Some(format!(
-        "{};{};{}",
-        String::from_utf8_lossy(&page.title),
-        b,
-        d
-    ))
+    let (b, d) = if b > d { (-b, -d) } else { (b, d) };
+    if b == d {
+        return None;
+    };
+
+    let t = String::from_utf8_lossy(&page.title);
+    let t = (!t.contains(":")).then_some(t)?;
+
+    Some(format!("{}|{}|{}", t, b, d))
 }
 
 fn main() {
@@ -146,6 +155,7 @@ fn main() {
             .open(OUTPUT_FILE)
             .unwrap();
         let mut writer = BufWriter::new(file);
+        writeln!(writer, "name|birth|death").unwrap();
         for line in line_rx {
             writeln!(writer, "{}", line).unwrap();
         }
