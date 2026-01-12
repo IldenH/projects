@@ -72,6 +72,12 @@ fn parse_year(s: &[u8]) -> Option<i32> {
 
 fn process_page(page: &Page) -> Option<String> {
     let infobox = extract_infobox(&page.text)?;
+
+    let ref_re = Regex::new(r"(?s)ref.*").unwrap();
+    let infobox = &ref_re.replace_all(infobox, b"");
+    let comment_re = Regex::new(r"(?s)<!--.*").unwrap();
+    let infobox = &comment_re.replace_all(infobox, b"");
+
     let birth = BIRTH_RE.captures(infobox)?.get(1)?.as_bytes();
     let death = DEATH_RE.captures(infobox)?.get(1)?.as_bytes();
 
