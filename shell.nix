@@ -70,5 +70,7 @@ with import <nixpkgs> {};
       svelte-language-server
 
       live-server
+
+      jdt-language-server
     ];
   }
