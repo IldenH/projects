@@ -72,5 +72,7 @@ with import <nixpkgs> {};
       live-server
 
       jdt-language-server
+
+      texliveFull
     ];
   }
