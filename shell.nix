@@ -72,6 +72,7 @@ with import <nixpkgs> {};
       live-server
 
       jdt-language-server
+      javaPackages.compiler.openjdk17
 
       texliveFull
     ];
