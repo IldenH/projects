@@ -159,6 +159,10 @@ public class Main {
     for (String[] row : board)
       System.out.println(Arrays.toString(row));
     System.out.println(Arrays.deepToString(board));
+
+    LocalDate bestday = LocalDate.of(1984, 4, 2);
+    System.out.println(bestday.getYear());
+    LocalDate aLaterDay = bestday.plusDays(1000);
   }
 
   public static final double NOK_TO_SEK = 0.94;
