@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.math.BigInteger;
 import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import static java.time.DayOfWeek.*;
 
 /**
  * A Main class with a main function
@@ -163,6 +166,8 @@ public class Main {
     LocalDate bestday = LocalDate.of(1984, 4, 2);
     System.out.println(bestday.getYear());
     LocalDate aLaterDay = bestday.plusDays(1000);
+
+    printCal(LocalDate.now().plusDays(230));
   }
 
   public static final double NOK_TO_SEK = 0.94;
@@ -173,4 +178,24 @@ public class Main {
     else return "greater than";
   }
 
+  public static void printCal(LocalDate date) {
+    String[] weekDays = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
+    System.out.println(String.join(" ", weekDays));
+    int dayMonth = date.getDayOfMonth();
+    LocalDate prevDay = date.minusDays(dayMonth - 1);
+    if (prevDay.getDayOfWeek() == SUNDAY) {
+      System.out.println();
+    }
+    else if (prevDay.getDayOfWeek() != MONDAY) {
+      System.out.print("    ".repeat(prevDay.getDayOfWeek().getValue()));
+    }
+    for (int i = 1; i <= date.lengthOfMonth(); i++) {
+      System.out.printf("%3d", i);
+      System.out.print(i == dayMonth ? "*" : " ");
+      prevDay = prevDay.plusDays(1);
+      if (prevDay.getDayOfWeek() == SUNDAY) {
+        System.out.println();
+      }
+    }
+  }
 }
