@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.math.BigInteger;
@@ -168,6 +169,12 @@ public class Main {
     LocalDate aLaterDay = bestday.plusDays(1000);
 
     printCal(LocalDate.now().plusDays(230));
+
+    Employee bob = new Employee("Bob", 694293.67, 2001, 9, 11);
+    System.out.println(bob.getName());
+
+    NumberFormat currencyForm = NumberFormat.getCurrencyInstance();
+    System.out.println(currencyForm.format(0.1));
   }
 
   public static final double NOK_TO_SEK = 0.94;
@@ -197,5 +204,6 @@ public class Main {
         System.out.println();
       }
     }
+    System.out.println();
   }
 }
