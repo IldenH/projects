@@ -1,0 +1,57 @@
+@startuml
+left to right direction
+hide circle
+
+entity Person {
++person_nr: TEXT (PK)
+---
+fornavn: TEXT
+etternavn: TEXT
+*post_nr: TEXT (FK)
+*billett: INT (FK)
+}
+
+entity Poststed {
++post_nr: TEXT (PK)
+---
+poststed: TEXT
+}
+
+
+entity Billett {
++person_nr: TEXT (PK)
++konsert_id: INT (PK)
+---
+sete_nr: INT
+}
+
+entity Konsert {
++id: INT (PK)
+---
+navn: TEXT
+*artist: TEXT
+*billetter: TEXT
+}
+
+entity Konsert_Artist {
++konsert_id: INT (PK)
++artist_id: INT (PK)
+---
+}
+
+entity Artist {
++id: INT (PK)
+---
+fornavn: TEXT
+etternavn: TEXT
+*konserter: TEXT
+}
+
+Person::post_nr }o--|| Poststed::post_nr
+Person::billett ||--o{ Billett::person_nr
+Konsert::billetter ||--o{ Billett::konsert_id
+Artist::konserter ||--o{ Konsert_Artist::artist_id
+Konsert::artist ||--o{ Konsert_Artist::konsert_id
+
+
+@enduml

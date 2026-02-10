@@ -24,6 +24,7 @@ with import <nixpkgs> {};
       ormolu
 
       plantuml
+      entr
 
       pyright
 
