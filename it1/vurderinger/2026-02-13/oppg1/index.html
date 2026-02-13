@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <form id="userinput">
+      <label>
+        Fornavn
+        <input type="text" name="fornavn" placeholder="Ola" required />
+      </label>
+
+      <label>
+        Etternavn
+        <input type="text" name="etternavn" placeholder="Nordmann" required />
+      </label>
+
+      <label>
+        E-post
+        <input
+          type="email"
+          name="epost"
+          placeholder="example@example.com"
+          required
+        />
+      </label>
+
+      <label>
+        Passord
+        <input type="password" name="passord" required />
+      </label>
+
+      <label>
+        Rabattkode
+        <input type="text" name="rabattkode" />
+      </label>
+
+      <button type="submit">Registrer</button>
+    </form>
+    <p id="message"></p>
+  </body>
+</html>
