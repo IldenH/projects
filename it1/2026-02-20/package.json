@@ -1,0 +1,10 @@
+{
+  "name": "2026-02-20",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
