@@ -1,40 +1,47 @@
-<html lang="en">
+<html lang="no">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="index.js"></script> -->
+    <script src="tur.js" defer type="module"></script>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="tur.css" />
     <title>Fjellturer</title>
   </head>
   <body>
-    <form>
-      <label>
+    <form class="addtrip">
+      <label class="brukernavn">
         Brukernavn
-        <input type="text" />
+        <select id="users" name="brukernavn" required></select>
       </label>
 
-      <label>
-        Varighet (minutter)
-        <input type="number" id="minutes" min="0" value="0" />
-      </label>
-
-      <label>
-        Dato
-        <input type="date" />
-      </label>
-
-      <label>
+      <label class="fjell">
         Fjell
-        <input type="text" />
+        <select id="fjell" name="fjell_id" required></select>
       </label>
-      <label>
-        moh
-        <input type="number" min="0" value="0" />
+
+      <label class="varighet">
+        Varighet (minutter)
+        <input
+          type="number"
+          name="varighet"
+          id="minutes"
+          min="0"
+          value="0"
+          required
+        />
       </label>
-      <label>
-        moh
-        <input type="number" min="0" value="0" />
+
+      <label class="dato">
+        Dato
+        <input type="date" name="dato" id="dato" required />
       </label>
+
+      <label class="beskrivelse">
+        Beskrivelse
+        <textarea placeholder="Vakker, men ellers tung tur" required></textarea>
+      </label>
+
+      <button class="opprett" type="submit">Opprett tur!</button>
     </form>
   </body>
 </html>

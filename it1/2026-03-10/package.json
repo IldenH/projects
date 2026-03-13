@@ -2,6 +2,7 @@
   "name": "2026-02-20",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "dependencies": {
     "better-sqlite3": "^12.6.2",
     "cors": "^2.8.6",

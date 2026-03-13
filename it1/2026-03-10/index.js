@@ -1,8 +1,7 @@
-async function getData(endpoint) {
-  const response = await fetch(`http://127.0.0.1:3000/api/${endpoint}`);
-  const data = response.json();
-  return data;
-}
+import { getData } from "./utils.js";
+
+let usersEl = document.getElementById("users");
+let tripsEl = document.getElementById("trips");
 
 function displayTime(time) {
   const hours = Math.floor(time / 60);
@@ -35,7 +34,17 @@ ${imgs.map((img, _) => {
 }
 
 async function show() {
-  const turer = await getData("fjellturer");
+  const brukere = await getData("brukere");
+  const options = brukere.map((bruker, _) => {
+    return `<option value="${bruker.brukernavn}">${bruker.fornavn} ${bruker.etternavn} (${bruker.brukernavn} ${bruker.epost})</option>`;
+  });
+  usersEl.innerHTML = options.join("");
+  showTrips(usersEl.value);
+}
+
+async function showTrips(user) {
+  const turer = await getData(`fjellturer/${user}`);
+  tripsEl.innerHTML = "";
   for (let tur of turer) {
     let turEl = document.createElement("article");
     const bilder = await getData("bilder/" + tur.fjelltur_id);
@@ -62,8 +71,18 @@ async function show() {
     ${displayImgs(bilder)}
   </details>
 `;
-    document.body.appendChild(turEl);
+    tripsEl.appendChild(turEl);
+  }
+  if (turer.length == 0) {
+    tripsEl.innerHTML = `
+<p>Ingen turer!</p>
+    `;
   }
 }
+
+usersEl.addEventListener("change", (e) => {
+  e.preventDefault();
+  showTrips(e.target.value);
+});
 
 show();

@@ -7,7 +7,7 @@ const PORT = 3000;
 const db = new Database("fjelltur.db");
 app.use(cors());
 
-app.get("/api/alle_fjell", (req, res) => {
+app.get("/api/fjell", (req, res) => {
   const rows = db.prepare("SELECT * FROM fjell").all();
   res.json(rows);
 });
@@ -31,7 +31,8 @@ where tur_id == ?
   res.json(rows);
 });
 
-app.get("/api/fjellturer", (req, res) => {
+app.get("/api/fjellturer/:bruker", (req, res) => {
+  const bruker = req.params.bruker;
   const rows = db
     .prepare(
       `
@@ -53,13 +54,23 @@ from fjelltur
 join person using (brukernavn)
 join fjell using (fjell_id)
 join omraade on fjell.omraade_id = omraade.id
+where brukernavn == ?
 ;
       `,
     )
-    .all();
+    .all(bruker);
+  res.json(rows);
+});
+
+app.get("/api/brukere", (req, res) => {
+  const rows = db.prepare(`select * from person;`).all();
   res.json(rows);
 });
 
 app.listen(PORT, () => {
-  console.log(`Running on http://127:0.0.1:${PORT}`);
+  console.log(`Running on http://127.0.0.1:${PORT}`);
+});
+
+app.on("error", (err) => {
+  console.error("Server failed to start:", err);
 });
