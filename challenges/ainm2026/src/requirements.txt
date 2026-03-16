@@ -1,0 +1,4 @@
+websockets>=12,<16
+numpy>=1.26,<3
+torch>=2.2,<3
+tianshou>=0.5,<2

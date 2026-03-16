@@ -41,6 +41,13 @@ with import <nixpkgs> {};
 
           scrapy
 
+          mcp
+          websockets
+          torch
+          pettingzoo
+          gymnasium
+          tianshou
+
           # python3 -m jupyterlab
           jupyterlab
           ipykernel
