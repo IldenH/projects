@@ -48,6 +48,8 @@ with import <nixpkgs> {};
           gymnasium
           tianshou
 
+          fastapi
+
           # python3 -m jupyterlab
           jupyterlab
           ipykernel

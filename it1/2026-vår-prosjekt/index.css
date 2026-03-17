@@ -1,0 +1,81 @@
+:root {
+  --base00: #282828;
+  --base01: #3c3836;
+  --base02: #504945;
+  --base03: #665c54;
+  --base04: #bdae93;
+  --base05: #d5c4a1;
+  --base06: #ebdbb2;
+  --base07: #fbf1c7;
+  --base08: #fb4934;
+  --base09: #fe8019;
+  --base0A: #fabd2f;
+  --base0B: #b8bb26;
+  --base0C: #8ec07c;
+  --base0D: #83a598;
+  --base0E: #d3869b;
+  --base0F: #d65d0e;
+}
+
+body {
+  color: var(--base07);
+  background-color: var(--base00);
+  font-family: sans-serif;
+}
+
+summary {
+  color: var(--base0E);
+}
+
+select,
+details,
+button,
+a,
+input,
+textarea {
+  background-color: var(--base01);
+  border-radius: 12px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+}
+
+select,
+button,
+input,
+textarea {
+  color: var(--base0E);
+  width: 100%;
+}
+
+a {
+  color: var(--base0D);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto 5fr;
+  grid-template-areas: "users trips";
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input:invalid {
+  border: 2px solid var(--base08);
+}
