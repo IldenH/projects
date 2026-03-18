@@ -1,5 +1,7 @@
 const base_url = "http://127.0.0.1:8000";
 
+const recsEl = document.getElementById("recommendations");
+
 async function getData(endpoint) {
   const response = await fetch(`${base_url}/${endpoint}`);
   return response.json();
@@ -25,4 +27,19 @@ async function getRecommendations(watched) {
   return response.json();
 }
 
-console.log(getData("health"));
+async function show() {
+  let watched = [
+    {
+      title: "Death Note",
+      rating: 9,
+    },
+  ];
+  let recs = await getRecommendations(watched);
+  console.log(recs);
+  recs = recs["recommendations"].map((r, _) => {
+    return `<li>${r.title}</li>`;
+  });
+  recsEl.innerHTML = `<ul>${recs.join("")}</ul>`;
+}
+
+show();
