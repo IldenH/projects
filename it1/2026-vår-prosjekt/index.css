@@ -27,6 +27,10 @@ summary {
   color: var(--base0E);
 }
 
+button {
+  cursor: pointer;
+}
+
 select,
 details,
 button,
@@ -57,12 +61,6 @@ label {
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
-}
-
-main {
-  display: grid;
-  grid-template-columns: auto 5fr;
-  grid-template-areas: "users trips";
 }
 
 input[type="number"]::-webkit-outer-spin-button,

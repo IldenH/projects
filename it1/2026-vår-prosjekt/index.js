@@ -65,7 +65,7 @@ async function getRecommendations(watched) {
 async function show() {
   watchedEl.innerHTML = watched
     .map((w, _) => {
-      return `<article>${w.title} (${w.rating}/10)</article>`;
+      return `<article>${w.title} <input type="number" min="1" max="10" value="${w.rating}"> / 10 </article>`;
     })
     .join("");
 
