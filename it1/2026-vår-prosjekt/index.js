@@ -5,36 +5,41 @@ const searchEl = document.getElementById("search");
 const resultsEl = document.getElementById("results");
 const watchedEl = document.getElementById("watched");
 
-const watched = [
-  {
-    title: "Death Note",
-    rating: 3,
-  },
-  {
-    title: "Kimi no Na wa.",
-    rating: 10,
-  },
-];
+// const watched = [
+//   {
+//     title: "Death Note",
+//     rating: 3,
+//   },
+//   {
+//     title: "Kimi no Na wa.",
+//     rating: 10,
+//   },
+// ];
+
+const watched = new Map();
+watched.set("Death Note", 3);
+watched.set("Kimi no Na wa.", 10);
+watched.set("Gintama", 7);
 
 let animes = [];
 
 function renderResults(results) {
   resultsEl.innerHTML = "";
-  results.forEach((item) => {
-    const li = document.createElement("button");
-    li.innerHTML = item;
-    resultsEl.appendChild(li);
+  results.map((item, _) => {
+    const btn = document.createElement("button");
+    btn.innerHTML = item;
+    btn.addEventListener("click", () => {
+      watched.set(item, 1);
+      show();
+    });
+    resultsEl.appendChild(btn);
   });
 }
 
 searchEl.addEventListener("input", () => {
   const query = searchEl.value.toLowerCase().trim();
   const filtered = animes.filter((item) => item.toLowerCase().includes(query));
-  if (query != "") {
-    renderResults(filtered.slice(0, 20));
-  } else {
-    renderResults("");
-  }
+  renderResults(query ? filtered.slice(0, 20) : "");
 });
 
 async function getData(endpoint) {
@@ -42,15 +47,21 @@ async function getData(endpoint) {
   return response.json();
 }
 
-async function getRecommendations(watched) {
+async function getRecommendations(items, k) {
+  const formatted = [...items].map((w, _) => {
+    return {
+      title: w[0],
+      rating: w[1],
+    };
+  });
   const response = await fetch(`${base_url}/recommend`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      watched,
-      top_k: 10,
+      watched: formatted,
+      top_k: k,
     }),
   });
 
@@ -63,13 +74,13 @@ async function getRecommendations(watched) {
 }
 
 async function show() {
-  watchedEl.innerHTML = watched
+  watchedEl.innerHTML = [...watched]
     .map((w, _) => {
-      return `<article>${w.title} <input type="number" min="1" max="10" value="${w.rating}"> / 10 </article>`;
+      return `<article>${w[0]} ${w[1]} / 10 <button>✏️ </button></article>`;
     })
     .join("");
 
-  let recs = await getRecommendations(watched);
+  let recs = await getRecommendations(watched, 10);
   console.log(recs);
   recs = recs["recommendations"].map((r, _) => {
     return `<li>${r.title}</li>`;
