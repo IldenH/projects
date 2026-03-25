@@ -23,7 +23,9 @@ body {
   font-family: sans-serif;
 }
 
-summary {
+summary,
+input,
+button {
   color: var(--base0E);
 }
 
@@ -33,34 +35,33 @@ button {
 
 select,
 details,
-button,
 a,
 input,
-textarea {
+textarea,
+button {
   background-color: var(--base01);
   border-radius: 12px;
-  font-size: 1.5rem;
   padding: 1rem;
   margin: 1rem;
   border: none;
 }
 
-select,
-button,
-input,
-textarea {
+.search {
   color: var(--base0E);
-  width: 100%;
+  width: 90%;
+}
+
+.watched {
+  display: flex;
+}
+
+.watchedItem {
+  display: flex;
+  flex-direction: column;
 }
 
 a {
   color: var(--base0D);
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.5rem;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
