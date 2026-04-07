@@ -8,10 +8,6 @@ from pathlib import Path
 
 path = Path("export")
 
-# ----------------------------
-# Load exported recommender data
-# ----------------------------
-
 with open(path/"anime_index_to_title.json", "r", encoding="utf-8") as f:
     anime_index_to_title = json.load(f)
 
@@ -21,20 +17,10 @@ with open(path/"anime_title_to_index.json", "r", encoding="utf-8") as f:
 # shape: [num_anime, embedding_dim]
 item_embeddings = np.load(path/"item_embeddings.npy")
 
-# optional but useful if you export them
-try:
-    item_bias = np.load(path/"item_bias.npy")
-except FileNotFoundError:
-    item_bias = np.zeros(item_embeddings.shape[0], dtype=np.float32)
+item_bias = np.load(path/"item_bias.npy")
 
-
-# ----------------------------
-# FastAPI app
-# ----------------------------
 
 app = FastAPI(title="Anime Recommender API")
-
-# Replace with your frontend URL in production
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -46,10 +32,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-# ----------------------------
-# Request / response schemas
-# ----------------------------
 
 class RatedAnime(BaseModel):
     title: str
@@ -66,10 +48,6 @@ class Recommendation(BaseModel):
 class RecommendResponse(BaseModel):
     recommendations: List[Recommendation]
 
-
-# ----------------------------
-# Recommender logic
-# ----------------------------
 
 def normalize_rating(rating: float) -> float:
     """
@@ -133,13 +111,7 @@ def build_user_vector(watched: List[RatedAnime]) -> tuple[np.ndarray, set[int]]:
 
 
 def score_all_anime(user_vec: np.ndarray) -> np.ndarray:
-    """
-    Score every anime by dot product with the temporary user vector,
-    optionally adding item bias.
-    """
-    scores = item_embeddings @ user_vec + item_bias
-    return scores
-
+    return item_embeddings @ user_vec + item_bias
 
 def get_top_recommendations(watched: List[RatedAnime], top_k: int) -> List[Recommendation]:
     user_vec, seen_indices = build_user_vector(watched)

@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
     "better-sqlite3": "^12.8.0",
     "cors": "^2.8.6",
