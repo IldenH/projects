@@ -1,3 +1,4 @@
+import sqlite3
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -5,6 +6,11 @@ from typing import List
 import numpy as np
 import json
 from pathlib import Path
+
+def get_connection():
+    conn = sqlite3.connect("main.db")
+    conn.row_factory = sqlite3.Row
+    return conn
 
 path = Path("export")
 
@@ -144,3 +150,40 @@ def health():
 def recommend(req: RecommendRequest):
     recs = get_top_recommendations(req.watched, req.top_k)
     return RecommendResponse(recommendations=recs)
+
+@app.get("/anime/{item_id}")
+def get_item(item_id: int):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT * FROM Anime WHERE id = ?", (item_id,))
+    row = cursor.fetchone()
+
+    conn.close()
+
+    if row is None:
+        raise HTTPException(status_code=404, detail="Item not found")
+
+    return dict(row)
+
+@app.get("/anime_user/{user_id}")
+def get_anime_user(user_id: int):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    rows = cursor.execute("""
+select
+  User_Anime.id,
+  user_id,
+  anime_id,
+  rating,
+  User.name as user_name,
+  Anime.name as anime_name
+from User_Anime
+join User on User_Anime.user_id = User.id
+join Anime on User_Anime.anime_id = Anime.id
+where user_id = ?
+;
+    """, (user_id,)).fetchall()
+
+    return [dict(row) for row in rows]

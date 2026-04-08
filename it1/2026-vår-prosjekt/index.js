@@ -6,9 +6,6 @@ const resultsEl = document.getElementById("results");
 const watchedEl = document.getElementById("watched");
 
 const watched = new Map();
-watched.set("Death Note", 3);
-watched.set("Kimi no Na wa.", 10);
-watched.set("Gintama", 7);
 
 watchedEl.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -124,6 +121,11 @@ watchedEl.addEventListener("click", (e) => {
 });
 
 async function show() {
+  let anime_user = await getData("anime_user/1");
+  anime_user.map((item, _) => {
+    watched.set(item.anime_name, item.rating);
+  });
+
   updateWatched();
   updateRecs();
 
