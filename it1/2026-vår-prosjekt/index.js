@@ -19,19 +19,39 @@ watchedEl.addEventListener("submit", (e) => {
 
 let animes = [];
 
+async function addAnimeUser(user_id, anime_id, rating) {
+  const response = await fetch(`${base_url}/anime_user/add`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      user_id: user_id,
+      anime_id: anime_id,
+      rating: rating,
+    }),
+  });
+  if (!response.ok) {
+    const err = await response.json();
+    throw new Error(err.detail || "Failed to fetch recommendations");
+  }
+}
+
 function renderResults(query) {
   const filtered = animes.filter(
     (item) =>
-      item.toLowerCase().includes(query) && ![...watched.keys()].includes(item),
+      item.name.toLowerCase().includes(query) &&
+      ![...watched.keys()].includes(item.name),
   );
   const results = query ? filtered.slice(0, 20) : [];
 
   resultsEl.innerHTML = "";
   results.map((item, _) => {
     const btn = document.createElement("button");
-    btn.innerHTML = item;
+    btn.innerHTML = item.name;
     btn.addEventListener("click", () => {
-      watched.set(item, 1);
+      watched.set(item.name, 1);
+      addAnimeUser(1, item.id, 1);
       updateWatched();
       updateRecs();
       renderResults(query);
@@ -129,19 +149,7 @@ async function show() {
   updateWatched();
   updateRecs();
 
-  await fetch("./export/anime_title_to_index.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Failed to load JSON");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      animes = Object.keys(data);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  animes = await getData("anime");
 }
 
 show();

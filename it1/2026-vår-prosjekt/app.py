@@ -54,6 +54,10 @@ class Recommendation(BaseModel):
 class RecommendResponse(BaseModel):
     recommendations: List[Recommendation]
 
+class UserAnimeRequest(BaseModel):
+    user_id: int
+    anime_id: int
+    rating: int = Field(default=1, ge=1, le=10)
 
 def normalize_rating(rating: float) -> float:
     """
@@ -187,3 +191,34 @@ where user_id = ?
     """, (user_id,)).fetchall()
 
     return [dict(row) for row in rows]
+
+@app.get("/anime/{name}")
+def get_anime_id(name: str):
+    conn = get_connection()
+    row = conn.cursor().execute("select id from Anime where name = ?", (name)).fetchone()
+    if row is None:
+        raise HTTPException(status_code=404, detail="Anime not found")
+    return dict(row)
+
+@app.get("/anime")
+def get_anime():
+    conn = get_connection()
+    rows = conn.cursor().execute("select * from Anime").fetchall()
+    return [dict(row) for row in rows]
+
+@app.post("/anime_user/add")
+def add_anime_user(req: UserAnimeRequest):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    insert or ignore into User_Anime
+    (user_id, anime_id, rating)
+    values
+    (?, ?, ?)
+;
+    """, (req.user_id, req.anime_id, req.rating))
+    if cursor.rowcount == 0:
+        return {"message": "Already exists, nothing inserted"}
+    conn.commit()
+    conn.close()
