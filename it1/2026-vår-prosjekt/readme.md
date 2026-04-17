@@ -2,16 +2,17 @@
 
 Uses collaborative filtering with the fastai and pytorch frameworks.
 
-- export dir is from the ML notebook.
+- [export dir](./export) is generated from the [ML notebook](./anime.ipynb)
 - Using python for backend due to having stuff like numpy, and integrating better with the training.
+- Sqlite3 for DB
+
+Plantuml DB diagram:
+
+![Plantuml diagram](./docs/db.png)
 
 ## Todo
 
-- [ ] adding entries to your watched, and having it be stored in the database. (when adding entries use the anime-offline-database.jsonl))
-- [ ] recommending based on entries
-- [ ] clicking on a specific anime and showing recommendations for similar
-
-maybe expand the project to also include movies, tv-shows, games, books, manga, comics, etc from various datasources like opencritic, movielens etc
+Maybe expand the project to also include movies, tv-shows, games, books, manga, comics, etc from various datasources like opencritic, movielens etc
 would need to train a specific model for each type of media, unless i find some way of doing collaborative filtering with merged data (which i don't think would work as the user-id's are different for the various sites), but i might be able to combine it for the temp user vector we generate for the frontend
 
 ## Data sources

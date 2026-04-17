@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+hide circle
+
+entity User {
++id: INTEGER (PK)
+---
+name: TEXT
+password: TEXT
+}
+
+entity User_Anime {
++id: INTEGER (PK)
+---
+*user_id: INTEGER (FK)
+*anime_id: INTEGER (FK)
+rating: INTEGER(1,10)
+}
+
+
+entity Anime {
++id: INTEGER (PK)
+---
+name: TEXT
+}
+
+User_Anime::user_id }o--|| User::id
+User_Anime::anime_id }o--|| Anime::id
+
+@enduml
