@@ -206,7 +206,7 @@ def get_anime():
     rows = conn.cursor().execute("select * from Anime").fetchall()
     return [dict(row) for row in rows]
 
-@app.post("/anime_user/add")
+@app.post("/anime_user")
 def add_anime_user(req: UserAnimeRequest):
     conn = get_connection()
     cursor = conn.cursor()
@@ -220,5 +220,32 @@ def add_anime_user(req: UserAnimeRequest):
     """, (req.user_id, req.anime_id, req.rating))
     if cursor.rowcount == 0:
         return {"message": "Already exists, nothing inserted"}
+    conn.commit()
+    conn.close()
+
+@app.put("/anime_user")
+def update_anime_user(req: UserAnimeRequest):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+update User_Anime
+set rating = (?)
+where user_id = (?) and anime_id = (?);
+    """, (req.rating, req.user_id, req.anime_id))
+    if cursor.rowcount == 0:
+        return {"status": "not found"}
+    conn.commit()
+    conn.close()
+
+@app.delete("/anime_user")
+def delete_anime_user(req: UserAnimeRequest):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+delete from User_Anime
+where user_id = (?) and anime_id = (?);
+    """, (req.user_id, req.anime_id))
+    if cursor.rowcount == 0:
+        return {"status": "not found"}
     conn.commit()
     conn.close()

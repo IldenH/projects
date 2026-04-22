@@ -10,18 +10,21 @@ const watched = new Map();
 watchedEl.addEventListener("submit", (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);
-  for (const [name, value] of formData) {
-    watched.set(name, value);
+  for (const [id, value] of formData) {
+    const existing = watched.get(id);
+    if (existing) {
+      watched.set(id, { ...existing, rating: value });
+    }
+    fetchAnimeUser("PUT", 1, id, value);
   }
-  console.log(watched);
   updateRecs();
 });
 
 let animes = [];
 
-async function addAnimeUser(user_id, anime_id, rating) {
-  const response = await fetch(`${base_url}/anime_user/add`, {
-    method: "POST",
+async function fetchAnimeUser(method, user_id, anime_id, rating) {
+  const response = await fetch(`${base_url}/anime_user`, {
+    method: method,
     headers: {
       "Content-Type": "application/json",
     },
@@ -33,7 +36,7 @@ async function addAnimeUser(user_id, anime_id, rating) {
   });
   if (!response.ok) {
     const err = await response.json();
-    throw new Error(err.detail || "Failed to fetch recommendations");
+    throw new Error(err.detail || "Failed to fetch User_Anime");
   }
 }
 
@@ -41,7 +44,7 @@ function renderResults(query) {
   const filtered = animes.filter(
     (item) =>
       item.name.toLowerCase().includes(query) &&
-      ![...watched.keys()].includes(item.name),
+      ![...watched.values().map((val) => val["name"])].includes(item.name),
   );
   const results = query ? filtered.slice(0, 20) : [];
 
@@ -50,8 +53,8 @@ function renderResults(query) {
     const btn = document.createElement("button");
     btn.innerHTML = item.name;
     btn.addEventListener("click", () => {
-      watched.set(item.name, 1);
-      addAnimeUser(1, item.id, 1);
+      watched.set(item.id, { name: item.name, rating: 1 });
+      fetchAnimeUser("POST", 1, item.id, 1);
       updateWatched();
       updateRecs();
       renderResults(query);
@@ -77,8 +80,8 @@ async function getData(endpoint) {
 async function getRecommendations(items, k) {
   const formatted = [...items].map((w, _) => {
     return {
-      title: w[0],
-      rating: w[1],
+      title: w[1].name,
+      rating: w[1].rating,
     };
   });
   const response = await fetch(`${base_url}/recommend`, {
@@ -117,11 +120,11 @@ async function updateWatched() {
     .map((w, _) => {
       return `
 <article class="watchedItem">
-  <h4>${w[0]}</h4>
-  <img alt="Bilde av ${w[0]}" />
-  <input required type="number" min="1" max="10" name="${w[0]}" value="${w[1]}"/>
+  <h4>${w[1].name}</h4>
+  <img alt="Bilde av ${w[1].name}" />
+  <input required type="number" min="1" max="10" name="${w[0]}" value="${w[1].rating}"/>
   <button type="submit">Ok</button>
-  <button type="button" class="remove-btn" data-title="${w[0]}">x</button>
+  <button type="button" class="remove-btn" data-id="${w[0]}">x</button>
 </article>`;
     })
     .join("");
@@ -132,8 +135,9 @@ async function updateWatched() {
 
 watchedEl.addEventListener("click", (e) => {
   if (e.target.classList.contains("remove-btn")) {
-    const title = e.target.dataset.title;
-    watched.delete(title);
+    const id = e.target.dataset.id;
+    watched.delete(id);
+    fetchAnimeUser("DELETE", 1, id);
     updateWatched();
     updateRecs();
     renderResults(query);
@@ -142,8 +146,9 @@ watchedEl.addEventListener("click", (e) => {
 
 async function show() {
   let anime_user = await getData("anime_user/1");
+  console.log();
   anime_user.map((item, _) => {
-    watched.set(item.anime_name, item.rating);
+    watched.set(item.anime_id, { name: item.anime_name, rating: item.rating });
   });
 
   updateWatched();
