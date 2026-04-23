@@ -22,6 +22,13 @@ entity Anime {
 +id: INTEGER (PK)
 ---
 name: TEXT
+picture: TEXT
+type: TEXT
+episodes: INTEGER
+status: TEXT
+score: REAL
+year: INTEGER
+season: TEXT
 }
 
 User_Anime::user_id }o--|| User::id

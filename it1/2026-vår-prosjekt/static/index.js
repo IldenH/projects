@@ -24,6 +24,7 @@ watchedEl.addEventListener("submit", (e) => {
 });
 
 let animes = [];
+let animeMap = new Map();
 
 async function fetchAnimeUser(method, user_id, anime_id, rating) {
   const response = await fetch(`${base_url}/anime_user`, {
@@ -85,7 +86,11 @@ function renderResults(query) {
     const btn = document.createElement("button");
     btn.innerHTML = item.name;
     btn.addEventListener("click", () => {
-      watched.set(item.id, { name: item.name, rating: 1 });
+      watched.set(item.id, {
+        name: item.name,
+        picture: item.picture,
+        rating: 1,
+      });
       fetchAnimeUser("POST", active_user, item.id, 1);
       updateWatched();
       updateRecs();
@@ -154,7 +159,7 @@ async function updateWatched() {
 <article class="watchedItem">
   <h4>${w[1].name}</h4>
   <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}">x</button>
-  <img alt="Bilde av ${w[1].name}" />
+  <img alt="Bilde av ${w[1].name}" src="${w[1].picture}"/>
   <select name="${w[0]}" required>
     ${Array.from({ length: 10 }, (_, i) => {
       const val = i + 1;
@@ -196,7 +201,12 @@ async function getWatched() {
   let anime_user = await getData(`anime_user/${active_user}`);
   watched.clear();
   anime_user.map((item, _) => {
-    watched.set(item.anime_id, { name: item.anime_name, rating: item.rating });
+    let anime = animeMap.get(item.id);
+    watched.set(item.anime_id, {
+      name: anime.name,
+      picture: anime.picture,
+      rating: item.rating,
+    });
   });
   updateWatched();
   updateRecs();
@@ -208,14 +218,15 @@ async function updateUser() {
 }
 
 async function show() {
+  animes = await getData("anime");
+  animeMap = new Map(animes.map((a) => [Number(a.id), a]));
+
   let users = await getData("user");
   usersEl.innerHTML = users.map(
     (u, _) => `<option value="${u.id}">${u.name}</option>`,
   );
   updateUser();
   getWatched();
-
-  animes = await getData("anime");
 }
 
 show();
