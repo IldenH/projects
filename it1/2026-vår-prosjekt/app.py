@@ -1,11 +1,13 @@
 import sqlite3
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from typing import List
 import numpy as np
 import json
 from pathlib import Path
+
 
 def get_connection():
     conn = sqlite3.connect("main.db")
@@ -37,6 +39,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.mount("/static", StaticFiles(directory="static", html=True), name="static")
 
 
 class RatedAnime(BaseModel):
