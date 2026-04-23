@@ -136,7 +136,7 @@ async function updateWatched() {
 watchedEl.addEventListener("click", (e) => {
   if (e.target.classList.contains("remove-btn")) {
     const id = e.target.dataset.id;
-    watched.delete(id);
+    watched.delete(Number(id));
     fetchAnimeUser("DELETE", 1, id);
     updateWatched();
     updateRecs();
