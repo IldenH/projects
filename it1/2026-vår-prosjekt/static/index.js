@@ -14,7 +14,7 @@ watchedEl.addEventListener("submit", (e) => {
   e.preventDefault();
   const formData = new FormData(e.target);
   for (const [id, value] of formData) {
-    const existing = watched.get(id);
+    const existing = watched.get(Number(id));
     if (existing) {
       watched.set(id, { ...existing, rating: value });
     }
@@ -42,14 +42,43 @@ async function fetchAnimeUser(method, user_id, anime_id, rating) {
     throw new Error(err.detail || "Failed to fetch User_Anime");
   }
 }
+function scoreMatch(name, query) {
+  name = name.toLowerCase();
+  query = query.toLowerCase();
+
+  if (!query) return 0;
+  if (name === query) return 1000;
+  if (name.startsWith(query)) return 500 - name.length;
+  const index = name.indexOf(query);
+  if (index !== -1) return 300 - index;
+
+  // Fuzzyfinding
+  let score = 0;
+  let qi = 0;
+  for (let i = 0; i < name.length && qi < query.length; i++) {
+    if (name[i] === query[qi]) {
+      score += 10;
+      qi++;
+    }
+  }
+
+  return score;
+}
 
 function renderResults(query) {
-  const filtered = animes.filter(
-    (item) =>
-      item.name.toLowerCase().includes(query) &&
-      ![...watched.values().map((val) => val["name"])].includes(item.name),
-  );
-  const results = query ? filtered.slice(0, 20) : [];
+  const watchedNames = new Set([...watched.values()].map((val) => val.name));
+
+  const results = query
+    ? animes
+        .map((item) => ({
+          item,
+          score: scoreMatch(item.name, query),
+        }))
+        .filter(({ item, score }) => score > 0 && !watchedNames.has(item.name))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10)
+        .map(({ item }) => item)
+    : [];
 
   resultsEl.innerHTML = "";
   results.map((item, _) => {
@@ -112,7 +141,7 @@ async function updateRecs() {
     return;
   }
   let recs = await getRecommendations(watched, 10);
-  recs = recs["recommendations"].map((r, _) => {
+  recs = recs.recommendations.map((r, _) => {
     return `<li>${r.title}</li>`;
   });
   recsEl.innerHTML = `<ul>${recs.join("")}</ul>`;
@@ -124,10 +153,15 @@ async function updateWatched() {
       return `
 <article class="watchedItem">
   <h4>${w[1].name}</h4>
+  <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}">x</button>
   <img alt="Bilde av ${w[1].name}" />
-  <input required type="number" min="1" max="10" name="${w[0]}" value="${w[1].rating}"/>
+  <select name="${w[0]}" required>
+    ${Array.from({ length: 10 }, (_, i) => {
+      const val = i + 1;
+      return `<option value="${val}" ${val === w[1].rating ? "selected" : ""}>${val}</option>`;
+    }).join("")}
+  </select>
   <button type="submit">Ok</button>
-  <button type="button" class="remove-btn" data-id="${w[0]}">x</button>
 </article>`;
     })
     .join("");
@@ -138,6 +172,11 @@ async function updateWatched() {
 
 watchedEl.addEventListener("click", (e) => {
   if (e.target.classList.contains("remove-btn")) {
+    const confirmed = window.confirm(
+      `Vil du fjerne "${e.target.dataset.title}"?`,
+    );
+    if (!confirmed) return;
+
     const id = e.target.dataset.id;
     watched.delete(Number(id));
     fetchAnimeUser("DELETE", active_user, id);
@@ -165,13 +204,13 @@ async function getWatched() {
 
 async function updateUser() {
   let user = await getData(`user/${active_user}`);
-  usernameEl.textContent = `Hei ${user["name"]}!`;
+  usernameEl.textContent = `Hei ${user.name}!`;
 }
 
 async function show() {
   let users = await getData("user");
   usersEl.innerHTML = users.map(
-    (u, _) => `<option value="${u["id"]}">${u["name"]}</option>`,
+    (u, _) => `<option value="${u.id}">${u.name}</option>`,
   );
   updateUser();
   getWatched();

@@ -57,8 +57,64 @@ button {
 }
 
 .watchedItem {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 20px;
+
+  padding: 12px;
+  margin: 12px 0;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center;
+
+  h4 {
+    grid-column: 2 / 3;
+    margin: 0;
+  }
+
+  img {
+    grid-row: 1 / span 2;
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .remove-btn {
+    grid-column: 3;
+    grid-row: 1 / 2;
+    background: none;
+    font-size: 1rem;
+    color: var(--base04);
+
+    &:hover {
+      color: var(--base08);
+    }
+  }
+
+  select {
+    grid-column: 2;
+    width: 60px;
+    padding: 8px 12px;
+  }
+
+  button[type="submit"] {
+    grid-column: 3 / 4;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: var(--base0E);
+    color: var(--base07);
+
+    &:hover {
+      background: color-mix(in srgb, var(--base0E), black 15%);
+    }
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+  }
 }
 
 a {
