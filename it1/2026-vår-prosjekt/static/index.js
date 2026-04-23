@@ -201,7 +201,7 @@ async function getWatched() {
   let anime_user = await getData(`anime_user/${active_user}`);
   watched.clear();
   anime_user.map((item, _) => {
-    let anime = animeMap.get(item.id);
+    let anime = animeMap.get(item.anime_id);
     watched.set(item.anime_id, {
       name: anime.name,
       picture: anime.picture,
