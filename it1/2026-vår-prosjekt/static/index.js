@@ -4,8 +4,11 @@ const recsEl = document.getElementById("recommendations");
 const searchEl = document.getElementById("search");
 const resultsEl = document.getElementById("results");
 const watchedEl = document.getElementById("watched");
+const usernameEl = document.getElementById("username");
+const usersEl = document.getElementById("users");
 
 const watched = new Map();
+let active_user = 1;
 
 watchedEl.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -15,7 +18,7 @@ watchedEl.addEventListener("submit", (e) => {
     if (existing) {
       watched.set(id, { ...existing, rating: value });
     }
-    fetchAnimeUser("PUT", 1, id, value);
+    fetchAnimeUser("PUT", active_user, id, value);
   }
   updateRecs();
 });
@@ -54,7 +57,7 @@ function renderResults(query) {
     btn.innerHTML = item.name;
     btn.addEventListener("click", () => {
       watched.set(item.id, { name: item.name, rating: 1 });
-      fetchAnimeUser("POST", 1, item.id, 1);
+      fetchAnimeUser("POST", active_user, item.id, 1);
       updateWatched();
       updateRecs();
       renderResults(query);
@@ -137,22 +140,41 @@ watchedEl.addEventListener("click", (e) => {
   if (e.target.classList.contains("remove-btn")) {
     const id = e.target.dataset.id;
     watched.delete(Number(id));
-    fetchAnimeUser("DELETE", 1, id);
+    fetchAnimeUser("DELETE", active_user, id);
     updateWatched();
     updateRecs();
     renderResults(query);
   }
 });
 
-async function show() {
-  let anime_user = await getData("anime_user/1");
-  console.log();
+usersEl.addEventListener("change", (e) => {
+  active_user = e.target.value;
+  getWatched();
+  updateUser();
+});
+
+async function getWatched() {
+  let anime_user = await getData(`anime_user/${active_user}`);
+  watched.clear();
   anime_user.map((item, _) => {
     watched.set(item.anime_id, { name: item.anime_name, rating: item.rating });
   });
-
   updateWatched();
   updateRecs();
+}
+
+async function updateUser() {
+  let user = await getData(`user/${active_user}`);
+  usernameEl.textContent = `Hei ${user["name"]}!`;
+}
+
+async function show() {
+  let users = await getData("user");
+  usersEl.innerHTML = users.map(
+    (u, _) => `<option value="${u["id"]}">${u["name"]}</option>`,
+  );
+  updateUser();
+  getWatched();
 
   animes = await getData("anime");
 }

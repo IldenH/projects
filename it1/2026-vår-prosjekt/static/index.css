@@ -25,7 +25,8 @@ body {
 
 summary,
 input,
-button {
+button,
+select {
   color: var(--base0E);
 }
 

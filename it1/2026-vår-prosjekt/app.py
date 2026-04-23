@@ -253,3 +253,24 @@ where user_id = (?) and anime_id = (?);
         return {"status": "not found"}
     conn.commit()
     conn.close()
+
+@app.get("/user")
+def get_users():
+    conn = get_connection()
+    rows = conn.cursor().execute("select * from User").fetchall()
+    return [dict(row) for row in rows]
+
+@app.get("/user/{user_id}")
+def get_user(user_id: int):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT * FROM User WHERE id = ?", (user_id,))
+    row = cursor.fetchone()
+
+    conn.close()
+
+    if row is None:
+        raise HTTPException(status_code=404, detail="Item not found")
+
+    return dict(row)
