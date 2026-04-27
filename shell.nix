@@ -69,10 +69,9 @@ with import <nixpkgs> {};
       ghostscript
       imagemagick
 
-      nodejs_20
-      nodePackages.npm
-      nodePackages.typescript-language-server
-      nodePackages.typescript
+      nodejs
+      typescript-language-server
+      typescript
       emmet-ls
       vscode-langservers-extracted
       prettierd
