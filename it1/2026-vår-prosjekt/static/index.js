@@ -44,6 +44,7 @@ async function fetchAnimeUser(method, user_id, anime_id, rating) {
     throw new Error(err.detail || "Failed to fetch User_Anime");
   }
 }
+
 function scoreMatch(name, query) {
   name = name.toLowerCase();
   query = query.toLowerCase();
@@ -62,6 +63,11 @@ function scoreMatch(name, query) {
       score += 10;
       qi++;
     }
+  }
+
+  if (qi === 0) return -100;
+  if (qi < query.length) {
+    score -= (query.length - qi) * 20;
   }
 
   return score;
@@ -84,6 +90,7 @@ function renderResults(query) {
 
   resultsEl.innerHTML = "";
   results.map((item, _) => {
+    const li = document.createElement("li");
     const btn = document.createElement("button");
     btn.innerHTML = item.name;
     btn.addEventListener("click", () => {
@@ -97,7 +104,8 @@ function renderResults(query) {
       updateRecs();
       renderResults(query);
     });
-    resultsEl.appendChild(btn);
+    li.appendChild(btn);
+    resultsEl.appendChild(li);
   });
   if (results.length == 0 && query != "") {
     resultsEl.innerHTML = "Ingen resultater";
@@ -159,14 +167,16 @@ async function updateWatched() {
       return `
 <article class="watchedItem">
   <h4>${w[1].name}</h4>
-  <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}">x</button>
+  <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}">&times;</button>
   <img alt="Bilde av ${w[1].name}" src="${w[1].picture}"/>
-  <select name="${w[0]}" required>
-    ${Array.from({ length: 10 }, (_, i) => {
-      const val = i + 1;
-      return `<option value="${val}" ${val === w[1].rating ? "selected" : ""}>${val}</option>`;
-    }).join("")}
-  </select>
+  <div class="select-wrapper">
+    <select name="${w[0]}" required>
+      ${Array.from({ length: 10 }, (_, i) => {
+        const val = i + 1;
+        return `<option value="${val}" ${val === Number(w[1].rating) ? "selected" : ""}>${val}</option>`;
+      }).join("")}
+    </select>
+  </div>
 </article>`;
     })
     .join("");
