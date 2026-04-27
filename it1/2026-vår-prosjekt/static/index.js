@@ -1,5 +1,3 @@
-const base_url = "http://127.0.0.1:8000";
-
 const recsEl = document.getElementById("recommendations");
 const searchEl = document.getElementById("search");
 const resultsEl = document.getElementById("results");
@@ -10,24 +8,27 @@ const usersEl = document.getElementById("users");
 const watched = new Map();
 let active_user = 1;
 
-watchedEl.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const formData = new FormData(e.target);
-  for (const [id, value] of formData) {
+watchedEl.addEventListener("change", (e) => {
+  if (e.target.tagName === "SELECT") {
+    const id = e.target.name;
+    const value = e.target.value;
+
     const existing = watched.get(Number(id));
     if (existing) {
-      watched.set(id, { ...existing, rating: value });
+      watched.set(Number(id), { ...existing, rating: value });
     }
+
     fetchAnimeUser("PUT", active_user, id, value);
+    updateWatched();
+    updateRecs();
   }
-  updateRecs();
 });
 
 let animes = [];
 let animeMap = new Map();
 
 async function fetchAnimeUser(method, user_id, anime_id, rating) {
-  const response = await fetch(`${base_url}/anime_user`, {
+  const response = await fetch("/anime_user", {
     method: method,
     headers: {
       "Content-Type": "application/json",
@@ -110,7 +111,7 @@ searchEl.addEventListener("input", () => {
 });
 
 async function getData(endpoint) {
-  const response = await fetch(`${base_url}/${endpoint}`);
+  const response = await fetch(`/${endpoint}`);
   return response.json();
 }
 
@@ -121,7 +122,7 @@ async function getRecommendations(items, k) {
       rating: w[1].rating,
     };
   });
-  const response = await fetch(`${base_url}/recommend`, {
+  const response = await fetch("/recommend", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -166,7 +167,6 @@ async function updateWatched() {
       return `<option value="${val}" ${val === w[1].rating ? "selected" : ""}>${val}</option>`;
     }).join("")}
   </select>
-  <button type="submit">Ok</button>
 </article>`;
     })
     .join("");
