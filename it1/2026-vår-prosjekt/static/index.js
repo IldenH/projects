@@ -93,6 +93,7 @@ function renderResults(query) {
     const li = document.createElement("li");
     const btn = document.createElement("button");
     btn.innerHTML = item.name;
+    btn.setAttribute("aria-label", `Legg til ${item.name}`);
     btn.addEventListener("click", () => {
       watched.set(item.id, {
         name: item.name,
@@ -103,12 +104,24 @@ function renderResults(query) {
       updateWatched();
       updateRecs();
       renderResults(query);
+
+      setTimeout(() => {
+        const el = watchedEl.querySelector(`[data-id="${item.id}"]`);
+        if (el) {
+          el.focus();
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+      }, 0);
     });
     li.appendChild(btn);
     resultsEl.appendChild(li);
   });
   if (results.length == 0 && query != "") {
-    resultsEl.innerHTML = "Ingen resultater";
+    resultsEl.innerHTML = "";
+    const li = document.createElement("li");
+    li.textContent = "Ingen resultater";
+    li.setAttribute("role", "status");
+    resultsEl.appendChild(li);
   }
 }
 
@@ -165,19 +178,19 @@ async function updateWatched() {
   watchedEl.innerHTML = [...watched]
     .map((w, _) => {
       return `
-<article class="watchedItem">
+<li class="watchedItem" data-id="${w[0]}" tabindex="-1">
   <h4>${w[1].name}</h4>
-  <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}">&times;</button>
+  <button type="button" class="remove-btn" data-id="${w[0]}" data-title="${w[1].name}" aria-label="Fjern ${w[1].name}">&times;</button>
   <img alt="Bilde av ${w[1].name}" src="${w[1].picture}"/>
   <div class="select-wrapper">
-    <select name="${w[0]}" required>
+    <select name="${w[0]}" required aria-label="Rangering for ${w[1].name}">
       ${Array.from({ length: 10 }, (_, i) => {
         const val = i + 1;
         return `<option value="${val}" ${val === Number(w[1].rating) ? "selected" : ""}>${val}</option>`;
       }).join("")}
     </select>
   </div>
-</article>`;
+</li>`;
     })
     .join("");
   if (watchedEl.innerHTML == "") {
