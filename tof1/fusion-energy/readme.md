@@ -13,3 +13,12 @@ These have been omitted from the repo due to me not wanting to deal with copyrig
 - https://commons.wikimedia.org/wiki/File:Tokamak_T-1.jpg
 - https://www.researchgate.net/figure/The-T-3A-tokamak-at-the-Kurchatov-Institute-of-Atomic-Energy-Photograph-taken-around_fig2_301815788
 - https://commons.wikimedia.org/wiki/File:NIF_target_chamber_2.jpg
+- https://commons.wikimedia.org/wiki/File:Exterior_patio_of_the_National_Ignition_Facility.jpg
+- https://commons.wikimedia.org/wiki/File:EAST_Tokamak_plasma_images.jpg
+- https://commons.wikimedia.org/wiki/File:The_JET_magnetic_fusion_experiment_in_1991.jpg
+- https://commons.wikimedia.org/wiki/File:Nuclear_fission_reaction.svg
+
+# Cool things i might show
+
+- [nukemap](https://nuclearsecrecy.com/nukemap)
+- [tokamak in your home](https://www.youtube.com/watch?v=MAfQ2tqjaKY)

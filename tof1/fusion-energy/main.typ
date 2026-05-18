@@ -2,8 +2,8 @@
 
 #show: calmly.with(
   config-info(
-    title: [Fusjon energi],
-    subtitle: [Hvordan brukes fysikk til å lage hydrogen bomber og fremtidens energi?],
+    title: [Fusjonsenergi],
+    subtitle: [Hvordan brukes fysikk til å lage hydrogenbomber og fremtidens energi?],
     author: [Håvard],
     date: [2026-05-18],
     institution: [Amalie Skram VGS],
@@ -13,18 +13,11 @@
 
 #title-slide()
 
-== Fusjon
-
-#place(
-  center,
-  image(
-    "images/fusion.svg",
-    width: 100%,
-    height: 100%,
-    fit: "contain",
-  ),
+#figure-slide-split(
+  image("images/fission.svg"),
+  image("images/fusion.svg"),
+  title: [Fisjon og Fusjon],
 )
-
 
 #equation-slide(
   $E = m c^2$,
@@ -49,7 +42,20 @@
 )
 
 
-== Ivy Mike 1952 - første hydrogen bombe, 10.4 megaton TNT
+#figure-slide-split(
+  image("images/Little_Boy_bomb.jpg"),
+  image("images/Fat_Man.jpg"),
+  title: [1945 - atombomber blir brukt],
+  caption-left: [
+    Little Boy (hiroshima):	13–16 kilotonn TNT
+  ],
+  caption-right: [
+    Fat Man (nagasaki): 21 kilotonn TNT
+  ],
+)
+
+
+== Ivy Mike 1952 - første hydrogenbombe, 10.4 megatonn TNT
 
 #place(
   center,
@@ -62,17 +68,6 @@
 )
 
 
-#figure-slide-split(
-  image("images/Little_Boy_bomb.jpg"),
-  image("images/Fat_Man.jpg"),
-  title: [1945 sammenligning],
-  caption-left: [
-    Little Boy (hiroshima):	13–16 kiloton TNT
-  ],
-  caption-right: [
-    Fat Man (nagasaki): 21 kiloton TNT
-  ],
-)
 
 
 == Scylla I i 1958 av USA, $theta$-pinch utforming
@@ -111,12 +106,37 @@
   ),
 )
 
-== T-3A i 1969 av Sovjet Unionen
+== T-3A i 1969 av Sovjetunionen
 
 #place(
   center,
   image(
     "images/T-3A.png",
+    width: 100%,
+    height: 100%,
+    fit: "contain",
+  ),
+)
+
+== Joint European Torus 1991
+
+#place(
+  center,
+  image(
+    "images/JET.jpg",
+    width: 100%,
+    height: 100%,
+    fit: "contain",
+  ),
+)
+
+
+== EAST i 2006, Kina, (bilde: 2017)
+
+#place(
+  center,
+  image(
+    "images/EAST_tokamak.jpg",
     width: 100%,
     height: 100%,
     fit: "contain",
@@ -135,7 +155,7 @@
   #set text(size: 28pt)
 
   $
-    Q = frac("fusjon energi ut", "varme energi inn")
+    Q = frac("fusjonsenergi ut", "varmeenergi inn")
   $
 ]
 
@@ -156,7 +176,7 @@
       #v(0.4em)
 
       #text(size: 22pt)[
-        Energi tap
+        Energitap
       ]
     ],
 
@@ -184,11 +204,24 @@
       #v(0.4em)
 
       #text(size: 22pt)[
-        Energi gevinst
+        Energigevinst
       ]
     ],
   )
 ]
+
+== 2022 National Ignition Facility, USA, $Q = 1.5$
+
+#place(
+  right,
+  image(
+    "images/NIF_building_layout.png",
+    width: 100%,
+    height: 100%,
+    fit: "contain",
+  ),
+)
+
 
 == 2022 National Ignition Facility, USA, $Q = 1.5$
 
@@ -202,3 +235,33 @@
   ),
 )
 
+
+== NIF 2022 - 2025
+
+#place(
+  center,
+  image(
+    "images/NIF_experiments.jpg",
+    width: 100%,
+    height: 100%,
+    fit: "contain",
+  ),
+)
+
+// #focus-slide(
+//   [
+//     - $E = m c^2$
+//     - Fusjon i solen
+//     - Hydrogen bomber
+//     - $theta$-pinch
+//     - Tokamak
+//     - Inertial Confinement Fusion
+//   ],
+// )
+
+
+// https://www.nrk.no/tromsogfinnmark/fusjonsenergi-kan-vaere-losningen-vi-trenger.-men-regjeringen-vil-ikke-snakke-om-det-1.15244143
+// "Ifølge Garcia kan vi ved hjelp av et badekar med havvann og litiumet fra batteriet til en bærbar PC, produsere den energien en europeer bruker i løpet av et helt liv. Det tilsvarer å brenne 3.000 tonn olje."
+#focus-slide(
+  [Bærekraftig?],
+)
