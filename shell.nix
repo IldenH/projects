@@ -43,10 +43,10 @@ with import <nixpkgs> {};
 
           mcp
           websockets
-          torch
-          pettingzoo
-          gymnasium
-          tianshou
+          # torch
+          # pettingzoo
+          # gymnasium
+          # tianshou
 
           fastapi
 
